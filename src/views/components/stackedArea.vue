@@ -5,7 +5,7 @@
 <script>
     import * as d3 from "d3";
     // import dataStackedArea from "../../assets/data/stackedArea.json"; /* Example of reading in data direct from file*/
-    import dataStackedArea from "../../assets/data/fire_area.json"; /* Example of reading in data direct from file*/
+    import dataStackedArea from "../../assets/data/stackedArea.json"; /* Example of reading in data direct from file*/
 
 
     export default {
@@ -52,23 +52,16 @@
                 // GENERAL //
                 //////////
 
-                // List of groups = header of the csv files
-                // const keys = data.columns.slice(1)
-                // const keys=["Amanda","Ashley","Betty","Deborah","Dorothy","Helen","Linda","Patricia"]
 
-                // // color palette
-                // const color = d3.scaleOrdinal()
-                //     .domain(keys)
-                //     .range(d3.schemeSet2);
-                
-                const keys = ["Lightning","Miscellaneous","Equipment Use","Arson",
-                                "Campfire/Children/Smoking/Fireworks","Missing/Undefined",
-                                "Debris Burning","Powerline/Railroad/Structure"]
-                
+                const keys =["Middle East & North Africa","South Asia","South America","Sub-Saharan Africa",
+                "Western Europe","Southeast Asia","Central America & Caribbean","Eastern Europe",
+                "North America","East Asia","Central Asia","Australasia & Oceania"]
+            
                 const color = d3.scaleOrdinal()
                     .domain(keys)
                     .range(["#e6ab02","#1b9e77","#d95f02","#66a61e",
-                            "#e7298a","#666666","#a6761d","#7570b3"]); 
+                            "#e7298a","#666666","#a6761d","#7570b3",
+                            "#33a02c","#fdbf6f","#1f78b4","#000000"]); 
 
 
                 //stack the data?
@@ -101,12 +94,12 @@
                     .attr("text-anchor", "end")
                     .attr("x", 0)
                     .attr("y", -20 )
-                    .text("Total Acres burned")
+                    .text("Number of attacks")
                     .attr("text-anchor", "start")
 
                 // Add Y axis
                 const y = d3.scaleLinear()
-                    .domain([0, 1200000])
+                    .domain([0, 20000])
                     .range([ height, 0 ]);
                 svg.append("g")
                     .call(d3.axisLeft(y).ticks(5))
@@ -146,7 +139,7 @@
                     .selectAll("mylayers")
                     .data(stackedData)
                     .join("path")
-                    .attr("class", function(d) { return "myArea " + d.key.replaceAll(" ","-").replaceAll("/","-") }) // to handle spaces and / in the highlight action
+                    .attr("class", function(d) { return "myArea " + d.key.replaceAll(" ","-").replaceAll("/","-").replaceAll("&","-") }) // to handle spaces and / in the highlight action
                     .style("fill", function(d) { return color(d.key); })
                     .attr("d", area)
 
@@ -192,7 +185,7 @@
                     // reduce opacity of all groups
                     d3.selectAll(".myArea").style("opacity", .1)
                     // expect the one that is hovered
-                    d3.select("."+d.replaceAll(" ","-").replaceAll("/","-")).style("opacity", 1)
+                    d3.select("."+d.replaceAll(" ","-").replaceAll("/","-").replaceAll("&","-")).style("opacity", 1)
                     }
 
                     // And when it is not hovered anymore

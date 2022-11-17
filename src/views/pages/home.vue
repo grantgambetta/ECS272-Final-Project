@@ -9,6 +9,7 @@
         <div class="column">
             <div class="row">
                 <h1 class="VisTitle">Time series data</h1>
+                <StackedArea v-if="dataExists" :myStackedAreaData="myStackedAreaData"/>
             </div>
         </div>
     </div>
@@ -23,10 +24,9 @@
 // import BarChart from "../components/barchart.vue"
 // import Scatter from "../components/scatter.vue"
 // import Sankey from "../components/sankey.vue"
-// import StackedArea from "../components/stackedArea.vue"
+import StackedArea from "../components/stackedArea.vue"
 import * as d3 from "d3";
-
-
+import csvPath from '../../assets/data/stackedArea.csv';
 
 export default {
     data(){
@@ -42,7 +42,7 @@ export default {
         // BarChart,
         // Scatter,
         // Sankey,
-        // StackedArea
+        StackedArea
     },
     created(){
         /* Fetch via CSV */
@@ -61,8 +61,7 @@ export default {
                 console.log(data);
                 this.dataExists = true; // updates the v-if to conditionally show the barchart only if our data is here.
                 // this.myBarData = data; // updates the prop value to be the recieved data, which we hand in to our bar-chart
-                this.myScatterData=data;
-                // this.mySankeyData = data;
+                this.myStackedAreaData=data;
             });
         }
     }
