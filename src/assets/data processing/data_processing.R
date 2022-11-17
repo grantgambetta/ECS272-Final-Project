@@ -35,6 +35,19 @@ nrow(df) # total attacks
 df <- df %>% mutate(year=iyear,
                     region=region_txt)
 
+# group of years
+df <- df %>% mutate(year_group=case_when(
+  iyear<1975 ~ "1970-1974",
+  iyear<1980 ~ "1975-1979",
+  iyear<1985 ~ "1980-1984",
+  iyear<1990 ~ "1985-1989",
+  iyear<1995 ~ "1990-1994",
+  iyear<2000 ~ "1995-1999",
+  iyear<2005 ~ "2000-2004",
+  iyear<2010 ~ "2005-2009",
+  iyear<2015 ~ "2010-2014",
+  T ~ "2015-2017"))
+
 
 ## Stacked Area ----
 # Data by year and world region
@@ -62,6 +75,75 @@ write(paste0('{\n"data":',export_stackedArea,"\n}"),
       sprintf(file_path,"stackedArea.json"))
 write.csv(data_stackedArea,
       sprintf(file_path,"stackedArea.csv"))
+
+
+## SANKEY DIAGRAM ------
+# REGION, ATTACK TYPE  AND YEAR GROUP
+
+## Order the data for the Sankey, by number of attacks
+
+order_region <- df %>% group_by(region) %>% 
+  tally(sort = T) %>% pull(region)
+order_type <- df %>% group_by(attacktype1_txt) %>% 
+  tally(sort = T) %>% pull(attacktype1_txt)
+order_year <- df$year_group %>% unique()
+
+
+df <- df %>% 
+  mutate(region=factor(region,levels=order_region),
+         attacktype1_txt=factor(attacktype1_txt,levels=order_type),
+         year_group=factor(year_group,levels=order_year))
+
+# from region to type
+data <- df %>% 
+  group_by(region,attacktype1_txt) %>% 
+  summarise(value=n()) %>%
+  arrange(region,attacktype1_txt) %>% 
+  ungroup() %>% 
+  rename(source=region,target=attacktype1_txt) %>% 
+  mutate(source=as.character(source),target=as.character(target))
+
+# from type to year
+data2 <- df %>% 
+  group_by(attacktype1_txt,year_group) %>% 
+  summarise(value=n()) %>% 
+  arrange(year_group,attacktype1_txt) %>%  ungroup() %>% 
+  rename(source=attacktype1_txt,target=year_group) %>% 
+  mutate(source=as.character(source),target=as.character(target))
+
+
+## Nodes - SIMPLY THE CATEGORIES and the TOTAL VALUES FOR THE HEIGHT
+nodes_type <- df %>% 
+  group_by(attacktype1_txt) %>% 
+  summarise(value=n()) %>% 
+  arrange(attacktype1_txt) %>% 
+  ungroup() %>% 
+  rename(name=attacktype1_txt) %>% mutate(name=as.character(name))
+nodes_region <- df %>% 
+  group_by(region) %>% 
+  summarise(value=n()) %>% 
+  arrange(region) %>% 
+  ungroup() %>% 
+  rename(name=region) %>% mutate(name=as.character(name))
+nodes_year <- df %>% 
+  group_by(year_group) %>% 
+  summarise(value=n()) %>% 
+  arrange(year_group) %>%  ungroup() %>% 
+  rename(name=year_group) %>% mutate(name=as.character(name))
+
+nodes <- rbind(nodes_region,nodes_type,nodes_year) %>% 
+  rownames_to_column() %>% rename(node=rowname) %>% 
+  mutate(id=str_replace_all(name," |/","-") %>% str_replace_all("&","-"))
+
+nodes <- toJSON(nodes, pretty = T)
+
+# links: node names to values
+links <- rbind(data,data2)
+links <- toJSON(links, pretty = T)
+
+# export to JSON
+write(paste0('{"items": {\n"nodes":',nodes,', \n "links":',links,"}\n}"), 
+      sprintf(file_path,"sankey.json"))
 
 
 

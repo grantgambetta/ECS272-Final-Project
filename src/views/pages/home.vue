@@ -15,15 +15,14 @@
     </div>
     <div class="row">
         <h1 class="chartTitle">DETAILED VIEW</h1>
-        <!--Sankey v-if="dataExists" :mySankeyData="mySankeyData" /> -->
-
+        <Sankey v-if="dataExists" :mySankeyData="mySankeyData" />
     </div>
 </template>
 
 <script>
 // import BarChart from "../components/barchart.vue"
 // import Scatter from "../components/scatter.vue"
-// import Sankey from "../components/sankey.vue"
+import Sankey from "../components/sankey.vue"
 import StackedArea from "../components/stackedArea.vue"
 import * as d3 from "d3";
 import csvPath from '../../assets/data/stackedArea.csv';
@@ -41,7 +40,7 @@ export default {
     components: {
         // BarChart,
         // Scatter,
-        // Sankey,
+        Sankey,
         StackedArea
     },
     created(){
