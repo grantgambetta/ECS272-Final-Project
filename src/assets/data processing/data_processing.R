@@ -33,6 +33,7 @@ nrow(df) # total attacks
 
 # change some names
 df <- df %>% mutate(year=iyear,
+                    yearDate=as_date(paste0(year,"-01-01")),
                     region=region_txt)
 
 # group of years
@@ -52,7 +53,7 @@ df <- df %>% mutate(year_group=case_when(
 ## Stacked Area ----
 # Data by year and world region
 data_stackedArea <- df %>% 
-  group_by(year,region) %>% 
+  group_by(yearDate,region) %>% 
   summarise(count_attacks=n(),
             kills=sum(nkill,na.rm=T),
             wounded=sum(nwound,na.rm=T)) %>% 
@@ -62,10 +63,10 @@ data_stackedArea <- df %>%
 
 # Spread data to long format
 data_stackedArea <- data_stackedArea %>% 
-  select(year,region,count_attacks) %>% 
+  select(yearDate,region,count_attacks) %>% 
   pivot_wider(names_from = region, values_from = count_attacks,
               values_fill = 0) %>% 
-  arrange(year)
+  arrange(yearDate)
 
 
 # Export to JSON format 
