@@ -74,8 +74,9 @@
                 //////////
 
                 // Add X axis
-                const x = d3.scaleLinear()
-                    .domain(d3.extent(data, function(d) { return d.year; }))
+                var format_date = d3.timeParse("%Y-%m-%d")
+                const x = d3.scaleTime()
+                    .domain(d3.extent(data, function(d) { return format_date(d.yearDate); }))
                     .range([ 0, width ]);
                 
                 const xAxis = svg.append("g")
@@ -130,7 +131,7 @@
 
                 // Area generator
                 const area = d3.area()
-                    .x(function(d) { return x(d.data.year); })
+                    .x(function(d) { return x(format_date(d.data.yearDate)); })
                     .y0(function(d) { return y(d[0]); })
                     .y1(function(d) { return y(d[1]); })
 
@@ -160,7 +161,7 @@
                     // If no selection, back to initial coordinate. Otherwise, update X axis domain
                     if(!extent){
                     if (!idleTimeout) return idleTimeout = setTimeout(idled, 350); // This allows to wait a little bit
-                    x.domain(d3.extent(data, function(d) { return d.year; }))
+                    x.domain(d3.extent(data, function(d) { return format_date(d.yearDate); }))
                     }else{
                     x.domain([ x.invert(extent[0]), x.invert(extent[1]) ])
                     areaChart.select(".brush").call(brush.move, null) // This remove the grey brush area as soon as the selection has been done
