@@ -2,1181 +2,1737 @@
 "nodes":[
   {
     "node": "1",
-    "name": "Middle East & North Africa",
-    "value": 50474,
-    "id": "Middle-East---North-Africa"
-  },
-  {
-    "node": "2",
-    "name": "South Asia",
-    "value": 44974,
-    "id": "South-Asia"
-  },
-  {
-    "node": "3",
-    "name": "South America",
-    "value": 18978,
-    "id": "South-America"
-  },
-  {
-    "node": "4",
-    "name": "Sub-Saharan Africa",
-    "value": 17550,
-    "id": "Sub-Saharan-Africa"
-  },
-  {
-    "node": "5",
-    "name": "Western Europe",
-    "value": 16639,
-    "id": "Western-Europe"
-  },
-  {
-    "node": "6",
-    "name": "Southeast Asia",
-    "value": 12485,
-    "id": "Southeast-Asia"
-  },
-  {
-    "node": "7",
-    "name": "Central America & Caribbean",
-    "value": 10344,
-    "id": "Central-America---Caribbean"
-  },
-  {
-    "node": "8",
-    "name": "Eastern Europe",
-    "value": 5144,
-    "id": "Eastern-Europe"
-  },
-  {
-    "node": "9",
-    "name": "North America",
-    "value": 3456,
-    "id": "North-America"
-  },
-  {
-    "node": "10",
-    "name": "East Asia",
-    "value": 802,
-    "id": "East-Asia"
-  },
-  {
-    "node": "11",
-    "name": "Central Asia",
-    "value": 563,
-    "id": "Central-Asia"
-  },
-  {
-    "node": "12",
-    "name": "Australasia & Oceania",
-    "value": 282,
-    "id": "Australasia---Oceania"
-  },
-  {
-    "node": "13",
-    "name": "Bombing/Explosion",
-    "value": 88255,
-    "id": "Bombing-Explosion"
-  },
-  {
-    "node": "14",
-    "name": "Armed Assault",
-    "value": 42669,
-    "id": "Armed-Assault"
-  },
-  {
-    "node": "15",
-    "name": "Assassination",
-    "value": 19312,
-    "id": "Assassination"
-  },
-  {
-    "node": "16",
-    "name": "Hostage Taking (Kidnapping)",
-    "value": 11158,
-    "id": "Hostage-Taking-(Kidnapping)"
-  },
-  {
-    "node": "17",
-    "name": "Facility/Infrastructure Attack",
-    "value": 10356,
-    "id": "Facility-Infrastructure-Attack"
-  },
-  {
-    "node": "18",
-    "name": "Unknown",
-    "value": 7276,
-    "id": "Unknown"
-  },
-  {
-    "node": "19",
-    "name": "Unarmed Assault",
-    "value": 1015,
-    "id": "Unarmed-Assault"
-  },
-  {
-    "node": "20",
-    "name": "Hostage Taking (Barricade Incident)",
-    "value": 991,
-    "id": "Hostage-Taking-(Barricade-Incident)"
-  },
-  {
-    "node": "21",
-    "name": "Hijacking",
-    "value": 659,
-    "id": "Hijacking"
-  },
-  {
-    "node": "22",
     "name": "1970-1974",
-    "value": 2744,
+    "value": 197,
     "id": "1970-1974"
   },
   {
-    "node": "23",
+    "node": "2",
     "name": "1975-1979",
-    "value": 7170,
+    "value": 893,
     "id": "1975-1979"
   },
   {
-    "node": "24",
+    "node": "3",
     "name": "1980-1984",
-    "value": 14157,
+    "value": 1641,
     "id": "1980-1984"
   },
   {
-    "node": "25",
+    "node": "4",
     "name": "1985-1989",
-    "value": 17003,
+    "value": 1242,
     "id": "1985-1989"
   },
   {
-    "node": "26",
+    "node": "5",
     "name": "1990-1994",
-    "value": 17097,
+    "value": 3349,
     "id": "1990-1994"
   },
   {
-    "node": "27",
+    "node": "6",
     "name": "1995-1999",
-    "value": 11665,
+    "value": 2074,
     "id": "1995-1999"
   },
   {
-    "node": "28",
+    "node": "7",
     "name": "2000-2004",
-    "value": 7497,
+    "value": 1762,
     "id": "2000-2004"
   },
   {
-    "node": "29",
+    "node": "8",
     "name": "2005-2009",
-    "value": 17543,
+    "value": 6351,
     "id": "2005-2009"
   },
   {
-    "node": "30",
+    "node": "9",
     "name": "2010-2014",
-    "value": 47363,
+    "value": 17034,
     "id": "2010-2014"
   },
   {
-    "node": "31",
+    "node": "10",
     "name": "2015-2017",
-    "value": 39452,
+    "value": 15931,
     "id": "2015-2017"
+  },
+  {
+    "node": "11",
+    "name": "Iraq",
+    "value": 24636,
+    "id": "Iraq"
+  },
+  {
+    "node": "12",
+    "name": "Turkey",
+    "value": 4292,
+    "id": "Turkey"
+  },
+  {
+    "node": "13",
+    "name": "Yemen",
+    "value": 3347,
+    "id": "Yemen"
+  },
+  {
+    "node": "14",
+    "name": "Algeria",
+    "value": 2743,
+    "id": "Algeria"
+  },
+  {
+    "node": "15",
+    "name": "Egypt",
+    "value": 2479,
+    "id": "Egypt"
+  },
+  {
+    "node": "16",
+    "name": "Lebanon",
+    "value": 2478,
+    "id": "Lebanon"
+  },
+  {
+    "node": "17",
+    "name": "Libya",
+    "value": 2249,
+    "id": "Libya"
+  },
+  {
+    "node": "18",
+    "name": "West Bank and Gaza Strip",
+    "value": 2227,
+    "id": "West-Bank-and-Gaza-Strip"
+  },
+  {
+    "node": "19",
+    "name": "Syria",
+    "value": 2201,
+    "id": "Syria"
+  },
+  {
+    "node": "20",
+    "name": "Israel",
+    "value": 2183,
+    "id": "Israel"
+  },
+  {
+    "node": "21",
+    "name": "Iran",
+    "value": 684,
+    "id": "Iran"
+  },
+  {
+    "node": "22",
+    "name": "Other",
+    "value": 955,
+    "id": "Other"
+  },
+  {
+    "node": "23",
+    "name": "Bombing/Explosion",
+    "value": 30908,
+    "id": "Bombing-Explosion"
+  },
+  {
+    "node": "24",
+    "name": "Armed Assault",
+    "value": 9273,
+    "id": "Armed-Assault"
+  },
+  {
+    "node": "25",
+    "name": "Assassination",
+    "value": 4206,
+    "id": "Assassination"
+  },
+  {
+    "node": "26",
+    "name": "Hostage Taking",
+    "value": 2766,
+    "id": "Hostage-Taking"
+  },
+  {
+    "node": "27",
+    "name": "Unknown",
+    "value": 1891,
+    "id": "Unknown"
+  },
+  {
+    "node": "28",
+    "name": "Facility/Infrastructure Attack",
+    "value": 1115,
+    "id": "Facility-Infrastructure-Attack"
+  },
+  {
+    "node": "29",
+    "name": "Unarmed Assault",
+    "value": 177,
+    "id": "Unarmed-Assault"
+  },
+  {
+    "node": "30",
+    "name": "Hijacking",
+    "value": 138,
+    "id": "Hijacking"
+  },
+  {
+    "node": "31",
+    "name": "Private Citizens & Property",
+    "value": 15457,
+    "id": "Private-Citizens---Property"
+  },
+  {
+    "node": "32",
+    "name": "Military",
+    "value": 9269,
+    "id": "Military"
+  },
+  {
+    "node": "33",
+    "name": "Police",
+    "value": 6893,
+    "id": "Police"
+  },
+  {
+    "node": "34",
+    "name": "Business, Utilities & Communication",
+    "value": 6676,
+    "id": "Business--Utilities---Communication"
+  },
+  {
+    "node": "35",
+    "name": "Unknown, religious & militia",
+    "value": 5604,
+    "id": "Unknown--religious---militia"
+  },
+  {
+    "node": "36",
+    "name": "Government",
+    "value": 5056,
+    "id": "Government"
+  },
+  {
+    "node": "37",
+    "name": "Transportation",
+    "value": 1519,
+    "id": "Transportation"
+  },
+  {
+    "node": "38",
+    "name": "START Primary Collection",
+    "value": 30246,
+    "id": "START-Primary-Collection"
+  },
+  {
+    "node": "39",
+    "name": "PGIS",
+    "value": 8731,
+    "id": "PGIS"
+  },
+  {
+    "node": "40",
+    "name": "CETIS",
+    "value": 5272,
+    "id": "CETIS"
+  },
+  {
+    "node": "41",
+    "name": "ISVG",
+    "value": 5037,
+    "id": "ISVG"
+  },
+  {
+    "node": "42",
+    "name": "Other Source",
+    "value": 1188,
+    "id": "Other-Source"
   }
 ], 
  "links":[
   {
-    "source": "Middle East & North Africa",
-    "target": "Bombing/Explosion",
-    "value": 30908
+    "source": "1970-1974",
+    "target": "Turkey",
+    "value": 57
   },
   {
-    "source": "Middle East & North Africa",
-    "target": "Armed Assault",
-    "value": 9273
+    "source": "1970-1974",
+    "target": "Algeria",
+    "value": 1
   },
   {
-    "source": "Middle East & North Africa",
-    "target": "Assassination",
-    "value": 4206
+    "source": "1970-1974",
+    "target": "Egypt",
+    "value": 3
   },
   {
-    "source": "Middle East & North Africa",
-    "target": "Hostage Taking (Kidnapping)",
-    "value": 2666
+    "source": "1970-1974",
+    "target": "Lebanon",
+    "value": 27
   },
   {
-    "source": "Middle East & North Africa",
-    "target": "Facility/Infrastructure Attack",
-    "value": 1115
+    "source": "1970-1974",
+    "target": "West Bank and Gaza Strip",
+    "value": 1
   },
   {
-    "source": "Middle East & North Africa",
-    "target": "Unknown",
-    "value": 1891
+    "source": "1970-1974",
+    "target": "Syria",
+    "value": 4
   },
   {
-    "source": "Middle East & North Africa",
-    "target": "Unarmed Assault",
-    "value": 177
+    "source": "1970-1974",
+    "target": "Israel",
+    "value": 29
   },
   {
-    "source": "Middle East & North Africa",
-    "target": "Hostage Taking (Barricade Incident)",
-    "value": 100
+    "source": "1970-1974",
+    "target": "Iran",
+    "value": 46
   },
   {
-    "source": "Middle East & North Africa",
-    "target": "Hijacking",
-    "value": 138
+    "source": "1970-1974",
+    "target": "Other",
+    "value": 29
   },
   {
-    "source": "South Asia",
-    "target": "Bombing/Explosion",
-    "value": 21246
+    "source": "1975-1979",
+    "target": "Iraq",
+    "value": 6
   },
   {
-    "source": "South Asia",
-    "target": "Armed Assault",
-    "value": 11404
+    "source": "1975-1979",
+    "target": "Turkey",
+    "value": 427
   },
   {
-    "source": "South Asia",
-    "target": "Assassination",
-    "value": 4301
+    "source": "1975-1979",
+    "target": "Algeria",
+    "value": 3
   },
   {
-    "source": "South Asia",
-    "target": "Hostage Taking (Kidnapping)",
-    "value": 3277
+    "source": "1975-1979",
+    "target": "Egypt",
+    "value": 4
   },
   {
-    "source": "South Asia",
-    "target": "Facility/Infrastructure Attack",
-    "value": 2189
+    "source": "1975-1979",
+    "target": "Lebanon",
+    "value": 73
   },
   {
-    "source": "South Asia",
-    "target": "Unknown",
-    "value": 2021
+    "source": "1975-1979",
+    "target": "Libya",
+    "value": 3
   },
   {
-    "source": "South Asia",
-    "target": "Unarmed Assault",
-    "value": 323
+    "source": "1975-1979",
+    "target": "West Bank and Gaza Strip",
+    "value": 27
   },
   {
-    "source": "South Asia",
-    "target": "Hostage Taking (Barricade Incident)",
-    "value": 120
+    "source": "1975-1979",
+    "target": "Syria",
+    "value": 36
   },
   {
-    "source": "South Asia",
-    "target": "Hijacking",
-    "value": 93
+    "source": "1975-1979",
+    "target": "Israel",
+    "value": 163
   },
   {
-    "source": "South America",
-    "target": "Bombing/Explosion",
-    "value": 9039
+    "source": "1975-1979",
+    "target": "Iran",
+    "value": 131
   },
   {
-    "source": "South America",
-    "target": "Armed Assault",
-    "value": 3875
+    "source": "1975-1979",
+    "target": "Other",
+    "value": 20
   },
   {
-    "source": "South America",
-    "target": "Assassination",
-    "value": 2745
-  },
-  {
-    "source": "South America",
-    "target": "Hostage Taking (Kidnapping)",
-    "value": 1414
-  },
-  {
-    "source": "South America",
-    "target": "Facility/Infrastructure Attack",
-    "value": 803
-  },
-  {
-    "source": "South America",
-    "target": "Unknown",
-    "value": 754
-  },
-  {
-    "source": "South America",
-    "target": "Unarmed Assault",
-    "value": 47
-  },
-  {
-    "source": "South America",
-    "target": "Hostage Taking (Barricade Incident)",
-    "value": 234
-  },
-  {
-    "source": "South America",
-    "target": "Hijacking",
-    "value": 67
-  },
-  {
-    "source": "Sub-Saharan Africa",
-    "target": "Bombing/Explosion",
-    "value": 5557
-  },
-  {
-    "source": "Sub-Saharan Africa",
-    "target": "Armed Assault",
-    "value": 6004
-  },
-  {
-    "source": "Sub-Saharan Africa",
-    "target": "Assassination",
-    "value": 1638
-  },
-  {
-    "source": "Sub-Saharan Africa",
-    "target": "Hostage Taking (Kidnapping)",
-    "value": 1872
-  },
-  {
-    "source": "Sub-Saharan Africa",
-    "target": "Facility/Infrastructure Attack",
-    "value": 810
-  },
-  {
-    "source": "Sub-Saharan Africa",
-    "target": "Unknown",
-    "value": 1355
-  },
-  {
-    "source": "Sub-Saharan Africa",
-    "target": "Unarmed Assault",
-    "value": 83
-  },
-  {
-    "source": "Sub-Saharan Africa",
-    "target": "Hostage Taking (Barricade Incident)",
-    "value": 95
-  },
-  {
-    "source": "Sub-Saharan Africa",
-    "target": "Hijacking",
-    "value": 136
-  },
-  {
-    "source": "Western Europe",
-    "target": "Bombing/Explosion",
-    "value": 8508
-  },
-  {
-    "source": "Western Europe",
-    "target": "Armed Assault",
-    "value": 1724
-  },
-  {
-    "source": "Western Europe",
-    "target": "Assassination",
-    "value": 2938
-  },
-  {
-    "source": "Western Europe",
-    "target": "Hostage Taking (Kidnapping)",
-    "value": 269
-  },
-  {
-    "source": "Western Europe",
-    "target": "Facility/Infrastructure Attack",
-    "value": 2631
-  },
-  {
-    "source": "Western Europe",
-    "target": "Unknown",
-    "value": 265
-  },
-  {
-    "source": "Western Europe",
-    "target": "Unarmed Assault",
-    "value": 148
-  },
-  {
-    "source": "Western Europe",
-    "target": "Hostage Taking (Barricade Incident)",
-    "value": 89
-  },
-  {
-    "source": "Western Europe",
-    "target": "Hijacking",
-    "value": 67
-  },
-  {
-    "source": "Southeast Asia",
-    "target": "Bombing/Explosion",
-    "value": 4818
-  },
-  {
-    "source": "Southeast Asia",
-    "target": "Armed Assault",
-    "value": 4022
-  },
-  {
-    "source": "Southeast Asia",
-    "target": "Assassination",
-    "value": 1369
-  },
-  {
-    "source": "Southeast Asia",
-    "target": "Hostage Taking (Kidnapping)",
-    "value": 744
-  },
-  {
-    "source": "Southeast Asia",
-    "target": "Facility/Infrastructure Attack",
-    "value": 948
-  },
-  {
-    "source": "Southeast Asia",
-    "target": "Unknown",
-    "value": 433
-  },
-  {
-    "source": "Southeast Asia",
-    "target": "Unarmed Assault",
-    "value": 25
-  },
-  {
-    "source": "Southeast Asia",
-    "target": "Hostage Taking (Barricade Incident)",
-    "value": 67
-  },
-  {
-    "source": "Southeast Asia",
-    "target": "Hijacking",
-    "value": 59
-  },
-  {
-    "source": "Central America & Caribbean",
-    "target": "Bombing/Explosion",
-    "value": 3239
-  },
-  {
-    "source": "Central America & Caribbean",
-    "target": "Armed Assault",
-    "value": 4361
-  },
-  {
-    "source": "Central America & Caribbean",
-    "target": "Assassination",
-    "value": 1254
-  },
-  {
-    "source": "Central America & Caribbean",
-    "target": "Hostage Taking (Kidnapping)",
-    "value": 501
-  },
-  {
-    "source": "Central America & Caribbean",
-    "target": "Facility/Infrastructure Attack",
-    "value": 403
-  },
-  {
-    "source": "Central America & Caribbean",
-    "target": "Unknown",
-    "value": 354
-  },
-  {
-    "source": "Central America & Caribbean",
-    "target": "Unarmed Assault",
+    "source": "1980-1984",
+    "target": "Iraq",
     "value": 19
   },
   {
-    "source": "Central America & Caribbean",
-    "target": "Hostage Taking (Barricade Incident)",
-    "value": 187
+    "source": "1980-1984",
+    "target": "Turkey",
+    "value": 132
   },
   {
-    "source": "Central America & Caribbean",
-    "target": "Hijacking",
-    "value": 26
+    "source": "1980-1984",
+    "target": "Egypt",
+    "value": 15
   },
   {
-    "source": "Eastern Europe",
-    "target": "Bombing/Explosion",
-    "value": 2766
+    "source": "1980-1984",
+    "target": "Lebanon",
+    "value": 687
   },
   {
-    "source": "Eastern Europe",
-    "target": "Armed Assault",
-    "value": 1274
+    "source": "1980-1984",
+    "target": "Libya",
+    "value": 5
   },
   {
-    "source": "Eastern Europe",
-    "target": "Assassination",
-    "value": 400
+    "source": "1980-1984",
+    "target": "West Bank and Gaza Strip",
+    "value": 172
   },
   {
-    "source": "Eastern Europe",
-    "target": "Hostage Taking (Kidnapping)",
-    "value": 220
+    "source": "1980-1984",
+    "target": "Syria",
+    "value": 96
   },
   {
-    "source": "Eastern Europe",
-    "target": "Facility/Infrastructure Attack",
-    "value": 260
+    "source": "1980-1984",
+    "target": "Israel",
+    "value": 242
   },
   {
-    "source": "Eastern Europe",
-    "target": "Unknown",
-    "value": 115
+    "source": "1980-1984",
+    "target": "Iran",
+    "value": 228
   },
   {
-    "source": "Eastern Europe",
-    "target": "Unarmed Assault",
-    "value": 62
+    "source": "1980-1984",
+    "target": "Other",
+    "value": 45
   },
   {
-    "source": "Eastern Europe",
-    "target": "Hostage Taking (Barricade Incident)",
+    "source": "1985-1989",
+    "target": "Iraq",
+    "value": 11
+  },
+  {
+    "source": "1985-1989",
+    "target": "Turkey",
+    "value": 208
+  },
+  {
+    "source": "1985-1989",
+    "target": "Egypt",
+    "value": 29
+  },
+  {
+    "source": "1985-1989",
+    "target": "Lebanon",
+    "value": 561
+  },
+  {
+    "source": "1985-1989",
+    "target": "West Bank and Gaza Strip",
+    "value": 143
+  },
+  {
+    "source": "1985-1989",
+    "target": "Syria",
+    "value": 6
+  },
+  {
+    "source": "1985-1989",
+    "target": "Israel",
+    "value": 214
+  },
+  {
+    "source": "1985-1989",
+    "target": "Iran",
+    "value": 22
+  },
+  {
+    "source": "1985-1989",
+    "target": "Other",
+    "value": 48
+  },
+  {
+    "source": "1990-1994",
+    "target": "Iraq",
+    "value": 56
+  },
+  {
+    "source": "1990-1994",
+    "target": "Turkey",
+    "value": 1302
+  },
+  {
+    "source": "1990-1994",
+    "target": "Yemen",
+    "value": 48
+  },
+  {
+    "source": "1990-1994",
+    "target": "Algeria",
+    "value": 474
+  },
+  {
+    "source": "1990-1994",
+    "target": "Egypt",
+    "value": 245
+  },
+  {
+    "source": "1990-1994",
+    "target": "Lebanon",
+    "value": 333
+  },
+  {
+    "source": "1990-1994",
+    "target": "Libya",
+    "value": 1
+  },
+  {
+    "source": "1990-1994",
+    "target": "West Bank and Gaza Strip",
+    "value": 455
+  },
+  {
+    "source": "1990-1994",
+    "target": "Israel",
+    "value": 295
+  },
+  {
+    "source": "1990-1994",
+    "target": "Iran",
+    "value": 79
+  },
+  {
+    "source": "1990-1994",
+    "target": "Other",
+    "value": 61
+  },
+  {
+    "source": "1995-1999",
+    "target": "Iraq",
+    "value": 69
+  },
+  {
+    "source": "1995-1999",
+    "target": "Turkey",
+    "value": 363
+  },
+  {
+    "source": "1995-1999",
+    "target": "Yemen",
+    "value": 59
+  },
+  {
+    "source": "1995-1999",
+    "target": "Algeria",
+    "value": 915
+  },
+  {
+    "source": "1995-1999",
+    "target": "Egypt",
+    "value": 179
+  },
+  {
+    "source": "1995-1999",
+    "target": "Lebanon",
+    "value": 188
+  },
+  {
+    "source": "1995-1999",
+    "target": "Libya",
+    "value": 5
+  },
+  {
+    "source": "1995-1999",
+    "target": "West Bank and Gaza Strip",
+    "value": 142
+  },
+  {
+    "source": "1995-1999",
+    "target": "Syria",
+    "value": 4
+  },
+  {
+    "source": "1995-1999",
+    "target": "Israel",
+    "value": 67
+  },
+  {
+    "source": "1995-1999",
+    "target": "Iran",
+    "value": 24
+  },
+  {
+    "source": "1995-1999",
+    "target": "Other",
+    "value": 59
+  },
+  {
+    "source": "2000-2004",
+    "target": "Iraq",
+    "value": 444
+  },
+  {
+    "source": "2000-2004",
+    "target": "Turkey",
+    "value": 105
+  },
+  {
+    "source": "2000-2004",
+    "target": "Yemen",
+    "value": 31
+  },
+  {
+    "source": "2000-2004",
+    "target": "Algeria",
+    "value": 525
+  },
+  {
+    "source": "2000-2004",
+    "target": "Egypt",
+    "value": 3
+  },
+  {
+    "source": "2000-2004",
+    "target": "Lebanon",
+    "value": 31
+  },
+  {
+    "source": "2000-2004",
+    "target": "West Bank and Gaza Strip",
+    "value": 316
+  },
+  {
+    "source": "2000-2004",
+    "target": "Syria",
+    "value": 1
+  },
+  {
+    "source": "2000-2004",
+    "target": "Israel",
+    "value": 226
+  },
+  {
+    "source": "2000-2004",
+    "target": "Iran",
     "value": 21
   },
   {
-    "source": "Eastern Europe",
-    "target": "Hijacking",
-    "value": 26
+    "source": "2000-2004",
+    "target": "Other",
+    "value": 59
   },
   {
-    "source": "North America",
+    "source": "2005-2009",
+    "target": "Iraq",
+    "value": 4745
+  },
+  {
+    "source": "2005-2009",
+    "target": "Turkey",
+    "value": 158
+  },
+  {
+    "source": "2005-2009",
+    "target": "Yemen",
+    "value": 64
+  },
+  {
+    "source": "2005-2009",
+    "target": "Algeria",
+    "value": 595
+  },
+  {
+    "source": "2005-2009",
+    "target": "Egypt",
+    "value": 10
+  },
+  {
+    "source": "2005-2009",
+    "target": "Lebanon",
+    "value": 115
+  },
+  {
+    "source": "2005-2009",
+    "target": "Libya",
+    "value": 2
+  },
+  {
+    "source": "2005-2009",
+    "target": "West Bank and Gaza Strip",
+    "value": 234
+  },
+  {
+    "source": "2005-2009",
+    "target": "Syria",
+    "value": 2
+  },
+  {
+    "source": "2005-2009",
+    "target": "Israel",
+    "value": 347
+  },
+  {
+    "source": "2005-2009",
+    "target": "Iran",
+    "value": 51
+  },
+  {
+    "source": "2005-2009",
+    "target": "Other",
+    "value": 28
+  },
+  {
+    "source": "2010-2014",
+    "target": "Iraq",
+    "value": 10709
+  },
+  {
+    "source": "2010-2014",
+    "target": "Turkey",
+    "value": 395
+  },
+  {
+    "source": "2010-2014",
+    "target": "Yemen",
+    "value": 1730
+  },
+  {
+    "source": "2010-2014",
+    "target": "Algeria",
+    "value": 191
+  },
+  {
+    "source": "2010-2014",
+    "target": "Egypt",
+    "value": 744
+  },
+  {
+    "source": "2010-2014",
+    "target": "Lebanon",
+    "value": 355
+  },
+  {
+    "source": "2010-2014",
+    "target": "Libya",
+    "value": 1078
+  },
+  {
+    "source": "2010-2014",
+    "target": "West Bank and Gaza Strip",
+    "value": 251
+  },
+  {
+    "source": "2010-2014",
+    "target": "Syria",
+    "value": 845
+  },
+  {
+    "source": "2010-2014",
+    "target": "Israel",
+    "value": 460
+  },
+  {
+    "source": "2010-2014",
+    "target": "Iran",
+    "value": 52
+  },
+  {
+    "source": "2010-2014",
+    "target": "Other",
+    "value": 224
+  },
+  {
+    "source": "2015-2017",
+    "target": "Iraq",
+    "value": 8577
+  },
+  {
+    "source": "2015-2017",
+    "target": "Turkey",
+    "value": 1145
+  },
+  {
+    "source": "2015-2017",
+    "target": "Yemen",
+    "value": 1415
+  },
+  {
+    "source": "2015-2017",
+    "target": "Algeria",
+    "value": 39
+  },
+  {
+    "source": "2015-2017",
+    "target": "Egypt",
+    "value": 1247
+  },
+  {
+    "source": "2015-2017",
+    "target": "Lebanon",
+    "value": 108
+  },
+  {
+    "source": "2015-2017",
+    "target": "Libya",
+    "value": 1155
+  },
+  {
+    "source": "2015-2017",
+    "target": "West Bank and Gaza Strip",
+    "value": 486
+  },
+  {
+    "source": "2015-2017",
+    "target": "Syria",
+    "value": 1207
+  },
+  {
+    "source": "2015-2017",
+    "target": "Israel",
+    "value": 140
+  },
+  {
+    "source": "2015-2017",
+    "target": "Iran",
+    "value": 30
+  },
+  {
+    "source": "2015-2017",
+    "target": "Other",
+    "value": 382
+  },
+  {
+    "source": "Iraq",
     "target": "Bombing/Explosion",
-    "value": 1534
+    "value": 18286
   },
   {
-    "source": "North America",
+    "source": "Iraq",
     "target": "Armed Assault",
-    "value": 448
+    "value": 3155
   },
   {
-    "source": "North America",
+    "source": "Iraq",
     "target": "Assassination",
-    "value": 255
+    "value": 1287
   },
   {
-    "source": "North America",
-    "target": "Hostage Taking (Kidnapping)",
-    "value": 123
+    "source": "Iraq",
+    "target": "Hostage Taking",
+    "value": 970
   },
   {
-    "source": "North America",
+    "source": "Iraq",
+    "target": "Unknown",
+    "value": 765
+  },
+  {
+    "source": "Iraq",
     "target": "Facility/Infrastructure Attack",
-    "value": 906
+    "value": 154
   },
   {
-    "source": "North America",
+    "source": "Iraq",
+    "target": "Unarmed Assault",
+    "value": 6
+  },
+  {
+    "source": "Iraq",
+    "target": "Hijacking",
+    "value": 13
+  },
+  {
+    "source": "Turkey",
+    "target": "Bombing/Explosion",
+    "value": 1957
+  },
+  {
+    "source": "Turkey",
+    "target": "Armed Assault",
+    "value": 1289
+  },
+  {
+    "source": "Turkey",
+    "target": "Assassination",
+    "value": 437
+  },
+  {
+    "source": "Turkey",
+    "target": "Hostage Taking",
+    "value": 171
+  },
+  {
+    "source": "Turkey",
+    "target": "Unknown",
+    "value": 136
+  },
+  {
+    "source": "Turkey",
+    "target": "Facility/Infrastructure Attack",
+    "value": 279
+  },
+  {
+    "source": "Turkey",
+    "target": "Unarmed Assault",
+    "value": 10
+  },
+  {
+    "source": "Turkey",
+    "target": "Hijacking",
+    "value": 13
+  },
+  {
+    "source": "Yemen",
+    "target": "Bombing/Explosion",
+    "value": 1372
+  },
+  {
+    "source": "Yemen",
+    "target": "Armed Assault",
+    "value": 673
+  },
+  {
+    "source": "Yemen",
+    "target": "Assassination",
+    "value": 434
+  },
+  {
+    "source": "Yemen",
+    "target": "Hostage Taking",
+    "value": 396
+  },
+  {
+    "source": "Yemen",
+    "target": "Unknown",
+    "value": 353
+  },
+  {
+    "source": "Yemen",
+    "target": "Facility/Infrastructure Attack",
+    "value": 99
+  },
+  {
+    "source": "Yemen",
+    "target": "Unarmed Assault",
+    "value": 4
+  },
+  {
+    "source": "Yemen",
+    "target": "Hijacking",
+    "value": 16
+  },
+  {
+    "source": "Algeria",
+    "target": "Bombing/Explosion",
+    "value": 1088
+  },
+  {
+    "source": "Algeria",
+    "target": "Armed Assault",
+    "value": 913
+  },
+  {
+    "source": "Algeria",
+    "target": "Assassination",
+    "value": 431
+  },
+  {
+    "source": "Algeria",
+    "target": "Hostage Taking",
+    "value": 101
+  },
+  {
+    "source": "Algeria",
+    "target": "Unknown",
+    "value": 147
+  },
+  {
+    "source": "Algeria",
+    "target": "Facility/Infrastructure Attack",
+    "value": 53
+  },
+  {
+    "source": "Algeria",
+    "target": "Unarmed Assault",
+    "value": 1
+  },
+  {
+    "source": "Algeria",
+    "target": "Hijacking",
+    "value": 9
+  },
+  {
+    "source": "Egypt",
+    "target": "Bombing/Explosion",
+    "value": 1184
+  },
+  {
+    "source": "Egypt",
+    "target": "Armed Assault",
+    "value": 790
+  },
+  {
+    "source": "Egypt",
+    "target": "Assassination",
+    "value": 249
+  },
+  {
+    "source": "Egypt",
+    "target": "Hostage Taking",
+    "value": 95
+  },
+  {
+    "source": "Egypt",
+    "target": "Unknown",
+    "value": 69
+  },
+  {
+    "source": "Egypt",
+    "target": "Facility/Infrastructure Attack",
+    "value": 76
+  },
+  {
+    "source": "Egypt",
+    "target": "Unarmed Assault",
+    "value": 2
+  },
+  {
+    "source": "Egypt",
+    "target": "Hijacking",
+    "value": 14
+  },
+  {
+    "source": "Lebanon",
+    "target": "Bombing/Explosion",
+    "value": 1539
+  },
+  {
+    "source": "Lebanon",
+    "target": "Armed Assault",
+    "value": 335
+  },
+  {
+    "source": "Lebanon",
+    "target": "Assassination",
+    "value": 347
+  },
+  {
+    "source": "Lebanon",
+    "target": "Hostage Taking",
+    "value": 184
+  },
+  {
+    "source": "Lebanon",
     "target": "Unknown",
     "value": 32
   },
   {
-    "source": "North America",
+    "source": "Lebanon",
+    "target": "Facility/Infrastructure Attack",
+    "value": 16
+  },
+  {
+    "source": "Lebanon",
     "target": "Unarmed Assault",
-    "value": 73
+    "value": 7
   },
   {
-    "source": "North America",
-    "target": "Hostage Taking (Barricade Incident)",
-    "value": 67
-  },
-  {
-    "source": "North America",
+    "source": "Lebanon",
     "target": "Hijacking",
     "value": 18
   },
   {
-    "source": "East Asia",
+    "source": "Libya",
     "target": "Bombing/Explosion",
-    "value": 330
+    "value": 957
   },
   {
-    "source": "East Asia",
+    "source": "Libya",
     "target": "Armed Assault",
-    "value": 117
+    "value": 412
   },
   {
-    "source": "East Asia",
+    "source": "Libya",
     "target": "Assassination",
-    "value": 55
+    "value": 197
   },
   {
-    "source": "East Asia",
-    "target": "Hostage Taking (Kidnapping)",
-    "value": 14
+    "source": "Libya",
+    "target": "Hostage Taking",
+    "value": 433
   },
   {
-    "source": "East Asia",
-    "target": "Facility/Infrastructure Attack",
-    "value": 200
-  },
-  {
-    "source": "East Asia",
+    "source": "Libya",
     "target": "Unknown",
-    "value": 23
+    "value": 126
   },
   {
-    "source": "East Asia",
+    "source": "Libya",
+    "target": "Facility/Infrastructure Attack",
+    "value": 93
+  },
+  {
+    "source": "Libya",
     "target": "Unarmed Assault",
-    "value": 42
+    "value": 7
   },
   {
-    "source": "East Asia",
-    "target": "Hostage Taking (Barricade Incident)",
+    "source": "Libya",
+    "target": "Hijacking",
+    "value": 24
+  },
+  {
+    "source": "West Bank and Gaza Strip",
+    "target": "Bombing/Explosion",
+    "value": 653
+  },
+  {
+    "source": "West Bank and Gaza Strip",
+    "target": "Armed Assault",
+    "value": 889
+  },
+  {
+    "source": "West Bank and Gaza Strip",
+    "target": "Assassination",
+    "value": 332
+  },
+  {
+    "source": "West Bank and Gaza Strip",
+    "target": "Hostage Taking",
+    "value": 83
+  },
+  {
+    "source": "West Bank and Gaza Strip",
+    "target": "Unknown",
+    "value": 32
+  },
+  {
+    "source": "West Bank and Gaza Strip",
+    "target": "Facility/Infrastructure Attack",
+    "value": 135
+  },
+  {
+    "source": "West Bank and Gaza Strip",
+    "target": "Unarmed Assault",
+    "value": 102
+  },
+  {
+    "source": "West Bank and Gaza Strip",
+    "target": "Hijacking",
+    "value": 1
+  },
+  {
+    "source": "Syria",
+    "target": "Bombing/Explosion",
+    "value": 1489
+  },
+  {
+    "source": "Syria",
+    "target": "Armed Assault",
+    "value": 199
+  },
+  {
+    "source": "Syria",
+    "target": "Assassination",
+    "value": 94
+  },
+  {
+    "source": "Syria",
+    "target": "Hostage Taking",
+    "value": 251
+  },
+  {
+    "source": "Syria",
+    "target": "Unknown",
+    "value": 144
+  },
+  {
+    "source": "Syria",
+    "target": "Facility/Infrastructure Attack",
+    "value": 19
+  },
+  {
+    "source": "Syria",
+    "target": "Unarmed Assault",
+    "value": 2
+  },
+  {
+    "source": "Syria",
+    "target": "Hijacking",
     "value": 3
   },
   {
-    "source": "East Asia",
-    "target": "Hijacking",
-    "value": 18
-  },
-  {
-    "source": "Central Asia",
+    "source": "Israel",
     "target": "Bombing/Explosion",
-    "value": 235
+    "value": 1519
   },
   {
-    "source": "Central Asia",
+    "source": "Israel",
     "target": "Armed Assault",
-    "value": 116
+    "value": 297
   },
   {
-    "source": "Central Asia",
+    "source": "Israel",
     "target": "Assassination",
-    "value": 115
+    "value": 202
   },
   {
-    "source": "Central Asia",
-    "target": "Hostage Taking (Kidnapping)",
-    "value": 45
+    "source": "Israel",
+    "target": "Hostage Taking",
+    "value": 28
   },
   {
-    "source": "Central Asia",
-    "target": "Facility/Infrastructure Attack",
-    "value": 20
-  },
-  {
-    "source": "Central Asia",
+    "source": "Israel",
     "target": "Unknown",
-    "value": 17
+    "value": 21
   },
   {
-    "source": "Central Asia",
+    "source": "Israel",
+    "target": "Facility/Infrastructure Attack",
+    "value": 83
+  },
+  {
+    "source": "Israel",
+    "target": "Unarmed Assault",
+    "value": 30
+  },
+  {
+    "source": "Israel",
+    "target": "Hijacking",
+    "value": 3
+  },
+  {
+    "source": "Iran",
+    "target": "Bombing/Explosion",
+    "value": 347
+  },
+  {
+    "source": "Iran",
+    "target": "Armed Assault",
+    "value": 106
+  },
+  {
+    "source": "Iran",
+    "target": "Assassination",
+    "value": 127
+  },
+  {
+    "source": "Iran",
+    "target": "Hostage Taking",
+    "value": 24
+  },
+  {
+    "source": "Iran",
+    "target": "Unknown",
+    "value": 34
+  },
+  {
+    "source": "Iran",
+    "target": "Facility/Infrastructure Attack",
+    "value": 36
+  },
+  {
+    "source": "Iran",
+    "target": "Unarmed Assault",
+    "value": 1
+  },
+  {
+    "source": "Iran",
+    "target": "Hijacking",
+    "value": 9
+  },
+  {
+    "source": "Other",
+    "target": "Bombing/Explosion",
+    "value": 517
+  },
+  {
+    "source": "Other",
+    "target": "Armed Assault",
+    "value": 215
+  },
+  {
+    "source": "Other",
+    "target": "Assassination",
+    "value": 69
+  },
+  {
+    "source": "Other",
+    "target": "Hostage Taking",
+    "value": 30
+  },
+  {
+    "source": "Other",
+    "target": "Unknown",
+    "value": 32
+  },
+  {
+    "source": "Other",
+    "target": "Facility/Infrastructure Attack",
+    "value": 72
+  },
+  {
+    "source": "Other",
     "target": "Unarmed Assault",
     "value": 5
   },
   {
-    "source": "Central Asia",
-    "target": "Hostage Taking (Barricade Incident)",
-    "value": 2
-  },
-  {
-    "source": "Central Asia",
+    "source": "Other",
     "target": "Hijacking",
-    "value": 8
-  },
-  {
-    "source": "Australasia & Oceania",
-    "target": "Bombing/Explosion",
-    "value": 75
-  },
-  {
-    "source": "Australasia & Oceania",
-    "target": "Armed Assault",
-    "value": 51
-  },
-  {
-    "source": "Australasia & Oceania",
-    "target": "Assassination",
-    "value": 36
-  },
-  {
-    "source": "Australasia & Oceania",
-    "target": "Hostage Taking (Kidnapping)",
-    "value": 13
-  },
-  {
-    "source": "Australasia & Oceania",
-    "target": "Facility/Infrastructure Attack",
-    "value": 71
-  },
-  {
-    "source": "Australasia & Oceania",
-    "target": "Unknown",
-    "value": 16
-  },
-  {
-    "source": "Australasia & Oceania",
-    "target": "Unarmed Assault",
-    "value": 11
-  },
-  {
-    "source": "Australasia & Oceania",
-    "target": "Hostage Taking (Barricade Incident)",
-    "value": 6
-  },
-  {
-    "source": "Australasia & Oceania",
-    "target": "Hijacking",
-    "value": 3
+    "value": 15
   },
   {
     "source": "Bombing/Explosion",
-    "target": "1970-1974",
-    "value": 1194
+    "target": "Private Citizens & Property",
+    "value": 10772
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Military",
+    "value": 4878
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Police",
+    "value": 3544
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Business, Utilities & Communication",
+    "value": 4343
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Unknown, religious & militia",
+    "value": 3994
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Government",
+    "value": 2285
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Transportation",
+    "value": 1092
   },
   {
     "source": "Armed Assault",
-    "target": "1970-1974",
-    "value": 276
+    "target": "Private Citizens & Property",
+    "value": 1987
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Military",
+    "value": 2634
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Police",
+    "value": 2189
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Business, Utilities & Communication",
+    "value": 675
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Unknown, religious & militia",
+    "value": 657
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Government",
+    "value": 897
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Transportation",
+    "value": 234
   },
   {
     "source": "Assassination",
-    "target": "1970-1974",
-    "value": 679
+    "target": "Private Citizens & Property",
+    "value": 771
   },
   {
-    "source": "Hostage Taking (Kidnapping)",
-    "target": "1970-1974",
-    "value": 154
+    "source": "Assassination",
+    "target": "Military",
+    "value": 513
   },
   {
-    "source": "Facility/Infrastructure Attack",
-    "target": "1970-1974",
-    "value": 359
+    "source": "Assassination",
+    "target": "Police",
+    "value": 727
+  },
+  {
+    "source": "Assassination",
+    "target": "Business, Utilities & Communication",
+    "value": 419
+  },
+  {
+    "source": "Assassination",
+    "target": "Unknown, religious & militia",
+    "value": 502
+  },
+  {
+    "source": "Assassination",
+    "target": "Government",
+    "value": 1261
+  },
+  {
+    "source": "Assassination",
+    "target": "Transportation",
+    "value": 13
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Private Citizens & Property",
+    "value": 1150
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Military",
+    "value": 297
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Police",
+    "value": 174
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Business, Utilities & Communication",
+    "value": 573
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Unknown, religious & militia",
+    "value": 181
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Government",
+    "value": 367
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Transportation",
+    "value": 24
   },
   {
     "source": "Unknown",
-    "target": "1970-1974",
-    "value": 12
+    "target": "Private Citizens & Property",
+    "value": 499
+  },
+  {
+    "source": "Unknown",
+    "target": "Military",
+    "value": 824
+  },
+  {
+    "source": "Unknown",
+    "target": "Police",
+    "value": 176
+  },
+  {
+    "source": "Unknown",
+    "target": "Business, Utilities & Communication",
+    "value": 121
+  },
+  {
+    "source": "Unknown",
+    "target": "Unknown, religious & militia",
+    "value": 163
+  },
+  {
+    "source": "Unknown",
+    "target": "Government",
+    "value": 78
+  },
+  {
+    "source": "Unknown",
+    "target": "Transportation",
+    "value": 30
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Private Citizens & Property",
+    "value": 219
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Military",
+    "value": 47
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Police",
+    "value": 58
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Business, Utilities & Communication",
+    "value": 509
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Unknown, religious & militia",
+    "value": 99
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Government",
+    "value": 148
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Transportation",
+    "value": 35
   },
   {
     "source": "Unarmed Assault",
-    "target": "1970-1974",
+    "target": "Private Citizens & Property",
+    "value": 47
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Military",
+    "value": 67
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Police",
+    "value": 20
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Business, Utilities & Communication",
+    "value": 16
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Unknown, religious & militia",
+    "value": 4
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Government",
     "value": 10
   },
   {
-    "source": "Hostage Taking (Barricade Incident)",
-    "target": "1970-1974",
+    "source": "Unarmed Assault",
+    "target": "Transportation",
+    "value": 13
+  },
+  {
+    "source": "Hijacking",
+    "target": "Private Citizens & Property",
+    "value": 12
+  },
+  {
+    "source": "Hijacking",
+    "target": "Military",
+    "value": 9
+  },
+  {
+    "source": "Hijacking",
+    "target": "Police",
+    "value": 5
+  },
+  {
+    "source": "Hijacking",
+    "target": "Business, Utilities & Communication",
     "value": 20
   },
   {
     "source": "Hijacking",
-    "target": "1970-1974",
-    "value": 40
-  },
-  {
-    "source": "Bombing/Explosion",
-    "target": "1975-1979",
-    "value": 3126
-  },
-  {
-    "source": "Armed Assault",
-    "target": "1975-1979",
-    "value": 1148
-  },
-  {
-    "source": "Assassination",
-    "target": "1975-1979",
-    "value": 1320
-  },
-  {
-    "source": "Hostage Taking (Kidnapping)",
-    "target": "1975-1979",
-    "value": 382
-  },
-  {
-    "source": "Facility/Infrastructure Attack",
-    "target": "1975-1979",
-    "value": 737
-  },
-  {
-    "source": "Unknown",
-    "target": "1975-1979",
-    "value": 270
-  },
-  {
-    "source": "Unarmed Assault",
-    "target": "1975-1979",
-    "value": 15
-  },
-  {
-    "source": "Hostage Taking (Barricade Incident)",
-    "target": "1975-1979",
-    "value": 151
+    "target": "Unknown, religious & militia",
+    "value": 4
   },
   {
     "source": "Hijacking",
-    "target": "1975-1979",
-    "value": 21
-  },
-  {
-    "source": "Bombing/Explosion",
-    "target": "1980-1984",
-    "value": 6226
-  },
-  {
-    "source": "Armed Assault",
-    "target": "1980-1984",
-    "value": 3611
-  },
-  {
-    "source": "Assassination",
-    "target": "1980-1984",
-    "value": 2187
-  },
-  {
-    "source": "Hostage Taking (Kidnapping)",
-    "target": "1980-1984",
-    "value": 568
-  },
-  {
-    "source": "Facility/Infrastructure Attack",
-    "target": "1980-1984",
-    "value": 772
-  },
-  {
-    "source": "Unknown",
-    "target": "1980-1984",
-    "value": 518
-  },
-  {
-    "source": "Unarmed Assault",
-    "target": "1980-1984",
-    "value": 17
-  },
-  {
-    "source": "Hostage Taking (Barricade Incident)",
-    "target": "1980-1984",
-    "value": 189
+    "target": "Government",
+    "value": 10
   },
   {
     "source": "Hijacking",
-    "target": "1980-1984",
-    "value": 69
-  },
-  {
-    "source": "Bombing/Explosion",
-    "target": "1985-1989",
-    "value": 7911
-  },
-  {
-    "source": "Armed Assault",
-    "target": "1985-1989",
-    "value": 4092
-  },
-  {
-    "source": "Assassination",
-    "target": "1985-1989",
-    "value": 2978
-  },
-  {
-    "source": "Hostage Taking (Kidnapping)",
-    "target": "1985-1989",
-    "value": 550
-  },
-  {
-    "source": "Facility/Infrastructure Attack",
-    "target": "1985-1989",
-    "value": 790
-  },
-  {
-    "source": "Unknown",
-    "target": "1985-1989",
-    "value": 470
-  },
-  {
-    "source": "Unarmed Assault",
-    "target": "1985-1989",
-    "value": 27
-  },
-  {
-    "source": "Hostage Taking (Barricade Incident)",
-    "target": "1985-1989",
-    "value": 142
-  },
-  {
-    "source": "Hijacking",
-    "target": "1985-1989",
-    "value": 43
-  },
-  {
-    "source": "Bombing/Explosion",
-    "target": "1990-1994",
-    "value": 6610
-  },
-  {
-    "source": "Armed Assault",
-    "target": "1990-1994",
-    "value": 4290
-  },
-  {
-    "source": "Assassination",
-    "target": "1990-1994",
-    "value": 3489
-  },
-  {
-    "source": "Hostage Taking (Kidnapping)",
-    "target": "1990-1994",
-    "value": 723
-  },
-  {
-    "source": "Facility/Infrastructure Attack",
-    "target": "1990-1994",
-    "value": 1204
-  },
-  {
-    "source": "Unknown",
-    "target": "1990-1994",
-    "value": 468
-  },
-  {
-    "source": "Unarmed Assault",
-    "target": "1990-1994",
-    "value": 130
-  },
-  {
-    "source": "Hostage Taking (Barricade Incident)",
-    "target": "1990-1994",
-    "value": 89
-  },
-  {
-    "source": "Hijacking",
-    "target": "1990-1994",
-    "value": 94
-  },
-  {
-    "source": "Bombing/Explosion",
-    "target": "1995-1999",
-    "value": 4289
-  },
-  {
-    "source": "Armed Assault",
-    "target": "1995-1999",
-    "value": 2835
-  },
-  {
-    "source": "Assassination",
-    "target": "1995-1999",
-    "value": 1712
-  },
-  {
-    "source": "Hostage Taking (Kidnapping)",
-    "target": "1995-1999",
-    "value": 752
-  },
-  {
-    "source": "Facility/Infrastructure Attack",
-    "target": "1995-1999",
-    "value": 821
-  },
-  {
-    "source": "Unknown",
-    "target": "1995-1999",
-    "value": 933
-  },
-  {
-    "source": "Unarmed Assault",
-    "target": "1995-1999",
-    "value": 207
-  },
-  {
-    "source": "Hostage Taking (Barricade Incident)",
-    "target": "1995-1999",
-    "value": 38
-  },
-  {
-    "source": "Hijacking",
-    "target": "1995-1999",
+    "target": "Transportation",
     "value": 78
   },
   {
-    "source": "Bombing/Explosion",
-    "target": "2000-2004",
-    "value": 3772
+    "source": "Private Citizens & Property",
+    "target": "START Primary Collection",
+    "value": 9369
   },
   {
-    "source": "Armed Assault",
-    "target": "2000-2004",
-    "value": 2016
+    "source": "Private Citizens & Property",
+    "target": "PGIS",
+    "value": 1932
   },
   {
-    "source": "Assassination",
-    "target": "2000-2004",
-    "value": 495
+    "source": "Private Citizens & Property",
+    "target": "CETIS",
+    "value": 1804
   },
   {
-    "source": "Hostage Taking (Kidnapping)",
-    "target": "2000-2004",
-    "value": 472
+    "source": "Private Citizens & Property",
+    "target": "ISVG",
+    "value": 1961
   },
   {
-    "source": "Facility/Infrastructure Attack",
-    "target": "2000-2004",
-    "value": 429
+    "source": "Private Citizens & Property",
+    "target": "Other Source",
+    "value": 391
   },
   {
-    "source": "Unknown",
-    "target": "2000-2004",
-    "value": 166
+    "source": "Military",
+    "target": "START Primary Collection",
+    "value": 6579
   },
   {
-    "source": "Unarmed Assault",
-    "target": "2000-2004",
-    "value": 101
+    "source": "Military",
+    "target": "PGIS",
+    "value": 1529
   },
   {
-    "source": "Hostage Taking (Barricade Incident)",
-    "target": "2000-2004",
-    "value": 15
+    "source": "Military",
+    "target": "CETIS",
+    "value": 675
   },
   {
-    "source": "Hijacking",
-    "target": "2000-2004",
-    "value": 31
+    "source": "Military",
+    "target": "ISVG",
+    "value": 220
   },
   {
-    "source": "Bombing/Explosion",
-    "target": "2005-2009",
-    "value": 9666
+    "source": "Military",
+    "target": "Other Source",
+    "value": 266
   },
   {
-    "source": "Armed Assault",
-    "target": "2005-2009",
-    "value": 4308
+    "source": "Police",
+    "target": "START Primary Collection",
+    "value": 4196
   },
   {
-    "source": "Assassination",
-    "target": "2005-2009",
-    "value": 952
+    "source": "Police",
+    "target": "PGIS",
+    "value": 1027
   },
   {
-    "source": "Hostage Taking (Kidnapping)",
-    "target": "2005-2009",
-    "value": 1212
+    "source": "Police",
+    "target": "CETIS",
+    "value": 830
   },
   {
-    "source": "Facility/Infrastructure Attack",
-    "target": "2005-2009",
-    "value": 905
+    "source": "Police",
+    "target": "ISVG",
+    "value": 630
   },
   {
-    "source": "Unknown",
-    "target": "2005-2009",
-    "value": 350
+    "source": "Police",
+    "target": "Other Source",
+    "value": 210
   },
   {
-    "source": "Unarmed Assault",
-    "target": "2005-2009",
-    "value": 77
+    "source": "Business, Utilities & Communication",
+    "target": "START Primary Collection",
+    "value": 3506
   },
   {
-    "source": "Hostage Taking (Barricade Incident)",
-    "target": "2005-2009",
-    "value": 22
+    "source": "Business, Utilities & Communication",
+    "target": "PGIS",
+    "value": 1712
   },
   {
-    "source": "Hijacking",
-    "target": "2005-2009",
-    "value": 51
+    "source": "Business, Utilities & Communication",
+    "target": "CETIS",
+    "value": 702
   },
   {
-    "source": "Bombing/Explosion",
-    "target": "2010-2014",
-    "value": 25667
+    "source": "Business, Utilities & Communication",
+    "target": "ISVG",
+    "value": 651
   },
   {
-    "source": "Armed Assault",
-    "target": "2010-2014",
-    "value": 11627
+    "source": "Business, Utilities & Communication",
+    "target": "Other Source",
+    "value": 105
   },
   {
-    "source": "Assassination",
-    "target": "2010-2014",
-    "value": 2936
+    "source": "Unknown, religious & militia",
+    "target": "START Primary Collection",
+    "value": 4033
   },
   {
-    "source": "Hostage Taking (Kidnapping)",
-    "target": "2010-2014",
-    "value": 3138
+    "source": "Unknown, religious & militia",
+    "target": "PGIS",
+    "value": 670
   },
   {
-    "source": "Facility/Infrastructure Attack",
-    "target": "2010-2014",
-    "value": 2187
+    "source": "Unknown, religious & militia",
+    "target": "CETIS",
+    "value": 369
   },
   {
-    "source": "Unknown",
-    "target": "2010-2014",
-    "value": 1451
+    "source": "Unknown, religious & militia",
+    "target": "ISVG",
+    "value": 457
   },
   {
-    "source": "Unarmed Assault",
-    "target": "2010-2014",
-    "value": 164
+    "source": "Unknown, religious & militia",
+    "target": "Other Source",
+    "value": 75
   },
   {
-    "source": "Hostage Taking (Barricade Incident)",
-    "target": "2010-2014",
-    "value": 100
+    "source": "Government",
+    "target": "START Primary Collection",
+    "value": 2072
   },
   {
-    "source": "Hijacking",
-    "target": "2010-2014",
-    "value": 93
+    "source": "Government",
+    "target": "PGIS",
+    "value": 1302
   },
   {
-    "source": "Bombing/Explosion",
-    "target": "2015-2017",
-    "value": 19794
+    "source": "Government",
+    "target": "CETIS",
+    "value": 676
   },
   {
-    "source": "Armed Assault",
-    "target": "2015-2017",
-    "value": 8466
+    "source": "Government",
+    "target": "ISVG",
+    "value": 938
   },
   {
-    "source": "Assassination",
-    "target": "2015-2017",
-    "value": 2564
+    "source": "Government",
+    "target": "Other Source",
+    "value": 68
   },
   {
-    "source": "Hostage Taking (Kidnapping)",
-    "target": "2015-2017",
-    "value": 3207
+    "source": "Transportation",
+    "target": "START Primary Collection",
+    "value": 491
   },
   {
-    "source": "Facility/Infrastructure Attack",
-    "target": "2015-2017",
-    "value": 2152
+    "source": "Transportation",
+    "target": "PGIS",
+    "value": 559
   },
   {
-    "source": "Unknown",
-    "target": "2015-2017",
-    "value": 2638
+    "source": "Transportation",
+    "target": "CETIS",
+    "value": 216
   },
   {
-    "source": "Unarmed Assault",
-    "target": "2015-2017",
-    "value": 267
+    "source": "Transportation",
+    "target": "ISVG",
+    "value": 180
   },
   {
-    "source": "Hostage Taking (Barricade Incident)",
-    "target": "2015-2017",
-    "value": 225
-  },
-  {
-    "source": "Hijacking",
-    "target": "2015-2017",
-    "value": 139
+    "source": "Transportation",
+    "target": "Other Source",
+    "value": 73
   }
 ]}
 }
