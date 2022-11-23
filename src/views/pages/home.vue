@@ -4,6 +4,7 @@
             <h1 class="chartTitle">Global Terrorism Attacks 1970-2017</h1>
             <div class="row" style="height: 50%">
                 <h1 class="VisTitle">World Map to Select and visualize all data</h1>
+                <Choropleth v-if="dataExists" :myMapData="myMapData"/>
             </div>
         </div>     
         <div class="column">
@@ -23,6 +24,7 @@
 // import BarChart from "../components/barchart.vue"
 // import Scatter from "../components/scatter.vue"
 import Sankey from "../components/sankey.vue"
+import Choropleth from "../components/choropleth.vue"
 import StackedArea from "../components/stackedArea.vue"
 import * as d3 from "d3";
 import csvPath from '../../assets/data/stackedArea.csv';
@@ -34,14 +36,16 @@ export default {
             myBarData: [],
             myScatterData: [],
             mySankeyData: [],
-            myStackedAreaData: []
+            myStackedAreaData: [], 
+            myMapData: []
         }
     },
     components: {
         // BarChart,
         // Scatter,
         Sankey,
-        StackedArea
+        StackedArea, 
+        Choropleth
     },
     created(){
         /* Fetch via CSV */
