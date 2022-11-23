@@ -18,6 +18,8 @@ df <- read_csv(sprintf(file_path,"globalterrorismdb_0718dist.csv"))
 df$iyear %>% unique()
 df$country_txt %>% unique()
 table(df$region_txt) %>% sort(decreasing = T)
+df %>% group_by(region_txt) %>% 
+  summarise(count = n_distinct(country_txt))
 # df$region_txt %>% unique()
 # table(df$city) %>% sort()
 table(df$attacktype1_txt) %>% sort(decreasing = T)
@@ -52,6 +54,12 @@ df <- df %>% mutate(year_group=case_when(
   iyear<2010 ~ "2005-2009",
   iyear<2015 ~ "2010-2014",
   T ~ "2015-2017"))
+
+df <- df %>% mutate(type_sankey=case_when(
+  attacktype1_txt %>% str_detect("Hostage Taking") ~ "Hostage Taking",
+  T ~ attacktype1_txt
+))
+table(df$type_sankey) %>% sort(decreasing = T)
 
 # target new groups
 df <- df %>% mutate(target_sankey=case_when(
@@ -125,8 +133,8 @@ df <- df %>% mutate(country_sankey=
                       if_else(country_txt %in% order_country,
                               country_txt,"Other"))
 order_country <- c(order_country,"Other")
-order_type <- df %>% group_by(attacktype1_txt) %>% 
-  tally(sort = T) %>% pull(attacktype1_txt)
+order_type <- df %>% group_by(type_sankey) %>% 
+  tally(sort = T) %>% pull(type_sankey)
 order_year <- df$year_group %>% unique()
 order_target <- df %>% group_by(target_sankey) %>% 
   tally(sort=T) %>% pull(target_sankey)
@@ -139,7 +147,7 @@ df <- df %>%
   mutate(
     # region=factor(region,levels=order_region),
     country_sankey=factor(country_sankey,levels=order_country),
-    attacktype1_txt=factor(attacktype1_txt,levels=order_type),
+    type_sankey=factor(type_sankey,levels=order_type),
     year_group=factor(year_group,levels=order_year),
     target_sankey=factor(target_sankey,levels = order_target),
     dbsource_sankey=factor(dbsource_sankey,levels = order_source))
@@ -155,18 +163,18 @@ data <- df %>%
 
 # from country to type
 data2 <- df %>% 
-  group_by(country_sankey,attacktype1_txt) %>% 
+  group_by(country_sankey,type_sankey) %>% 
   summarise(value=n()) %>% 
-  arrange(country_sankey,attacktype1_txt) %>%  ungroup() %>% 
-  rename(source=country_sankey,target=attacktype1_txt) %>% 
+  arrange(country_sankey,type_sankey) %>%  ungroup() %>% 
+  rename(source=country_sankey,target=type_sankey) %>% 
   mutate(source=as.character(source),target=as.character(target))
 
 # from type to target
 data3 <- df %>% 
-  group_by(attacktype1_txt,target_sankey) %>% 
+  group_by(type_sankey,target_sankey) %>% 
   summarise(value=n()) %>% 
-  arrange(attacktype1_txt,target_sankey) %>%  ungroup() %>% 
-  rename(source=attacktype1_txt,target=target_sankey) %>% 
+  arrange(type_sankey,target_sankey) %>%  ungroup() %>% 
+  rename(source=type_sankey,target=target_sankey) %>% 
   mutate(source=as.character(source),target=as.character(target))
 
 # from target to dbsource
@@ -180,11 +188,11 @@ data4 <- df %>%
 
 ## Nodes - SIMPLY THE CATEGORIES and the TOTAL VALUES FOR THE HEIGHT
 nodes_type <- df %>% 
-  group_by(attacktype1_txt) %>% 
+  group_by(type_sankey) %>% 
   summarise(value=n()) %>% 
-  arrange(attacktype1_txt) %>% 
+  arrange(type_sankey) %>% 
   ungroup() %>% 
-  rename(name=attacktype1_txt) %>% mutate(name=as.character(name))
+  rename(name=type_sankey) %>% mutate(name=as.character(name))
 # nodes_region <- df %>% 
 #   group_by(region) %>% 
 #   summarise(value=n()) %>% 

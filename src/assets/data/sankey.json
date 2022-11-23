@@ -152,9 +152,9 @@
   },
   {
     "node": "26",
-    "name": "Hostage Taking (Kidnapping)",
-    "value": 2666,
-    "id": "Hostage-Taking-(Kidnapping)"
+    "name": "Hostage Taking",
+    "value": 2766,
+    "id": "Hostage-Taking"
   },
   {
     "node": "27",
@@ -182,78 +182,72 @@
   },
   {
     "node": "31",
-    "name": "Hostage Taking (Barricade Incident)",
-    "value": 100,
-    "id": "Hostage-Taking-(Barricade-Incident)"
-  },
-  {
-    "node": "32",
     "name": "Private Citizens & Property",
     "value": 15457,
     "id": "Private-Citizens---Property"
   },
   {
-    "node": "33",
+    "node": "32",
     "name": "Military",
     "value": 9269,
     "id": "Military"
   },
   {
-    "node": "34",
+    "node": "33",
     "name": "Police",
     "value": 6893,
     "id": "Police"
   },
   {
-    "node": "35",
+    "node": "34",
     "name": "Business, Utilities & Communication",
     "value": 6676,
     "id": "Business--Utilities---Communication"
   },
   {
-    "node": "36",
+    "node": "35",
     "name": "Unknown, religious & militia",
     "value": 5604,
     "id": "Unknown--religious---militia"
   },
   {
-    "node": "37",
+    "node": "36",
     "name": "Government",
     "value": 5056,
     "id": "Government"
   },
   {
-    "node": "38",
+    "node": "37",
     "name": "Transportation",
     "value": 1519,
     "id": "Transportation"
   },
   {
-    "node": "39",
+    "node": "38",
     "name": "START Primary Collection",
     "value": 30246,
     "id": "START-Primary-Collection"
   },
   {
-    "node": "40",
+    "node": "39",
     "name": "PGIS",
     "value": 8731,
     "id": "PGIS"
   },
   {
-    "node": "41",
+    "node": "40",
     "name": "CETIS",
     "value": 5272,
     "id": "CETIS"
   },
   {
-    "node": "42",
+    "node": "41",
     "name": "ISVG",
     "value": 5037,
     "id": "ISVG"
   },
   {
-    "node": "43",
+    "node": "42",
     "name": "Other Source",
     "value": 1188,
     "id": "Other-Source"
@@ -822,8 +816,8 @@
   },
   {
     "source": "Iraq",
-    "target": "Hostage Taking (Kidnapping)",
-    "value": 946
+    "target": "Hostage Taking",
+    "value": 970
   },
   {
     "source": "Iraq",
@@ -846,11 +840,6 @@
     "value": 13
   },
   {
-    "source": "Iraq",
-    "target": "Hostage Taking (Barricade Incident)",
-    "value": 24
-  },
-  {
     "source": "Turkey",
     "target": "Bombing/Explosion",
     "value": 1957
@@ -867,8 +856,8 @@
   },
   {
     "source": "Turkey",
-    "target": "Hostage Taking (Kidnapping)",
-    "value": 158
+    "target": "Hostage Taking",
+    "value": 171
   },
   {
     "source": "Turkey",
@@ -891,11 +880,6 @@
     "value": 13
   },
   {
-    "source": "Turkey",
-    "target": "Hostage Taking (Barricade Incident)",
-    "value": 13
-  },
-  {
     "source": "Yemen",
     "target": "Bombing/Explosion",
     "value": 1372
@@ -912,8 +896,8 @@
   },
   {
     "source": "Yemen",
-    "target": "Hostage Taking (Kidnapping)",
-    "value": 382
+    "target": "Hostage Taking",
+    "value": 396
   },
   {
     "source": "Yemen",
@@ -936,11 +920,6 @@
     "value": 16
   },
   {
-    "source": "Yemen",
-    "target": "Hostage Taking (Barricade Incident)",
-    "value": 14
-  },
-  {
     "source": "Algeria",
     "target": "Bombing/Explosion",
     "value": 1088
@@ -957,8 +936,8 @@
   },
   {
     "source": "Algeria",
-    "target": "Hostage Taking (Kidnapping)",
-    "value": 97
+    "target": "Hostage Taking",
+    "value": 101
   },
   {
     "source": "Algeria",
@@ -981,11 +960,6 @@
     "value": 9
   },
   {
-    "source": "Algeria",
-    "target": "Hostage Taking (Barricade Incident)",
-    "value": 4
-  },
-  {
     "source": "Egypt",
     "target": "Bombing/Explosion",
     "value": 1184
@@ -1002,8 +976,8 @@
   },
   {
     "source": "Egypt",
-    "target": "Hostage Taking (Kidnapping)",
-    "value": 90
+    "target": "Hostage Taking",
+    "value": 95
   },
   {
     "source": "Egypt",
@@ -1026,11 +1000,6 @@
     "value": 14
   },
   {
-    "source": "Egypt",
-    "target": "Hostage Taking (Barricade Incident)",
-    "value": 5
-  },
-  {
     "source": "Lebanon",
     "target": "Bombing/Explosion",
     "value": 1539
@@ -1047,8 +1016,8 @@
   },
   {
     "source": "Lebanon",
-    "target": "Hostage Taking (Kidnapping)",
-    "value": 181
+    "target": "Hostage Taking",
+    "value": 184
   },
   {
     "source": "Lebanon",
@@ -1071,11 +1040,6 @@
     "value": 18
   },
   {
-    "source": "Lebanon",
-    "target": "Hostage Taking (Barricade Incident)",
-    "value": 3
-  },
-  {
     "source": "Libya",
     "target": "Bombing/Explosion",
     "value": 957
@@ -1092,8 +1056,8 @@
   },
   {
     "source": "Libya",
-    "target": "Hostage Taking (Kidnapping)",
-    "value": 422
+    "target": "Hostage Taking",
+    "value": 433
   },
   {
     "source": "Libya",
@@ -1116,11 +1080,6 @@
     "value": 24
   },
   {
-    "source": "Libya",
-    "target": "Hostage Taking (Barricade Incident)",
-    "value": 11
-  },
-  {
     "source": "West Bank and Gaza Strip",
     "target": "Bombing/Explosion",
     "value": 653
@@ -1137,8 +1096,8 @@
   },
   {
     "source": "West Bank and Gaza Strip",
-    "target": "Hostage Taking (Kidnapping)",
-    "value": 80
+    "target": "Hostage Taking",
+    "value": 83
   },
   {
     "source": "West Bank and Gaza Strip",
@@ -1161,11 +1120,6 @@
     "value": 1
   },
   {
-    "source": "West Bank and Gaza Strip",
-    "target": "Hostage Taking (Barricade Incident)",
-    "value": 3
-  },
-  {
     "source": "Syria",
     "target": "Bombing/Explosion",
     "value": 1489
@@ -1182,8 +1136,8 @@
   },
   {
     "source": "Syria",
-    "target": "Hostage Taking (Kidnapping)",
-    "value": 246
+    "target": "Hostage Taking",
+    "value": 251
   },
   {
     "source": "Syria",
@@ -1206,11 +1160,6 @@
     "value": 3
   },
   {
-    "source": "Syria",
-    "target": "Hostage Taking (Barricade Incident)",
-    "value": 5
-  },
-  {
     "source": "Israel",
     "target": "Bombing/Explosion",
     "value": 1519
@@ -1227,8 +1176,8 @@
   },
   {
     "source": "Israel",
-    "target": "Hostage Taking (Kidnapping)",
-    "value": 21
+    "target": "Hostage Taking",
+    "value": 28
   },
   {
     "source": "Israel",
@@ -1251,11 +1200,6 @@
     "value": 3
   },
   {
-    "source": "Israel",
-    "target": "Hostage Taking (Barricade Incident)",
-    "value": 7
-  },
-  {
     "source": "Iran",
     "target": "Bombing/Explosion",
     "value": 347
@@ -1272,8 +1216,8 @@
   },
   {
     "source": "Iran",
-    "target": "Hostage Taking (Kidnapping)",
-    "value": 20
+    "target": "Hostage Taking",
+    "value": 24
   },
   {
     "source": "Iran",
@@ -1296,11 +1240,6 @@
     "value": 9
   },
   {
-    "source": "Iran",
-    "target": "Hostage Taking (Barricade Incident)",
-    "value": 4
-  },
-  {
     "source": "Other",
     "target": "Bombing/Explosion",
     "value": 517
@@ -1317,8 +1256,8 @@
   },
   {
     "source": "Other",
-    "target": "Hostage Taking (Kidnapping)",
-    "value": 23
+    "target": "Hostage Taking",
+    "value": 30
   },
   {
     "source": "Other",
@@ -1339,11 +1278,6 @@
     "source": "Other",
     "target": "Hijacking",
     "value": 15
-  },
-  {
-    "source": "Other",
-    "target": "Hostage Taking (Barricade Incident)",
-    "value": 7
   },
   {
     "source": "Bombing/Explosion",
@@ -1451,39 +1385,39 @@
     "value": 13
   },
   {
-    "source": "Hostage Taking (Kidnapping)",
+    "source": "Hostage Taking",
     "target": "Private Citizens & Property",
-    "value": 1130
+    "value": 1150
   },
   {
-    "source": "Hostage Taking (Kidnapping)",
+    "source": "Hostage Taking",
     "target": "Military",
-    "value": 286
+    "value": 297
   },
   {
-    "source": "Hostage Taking (Kidnapping)",
+    "source": "Hostage Taking",
     "target": "Police",
-    "value": 163
+    "value": 174
   },
   {
-    "source": "Hostage Taking (Kidnapping)",
+    "source": "Hostage Taking",
     "target": "Business, Utilities & Communication",
-    "value": 541
+    "value": 573
   },
   {
-    "source": "Hostage Taking (Kidnapping)",
+    "source": "Hostage Taking",
     "target": "Unknown, religious & militia",
-    "value": 176
+    "value": 181
   },
   {
-    "source": "Hostage Taking (Kidnapping)",
+    "source": "Hostage Taking",
     "target": "Government",
-    "value": 350
+    "value": 367
   },
   {
-    "source": "Hostage Taking (Kidnapping)",
+    "source": "Hostage Taking",
     "target": "Transportation",
-    "value": 20
+    "value": 24
   },
   {
     "source": "Unknown",
@@ -1624,41 +1558,6 @@
     "source": "Hijacking",
     "target": "Transportation",
     "value": 78
-  },
-  {
-    "source": "Hostage Taking (Barricade Incident)",
-    "target": "Private Citizens & Property",
-    "value": 20
-  },
-  {
-    "source": "Hostage Taking (Barricade Incident)",
-    "target": "Military",
-    "value": 11
-  },
-  {
-    "source": "Hostage Taking (Barricade Incident)",
-    "target": "Police",
-    "value": 11
-  },
-  {
-    "source": "Hostage Taking (Barricade Incident)",
-    "target": "Business, Utilities & Communication",
-    "value": 32
-  },
-  {
-    "source": "Hostage Taking (Barricade Incident)",
-    "target": "Unknown, religious & militia",
-    "value": 5
-  },
-  {
-    "source": "Hostage Taking (Barricade Incident)",
-    "target": "Government",
-    "value": 17
-  },
-  {
-    "source": "Hostage Taking (Barricade Incident)",
-    "target": "Transportation",
-    "value": 4
   },
   {
     "source": "Private Citizens & Property",

@@ -60,12 +60,10 @@ export default {
         const color_countries=["#fff5f0","#fee5d9","#fdcfbb","#fcb399","#fc9677",
                                 "#fb7859","#f65940","#e9392d","#d12120","#b61319",
                                 "#930b13","#67000d"].reverse()  // scale of red
-        const method=["Bombing/Explosion","Armed Assault","Assassination","Hostage Taking (Kidnapping)",
-                        "Facility/Infrastructure Attack","Unknown","Unarmed Assault","Hostage Taking (Barricade Incident)",
-                        "Hijacking"]
+        const method=["Bombing/Explosion","Armed Assault","Assassination","Hostage Taking",
+                        "Facility/Infrastructure Attack","Unknown","Unarmed Assault","Hijacking"]
         const color_method=[ "#1f77b4","#ff7f0e","#2ca02c","#d62728",
-                             "#9467bd","#8c564b","#e377c2","#7f7f7f",
-                             "#bcbd22"]
+                             "#9467bd","#8c564b","#e377c2","#7f7f7f"]
         const group_years=["1970-1974","1975-1979","1980-1984","1985-1989","1990-1994",
                       "1995-1999","2000-2004","2005-2009","2010-2014","2015-2017"]
         const color_years=[ "#076d2e","#076d2e","#076d2e","#076d2e","#076d2e",
