@@ -123,6 +123,17 @@ write.csv(data_stackedArea,
 ## SANKEY DIAGRAM ------
 # COUNTRY, ATTACK TYPE  AND YEAR GROUP
 
+# Dataframe for javascript
+data_js <- df %>% group_by(region,year_group,country_txt,
+                           type_sankey,target_sankey,dbsource_sankey) %>% 
+  summarise(count_attacks=n(),
+            kills=sum(nkill,na.rm=T),
+            wounded=sum(nwound,na.rm=T))
+write.csv(data_js,
+          sprintf(file_path,"dataSankeyAll.csv"))
+
+
+
 ## Order the data for the Sankey, by number of attacks
 
 # order_region <- df %>% group_by(region) %>% 

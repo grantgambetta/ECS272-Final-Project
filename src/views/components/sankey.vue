@@ -57,9 +57,9 @@ export default {
         const countries=["Iraq","Turkey","Yemen","Algeria",
                          "Egypt","Lebanon","Libya","West Bank and Gaza Strip",
                          "Syria","Israel","Iran","Other"]
-        const color_countries=["#fff5f0","#fee5d9","#fdcfbb","#fcb399","#fc9677",
-                                "#fb7859","#f65940","#e9392d","#d12120","#b61319",
-                                "#930b13","#67000d"].reverse()  // scale of red
+        const color_countries=["#fcb59b","#fca082","#fc8a6b","#fb7455",
+                               "#f75d43","#ef4533","#e23028","#d01f20",
+                               "#bb151a","#a40f16","#870811","#67000d"].reverse()  // scale of red
         const method=["Bombing/Explosion","Armed Assault","Assassination","Hostage Taking",
                         "Facility/Infrastructure Attack","Unknown","Unarmed Assault","Hijacking"]
         const color_method=[ "#1f77b4","#ff7f0e","#2ca02c","#d62728",
@@ -76,12 +76,7 @@ export default {
         const source=["START Primary Collection","PGIS","CETIS","ISVG","Other Source"]
         const color_source=["#4e79a7","#f28e2c","#e15759","#76b7b2","#59a14f"]
 
-
-
         const causes = group_years.concat(countries,method,target,source)
-        console.log("HERE")
-        console.log(causes)
-        
         const color = d3.scaleOrdinal()
             .domain(causes)
             .range(color_years.concat(color_countries,color_method,

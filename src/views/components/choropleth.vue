@@ -6,10 +6,12 @@
 import * as d3 from 'd3';
 import { select } from 'd3-selection';
 import { geomap } from 'd3-geomap';
+import { json as d3JSONFetch } from 'd3-fetch';
 // import { sankey, sankeyLinkHorizontal } from 'd3-sankey';
 import dataMap from "../../assets/data/countries.json"
 // import dataSankeyDetail from "../../assets/data/fire_sankey_detail.json"
 // import dataSankeyDetailYear from "../../assets/data/fire_sankey_detailYear.json"
+const path ='../../assets/data/countries.json';
 
 export default {
   name: 'Choropleth',
@@ -26,7 +28,6 @@ export default {
     console.log(dataMap);
     //let localData = dataSankey['data'];
     let localData = dataMap;
-    const path ='../../assets/data/countries.json';
     //console.log(localData)
     // let localDataDetail=dataSankeyDetail["items"];
     // let localDataDetailYear=dataSankeyDetailYear["items"]; 
@@ -36,9 +37,11 @@ export default {
   methods:{
     drawChoropleth(data, id,path) {
         const worldMap = geomap();
-        worldMap.geofile(path);
+        const path1=require('../../assets/data/countries.json')
+        worldMap.geoData(data);
         
         worldMap.draw(select(id));
+
     }
   },
 };
