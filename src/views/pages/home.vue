@@ -2,9 +2,9 @@
     <div class="row">
         <div class="column">
             <h1 class="chartTitle">Global Terrorism Attacks 1970-2017</h1>
-            <div class="row" style="height: 50%">
+            <div class="row1">
                 <h1 class="VisTitle">World Map to Select and visualize all data</h1>
-                <Choropleth v-if="dataExists" :myMapData="myMapData"/>
+                <img src="../../assets/newplot.png">
             </div>
         </div>     
         <div class="column">
