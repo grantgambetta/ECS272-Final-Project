@@ -1,0 +1,899 @@
+{"items": {
+"nodes":[
+  {
+    "node": "1",
+    "name": "1970-1974",
+    "value": 967,
+    "id": "1970-1974"
+  },
+  {
+    "node": "2",
+    "name": "1975-1979",
+    "value": 629,
+    "id": "1975-1979"
+  },
+  {
+    "node": "3",
+    "name": "1980-1984",
+    "value": 352,
+    "id": "1980-1984"
+  },
+  {
+    "node": "4",
+    "name": "1985-1989",
+    "value": 206,
+    "id": "1985-1989"
+  },
+  {
+    "node": "5",
+    "name": "1990-1994",
+    "value": 219,
+    "id": "1990-1994"
+  },
+  {
+    "node": "6",
+    "name": "1995-1999",
+    "value": 435,
+    "id": "1995-1999"
+  },
+  {
+    "node": "7",
+    "name": "2000-2004",
+    "value": 168,
+    "id": "2000-2004"
+  },
+  {
+    "node": "8",
+    "name": "2005-2009",
+    "value": 102,
+    "id": "2005-2009"
+  },
+  {
+    "node": "9",
+    "name": "2010-2014",
+    "value": 144,
+    "id": "2010-2014"
+  },
+  {
+    "node": "10",
+    "name": "2015-2017",
+    "value": 234,
+    "id": "2015-2017"
+  },
+  {
+    "node": "11",
+    "name": "United States",
+    "value": 2836,
+    "id": "United-States"
+  },
+  {
+    "node": "12",
+    "name": "Mexico",
+    "value": 524,
+    "id": "Mexico"
+  },
+  {
+    "node": "13",
+    "name": "Canada",
+    "value": 96,
+    "id": "Canada"
+  },
+  {
+    "node": "14",
+    "name": "Bombing/Explosion",
+    "value": 1534,
+    "id": "Bombing-Explosion"
+  },
+  {
+    "node": "15",
+    "name": "Facility/Infrastructure Attack",
+    "value": 906,
+    "id": "Facility-Infrastructure-Attack"
+  },
+  {
+    "node": "16",
+    "name": "Armed Assault",
+    "value": 448,
+    "id": "Armed-Assault"
+  },
+  {
+    "node": "17",
+    "name": "Assassination",
+    "value": 255,
+    "id": "Assassination"
+  },
+  {
+    "node": "18",
+    "name": "Hostage Taking",
+    "value": 190,
+    "id": "Hostage-Taking"
+  },
+  {
+    "node": "19",
+    "name": "Unarmed Assault",
+    "value": 73,
+    "id": "Unarmed-Assault"
+  },
+  {
+    "node": "20",
+    "name": "Unknown",
+    "value": 32,
+    "id": "Unknown"
+  },
+  {
+    "node": "21",
+    "name": "Hijacking",
+    "value": 18,
+    "id": "Hijacking"
+  },
+  {
+    "node": "22",
+    "name": "Business, Utilities & Communication",
+    "value": 1352,
+    "id": "Business--Utilities---Communication"
+  },
+  {
+    "node": "23",
+    "name": "Private Citizens & Property",
+    "value": 746,
+    "id": "Private-Citizens---Property"
+  },
+  {
+    "node": "24",
+    "name": "Government",
+    "value": 597,
+    "id": "Government"
+  },
+  {
+    "node": "25",
+    "name": "Police",
+    "value": 235,
+    "id": "Police"
+  },
+  {
+    "node": "26",
+    "name": "Unknown, religious & militia",
+    "value": 212,
+    "id": "Unknown--religious---militia"
+  },
+  {
+    "node": "27",
+    "name": "Military",
+    "value": 211,
+    "id": "Military"
+  },
+  {
+    "node": "28",
+    "name": "Transportation",
+    "value": 103,
+    "id": "Transportation"
+  },
+  {
+    "node": "29",
+    "name": "Other Source",
+    "value": 1518,
+    "id": "Other-Source"
+  },
+  {
+    "node": "30",
+    "name": "PGIS",
+    "value": 1362,
+    "id": "PGIS"
+  },
+  {
+    "node": "31",
+    "name": "START Primary Collection",
+    "value": 344,
+    "id": "START-Primary-Collection"
+  },
+  {
+    "node": "32",
+    "name": "CETIS",
+    "value": 175,
+    "id": "CETIS"
+  },
+  {
+    "node": "33",
+    "name": "ISVG",
+    "value": 57,
+    "id": "ISVG"
+  }
+], 
+ "links":[
+  {
+    "source": "1970-1974",
+    "target": "United States",
+    "value": 935
+  },
+  {
+    "source": "1970-1974",
+    "target": "Mexico",
+    "value": 25
+  },
+  {
+    "source": "1970-1974",
+    "target": "Canada",
+    "value": 7
+  },
+  {
+    "source": "1975-1979",
+    "target": "United States",
+    "value": 540
+  },
+  {
+    "source": "1975-1979",
+    "target": "Mexico",
+    "value": 89
+  },
+  {
+    "source": "1980-1984",
+    "target": "United States",
+    "value": 326
+  },
+  {
+    "source": "1980-1984",
+    "target": "Mexico",
+    "value": 17
+  },
+  {
+    "source": "1980-1984",
+    "target": "Canada",
+    "value": 9
+  },
+  {
+    "source": "1985-1989",
+    "target": "United States",
+    "value": 192
+  },
+  {
+    "source": "1985-1989",
+    "target": "Mexico",
+    "value": 8
+  },
+  {
+    "source": "1985-1989",
+    "target": "Canada",
+    "value": 6
+  },
+  {
+    "source": "1990-1994",
+    "target": "United States",
+    "value": 149
+  },
+  {
+    "source": "1990-1994",
+    "target": "Mexico",
+    "value": 63
+  },
+  {
+    "source": "1990-1994",
+    "target": "Canada",
+    "value": 7
+  },
+  {
+    "source": "1995-1999",
+    "target": "United States",
+    "value": 219
+  },
+  {
+    "source": "1995-1999",
+    "target": "Mexico",
+    "value": 202
+  },
+  {
+    "source": "1995-1999",
+    "target": "Canada",
+    "value": 14
+  },
+  {
+    "source": "2000-2004",
+    "target": "United States",
+    "value": 148
+  },
+  {
+    "source": "2000-2004",
+    "target": "Mexico",
+    "value": 13
+  },
+  {
+    "source": "2000-2004",
+    "target": "Canada",
+    "value": 7
+  },
+  {
+    "source": "2005-2009",
+    "target": "United States",
+    "value": 64
+  },
+  {
+    "source": "2005-2009",
+    "target": "Mexico",
+    "value": 27
+  },
+  {
+    "source": "2005-2009",
+    "target": "Canada",
+    "value": 11
+  },
+  {
+    "source": "2010-2014",
+    "target": "United States",
+    "value": 96
+  },
+  {
+    "source": "2010-2014",
+    "target": "Mexico",
+    "value": 36
+  },
+  {
+    "source": "2010-2014",
+    "target": "Canada",
+    "value": 12
+  },
+  {
+    "source": "2015-2017",
+    "target": "United States",
+    "value": 167
+  },
+  {
+    "source": "2015-2017",
+    "target": "Mexico",
+    "value": 44
+  },
+  {
+    "source": "2015-2017",
+    "target": "Canada",
+    "value": 23
+  },
+  {
+    "source": "United States",
+    "target": "Bombing/Explosion",
+    "value": 1383
+  },
+  {
+    "source": "United States",
+    "target": "Facility/Infrastructure Attack",
+    "value": 864
+  },
+  {
+    "source": "United States",
+    "target": "Armed Assault",
+    "value": 284
+  },
+  {
+    "source": "United States",
+    "target": "Assassination",
+    "value": 133
+  },
+  {
+    "source": "United States",
+    "target": "Hostage Taking",
+    "value": 83
+  },
+  {
+    "source": "United States",
+    "target": "Unarmed Assault",
+    "value": 61
+  },
+  {
+    "source": "United States",
+    "target": "Unknown",
+    "value": 11
+  },
+  {
+    "source": "United States",
+    "target": "Hijacking",
+    "value": 17
+  },
+  {
+    "source": "Mexico",
+    "target": "Bombing/Explosion",
+    "value": 110
+  },
+  {
+    "source": "Mexico",
+    "target": "Facility/Infrastructure Attack",
+    "value": 19
+  },
+  {
+    "source": "Mexico",
+    "target": "Armed Assault",
+    "value": 153
+  },
+  {
+    "source": "Mexico",
+    "target": "Assassination",
+    "value": 113
+  },
+  {
+    "source": "Mexico",
+    "target": "Hostage Taking",
+    "value": 104
+  },
+  {
+    "source": "Mexico",
+    "target": "Unarmed Assault",
+    "value": 4
+  },
+  {
+    "source": "Mexico",
+    "target": "Unknown",
+    "value": 20
+  },
+  {
+    "source": "Mexico",
+    "target": "Hijacking",
+    "value": 1
+  },
+  {
+    "source": "Canada",
+    "target": "Bombing/Explosion",
+    "value": 41
+  },
+  {
+    "source": "Canada",
+    "target": "Facility/Infrastructure Attack",
+    "value": 23
+  },
+  {
+    "source": "Canada",
+    "target": "Armed Assault",
+    "value": 11
+  },
+  {
+    "source": "Canada",
+    "target": "Assassination",
+    "value": 9
+  },
+  {
+    "source": "Canada",
+    "target": "Hostage Taking",
+    "value": 3
+  },
+  {
+    "source": "Canada",
+    "target": "Unarmed Assault",
+    "value": 8
+  },
+  {
+    "source": "Canada",
+    "target": "Unknown",
+    "value": 1
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Business, Utilities & Communication",
+    "value": 712
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Private Citizens & Property",
+    "value": 198
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Government",
+    "value": 312
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Police",
+    "value": 82
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Unknown, religious & militia",
+    "value": 53
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Military",
+    "value": 110
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Transportation",
+    "value": 67
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Business, Utilities & Communication",
+    "value": 363
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Private Citizens & Property",
+    "value": 266
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Government",
+    "value": 101
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Police",
+    "value": 15
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Unknown, religious & militia",
+    "value": 94
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Military",
+    "value": 60
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Transportation",
+    "value": 7
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Business, Utilities & Communication",
+    "value": 76
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Private Citizens & Property",
+    "value": 142
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Government",
+    "value": 46
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Police",
+    "value": 109
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Unknown, religious & militia",
+    "value": 30
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Military",
+    "value": 29
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Transportation",
+    "value": 16
+  },
+  {
+    "source": "Assassination",
+    "target": "Business, Utilities & Communication",
+    "value": 63
+  },
+  {
+    "source": "Assassination",
+    "target": "Private Citizens & Property",
+    "value": 70
+  },
+  {
+    "source": "Assassination",
+    "target": "Government",
+    "value": 77
+  },
+  {
+    "source": "Assassination",
+    "target": "Police",
+    "value": 18
+  },
+  {
+    "source": "Assassination",
+    "target": "Unknown, religious & militia",
+    "value": 21
+  },
+  {
+    "source": "Assassination",
+    "target": "Military",
+    "value": 6
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Business, Utilities & Communication",
+    "value": 100
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Private Citizens & Property",
+    "value": 42
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Government",
+    "value": 33
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Police",
+    "value": 4
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Unknown, religious & militia",
+    "value": 8
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Military",
+    "value": 3
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Business, Utilities & Communication",
+    "value": 28
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Private Citizens & Property",
+    "value": 19
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Government",
+    "value": 20
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Police",
+    "value": 2
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Unknown, religious & militia",
+    "value": 3
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Transportation",
+    "value": 1
+  },
+  {
+    "source": "Unknown",
+    "target": "Business, Utilities & Communication",
+    "value": 9
+  },
+  {
+    "source": "Unknown",
+    "target": "Private Citizens & Property",
+    "value": 6
+  },
+  {
+    "source": "Unknown",
+    "target": "Government",
+    "value": 7
+  },
+  {
+    "source": "Unknown",
+    "target": "Police",
+    "value": 5
+  },
+  {
+    "source": "Unknown",
+    "target": "Unknown, religious & militia",
+    "value": 2
+  },
+  {
+    "source": "Unknown",
+    "target": "Military",
+    "value": 2
+  },
+  {
+    "source": "Unknown",
+    "target": "Transportation",
+    "value": 1
+  },
+  {
+    "source": "Hijacking",
+    "target": "Business, Utilities & Communication",
+    "value": 1
+  },
+  {
+    "source": "Hijacking",
+    "target": "Private Citizens & Property",
+    "value": 3
+  },
+  {
+    "source": "Hijacking",
+    "target": "Government",
+    "value": 1
+  },
+  {
+    "source": "Hijacking",
+    "target": "Unknown, religious & militia",
+    "value": 1
+  },
+  {
+    "source": "Hijacking",
+    "target": "Military",
+    "value": 1
+  },
+  {
+    "source": "Hijacking",
+    "target": "Transportation",
+    "value": 11
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Other Source",
+    "value": 622
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "PGIS",
+    "value": 541
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "START Primary Collection",
+    "value": 96
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "CETIS",
+    "value": 67
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "ISVG",
+    "value": 26
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Other Source",
+    "value": 373
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "PGIS",
+    "value": 222
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "START Primary Collection",
+    "value": 82
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "CETIS",
+    "value": 59
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "ISVG",
+    "value": 10
+  },
+  {
+    "source": "Government",
+    "target": "Other Source",
+    "value": 208
+  },
+  {
+    "source": "Government",
+    "target": "PGIS",
+    "value": 336
+  },
+  {
+    "source": "Government",
+    "target": "START Primary Collection",
+    "value": 22
+  },
+  {
+    "source": "Government",
+    "target": "CETIS",
+    "value": 25
+  },
+  {
+    "source": "Government",
+    "target": "ISVG",
+    "value": 6
+  },
+  {
+    "source": "Police",
+    "target": "Other Source",
+    "value": 95
+  },
+  {
+    "source": "Police",
+    "target": "PGIS",
+    "value": 102
+  },
+  {
+    "source": "Police",
+    "target": "START Primary Collection",
+    "value": 26
+  },
+  {
+    "source": "Police",
+    "target": "CETIS",
+    "value": 8
+  },
+  {
+    "source": "Police",
+    "target": "ISVG",
+    "value": 4
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Other Source",
+    "value": 67
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "PGIS",
+    "value": 43
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "START Primary Collection",
+    "value": 88
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "CETIS",
+    "value": 8
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "ISVG",
+    "value": 6
+  },
+  {
+    "source": "Military",
+    "target": "Other Source",
+    "value": 125
+  },
+  {
+    "source": "Military",
+    "target": "PGIS",
+    "value": 68
+  },
+  {
+    "source": "Military",
+    "target": "START Primary Collection",
+    "value": 10
+  },
+  {
+    "source": "Military",
+    "target": "CETIS",
+    "value": 7
+  },
+  {
+    "source": "Military",
+    "target": "ISVG",
+    "value": 1
+  },
+  {
+    "source": "Transportation",
+    "target": "Other Source",
+    "value": 28
+  },
+  {
+    "source": "Transportation",
+    "target": "PGIS",
+    "value": 50
+  },
+  {
+    "source": "Transportation",
+    "target": "START Primary Collection",
+    "value": 20
+  },
+  {
+    "source": "Transportation",
+    "target": "CETIS",
+    "value": 1
+  },
+  {
+    "source": "Transportation",
+    "target": "ISVG",
+    "value": 4
+  }
+]}
+}

@@ -1,0 +1,1418 @@
+{"items": {
+"nodes":[
+  {
+    "node": "1",
+    "name": "1970-1974",
+    "value": 37,
+    "id": "1970-1974"
+  },
+  {
+    "node": "2",
+    "name": "1975-1979",
+    "value": 157,
+    "id": "1975-1979"
+  },
+  {
+    "node": "3",
+    "name": "1980-1984",
+    "value": 248,
+    "id": "1980-1984"
+  },
+  {
+    "node": "4",
+    "name": "1985-1989",
+    "value": 838,
+    "id": "1985-1989"
+  },
+  {
+    "node": "5",
+    "name": "1990-1994",
+    "value": 984,
+    "id": "1990-1994"
+  },
+  {
+    "node": "6",
+    "name": "1995-1999",
+    "value": 659,
+    "id": "1995-1999"
+  },
+  {
+    "node": "7",
+    "name": "2000-2004",
+    "value": 791,
+    "id": "2000-2004"
+  },
+  {
+    "node": "8",
+    "name": "2005-2009",
+    "value": 1916,
+    "id": "2005-2009"
+  },
+  {
+    "node": "9",
+    "name": "2010-2014",
+    "value": 3686,
+    "id": "2010-2014"
+  },
+  {
+    "node": "10",
+    "name": "2015-2017",
+    "value": 3169,
+    "id": "2015-2017"
+  },
+  {
+    "node": "11",
+    "name": "Philippines",
+    "value": 6908,
+    "id": "Philippines"
+  },
+  {
+    "node": "12",
+    "name": "Thailand",
+    "value": 3849,
+    "id": "Thailand"
+  },
+  {
+    "node": "13",
+    "name": "Indonesia",
+    "value": 761,
+    "id": "Indonesia"
+  },
+  {
+    "node": "14",
+    "name": "Myanmar",
+    "value": 546,
+    "id": "Myanmar"
+  },
+  {
+    "node": "15",
+    "name": "Cambodia",
+    "value": 259,
+    "id": "Cambodia"
+  },
+  {
+    "node": "16",
+    "name": "Malaysia",
+    "value": 99,
+    "id": "Malaysia"
+  },
+  {
+    "node": "17",
+    "name": "Laos",
+    "value": 27,
+    "id": "Laos"
+  },
+  {
+    "node": "18",
+    "name": "Vietnam",
+    "value": 12,
+    "id": "Vietnam"
+  },
+  {
+    "node": "19",
+    "name": "East Timor",
+    "value": 10,
+    "id": "East-Timor"
+  },
+  {
+    "node": "20",
+    "name": "Singapore",
+    "value": 7,
+    "id": "Singapore"
+  },
+  {
+    "node": "21",
+    "name": "Brunei",
+    "value": 6,
+    "id": "Brunei"
+  },
+  {
+    "node": "22",
+    "name": "Other",
+    "value": 1,
+    "id": "Other"
+  },
+  {
+    "node": "23",
+    "name": "Bombing/Explosion",
+    "value": 4818,
+    "id": "Bombing-Explosion"
+  },
+  {
+    "node": "24",
+    "name": "Armed Assault",
+    "value": 4022,
+    "id": "Armed-Assault"
+  },
+  {
+    "node": "25",
+    "name": "Assassination",
+    "value": 1369,
+    "id": "Assassination"
+  },
+  {
+    "node": "26",
+    "name": "Unknown",
+    "value": 433,
+    "id": "Unknown"
+  },
+  {
+    "node": "27",
+    "name": "Hostage Taking",
+    "value": 811,
+    "id": "Hostage-Taking"
+  },
+  {
+    "node": "28",
+    "name": "Facility/Infrastructure Attack",
+    "value": 948,
+    "id": "Facility-Infrastructure-Attack"
+  },
+  {
+    "node": "29",
+    "name": "Unarmed Assault",
+    "value": 25,
+    "id": "Unarmed-Assault"
+  },
+  {
+    "node": "30",
+    "name": "Hijacking",
+    "value": 59,
+    "id": "Hijacking"
+  },
+  {
+    "node": "31",
+    "name": "Private Citizens & Property",
+    "value": 2558,
+    "id": "Private-Citizens---Property"
+  },
+  {
+    "node": "32",
+    "name": "Business, Utilities & Communication",
+    "value": 2883,
+    "id": "Business--Utilities---Communication"
+  },
+  {
+    "node": "33",
+    "name": "Military",
+    "value": 2288,
+    "id": "Military"
+  },
+  {
+    "node": "34",
+    "name": "Government",
+    "value": 2091,
+    "id": "Government"
+  },
+  {
+    "node": "35",
+    "name": "Transportation",
+    "value": 585,
+    "id": "Transportation"
+  },
+  {
+    "node": "36",
+    "name": "Police",
+    "value": 1348,
+    "id": "Police"
+  },
+  {
+    "node": "37",
+    "name": "Unknown, religious & militia",
+    "value": 732,
+    "id": "Unknown--religious---militia"
+  },
+  {
+    "node": "38",
+    "name": "START Primary Collection",
+    "value": 6099,
+    "id": "START-Primary-Collection"
+  },
+  {
+    "node": "39",
+    "name": "PGIS",
+    "value": 2765,
+    "id": "PGIS"
+  },
+  {
+    "node": "40",
+    "name": "CETIS",
+    "value": 1726,
+    "id": "CETIS"
+  },
+  {
+    "node": "41",
+    "name": "ISVG",
+    "value": 1774,
+    "id": "ISVG"
+  },
+  {
+    "node": "42",
+    "name": "Other Source",
+    "value": 121,
+    "id": "Other-Source"
+  }
+], 
+ "links":[
+  {
+    "source": "1970-1974",
+    "target": "Philippines",
+    "value": 14
+  },
+  {
+    "source": "1970-1974",
+    "target": "Thailand",
+    "value": 0
+  },
+  {
+    "source": "1970-1974",
+    "target": "Myanmar",
+    "value": 0
+  },
+  {
+    "source": "1970-1974",
+    "target": "Cambodia",
+    "value": 10
+  },
+  {
+    "source": "1970-1974",
+    "target": "Malaysia",
+    "value": 8
+  },
+  {
+    "source": "1970-1974",
+    "target": "Singapore",
+    "value": 0
+  },
+  {
+    "source": "1970-1974",
+    "target": "Brunei",
+    "value": 0
+  },
+  {
+    "source": "1970-1974",
+    "target": "Other",
+    "value": 0
+  },
+  {
+    "source": "1975-1979",
+    "target": "Philippines",
+    "value": 387
+  },
+  {
+    "source": "1975-1979",
+    "target": "Thailand",
+    "value": 144
+  },
+  {
+    "source": "1975-1979",
+    "target": "Indonesia",
+    "value": 2
+  },
+  {
+    "source": "1975-1979",
+    "target": "Myanmar",
+    "value": 175
+  },
+  {
+    "source": "1975-1979",
+    "target": "Cambodia",
+    "value": 0
+  },
+  {
+    "source": "1975-1979",
+    "target": "Malaysia",
+    "value": 4
+  },
+  {
+    "source": "1980-1984",
+    "target": "Philippines",
+    "value": 1290
+  },
+  {
+    "source": "1980-1984",
+    "target": "Thailand",
+    "value": 273
+  },
+  {
+    "source": "1980-1984",
+    "target": "Indonesia",
+    "value": 0
+  },
+  {
+    "source": "1980-1984",
+    "target": "Myanmar",
+    "value": 58
+  },
+  {
+    "source": "1980-1984",
+    "target": "Malaysia",
+    "value": 0
+  },
+  {
+    "source": "1985-1989",
+    "target": "Philippines",
+    "value": 1796
+  },
+  {
+    "source": "1985-1989",
+    "target": "Thailand",
+    "value": 56
+  },
+  {
+    "source": "1985-1989",
+    "target": "Indonesia",
+    "value": 43
+  },
+  {
+    "source": "1985-1989",
+    "target": "Myanmar",
+    "value": 317
+  },
+  {
+    "source": "1985-1989",
+    "target": "Cambodia",
+    "value": 0
+  },
+  {
+    "source": "1985-1989",
+    "target": "Malaysia",
+    "value": 64
+  },
+  {
+    "source": "1985-1989",
+    "target": "Laos",
+    "value": 0
+  },
+  {
+    "source": "1985-1989",
+    "target": "Singapore",
+    "value": 0
+  },
+  {
+    "source": "1990-1994",
+    "target": "Philippines",
+    "value": 1250
+  },
+  {
+    "source": "1990-1994",
+    "target": "Thailand",
+    "value": 218
+  },
+  {
+    "source": "1990-1994",
+    "target": "Indonesia",
+    "value": 66
+  },
+  {
+    "source": "1990-1994",
+    "target": "Myanmar",
+    "value": 205
+  },
+  {
+    "source": "1990-1994",
+    "target": "Cambodia",
+    "value": 254
+  },
+  {
+    "source": "1990-1994",
+    "target": "Malaysia",
+    "value": 4
+  },
+  {
+    "source": "1990-1994",
+    "target": "Laos",
+    "value": 1
+  },
+  {
+    "source": "1990-1994",
+    "target": "Vietnam",
+    "value": 21
+  },
+  {
+    "source": "1990-1994",
+    "target": "Singapore",
+    "value": 3
+  },
+  {
+    "source": "1990-1994",
+    "target": "Brunei",
+    "value": 1
+  },
+  {
+    "source": "1995-1999",
+    "target": "Philippines",
+    "value": 793
+  },
+  {
+    "source": "1995-1999",
+    "target": "Thailand",
+    "value": 107
+  },
+  {
+    "source": "1995-1999",
+    "target": "Indonesia",
+    "value": 422
+  },
+  {
+    "source": "1995-1999",
+    "target": "Myanmar",
+    "value": 141
+  },
+  {
+    "source": "1995-1999",
+    "target": "Cambodia",
+    "value": 483
+  },
+  {
+    "source": "1995-1999",
+    "target": "Laos",
+    "value": 1
+  },
+  {
+    "source": "1995-1999",
+    "target": "Vietnam",
+    "value": 6
+  },
+  {
+    "source": "2000-2004",
+    "target": "Philippines",
+    "value": 1950
+  },
+  {
+    "source": "2000-2004",
+    "target": "Thailand",
+    "value": 264
+  },
+  {
+    "source": "2000-2004",
+    "target": "Indonesia",
+    "value": 1451
+  },
+  {
+    "source": "2000-2004",
+    "target": "Myanmar",
+    "value": 92
+  },
+  {
+    "source": "2000-2004",
+    "target": "Cambodia",
+    "value": 37
+  },
+  {
+    "source": "2000-2004",
+    "target": "Malaysia",
+    "value": 2
+  },
+  {
+    "source": "2000-2004",
+    "target": "Laos",
+    "value": 56
+  },
+  {
+    "source": "2000-2004",
+    "target": "Vietnam",
+    "value": 0
+  },
+  {
+    "source": "2000-2004",
+    "target": "East Timor",
+    "value": 6
+  },
+  {
+    "source": "2005-2009",
+    "target": "Philippines",
+    "value": 1458
+  },
+  {
+    "source": "2005-2009",
+    "target": "Thailand",
+    "value": 2504
+  },
+  {
+    "source": "2005-2009",
+    "target": "Indonesia",
+    "value": 240
+  },
+  {
+    "source": "2005-2009",
+    "target": "Myanmar",
+    "value": 231
+  },
+  {
+    "source": "2005-2009",
+    "target": "Cambodia",
+    "value": 2
+  },
+  {
+    "source": "2005-2009",
+    "target": "Malaysia",
+    "value": 1
+  },
+  {
+    "source": "2005-2009",
+    "target": "East Timor",
+    "value": 1
+  },
+  {
+    "source": "2010-2014",
+    "target": "Philippines",
+    "value": 2285
+  },
+  {
+    "source": "2010-2014",
+    "target": "Thailand",
+    "value": 3134
+  },
+  {
+    "source": "2010-2014",
+    "target": "Indonesia",
+    "value": 142
+  },
+  {
+    "source": "2010-2014",
+    "target": "Myanmar",
+    "value": 166
+  },
+  {
+    "source": "2010-2014",
+    "target": "Cambodia",
+    "value": 0
+  },
+  {
+    "source": "2010-2014",
+    "target": "Malaysia",
+    "value": 6
+  },
+  {
+    "source": "2010-2014",
+    "target": "Laos",
+    "value": 0
+  },
+  {
+    "source": "2015-2017",
+    "target": "Philippines",
+    "value": 2144
+  },
+  {
+    "source": "2015-2017",
+    "target": "Thailand",
+    "value": 1118
+  },
+  {
+    "source": "2015-2017",
+    "target": "Indonesia",
+    "value": 79
+  },
+  {
+    "source": "2015-2017",
+    "target": "Myanmar",
+    "value": 246
+  },
+  {
+    "source": "2015-2017",
+    "target": "Malaysia",
+    "value": 12
+  },
+  {
+    "source": "2015-2017",
+    "target": "Laos",
+    "value": 15
+  },
+  {
+    "source": "2015-2017",
+    "target": "Vietnam",
+    "value": 0
+  },
+  {
+    "source": "Philippines",
+    "target": "Bombing/Explosion",
+    "value": 8602
+  },
+  {
+    "source": "Philippines",
+    "target": "Armed Assault",
+    "value": 3300
+  },
+  {
+    "source": "Philippines",
+    "target": "Assassination",
+    "value": 640
+  },
+  {
+    "source": "Philippines",
+    "target": "Unknown",
+    "value": 398
+  },
+  {
+    "source": "Philippines",
+    "target": "Hostage Taking",
+    "value": 173
+  },
+  {
+    "source": "Philippines",
+    "target": "Facility/Infrastructure Attack",
+    "value": 87
+  },
+  {
+    "source": "Philippines",
+    "target": "Unarmed Assault",
+    "value": 140
+  },
+  {
+    "source": "Philippines",
+    "target": "Hijacking",
+    "value": 27
+  },
+  {
+    "source": "Thailand",
+    "target": "Bombing/Explosion",
+    "value": 6457
+  },
+  {
+    "source": "Thailand",
+    "target": "Armed Assault",
+    "value": 1122
+  },
+  {
+    "source": "Thailand",
+    "target": "Assassination",
+    "value": 124
+  },
+  {
+    "source": "Thailand",
+    "target": "Unknown",
+    "value": 45
+  },
+  {
+    "source": "Thailand",
+    "target": "Hostage Taking",
+    "value": 4
+  },
+  {
+    "source": "Thailand",
+    "target": "Facility/Infrastructure Attack",
+    "value": 58
+  },
+  {
+    "source": "Thailand",
+    "target": "Unarmed Assault",
+    "value": 3
+  },
+  {
+    "source": "Thailand",
+    "target": "Hijacking",
+    "value": 5
+  },
+  {
+    "source": "Indonesia",
+    "target": "Bombing/Explosion",
+    "value": 1694
+  },
+  {
+    "source": "Indonesia",
+    "target": "Armed Assault",
+    "value": 545
+  },
+  {
+    "source": "Indonesia",
+    "target": "Assassination",
+    "value": 31
+  },
+  {
+    "source": "Indonesia",
+    "target": "Unknown",
+    "value": 97
+  },
+  {
+    "source": "Indonesia",
+    "target": "Hostage Taking",
+    "value": 12
+  },
+  {
+    "source": "Indonesia",
+    "target": "Facility/Infrastructure Attack",
+    "value": 59
+  },
+  {
+    "source": "Indonesia",
+    "target": "Unarmed Assault",
+    "value": 7
+  },
+  {
+    "source": "Indonesia",
+    "target": "Hijacking",
+    "value": 0
+  },
+  {
+    "source": "Myanmar",
+    "target": "Bombing/Explosion",
+    "value": 1107
+  },
+  {
+    "source": "Myanmar",
+    "target": "Armed Assault",
+    "value": 439
+  },
+  {
+    "source": "Myanmar",
+    "target": "Assassination",
+    "value": 9
+  },
+  {
+    "source": "Myanmar",
+    "target": "Unknown",
+    "value": 50
+  },
+  {
+    "source": "Myanmar",
+    "target": "Hostage Taking",
+    "value": 26
+  },
+  {
+    "source": "Myanmar",
+    "target": "Facility/Infrastructure Attack",
+    "value": 0
+  },
+  {
+    "source": "Myanmar",
+    "target": "Hijacking",
+    "value": 0
+  },
+  {
+    "source": "Cambodia",
+    "target": "Bombing/Explosion",
+    "value": 518
+  },
+  {
+    "source": "Cambodia",
+    "target": "Armed Assault",
+    "value": 233
+  },
+  {
+    "source": "Cambodia",
+    "target": "Assassination",
+    "value": 16
+  },
+  {
+    "source": "Cambodia",
+    "target": "Unknown",
+    "value": 15
+  },
+  {
+    "source": "Cambodia",
+    "target": "Hostage Taking",
+    "value": 2
+  },
+  {
+    "source": "Cambodia",
+    "target": "Facility/Infrastructure Attack",
+    "value": 0
+  },
+  {
+    "source": "Cambodia",
+    "target": "Unarmed Assault",
+    "value": 1
+  },
+  {
+    "source": "Cambodia",
+    "target": "Hijacking",
+    "value": 1
+  },
+  {
+    "source": "Malaysia",
+    "target": "Bombing/Explosion",
+    "value": 85
+  },
+  {
+    "source": "Malaysia",
+    "target": "Armed Assault",
+    "value": 8
+  },
+  {
+    "source": "Malaysia",
+    "target": "Assassination",
+    "value": 0
+  },
+  {
+    "source": "Malaysia",
+    "target": "Unknown",
+    "value": 3
+  },
+  {
+    "source": "Malaysia",
+    "target": "Hostage Taking",
+    "value": 4
+  },
+  {
+    "source": "Malaysia",
+    "target": "Facility/Infrastructure Attack",
+    "value": 0
+  },
+  {
+    "source": "Malaysia",
+    "target": "Unarmed Assault",
+    "value": 1
+  },
+  {
+    "source": "Malaysia",
+    "target": "Hijacking",
+    "value": 0
+  },
+  {
+    "source": "Laos",
+    "target": "Bombing/Explosion",
+    "value": 57
+  },
+  {
+    "source": "Laos",
+    "target": "Armed Assault",
+    "value": 15
+  },
+  {
+    "source": "Laos",
+    "target": "Unknown",
+    "value": 1
+  },
+  {
+    "source": "Laos",
+    "target": "Hostage Taking",
+    "value": 0
+  },
+  {
+    "source": "Vietnam",
+    "target": "Bombing/Explosion",
+    "value": 26
+  },
+  {
+    "source": "Vietnam",
+    "target": "Armed Assault",
+    "value": 0
+  },
+  {
+    "source": "Vietnam",
+    "target": "Assassination",
+    "value": 0
+  },
+  {
+    "source": "Vietnam",
+    "target": "Unknown",
+    "value": 1
+  },
+  {
+    "source": "Vietnam",
+    "target": "Facility/Infrastructure Attack",
+    "value": 0
+  },
+  {
+    "source": "Vietnam",
+    "target": "Unarmed Assault",
+    "value": 0
+  },
+  {
+    "source": "Vietnam",
+    "target": "Hijacking",
+    "value": 0
+  },
+  {
+    "source": "East Timor",
+    "target": "Bombing/Explosion",
+    "value": 1
+  },
+  {
+    "source": "East Timor",
+    "target": "Armed Assault",
+    "value": 5
+  },
+  {
+    "source": "East Timor",
+    "target": "Assassination",
+    "value": 0
+  },
+  {
+    "source": "East Timor",
+    "target": "Hostage Taking",
+    "value": 1
+  },
+  {
+    "source": "East Timor",
+    "target": "Facility/Infrastructure Attack",
+    "value": 0
+  },
+  {
+    "source": "Singapore",
+    "target": "Bombing/Explosion",
+    "value": 0
+  },
+  {
+    "source": "Singapore",
+    "target": "Assassination",
+    "value": 0
+  },
+  {
+    "source": "Singapore",
+    "target": "Unknown",
+    "value": 1
+  },
+  {
+    "source": "Singapore",
+    "target": "Hostage Taking",
+    "value": 0
+  },
+  {
+    "source": "Singapore",
+    "target": "Hijacking",
+    "value": 2
+  },
+  {
+    "source": "Brunei",
+    "target": "Assassination",
+    "value": 1
+  },
+  {
+    "source": "Other",
+    "target": "Bombing/Explosion",
+    "value": 0
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Private Citizens & Property",
+    "value": 4980
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Business, Utilities & Communication",
+    "value": 5204
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Military",
+    "value": 2551
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Government",
+    "value": 1099
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Transportation",
+    "value": 1990
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Police",
+    "value": 1306
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Unknown, religious & militia",
+    "value": 1417
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Private Citizens & Property",
+    "value": 1162
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Business, Utilities & Communication",
+    "value": 466
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Military",
+    "value": 2043
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Government",
+    "value": 689
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Transportation",
+    "value": 351
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Police",
+    "value": 701
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Unknown, religious & militia",
+    "value": 255
+  },
+  {
+    "source": "Assassination",
+    "target": "Private Citizens & Property",
+    "value": 78
+  },
+  {
+    "source": "Assassination",
+    "target": "Business, Utilities & Communication",
+    "value": 52
+  },
+  {
+    "source": "Assassination",
+    "target": "Military",
+    "value": 15
+  },
+  {
+    "source": "Assassination",
+    "target": "Government",
+    "value": 624
+  },
+  {
+    "source": "Assassination",
+    "target": "Police",
+    "value": 38
+  },
+  {
+    "source": "Assassination",
+    "target": "Unknown, religious & militia",
+    "value": 14
+  },
+  {
+    "source": "Unknown",
+    "target": "Private Citizens & Property",
+    "value": 110
+  },
+  {
+    "source": "Unknown",
+    "target": "Business, Utilities & Communication",
+    "value": 80
+  },
+  {
+    "source": "Unknown",
+    "target": "Military",
+    "value": 226
+  },
+  {
+    "source": "Unknown",
+    "target": "Government",
+    "value": 52
+  },
+  {
+    "source": "Unknown",
+    "target": "Transportation",
+    "value": 26
+  },
+  {
+    "source": "Unknown",
+    "target": "Police",
+    "value": 96
+  },
+  {
+    "source": "Unknown",
+    "target": "Unknown, religious & militia",
+    "value": 21
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Private Citizens & Property",
+    "value": 78
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Business, Utilities & Communication",
+    "value": 70
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Military",
+    "value": 24
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Government",
+    "value": 15
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Transportation",
+    "value": 2
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Police",
+    "value": 29
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Unknown, religious & militia",
+    "value": 4
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Private Citizens & Property",
+    "value": 59
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Business, Utilities & Communication",
+    "value": 48
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Military",
+    "value": 5
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Government",
+    "value": 38
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Transportation",
+    "value": 36
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Police",
+    "value": 14
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Unknown, religious & militia",
+    "value": 4
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Private Citizens & Property",
+    "value": 7
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Business, Utilities & Communication",
+    "value": 2
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Military",
+    "value": 0
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Government",
+    "value": 2
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Transportation",
+    "value": 0
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Police",
+    "value": 140
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Unknown, religious & militia",
+    "value": 1
+  },
+  {
+    "source": "Hijacking",
+    "target": "Private Citizens & Property",
+    "value": 2
+  },
+  {
+    "source": "Hijacking",
+    "target": "Business, Utilities & Communication",
+    "value": 1
+  },
+  {
+    "source": "Hijacking",
+    "target": "Government",
+    "value": 1
+  },
+  {
+    "source": "Hijacking",
+    "target": "Transportation",
+    "value": 31
+  },
+  {
+    "source": "Hijacking",
+    "target": "Police",
+    "value": 0
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "START Primary Collection",
+    "value": 1009
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "PGIS",
+    "value": 1944
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "CETIS",
+    "value": 2308
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "ISVG",
+    "value": 1036
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Other Source",
+    "value": 179
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "START Primary Collection",
+    "value": 1681
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "PGIS",
+    "value": 1591
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "CETIS",
+    "value": 1836
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "ISVG",
+    "value": 786
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Other Source",
+    "value": 29
+  },
+  {
+    "source": "Military",
+    "target": "START Primary Collection",
+    "value": 3050
+  },
+  {
+    "source": "Military",
+    "target": "PGIS",
+    "value": 1133
+  },
+  {
+    "source": "Military",
+    "target": "CETIS",
+    "value": 562
+  },
+  {
+    "source": "Military",
+    "target": "ISVG",
+    "value": 119
+  },
+  {
+    "source": "Military",
+    "target": "Other Source",
+    "value": 0
+  },
+  {
+    "source": "Government",
+    "target": "START Primary Collection",
+    "value": 684
+  },
+  {
+    "source": "Government",
+    "target": "PGIS",
+    "value": 876
+  },
+  {
+    "source": "Government",
+    "target": "CETIS",
+    "value": 490
+  },
+  {
+    "source": "Government",
+    "target": "ISVG",
+    "value": 391
+  },
+  {
+    "source": "Government",
+    "target": "Other Source",
+    "value": 79
+  },
+  {
+    "source": "Transportation",
+    "target": "START Primary Collection",
+    "value": 231
+  },
+  {
+    "source": "Transportation",
+    "target": "PGIS",
+    "value": 1115
+  },
+  {
+    "source": "Transportation",
+    "target": "CETIS",
+    "value": 805
+  },
+  {
+    "source": "Transportation",
+    "target": "ISVG",
+    "value": 201
+  },
+  {
+    "source": "Transportation",
+    "target": "Other Source",
+    "value": 84
+  },
+  {
+    "source": "Police",
+    "target": "START Primary Collection",
+    "value": 1165
+  },
+  {
+    "source": "Police",
+    "target": "PGIS",
+    "value": 429
+  },
+  {
+    "source": "Police",
+    "target": "CETIS",
+    "value": 371
+  },
+  {
+    "source": "Police",
+    "target": "ISVG",
+    "value": 190
+  },
+  {
+    "source": "Police",
+    "target": "Other Source",
+    "value": 169
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "START Primary Collection",
+    "value": 283
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "PGIS",
+    "value": 861
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "CETIS",
+    "value": 348
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "ISVG",
+    "value": 213
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Other Source",
+    "value": 11
+  }
+]}
+}

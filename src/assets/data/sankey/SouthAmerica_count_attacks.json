@@ -1,0 +1,1673 @@
+{"items": {
+"nodes":[
+  {
+    "node": "1",
+    "name": "1970-1974",
+    "value": 286,
+    "id": "1970-1974"
+  },
+  {
+    "node": "2",
+    "name": "1975-1979",
+    "value": 723,
+    "id": "1975-1979"
+  },
+  {
+    "node": "3",
+    "name": "1980-1984",
+    "value": 3783,
+    "id": "1980-1984"
+  },
+  {
+    "node": "4",
+    "name": "1985-1989",
+    "value": 5915,
+    "id": "1985-1989"
+  },
+  {
+    "node": "5",
+    "name": "1990-1994",
+    "value": 3975,
+    "id": "1990-1994"
+  },
+  {
+    "node": "6",
+    "name": "1995-1999",
+    "value": 1788,
+    "id": "1995-1999"
+  },
+  {
+    "node": "7",
+    "name": "2000-2004",
+    "value": 700,
+    "id": "2000-2004"
+  },
+  {
+    "node": "8",
+    "name": "2005-2009",
+    "value": 449,
+    "id": "2005-2009"
+  },
+  {
+    "node": "9",
+    "name": "2010-2014",
+    "value": 852,
+    "id": "2010-2014"
+  },
+  {
+    "node": "10",
+    "name": "2015-2017",
+    "value": 507,
+    "id": "2015-2017"
+  },
+  {
+    "node": "11",
+    "name": "Colombia",
+    "value": 8306,
+    "id": "Colombia"
+  },
+  {
+    "node": "12",
+    "name": "Peru",
+    "value": 6096,
+    "id": "Peru"
+  },
+  {
+    "node": "13",
+    "name": "Chile",
+    "value": 2365,
+    "id": "Chile"
+  },
+  {
+    "node": "14",
+    "name": "Argentina",
+    "value": 815,
+    "id": "Argentina"
+  },
+  {
+    "node": "15",
+    "name": "Bolivia",
+    "value": 314,
+    "id": "Bolivia"
+  },
+  {
+    "node": "16",
+    "name": "Venezuela",
+    "value": 293,
+    "id": "Venezuela"
+  },
+  {
+    "node": "17",
+    "name": "Brazil",
+    "value": 273,
+    "id": "Brazil"
+  },
+  {
+    "node": "18",
+    "name": "Ecuador",
+    "value": 220,
+    "id": "Ecuador"
+  },
+  {
+    "node": "19",
+    "name": "Paraguay",
+    "value": 114,
+    "id": "Paraguay"
+  },
+  {
+    "node": "20",
+    "name": "Uruguay",
+    "value": 82,
+    "id": "Uruguay"
+  },
+  {
+    "node": "21",
+    "name": "Suriname",
+    "value": 66,
+    "id": "Suriname"
+  },
+  {
+    "node": "22",
+    "name": "Other",
+    "value": 34,
+    "id": "Other"
+  },
+  {
+    "node": "23",
+    "name": "Bombing/Explosion",
+    "value": 9039,
+    "id": "Bombing-Explosion"
+  },
+  {
+    "node": "24",
+    "name": "Armed Assault",
+    "value": 3875,
+    "id": "Armed-Assault"
+  },
+  {
+    "node": "25",
+    "name": "Assassination",
+    "value": 2745,
+    "id": "Assassination"
+  },
+  {
+    "node": "26",
+    "name": "Hostage Taking",
+    "value": 1648,
+    "id": "Hostage-Taking"
+  },
+  {
+    "node": "27",
+    "name": "Facility/Infrastructure Attack",
+    "value": 803,
+    "id": "Facility-Infrastructure-Attack"
+  },
+  {
+    "node": "28",
+    "name": "Unknown",
+    "value": 754,
+    "id": "Unknown"
+  },
+  {
+    "node": "29",
+    "name": "Hijacking",
+    "value": 67,
+    "id": "Hijacking"
+  },
+  {
+    "node": "30",
+    "name": "Unarmed Assault",
+    "value": 47,
+    "id": "Unarmed-Assault"
+  },
+  {
+    "node": "31",
+    "name": "Business, Utilities & Communication",
+    "value": 6564,
+    "id": "Business--Utilities---Communication"
+  },
+  {
+    "node": "32",
+    "name": "Private Citizens & Property",
+    "value": 3272,
+    "id": "Private-Citizens---Property"
+  },
+  {
+    "node": "33",
+    "name": "Government",
+    "value": 3239,
+    "id": "Government"
+  },
+  {
+    "node": "34",
+    "name": "Police",
+    "value": 2256,
+    "id": "Police"
+  },
+  {
+    "node": "35",
+    "name": "Military",
+    "value": 1770,
+    "id": "Military"
+  },
+  {
+    "node": "36",
+    "name": "Transportation",
+    "value": 1256,
+    "id": "Transportation"
+  },
+  {
+    "node": "37",
+    "name": "Unknown, religious & militia",
+    "value": 621,
+    "id": "Unknown--religious---militia"
+  },
+  {
+    "node": "38",
+    "name": "PGIS",
+    "value": 16203,
+    "id": "PGIS"
+  },
+  {
+    "node": "39",
+    "name": "START Primary Collection",
+    "value": 1132,
+    "id": "START-Primary-Collection"
+  },
+  {
+    "node": "40",
+    "name": "CETIS",
+    "value": 901,
+    "id": "CETIS"
+  },
+  {
+    "node": "41",
+    "name": "ISVG",
+    "value": 518,
+    "id": "ISVG"
+  },
+  {
+    "node": "42",
+    "name": "Other Source",
+    "value": 224,
+    "id": "Other-Source"
+  }
+], 
+ "links":[
+  {
+    "source": "1970-1974",
+    "target": "Colombia",
+    "value": 9
+  },
+  {
+    "source": "1970-1974",
+    "target": "Peru",
+    "value": 6
+  },
+  {
+    "source": "1970-1974",
+    "target": "Chile",
+    "value": 7
+  },
+  {
+    "source": "1970-1974",
+    "target": "Argentina",
+    "value": 179
+  },
+  {
+    "source": "1970-1974",
+    "target": "Bolivia",
+    "value": 4
+  },
+  {
+    "source": "1970-1974",
+    "target": "Venezuela",
+    "value": 14
+  },
+  {
+    "source": "1970-1974",
+    "target": "Brazil",
+    "value": 14
+  },
+  {
+    "source": "1970-1974",
+    "target": "Ecuador",
+    "value": 4
+  },
+  {
+    "source": "1970-1974",
+    "target": "Paraguay",
+    "value": 1
+  },
+  {
+    "source": "1970-1974",
+    "target": "Uruguay",
+    "value": 48
+  },
+  {
+    "source": "1975-1979",
+    "target": "Colombia",
+    "value": 410
+  },
+  {
+    "source": "1975-1979",
+    "target": "Peru",
+    "value": 13
+  },
+  {
+    "source": "1975-1979",
+    "target": "Chile",
+    "value": 65
+  },
+  {
+    "source": "1975-1979",
+    "target": "Argentina",
+    "value": 150
+  },
+  {
+    "source": "1975-1979",
+    "target": "Bolivia",
+    "value": 19
+  },
+  {
+    "source": "1975-1979",
+    "target": "Venezuela",
+    "value": 23
+  },
+  {
+    "source": "1975-1979",
+    "target": "Brazil",
+    "value": 17
+  },
+  {
+    "source": "1975-1979",
+    "target": "Ecuador",
+    "value": 22
+  },
+  {
+    "source": "1975-1979",
+    "target": "Paraguay",
+    "value": 1
+  },
+  {
+    "source": "1975-1979",
+    "target": "Other",
+    "value": 3
+  },
+  {
+    "source": "1980-1984",
+    "target": "Colombia",
+    "value": 1006
+  },
+  {
+    "source": "1980-1984",
+    "target": "Peru",
+    "value": 1691
+  },
+  {
+    "source": "1980-1984",
+    "target": "Chile",
+    "value": 765
+  },
+  {
+    "source": "1980-1984",
+    "target": "Argentina",
+    "value": 81
+  },
+  {
+    "source": "1980-1984",
+    "target": "Bolivia",
+    "value": 108
+  },
+  {
+    "source": "1980-1984",
+    "target": "Venezuela",
+    "value": 27
+  },
+  {
+    "source": "1980-1984",
+    "target": "Brazil",
+    "value": 47
+  },
+  {
+    "source": "1980-1984",
+    "target": "Ecuador",
+    "value": 41
+  },
+  {
+    "source": "1980-1984",
+    "target": "Paraguay",
+    "value": 4
+  },
+  {
+    "source": "1980-1984",
+    "target": "Uruguay",
+    "value": 4
+  },
+  {
+    "source": "1980-1984",
+    "target": "Suriname",
+    "value": 3
+  },
+  {
+    "source": "1980-1984",
+    "target": "Other",
+    "value": 6
+  },
+  {
+    "source": "1985-1989",
+    "target": "Colombia",
+    "value": 1945
+  },
+  {
+    "source": "1985-1989",
+    "target": "Peru",
+    "value": 2532
+  },
+  {
+    "source": "1985-1989",
+    "target": "Chile",
+    "value": 979
+  },
+  {
+    "source": "1985-1989",
+    "target": "Argentina",
+    "value": 221
+  },
+  {
+    "source": "1985-1989",
+    "target": "Bolivia",
+    "value": 82
+  },
+  {
+    "source": "1985-1989",
+    "target": "Venezuela",
+    "value": 41
+  },
+  {
+    "source": "1985-1989",
+    "target": "Brazil",
+    "value": 12
+  },
+  {
+    "source": "1985-1989",
+    "target": "Ecuador",
+    "value": 49
+  },
+  {
+    "source": "1985-1989",
+    "target": "Paraguay",
+    "value": 2
+  },
+  {
+    "source": "1985-1989",
+    "target": "Uruguay",
+    "value": 5
+  },
+  {
+    "source": "1985-1989",
+    "target": "Suriname",
+    "value": 47
+  },
+  {
+    "source": "1990-1994",
+    "target": "Colombia",
+    "value": 1493
+  },
+  {
+    "source": "1990-1994",
+    "target": "Peru",
+    "value": 1627
+  },
+  {
+    "source": "1990-1994",
+    "target": "Chile",
+    "value": 419
+  },
+  {
+    "source": "1990-1994",
+    "target": "Argentina",
+    "value": 113
+  },
+  {
+    "source": "1990-1994",
+    "target": "Bolivia",
+    "value": 85
+  },
+  {
+    "source": "1990-1994",
+    "target": "Venezuela",
+    "value": 62
+  },
+  {
+    "source": "1990-1994",
+    "target": "Brazil",
+    "value": 74
+  },
+  {
+    "source": "1990-1994",
+    "target": "Ecuador",
+    "value": 54
+  },
+  {
+    "source": "1990-1994",
+    "target": "Paraguay",
+    "value": 6
+  },
+  {
+    "source": "1990-1994",
+    "target": "Uruguay",
+    "value": 19
+  },
+  {
+    "source": "1990-1994",
+    "target": "Suriname",
+    "value": 14
+  },
+  {
+    "source": "1990-1994",
+    "target": "Other",
+    "value": 9
+  },
+  {
+    "source": "1995-1999",
+    "target": "Colombia",
+    "value": 1340
+  },
+  {
+    "source": "1995-1999",
+    "target": "Peru",
+    "value": 154
+  },
+  {
+    "source": "1995-1999",
+    "target": "Chile",
+    "value": 35
+  },
+  {
+    "source": "1995-1999",
+    "target": "Argentina",
+    "value": 47
+  },
+  {
+    "source": "1995-1999",
+    "target": "Bolivia",
+    "value": 7
+  },
+  {
+    "source": "1995-1999",
+    "target": "Venezuela",
+    "value": 70
+  },
+  {
+    "source": "1995-1999",
+    "target": "Brazil",
+    "value": 83
+  },
+  {
+    "source": "1995-1999",
+    "target": "Ecuador",
+    "value": 20
+  },
+  {
+    "source": "1995-1999",
+    "target": "Paraguay",
+    "value": 19
+  },
+  {
+    "source": "1995-1999",
+    "target": "Uruguay",
+    "value": 4
+  },
+  {
+    "source": "1995-1999",
+    "target": "Suriname",
+    "value": 2
+  },
+  {
+    "source": "1995-1999",
+    "target": "Other",
+    "value": 7
+  },
+  {
+    "source": "2000-2004",
+    "target": "Colombia",
+    "value": 629
+  },
+  {
+    "source": "2000-2004",
+    "target": "Peru",
+    "value": 12
+  },
+  {
+    "source": "2000-2004",
+    "target": "Chile",
+    "value": 8
+  },
+  {
+    "source": "2000-2004",
+    "target": "Argentina",
+    "value": 3
+  },
+  {
+    "source": "2000-2004",
+    "target": "Bolivia",
+    "value": 1
+  },
+  {
+    "source": "2000-2004",
+    "target": "Venezuela",
+    "value": 18
+  },
+  {
+    "source": "2000-2004",
+    "target": "Brazil",
+    "value": 7
+  },
+  {
+    "source": "2000-2004",
+    "target": "Ecuador",
+    "value": 17
+  },
+  {
+    "source": "2000-2004",
+    "target": "Paraguay",
+    "value": 2
+  },
+  {
+    "source": "2000-2004",
+    "target": "Other",
+    "value": 3
+  },
+  {
+    "source": "2005-2009",
+    "target": "Colombia",
+    "value": 387
+  },
+  {
+    "source": "2005-2009",
+    "target": "Peru",
+    "value": 12
+  },
+  {
+    "source": "2005-2009",
+    "target": "Chile",
+    "value": 21
+  },
+  {
+    "source": "2005-2009",
+    "target": "Argentina",
+    "value": 4
+  },
+  {
+    "source": "2005-2009",
+    "target": "Bolivia",
+    "value": 7
+  },
+  {
+    "source": "2005-2009",
+    "target": "Venezuela",
+    "value": 6
+  },
+  {
+    "source": "2005-2009",
+    "target": "Brazil",
+    "value": 3
+  },
+  {
+    "source": "2005-2009",
+    "target": "Ecuador",
+    "value": 3
+  },
+  {
+    "source": "2005-2009",
+    "target": "Uruguay",
+    "value": 1
+  },
+  {
+    "source": "2005-2009",
+    "target": "Other",
+    "value": 5
+  },
+  {
+    "source": "2010-2014",
+    "target": "Colombia",
+    "value": 725
+  },
+  {
+    "source": "2010-2014",
+    "target": "Peru",
+    "value": 28
+  },
+  {
+    "source": "2010-2014",
+    "target": "Chile",
+    "value": 35
+  },
+  {
+    "source": "2010-2014",
+    "target": "Argentina",
+    "value": 11
+  },
+  {
+    "source": "2010-2014",
+    "target": "Bolivia",
+    "value": 1
+  },
+  {
+    "source": "2010-2014",
+    "target": "Venezuela",
+    "value": 6
+  },
+  {
+    "source": "2010-2014",
+    "target": "Brazil",
+    "value": 7
+  },
+  {
+    "source": "2010-2014",
+    "target": "Ecuador",
+    "value": 4
+  },
+  {
+    "source": "2010-2014",
+    "target": "Paraguay",
+    "value": 35
+  },
+  {
+    "source": "2015-2017",
+    "target": "Colombia",
+    "value": 362
+  },
+  {
+    "source": "2015-2017",
+    "target": "Peru",
+    "value": 21
+  },
+  {
+    "source": "2015-2017",
+    "target": "Chile",
+    "value": 31
+  },
+  {
+    "source": "2015-2017",
+    "target": "Argentina",
+    "value": 6
+  },
+  {
+    "source": "2015-2017",
+    "target": "Venezuela",
+    "value": 26
+  },
+  {
+    "source": "2015-2017",
+    "target": "Brazil",
+    "value": 9
+  },
+  {
+    "source": "2015-2017",
+    "target": "Ecuador",
+    "value": 6
+  },
+  {
+    "source": "2015-2017",
+    "target": "Paraguay",
+    "value": 44
+  },
+  {
+    "source": "2015-2017",
+    "target": "Uruguay",
+    "value": 1
+  },
+  {
+    "source": "2015-2017",
+    "target": "Other",
+    "value": 1
+  },
+  {
+    "source": "Colombia",
+    "target": "Bombing/Explosion",
+    "value": 3128
+  },
+  {
+    "source": "Colombia",
+    "target": "Armed Assault",
+    "value": 1972
+  },
+  {
+    "source": "Colombia",
+    "target": "Assassination",
+    "value": 1343
+  },
+  {
+    "source": "Colombia",
+    "target": "Hostage Taking",
+    "value": 1147
+  },
+  {
+    "source": "Colombia",
+    "target": "Facility/Infrastructure Attack",
+    "value": 275
+  },
+  {
+    "source": "Colombia",
+    "target": "Unknown",
+    "value": 394
+  },
+  {
+    "source": "Colombia",
+    "target": "Hijacking",
+    "value": 33
+  },
+  {
+    "source": "Colombia",
+    "target": "Unarmed Assault",
+    "value": 14
+  },
+  {
+    "source": "Peru",
+    "target": "Bombing/Explosion",
+    "value": 3115
+  },
+  {
+    "source": "Peru",
+    "target": "Armed Assault",
+    "value": 1328
+  },
+  {
+    "source": "Peru",
+    "target": "Assassination",
+    "value": 1002
+  },
+  {
+    "source": "Peru",
+    "target": "Hostage Taking",
+    "value": 171
+  },
+  {
+    "source": "Peru",
+    "target": "Facility/Infrastructure Attack",
+    "value": 223
+  },
+  {
+    "source": "Peru",
+    "target": "Unknown",
+    "value": 245
+  },
+  {
+    "source": "Peru",
+    "target": "Hijacking",
+    "value": 8
+  },
+  {
+    "source": "Peru",
+    "target": "Unarmed Assault",
+    "value": 4
+  },
+  {
+    "source": "Chile",
+    "target": "Bombing/Explosion",
+    "value": 1774
+  },
+  {
+    "source": "Chile",
+    "target": "Armed Assault",
+    "value": 243
+  },
+  {
+    "source": "Chile",
+    "target": "Assassination",
+    "value": 88
+  },
+  {
+    "source": "Chile",
+    "target": "Hostage Taking",
+    "value": 55
+  },
+  {
+    "source": "Chile",
+    "target": "Facility/Infrastructure Attack",
+    "value": 161
+  },
+  {
+    "source": "Chile",
+    "target": "Unknown",
+    "value": 32
+  },
+  {
+    "source": "Chile",
+    "target": "Hijacking",
+    "value": 5
+  },
+  {
+    "source": "Chile",
+    "target": "Unarmed Assault",
+    "value": 7
+  },
+  {
+    "source": "Argentina",
+    "target": "Bombing/Explosion",
+    "value": 453
+  },
+  {
+    "source": "Argentina",
+    "target": "Armed Assault",
+    "value": 88
+  },
+  {
+    "source": "Argentina",
+    "target": "Assassination",
+    "value": 137
+  },
+  {
+    "source": "Argentina",
+    "target": "Hostage Taking",
+    "value": 77
+  },
+  {
+    "source": "Argentina",
+    "target": "Facility/Infrastructure Attack",
+    "value": 39
+  },
+  {
+    "source": "Argentina",
+    "target": "Unknown",
+    "value": 13
+  },
+  {
+    "source": "Argentina",
+    "target": "Hijacking",
+    "value": 1
+  },
+  {
+    "source": "Argentina",
+    "target": "Unarmed Assault",
+    "value": 7
+  },
+  {
+    "source": "Bolivia",
+    "target": "Bombing/Explosion",
+    "value": 237
+  },
+  {
+    "source": "Bolivia",
+    "target": "Armed Assault",
+    "value": 14
+  },
+  {
+    "source": "Bolivia",
+    "target": "Assassination",
+    "value": 27
+  },
+  {
+    "source": "Bolivia",
+    "target": "Hostage Taking",
+    "value": 18
+  },
+  {
+    "source": "Bolivia",
+    "target": "Facility/Infrastructure Attack",
+    "value": 9
+  },
+  {
+    "source": "Bolivia",
+    "target": "Unknown",
+    "value": 9
+  },
+  {
+    "source": "Venezuela",
+    "target": "Bombing/Explosion",
+    "value": 99
+  },
+  {
+    "source": "Venezuela",
+    "target": "Armed Assault",
+    "value": 67
+  },
+  {
+    "source": "Venezuela",
+    "target": "Assassination",
+    "value": 19
+  },
+  {
+    "source": "Venezuela",
+    "target": "Hostage Taking",
+    "value": 59
+  },
+  {
+    "source": "Venezuela",
+    "target": "Facility/Infrastructure Attack",
+    "value": 21
+  },
+  {
+    "source": "Venezuela",
+    "target": "Unknown",
+    "value": 18
+  },
+  {
+    "source": "Venezuela",
+    "target": "Hijacking",
+    "value": 9
+  },
+  {
+    "source": "Venezuela",
+    "target": "Unarmed Assault",
+    "value": 1
+  },
+  {
+    "source": "Brazil",
+    "target": "Bombing/Explosion",
+    "value": 65
+  },
+  {
+    "source": "Brazil",
+    "target": "Armed Assault",
+    "value": 50
+  },
+  {
+    "source": "Brazil",
+    "target": "Assassination",
+    "value": 67
+  },
+  {
+    "source": "Brazil",
+    "target": "Hostage Taking",
+    "value": 47
+  },
+  {
+    "source": "Brazil",
+    "target": "Facility/Infrastructure Attack",
+    "value": 20
+  },
+  {
+    "source": "Brazil",
+    "target": "Unknown",
+    "value": 17
+  },
+  {
+    "source": "Brazil",
+    "target": "Hijacking",
+    "value": 3
+  },
+  {
+    "source": "Brazil",
+    "target": "Unarmed Assault",
+    "value": 4
+  },
+  {
+    "source": "Ecuador",
+    "target": "Bombing/Explosion",
+    "value": 107
+  },
+  {
+    "source": "Ecuador",
+    "target": "Armed Assault",
+    "value": 35
+  },
+  {
+    "source": "Ecuador",
+    "target": "Assassination",
+    "value": 27
+  },
+  {
+    "source": "Ecuador",
+    "target": "Hostage Taking",
+    "value": 30
+  },
+  {
+    "source": "Ecuador",
+    "target": "Facility/Infrastructure Attack",
+    "value": 9
+  },
+  {
+    "source": "Ecuador",
+    "target": "Unknown",
+    "value": 11
+  },
+  {
+    "source": "Ecuador",
+    "target": "Hijacking",
+    "value": 1
+  },
+  {
+    "source": "Paraguay",
+    "target": "Bombing/Explosion",
+    "value": 16
+  },
+  {
+    "source": "Paraguay",
+    "target": "Armed Assault",
+    "value": 27
+  },
+  {
+    "source": "Paraguay",
+    "target": "Assassination",
+    "value": 14
+  },
+  {
+    "source": "Paraguay",
+    "target": "Hostage Taking",
+    "value": 25
+  },
+  {
+    "source": "Paraguay",
+    "target": "Facility/Infrastructure Attack",
+    "value": 17
+  },
+  {
+    "source": "Paraguay",
+    "target": "Unknown",
+    "value": 3
+  },
+  {
+    "source": "Paraguay",
+    "target": "Hijacking",
+    "value": 2
+  },
+  {
+    "source": "Paraguay",
+    "target": "Unarmed Assault",
+    "value": 10
+  },
+  {
+    "source": "Uruguay",
+    "target": "Bombing/Explosion",
+    "value": 22
+  },
+  {
+    "source": "Uruguay",
+    "target": "Armed Assault",
+    "value": 14
+  },
+  {
+    "source": "Uruguay",
+    "target": "Assassination",
+    "value": 15
+  },
+  {
+    "source": "Uruguay",
+    "target": "Hostage Taking",
+    "value": 12
+  },
+  {
+    "source": "Uruguay",
+    "target": "Facility/Infrastructure Attack",
+    "value": 15
+  },
+  {
+    "source": "Uruguay",
+    "target": "Unknown",
+    "value": 4
+  },
+  {
+    "source": "Suriname",
+    "target": "Bombing/Explosion",
+    "value": 10
+  },
+  {
+    "source": "Suriname",
+    "target": "Armed Assault",
+    "value": 29
+  },
+  {
+    "source": "Suriname",
+    "target": "Assassination",
+    "value": 1
+  },
+  {
+    "source": "Suriname",
+    "target": "Hostage Taking",
+    "value": 5
+  },
+  {
+    "source": "Suriname",
+    "target": "Facility/Infrastructure Attack",
+    "value": 10
+  },
+  {
+    "source": "Suriname",
+    "target": "Unknown",
+    "value": 6
+  },
+  {
+    "source": "Suriname",
+    "target": "Hijacking",
+    "value": 5
+  },
+  {
+    "source": "Other",
+    "target": "Bombing/Explosion",
+    "value": 13
+  },
+  {
+    "source": "Other",
+    "target": "Armed Assault",
+    "value": 8
+  },
+  {
+    "source": "Other",
+    "target": "Assassination",
+    "value": 5
+  },
+  {
+    "source": "Other",
+    "target": "Hostage Taking",
+    "value": 2
+  },
+  {
+    "source": "Other",
+    "target": "Facility/Infrastructure Attack",
+    "value": 4
+  },
+  {
+    "source": "Other",
+    "target": "Unknown",
+    "value": 2
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Business, Utilities & Communication",
+    "value": 4485
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Private Citizens & Property",
+    "value": 1009
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Government",
+    "value": 1442
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Police",
+    "value": 721
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Military",
+    "value": 471
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Transportation",
+    "value": 574
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Unknown, religious & militia",
+    "value": 337
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Business, Utilities & Communication",
+    "value": 396
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Private Citizens & Property",
+    "value": 974
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Government",
+    "value": 203
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Police",
+    "value": 848
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Military",
+    "value": 996
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Transportation",
+    "value": 390
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Unknown, religious & militia",
+    "value": 68
+  },
+  {
+    "source": "Assassination",
+    "target": "Business, Utilities & Communication",
+    "value": 424
+  },
+  {
+    "source": "Assassination",
+    "target": "Private Citizens & Property",
+    "value": 622
+  },
+  {
+    "source": "Assassination",
+    "target": "Government",
+    "value": 1018
+  },
+  {
+    "source": "Assassination",
+    "target": "Police",
+    "value": 444
+  },
+  {
+    "source": "Assassination",
+    "target": "Military",
+    "value": 132
+  },
+  {
+    "source": "Assassination",
+    "target": "Transportation",
+    "value": 8
+  },
+  {
+    "source": "Assassination",
+    "target": "Unknown, religious & militia",
+    "value": 97
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Business, Utilities & Communication",
+    "value": 725
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Private Citizens & Property",
+    "value": 363
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Government",
+    "value": 368
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Police",
+    "value": 60
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Military",
+    "value": 52
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Transportation",
+    "value": 25
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Unknown, religious & militia",
+    "value": 55
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Business, Utilities & Communication",
+    "value": 370
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Private Citizens & Property",
+    "value": 90
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Government",
+    "value": 122
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Police",
+    "value": 17
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Military",
+    "value": 5
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Transportation",
+    "value": 161
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Unknown, religious & militia",
+    "value": 38
+  },
+  {
+    "source": "Unknown",
+    "target": "Business, Utilities & Communication",
+    "value": 146
+  },
+  {
+    "source": "Unknown",
+    "target": "Private Citizens & Property",
+    "value": 208
+  },
+  {
+    "source": "Unknown",
+    "target": "Government",
+    "value": 77
+  },
+  {
+    "source": "Unknown",
+    "target": "Police",
+    "value": 158
+  },
+  {
+    "source": "Unknown",
+    "target": "Military",
+    "value": 110
+  },
+  {
+    "source": "Unknown",
+    "target": "Transportation",
+    "value": 35
+  },
+  {
+    "source": "Unknown",
+    "target": "Unknown, religious & militia",
+    "value": 20
+  },
+  {
+    "source": "Hijacking",
+    "target": "Business, Utilities & Communication",
+    "value": 11
+  },
+  {
+    "source": "Hijacking",
+    "target": "Private Citizens & Property",
+    "value": 3
+  },
+  {
+    "source": "Hijacking",
+    "target": "Government",
+    "value": 1
+  },
+  {
+    "source": "Hijacking",
+    "target": "Military",
+    "value": 2
+  },
+  {
+    "source": "Hijacking",
+    "target": "Transportation",
+    "value": 50
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Business, Utilities & Communication",
+    "value": 7
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Private Citizens & Property",
+    "value": 3
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Government",
+    "value": 8
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Police",
+    "value": 8
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Military",
+    "value": 2
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Transportation",
+    "value": 13
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Unknown, religious & militia",
+    "value": 6
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "PGIS",
+    "value": 5671
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "START Primary Collection",
+    "value": 367
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "CETIS",
+    "value": 274
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "ISVG",
+    "value": 208
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Other Source",
+    "value": 44
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "PGIS",
+    "value": 2675
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "START Primary Collection",
+    "value": 147
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "CETIS",
+    "value": 220
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "ISVG",
+    "value": 127
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Other Source",
+    "value": 103
+  },
+  {
+    "source": "Government",
+    "target": "PGIS",
+    "value": 2910
+  },
+  {
+    "source": "Government",
+    "target": "START Primary Collection",
+    "value": 66
+  },
+  {
+    "source": "Government",
+    "target": "CETIS",
+    "value": 141
+  },
+  {
+    "source": "Government",
+    "target": "ISVG",
+    "value": 73
+  },
+  {
+    "source": "Government",
+    "target": "Other Source",
+    "value": 49
+  },
+  {
+    "source": "Police",
+    "target": "PGIS",
+    "value": 1886
+  },
+  {
+    "source": "Police",
+    "target": "START Primary Collection",
+    "value": 227
+  },
+  {
+    "source": "Police",
+    "target": "CETIS",
+    "value": 115
+  },
+  {
+    "source": "Police",
+    "target": "ISVG",
+    "value": 21
+  },
+  {
+    "source": "Police",
+    "target": "Other Source",
+    "value": 7
+  },
+  {
+    "source": "Military",
+    "target": "PGIS",
+    "value": 1480
+  },
+  {
+    "source": "Military",
+    "target": "START Primary Collection",
+    "value": 196
+  },
+  {
+    "source": "Military",
+    "target": "CETIS",
+    "value": 71
+  },
+  {
+    "source": "Military",
+    "target": "ISVG",
+    "value": 19
+  },
+  {
+    "source": "Military",
+    "target": "Other Source",
+    "value": 4
+  },
+  {
+    "source": "Transportation",
+    "target": "PGIS",
+    "value": 1069
+  },
+  {
+    "source": "Transportation",
+    "target": "START Primary Collection",
+    "value": 63
+  },
+  {
+    "source": "Transportation",
+    "target": "CETIS",
+    "value": 53
+  },
+  {
+    "source": "Transportation",
+    "target": "ISVG",
+    "value": 59
+  },
+  {
+    "source": "Transportation",
+    "target": "Other Source",
+    "value": 12
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "PGIS",
+    "value": 512
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "START Primary Collection",
+    "value": 66
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "CETIS",
+    "value": 27
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "ISVG",
+    "value": 11
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Other Source",
+    "value": 5
+  }
+]}
+}

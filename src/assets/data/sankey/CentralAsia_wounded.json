@@ -1,0 +1,1040 @@
+{"items": {
+"nodes":[
+  {
+    "node": "1",
+    "name": "1990-1994",
+    "value": 149,
+    "id": "1990-1994"
+  },
+  {
+    "node": "2",
+    "name": "1995-1999",
+    "value": 186,
+    "id": "1995-1999"
+  },
+  {
+    "node": "3",
+    "name": "2000-2004",
+    "value": 60,
+    "id": "2000-2004"
+  },
+  {
+    "node": "4",
+    "name": "2005-2009",
+    "value": 88,
+    "id": "2005-2009"
+  },
+  {
+    "node": "5",
+    "name": "2010-2014",
+    "value": 46,
+    "id": "2010-2014"
+  },
+  {
+    "node": "6",
+    "name": "2015-2017",
+    "value": 34,
+    "id": "2015-2017"
+  },
+  {
+    "node": "7",
+    "name": "Tajikistan",
+    "value": 188,
+    "id": "Tajikistan"
+  },
+  {
+    "node": "8",
+    "name": "Georgia",
+    "value": 217,
+    "id": "Georgia"
+  },
+  {
+    "node": "9",
+    "name": "Uzbekistan",
+    "value": 21,
+    "id": "Uzbekistan"
+  },
+  {
+    "node": "10",
+    "name": "Azerbaijan",
+    "value": 49,
+    "id": "Azerbaijan"
+  },
+  {
+    "node": "11",
+    "name": "Armenia",
+    "value": 24,
+    "id": "Armenia"
+  },
+  {
+    "node": "12",
+    "name": "Kyrgyzstan",
+    "value": 35,
+    "id": "Kyrgyzstan"
+  },
+  {
+    "node": "13",
+    "name": "Kazakhstan",
+    "value": 27,
+    "id": "Kazakhstan"
+  },
+  {
+    "node": "14",
+    "name": "Turkmenistan",
+    "value": 2,
+    "id": "Turkmenistan"
+  },
+  {
+    "node": "15",
+    "name": "Armed Assault",
+    "value": 116,
+    "id": "Armed-Assault"
+  },
+  {
+    "node": "16",
+    "name": "Bombing/Explosion",
+    "value": 235,
+    "id": "Bombing-Explosion"
+  },
+  {
+    "node": "17",
+    "name": "Unarmed Assault",
+    "value": 5,
+    "id": "Unarmed-Assault"
+  },
+  {
+    "node": "18",
+    "name": "Assassination",
+    "value": 115,
+    "id": "Assassination"
+  },
+  {
+    "node": "19",
+    "name": "Unknown",
+    "value": 17,
+    "id": "Unknown"
+  },
+  {
+    "node": "20",
+    "name": "Hijacking",
+    "value": 8,
+    "id": "Hijacking"
+  },
+  {
+    "node": "21",
+    "name": "Hostage Taking",
+    "value": 47,
+    "id": "Hostage-Taking"
+  },
+  {
+    "node": "22",
+    "name": "Facility/Infrastructure Attack",
+    "value": 20,
+    "id": "Facility-Infrastructure-Attack"
+  },
+  {
+    "node": "23",
+    "name": "Private Citizens & Property",
+    "value": 82,
+    "id": "Private-Citizens---Property"
+  },
+  {
+    "node": "24",
+    "name": "Police",
+    "value": 77,
+    "id": "Police"
+  },
+  {
+    "node": "25",
+    "name": "Transportation",
+    "value": 41,
+    "id": "Transportation"
+  },
+  {
+    "node": "26",
+    "name": "Government",
+    "value": 159,
+    "id": "Government"
+  },
+  {
+    "node": "27",
+    "name": "Business, Utilities & Communication",
+    "value": 87,
+    "id": "Business--Utilities---Communication"
+  },
+  {
+    "node": "28",
+    "name": "Military",
+    "value": 90,
+    "id": "Military"
+  },
+  {
+    "node": "29",
+    "name": "Unknown, religious & militia",
+    "value": 27,
+    "id": "Unknown--religious---militia"
+  },
+  {
+    "node": "30",
+    "name": "PGIS",
+    "value": 284,
+    "id": "PGIS"
+  },
+  {
+    "node": "31",
+    "name": "CETIS",
+    "value": 117,
+    "id": "CETIS"
+  },
+  {
+    "node": "32",
+    "name": "ISVG",
+    "value": 78,
+    "id": "ISVG"
+  },
+  {
+    "node": "33",
+    "name": "Other Source",
+    "value": 19,
+    "id": "Other-Source"
+  },
+  {
+    "node": "34",
+    "name": "START Primary Collection",
+    "value": 65,
+    "id": "START-Primary-Collection"
+  }
+], 
+ "links":[
+  {
+    "source": "1990-1994",
+    "target": "Tajikistan",
+    "value": 867
+  },
+  {
+    "source": "1990-1994",
+    "target": "Georgia",
+    "value": 103
+  },
+  {
+    "source": "1990-1994",
+    "target": "Uzbekistan",
+    "value": 1
+  },
+  {
+    "source": "1990-1994",
+    "target": "Azerbaijan",
+    "value": 158
+  },
+  {
+    "source": "1990-1994",
+    "target": "Armenia",
+    "value": 47
+  },
+  {
+    "source": "1990-1994",
+    "target": "Kazakhstan",
+    "value": 1
+  },
+  {
+    "source": "1995-1999",
+    "target": "Tajikistan",
+    "value": 110
+  },
+  {
+    "source": "1995-1999",
+    "target": "Georgia",
+    "value": 109
+  },
+  {
+    "source": "1995-1999",
+    "target": "Uzbekistan",
+    "value": 128
+  },
+  {
+    "source": "1995-1999",
+    "target": "Azerbaijan",
+    "value": 0
+  },
+  {
+    "source": "1995-1999",
+    "target": "Armenia",
+    "value": 21
+  },
+  {
+    "source": "1995-1999",
+    "target": "Kyrgyzstan",
+    "value": 7
+  },
+  {
+    "source": "1995-1999",
+    "target": "Kazakhstan",
+    "value": 0
+  },
+  {
+    "source": "2000-2004",
+    "target": "Tajikistan",
+    "value": 88
+  },
+  {
+    "source": "2000-2004",
+    "target": "Georgia",
+    "value": 31
+  },
+  {
+    "source": "2000-2004",
+    "target": "Uzbekistan",
+    "value": 31
+  },
+  {
+    "source": "2000-2004",
+    "target": "Azerbaijan",
+    "value": 10
+  },
+  {
+    "source": "2000-2004",
+    "target": "Armenia",
+    "value": 0
+  },
+  {
+    "source": "2000-2004",
+    "target": "Kyrgyzstan",
+    "value": 5
+  },
+  {
+    "source": "2000-2004",
+    "target": "Kazakhstan",
+    "value": 1
+  },
+  {
+    "source": "2000-2004",
+    "target": "Turkmenistan",
+    "value": 1
+  },
+  {
+    "source": "2005-2009",
+    "target": "Tajikistan",
+    "value": 1
+  },
+  {
+    "source": "2005-2009",
+    "target": "Georgia",
+    "value": 119
+  },
+  {
+    "source": "2005-2009",
+    "target": "Uzbekistan",
+    "value": 40
+  },
+  {
+    "source": "2005-2009",
+    "target": "Azerbaijan",
+    "value": 15
+  },
+  {
+    "source": "2005-2009",
+    "target": "Armenia",
+    "value": 0
+  },
+  {
+    "source": "2005-2009",
+    "target": "Kyrgyzstan",
+    "value": 3
+  },
+  {
+    "source": "2005-2009",
+    "target": "Kazakhstan",
+    "value": 2
+  },
+  {
+    "source": "2010-2014",
+    "target": "Tajikistan",
+    "value": 33
+  },
+  {
+    "source": "2010-2014",
+    "target": "Georgia",
+    "value": 18
+  },
+  {
+    "source": "2010-2014",
+    "target": "Azerbaijan",
+    "value": 1
+  },
+  {
+    "source": "2010-2014",
+    "target": "Armenia",
+    "value": 1
+  },
+  {
+    "source": "2010-2014",
+    "target": "Kyrgyzstan",
+    "value": 5
+  },
+  {
+    "source": "2010-2014",
+    "target": "Kazakhstan",
+    "value": 6
+  },
+  {
+    "source": "2010-2014",
+    "target": "Turkmenistan",
+    "value": 2
+  },
+  {
+    "source": "2015-2017",
+    "target": "Tajikistan",
+    "value": 10
+  },
+  {
+    "source": "2015-2017",
+    "target": "Georgia",
+    "value": 12
+  },
+  {
+    "source": "2015-2017",
+    "target": "Uzbekistan",
+    "value": 0
+  },
+  {
+    "source": "2015-2017",
+    "target": "Azerbaijan",
+    "value": 3
+  },
+  {
+    "source": "2015-2017",
+    "target": "Armenia",
+    "value": 2
+  },
+  {
+    "source": "2015-2017",
+    "target": "Kyrgyzstan",
+    "value": 6
+  },
+  {
+    "source": "2015-2017",
+    "target": "Kazakhstan",
+    "value": 11
+  },
+  {
+    "source": "Tajikistan",
+    "target": "Armed Assault",
+    "value": 861
+  },
+  {
+    "source": "Tajikistan",
+    "target": "Bombing/Explosion",
+    "value": 173
+  },
+  {
+    "source": "Tajikistan",
+    "target": "Unarmed Assault",
+    "value": 53
+  },
+  {
+    "source": "Tajikistan",
+    "target": "Assassination",
+    "value": 14
+  },
+  {
+    "source": "Tajikistan",
+    "target": "Unknown",
+    "value": 8
+  },
+  {
+    "source": "Tajikistan",
+    "target": "Hijacking",
+    "value": 0
+  },
+  {
+    "source": "Tajikistan",
+    "target": "Hostage Taking",
+    "value": 0
+  },
+  {
+    "source": "Tajikistan",
+    "target": "Facility/Infrastructure Attack",
+    "value": 0
+  },
+  {
+    "source": "Georgia",
+    "target": "Armed Assault",
+    "value": 57
+  },
+  {
+    "source": "Georgia",
+    "target": "Bombing/Explosion",
+    "value": 277
+  },
+  {
+    "source": "Georgia",
+    "target": "Unarmed Assault",
+    "value": 7
+  },
+  {
+    "source": "Georgia",
+    "target": "Assassination",
+    "value": 24
+  },
+  {
+    "source": "Georgia",
+    "target": "Unknown",
+    "value": 9
+  },
+  {
+    "source": "Georgia",
+    "target": "Hijacking",
+    "value": 10
+  },
+  {
+    "source": "Georgia",
+    "target": "Hostage Taking",
+    "value": 5
+  },
+  {
+    "source": "Georgia",
+    "target": "Facility/Infrastructure Attack",
+    "value": 3
+  },
+  {
+    "source": "Uzbekistan",
+    "target": "Armed Assault",
+    "value": 39
+  },
+  {
+    "source": "Uzbekistan",
+    "target": "Bombing/Explosion",
+    "value": 160
+  },
+  {
+    "source": "Uzbekistan",
+    "target": "Assassination",
+    "value": 1
+  },
+  {
+    "source": "Uzbekistan",
+    "target": "Unknown",
+    "value": 0
+  },
+  {
+    "source": "Uzbekistan",
+    "target": "Hijacking",
+    "value": 0
+  },
+  {
+    "source": "Uzbekistan",
+    "target": "Facility/Infrastructure Attack",
+    "value": 0
+  },
+  {
+    "source": "Azerbaijan",
+    "target": "Armed Assault",
+    "value": 16
+  },
+  {
+    "source": "Azerbaijan",
+    "target": "Bombing/Explosion",
+    "value": 156
+  },
+  {
+    "source": "Azerbaijan",
+    "target": "Assassination",
+    "value": 7
+  },
+  {
+    "source": "Azerbaijan",
+    "target": "Unknown",
+    "value": 2
+  },
+  {
+    "source": "Azerbaijan",
+    "target": "Hijacking",
+    "value": 0
+  },
+  {
+    "source": "Azerbaijan",
+    "target": "Hostage Taking",
+    "value": 0
+  },
+  {
+    "source": "Azerbaijan",
+    "target": "Facility/Infrastructure Attack",
+    "value": 6
+  },
+  {
+    "source": "Armenia",
+    "target": "Armed Assault",
+    "value": 1
+  },
+  {
+    "source": "Armenia",
+    "target": "Bombing/Explosion",
+    "value": 67
+  },
+  {
+    "source": "Armenia",
+    "target": "Assassination",
+    "value": 1
+  },
+  {
+    "source": "Armenia",
+    "target": "Hijacking",
+    "value": 0
+  },
+  {
+    "source": "Armenia",
+    "target": "Hostage Taking",
+    "value": 2
+  },
+  {
+    "source": "Armenia",
+    "target": "Facility/Infrastructure Attack",
+    "value": 0
+  },
+  {
+    "source": "Kyrgyzstan",
+    "target": "Armed Assault",
+    "value": 5
+  },
+  {
+    "source": "Kyrgyzstan",
+    "target": "Bombing/Explosion",
+    "value": 11
+  },
+  {
+    "source": "Kyrgyzstan",
+    "target": "Unarmed Assault",
+    "value": 1
+  },
+  {
+    "source": "Kyrgyzstan",
+    "target": "Assassination",
+    "value": 2
+  },
+  {
+    "source": "Kyrgyzstan",
+    "target": "Unknown",
+    "value": 2
+  },
+  {
+    "source": "Kyrgyzstan",
+    "target": "Hostage Taking",
+    "value": 5
+  },
+  {
+    "source": "Kyrgyzstan",
+    "target": "Facility/Infrastructure Attack",
+    "value": 0
+  },
+  {
+    "source": "Kazakhstan",
+    "target": "Armed Assault",
+    "value": 7
+  },
+  {
+    "source": "Kazakhstan",
+    "target": "Bombing/Explosion",
+    "value": 5
+  },
+  {
+    "source": "Kazakhstan",
+    "target": "Unarmed Assault",
+    "value": 1
+  },
+  {
+    "source": "Kazakhstan",
+    "target": "Assassination",
+    "value": 2
+  },
+  {
+    "source": "Kazakhstan",
+    "target": "Unknown",
+    "value": 0
+  },
+  {
+    "source": "Kazakhstan",
+    "target": "Hijacking",
+    "value": 6
+  },
+  {
+    "source": "Kazakhstan",
+    "target": "Hostage Taking",
+    "value": 0
+  },
+  {
+    "source": "Kazakhstan",
+    "target": "Facility/Infrastructure Attack",
+    "value": 0
+  },
+  {
+    "source": "Turkmenistan",
+    "target": "Armed Assault",
+    "value": 2
+  },
+  {
+    "source": "Turkmenistan",
+    "target": "Assassination",
+    "value": 1
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Private Citizens & Property",
+    "value": 834
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Police",
+    "value": 81
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Transportation",
+    "value": 12
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Government",
+    "value": 11
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Business, Utilities & Communication",
+    "value": 5
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Military",
+    "value": 35
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Unknown, religious & militia",
+    "value": 10
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Private Citizens & Property",
+    "value": 226
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Police",
+    "value": 110
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Transportation",
+    "value": 171
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Government",
+    "value": 118
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Business, Utilities & Communication",
+    "value": 92
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Military",
+    "value": 48
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Unknown, religious & militia",
+    "value": 84
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Private Citizens & Property",
+    "value": 7
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Business, Utilities & Communication",
+    "value": 55
+  },
+  {
+    "source": "Assassination",
+    "target": "Private Citizens & Property",
+    "value": 8
+  },
+  {
+    "source": "Assassination",
+    "target": "Police",
+    "value": 0
+  },
+  {
+    "source": "Assassination",
+    "target": "Government",
+    "value": 33
+  },
+  {
+    "source": "Assassination",
+    "target": "Business, Utilities & Communication",
+    "value": 4
+  },
+  {
+    "source": "Assassination",
+    "target": "Military",
+    "value": 5
+  },
+  {
+    "source": "Assassination",
+    "target": "Unknown, religious & militia",
+    "value": 2
+  },
+  {
+    "source": "Unknown",
+    "target": "Police",
+    "value": 10
+  },
+  {
+    "source": "Unknown",
+    "target": "Government",
+    "value": 1
+  },
+  {
+    "source": "Unknown",
+    "target": "Business, Utilities & Communication",
+    "value": 0
+  },
+  {
+    "source": "Unknown",
+    "target": "Military",
+    "value": 10
+  },
+  {
+    "source": "Unknown",
+    "target": "Unknown, religious & militia",
+    "value": 0
+  },
+  {
+    "source": "Hijacking",
+    "target": "Transportation",
+    "value": 10
+  },
+  {
+    "source": "Hijacking",
+    "target": "Military",
+    "value": 6
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Private Citizens & Property",
+    "value": 8
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Police",
+    "value": 1
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Government",
+    "value": 3
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Business, Utilities & Communication",
+    "value": 0
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Military",
+    "value": 0
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Unknown, religious & militia",
+    "value": 0
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Private Citizens & Property",
+    "value": 2
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Police",
+    "value": 5
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Government",
+    "value": 1
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Business, Utilities & Communication",
+    "value": 0
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Military",
+    "value": 0
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Unknown, religious & militia",
+    "value": 1
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "PGIS",
+    "value": 944
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "CETIS",
+    "value": 113
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "ISVG",
+    "value": 16
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Other Source",
+    "value": 1
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "START Primary Collection",
+    "value": 11
+  },
+  {
+    "source": "Police",
+    "target": "PGIS",
+    "value": 27
+  },
+  {
+    "source": "Police",
+    "target": "CETIS",
+    "value": 93
+  },
+  {
+    "source": "Police",
+    "target": "ISVG",
+    "value": 71
+  },
+  {
+    "source": "Police",
+    "target": "START Primary Collection",
+    "value": 16
+  },
+  {
+    "source": "Transportation",
+    "target": "PGIS",
+    "value": 168
+  },
+  {
+    "source": "Transportation",
+    "target": "CETIS",
+    "value": 15
+  },
+  {
+    "source": "Transportation",
+    "target": "ISVG",
+    "value": 9
+  },
+  {
+    "source": "Transportation",
+    "target": "Other Source",
+    "value": 1
+  },
+  {
+    "source": "Government",
+    "target": "PGIS",
+    "value": 23
+  },
+  {
+    "source": "Government",
+    "target": "CETIS",
+    "value": 118
+  },
+  {
+    "source": "Government",
+    "target": "ISVG",
+    "value": 6
+  },
+  {
+    "source": "Government",
+    "target": "Other Source",
+    "value": 5
+  },
+  {
+    "source": "Government",
+    "target": "START Primary Collection",
+    "value": 15
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "PGIS",
+    "value": 40
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "CETIS",
+    "value": 28
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "ISVG",
+    "value": 14
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Other Source",
+    "value": 64
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "START Primary Collection",
+    "value": 10
+  },
+  {
+    "source": "Military",
+    "target": "PGIS",
+    "value": 67
+  },
+  {
+    "source": "Military",
+    "target": "CETIS",
+    "value": 23
+  },
+  {
+    "source": "Military",
+    "target": "ISVG",
+    "value": 4
+  },
+  {
+    "source": "Military",
+    "target": "START Primary Collection",
+    "value": 10
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "PGIS",
+    "value": 12
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "CETIS",
+    "value": 70
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "ISVG",
+    "value": 13
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "START Primary Collection",
+    "value": 2
+  }
+]}
+}

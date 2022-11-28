@@ -1,0 +1,1663 @@
+{"items": {
+"nodes":[
+  {
+    "node": "1",
+    "name": "1970-1974",
+    "value": 20,
+    "id": "1970-1974"
+  },
+  {
+    "node": "2",
+    "name": "1975-1979",
+    "value": 222,
+    "id": "1975-1979"
+  },
+  {
+    "node": "3",
+    "name": "1980-1984",
+    "value": 448,
+    "id": "1980-1984"
+  },
+  {
+    "node": "4",
+    "name": "1985-1989",
+    "value": 1128,
+    "id": "1985-1989"
+  },
+  {
+    "node": "5",
+    "name": "1990-1994",
+    "value": 1723,
+    "id": "1990-1994"
+  },
+  {
+    "node": "6",
+    "name": "1995-1999",
+    "value": 965,
+    "id": "1995-1999"
+  },
+  {
+    "node": "7",
+    "name": "2000-2004",
+    "value": 581,
+    "id": "2000-2004"
+  },
+  {
+    "node": "8",
+    "name": "2005-2009",
+    "value": 1139,
+    "id": "2005-2009"
+  },
+  {
+    "node": "9",
+    "name": "2010-2014",
+    "value": 5313,
+    "id": "2010-2014"
+  },
+  {
+    "node": "10",
+    "name": "2015-2017",
+    "value": 6011,
+    "id": "2015-2017"
+  },
+  {
+    "node": "11",
+    "name": "Nigeria",
+    "value": 3907,
+    "id": "Nigeria"
+  },
+  {
+    "node": "12",
+    "name": "Somalia",
+    "value": 4142,
+    "id": "Somalia"
+  },
+  {
+    "node": "13",
+    "name": "Kenya",
+    "value": 683,
+    "id": "Kenya"
+  },
+  {
+    "node": "14",
+    "name": "South Africa",
+    "value": 2016,
+    "id": "South-Africa"
+  },
+  {
+    "node": "15",
+    "name": "Angola",
+    "value": 499,
+    "id": "Angola"
+  },
+  {
+    "node": "16",
+    "name": "Burundi",
+    "value": 613,
+    "id": "Burundi"
+  },
+  {
+    "node": "17",
+    "name": "Sudan",
+    "value": 967,
+    "id": "Sudan"
+  },
+  {
+    "node": "18",
+    "name": "Chad",
+    "value": 91,
+    "id": "Chad"
+  },
+  {
+    "node": "19",
+    "name": "Mozambique",
+    "value": 363,
+    "id": "Mozambique"
+  },
+  {
+    "node": "20",
+    "name": "Democratic Republic of the Congo",
+    "value": 775,
+    "id": "Democratic-Republic-of-the-Congo"
+  },
+  {
+    "node": "21",
+    "name": "Mali",
+    "value": 566,
+    "id": "Mali"
+  },
+  {
+    "node": "22",
+    "name": "Other",
+    "value": 2928,
+    "id": "Other"
+  },
+  {
+    "node": "23",
+    "name": "Bombing/Explosion",
+    "value": 5557,
+    "id": "Bombing-Explosion"
+  },
+  {
+    "node": "24",
+    "name": "Armed Assault",
+    "value": 6004,
+    "id": "Armed-Assault"
+  },
+  {
+    "node": "25",
+    "name": "Hostage Taking",
+    "value": 1967,
+    "id": "Hostage-Taking"
+  },
+  {
+    "node": "26",
+    "name": "Unknown",
+    "value": 1355,
+    "id": "Unknown"
+  },
+  {
+    "node": "27",
+    "name": "Assassination",
+    "value": 1638,
+    "id": "Assassination"
+  },
+  {
+    "node": "28",
+    "name": "Unarmed Assault",
+    "value": 83,
+    "id": "Unarmed-Assault"
+  },
+  {
+    "node": "29",
+    "name": "Facility/Infrastructure Attack",
+    "value": 810,
+    "id": "Facility-Infrastructure-Attack"
+  },
+  {
+    "node": "30",
+    "name": "Hijacking",
+    "value": 136,
+    "id": "Hijacking"
+  },
+  {
+    "node": "31",
+    "name": "Private Citizens & Property",
+    "value": 5797,
+    "id": "Private-Citizens---Property"
+  },
+  {
+    "node": "32",
+    "name": "Government",
+    "value": 2710,
+    "id": "Government"
+  },
+  {
+    "node": "33",
+    "name": "Business, Utilities & Communication",
+    "value": 2599,
+    "id": "Business--Utilities---Communication"
+  },
+  {
+    "node": "34",
+    "name": "Military",
+    "value": 3021,
+    "id": "Military"
+  },
+  {
+    "node": "35",
+    "name": "Transportation",
+    "value": 776,
+    "id": "Transportation"
+  },
+  {
+    "node": "36",
+    "name": "Unknown, religious & militia",
+    "value": 1150,
+    "id": "Unknown--religious---militia"
+  },
+  {
+    "node": "37",
+    "name": "Police",
+    "value": 1497,
+    "id": "Police"
+  },
+  {
+    "node": "38",
+    "name": "START Primary Collection",
+    "value": 10637,
+    "id": "START-Primary-Collection"
+  },
+  {
+    "node": "39",
+    "name": "PGIS",
+    "value": 3808,
+    "id": "PGIS"
+  },
+  {
+    "node": "40",
+    "name": "CETIS",
+    "value": 1196,
+    "id": "CETIS"
+  },
+  {
+    "node": "41",
+    "name": "ISVG",
+    "value": 1283,
+    "id": "ISVG"
+  },
+  {
+    "node": "42",
+    "name": "Other Source",
+    "value": 626,
+    "id": "Other-Source"
+  }
+], 
+ "links":[
+  {
+    "source": "1970-1974",
+    "target": "South Africa",
+    "value": 1
+  },
+  {
+    "source": "1970-1974",
+    "target": "Sudan",
+    "value": 0
+  },
+  {
+    "source": "1970-1974",
+    "target": "Chad",
+    "value": 0
+  },
+  {
+    "source": "1970-1974",
+    "target": "Other",
+    "value": 2
+  },
+  {
+    "source": "1975-1979",
+    "target": "Nigeria",
+    "value": 1
+  },
+  {
+    "source": "1975-1979",
+    "target": "Somalia",
+    "value": 0
+  },
+  {
+    "source": "1975-1979",
+    "target": "Kenya",
+    "value": 100
+  },
+  {
+    "source": "1975-1979",
+    "target": "South Africa",
+    "value": 68
+  },
+  {
+    "source": "1975-1979",
+    "target": "Angola",
+    "value": 70
+  },
+  {
+    "source": "1975-1979",
+    "target": "Mozambique",
+    "value": 6
+  },
+  {
+    "source": "1975-1979",
+    "target": "Other",
+    "value": 174
+  },
+  {
+    "source": "1980-1984",
+    "target": "Nigeria",
+    "value": 2
+  },
+  {
+    "source": "1980-1984",
+    "target": "Somalia",
+    "value": 4
+  },
+  {
+    "source": "1980-1984",
+    "target": "Kenya",
+    "value": 85
+  },
+  {
+    "source": "1980-1984",
+    "target": "South Africa",
+    "value": 528
+  },
+  {
+    "source": "1980-1984",
+    "target": "Angola",
+    "value": 419
+  },
+  {
+    "source": "1980-1984",
+    "target": "Sudan",
+    "value": 13
+  },
+  {
+    "source": "1980-1984",
+    "target": "Chad",
+    "value": 25
+  },
+  {
+    "source": "1980-1984",
+    "target": "Mozambique",
+    "value": 146
+  },
+  {
+    "source": "1980-1984",
+    "target": "Other",
+    "value": 455
+  },
+  {
+    "source": "1985-1989",
+    "target": "Nigeria",
+    "value": 0
+  },
+  {
+    "source": "1985-1989",
+    "target": "Somalia",
+    "value": 5
+  },
+  {
+    "source": "1985-1989",
+    "target": "Kenya",
+    "value": 5
+  },
+  {
+    "source": "1985-1989",
+    "target": "South Africa",
+    "value": 1823
+  },
+  {
+    "source": "1985-1989",
+    "target": "Angola",
+    "value": 181
+  },
+  {
+    "source": "1985-1989",
+    "target": "Sudan",
+    "value": 30
+  },
+  {
+    "source": "1985-1989",
+    "target": "Chad",
+    "value": 1
+  },
+  {
+    "source": "1985-1989",
+    "target": "Mozambique",
+    "value": 761
+  },
+  {
+    "source": "1985-1989",
+    "target": "Other",
+    "value": 338
+  },
+  {
+    "source": "1990-1994",
+    "target": "Nigeria",
+    "value": 164
+  },
+  {
+    "source": "1990-1994",
+    "target": "Somalia",
+    "value": 128
+  },
+  {
+    "source": "1990-1994",
+    "target": "Kenya",
+    "value": 63
+  },
+  {
+    "source": "1990-1994",
+    "target": "South Africa",
+    "value": 1708
+  },
+  {
+    "source": "1990-1994",
+    "target": "Angola",
+    "value": 423
+  },
+  {
+    "source": "1990-1994",
+    "target": "Burundi",
+    "value": 218
+  },
+  {
+    "source": "1990-1994",
+    "target": "Sudan",
+    "value": 23
+  },
+  {
+    "source": "1990-1994",
+    "target": "Chad",
+    "value": 3
+  },
+  {
+    "source": "1990-1994",
+    "target": "Mozambique",
+    "value": 356
+  },
+  {
+    "source": "1990-1994",
+    "target": "Mali",
+    "value": 66
+  },
+  {
+    "source": "1990-1994",
+    "target": "Other",
+    "value": 1146
+  },
+  {
+    "source": "1995-1999",
+    "target": "Nigeria",
+    "value": 275
+  },
+  {
+    "source": "1995-1999",
+    "target": "Somalia",
+    "value": 314
+  },
+  {
+    "source": "1995-1999",
+    "target": "Kenya",
+    "value": 4023
+  },
+  {
+    "source": "1995-1999",
+    "target": "South Africa",
+    "value": 303
+  },
+  {
+    "source": "1995-1999",
+    "target": "Angola",
+    "value": 410
+  },
+  {
+    "source": "1995-1999",
+    "target": "Burundi",
+    "value": 1285
+  },
+  {
+    "source": "1995-1999",
+    "target": "Sudan",
+    "value": 37
+  },
+  {
+    "source": "1995-1999",
+    "target": "Chad",
+    "value": 2
+  },
+  {
+    "source": "1995-1999",
+    "target": "Mozambique",
+    "value": 2
+  },
+  {
+    "source": "1995-1999",
+    "target": "Democratic Republic of the Congo",
+    "value": 0
+  },
+  {
+    "source": "1995-1999",
+    "target": "Mali",
+    "value": 9
+  },
+  {
+    "source": "1995-1999",
+    "target": "Other",
+    "value": 1469
+  },
+  {
+    "source": "2000-2004",
+    "target": "Nigeria",
+    "value": 66
+  },
+  {
+    "source": "2000-2004",
+    "target": "Somalia",
+    "value": 46
+  },
+  {
+    "source": "2000-2004",
+    "target": "Kenya",
+    "value": 13
+  },
+  {
+    "source": "2000-2004",
+    "target": "South Africa",
+    "value": 46
+  },
+  {
+    "source": "2000-2004",
+    "target": "Angola",
+    "value": 534
+  },
+  {
+    "source": "2000-2004",
+    "target": "Burundi",
+    "value": 152
+  },
+  {
+    "source": "2000-2004",
+    "target": "Sudan",
+    "value": 219
+  },
+  {
+    "source": "2000-2004",
+    "target": "Chad",
+    "value": 1
+  },
+  {
+    "source": "2000-2004",
+    "target": "Mozambique",
+    "value": 2
+  },
+  {
+    "source": "2000-2004",
+    "target": "Democratic Republic of the Congo",
+    "value": 58
+  },
+  {
+    "source": "2000-2004",
+    "target": "Other",
+    "value": 790
+  },
+  {
+    "source": "2005-2009",
+    "target": "Nigeria",
+    "value": 141
+  },
+  {
+    "source": "2005-2009",
+    "target": "Somalia",
+    "value": 1814
+  },
+  {
+    "source": "2005-2009",
+    "target": "Kenya",
+    "value": 57
+  },
+  {
+    "source": "2005-2009",
+    "target": "South Africa",
+    "value": 1
+  },
+  {
+    "source": "2005-2009",
+    "target": "Angola",
+    "value": 0
+  },
+  {
+    "source": "2005-2009",
+    "target": "Burundi",
+    "value": 119
+  },
+  {
+    "source": "2005-2009",
+    "target": "Sudan",
+    "value": 355
+  },
+  {
+    "source": "2005-2009",
+    "target": "Chad",
+    "value": 1153
+  },
+  {
+    "source": "2005-2009",
+    "target": "Mozambique",
+    "value": 3
+  },
+  {
+    "source": "2005-2009",
+    "target": "Democratic Republic of the Congo",
+    "value": 271
+  },
+  {
+    "source": "2005-2009",
+    "target": "Mali",
+    "value": 53
+  },
+  {
+    "source": "2005-2009",
+    "target": "Other",
+    "value": 623
+  },
+  {
+    "source": "2010-2014",
+    "target": "Nigeria",
+    "value": 4534
+  },
+  {
+    "source": "2010-2014",
+    "target": "Somalia",
+    "value": 3146
+  },
+  {
+    "source": "2010-2014",
+    "target": "Kenya",
+    "value": 1546
+  },
+  {
+    "source": "2010-2014",
+    "target": "South Africa",
+    "value": 17
+  },
+  {
+    "source": "2010-2014",
+    "target": "Angola",
+    "value": 7
+  },
+  {
+    "source": "2010-2014",
+    "target": "Burundi",
+    "value": 120
+  },
+  {
+    "source": "2010-2014",
+    "target": "Sudan",
+    "value": 774
+  },
+  {
+    "source": "2010-2014",
+    "target": "Chad",
+    "value": 0
+  },
+  {
+    "source": "2010-2014",
+    "target": "Mozambique",
+    "value": 144
+  },
+  {
+    "source": "2010-2014",
+    "target": "Democratic Republic of the Congo",
+    "value": 427
+  },
+  {
+    "source": "2010-2014",
+    "target": "Mali",
+    "value": 410
+  },
+  {
+    "source": "2010-2014",
+    "target": "Other",
+    "value": 1889
+  },
+  {
+    "source": "2015-2017",
+    "target": "Nigeria",
+    "value": 5056
+  },
+  {
+    "source": "2015-2017",
+    "target": "Somalia",
+    "value": 3418
+  },
+  {
+    "source": "2015-2017",
+    "target": "Kenya",
+    "value": 371
+  },
+  {
+    "source": "2015-2017",
+    "target": "South Africa",
+    "value": 50
+  },
+  {
+    "source": "2015-2017",
+    "target": "Angola",
+    "value": 411
+  },
+  {
+    "source": "2015-2017",
+    "target": "Burundi",
+    "value": 560
+  },
+  {
+    "source": "2015-2017",
+    "target": "Sudan",
+    "value": 718
+  },
+  {
+    "source": "2015-2017",
+    "target": "Chad",
+    "value": 496
+  },
+  {
+    "source": "2015-2017",
+    "target": "Mozambique",
+    "value": 98
+  },
+  {
+    "source": "2015-2017",
+    "target": "Democratic Republic of the Congo",
+    "value": 613
+  },
+  {
+    "source": "2015-2017",
+    "target": "Mali",
+    "value": 818
+  },
+  {
+    "source": "2015-2017",
+    "target": "Other",
+    "value": 3047
+  },
+  {
+    "source": "Nigeria",
+    "target": "Bombing/Explosion",
+    "value": 6374
+  },
+  {
+    "source": "Nigeria",
+    "target": "Armed Assault",
+    "value": 2984
+  },
+  {
+    "source": "Nigeria",
+    "target": "Hostage Taking",
+    "value": 550
+  },
+  {
+    "source": "Nigeria",
+    "target": "Unknown",
+    "value": 51
+  },
+  {
+    "source": "Nigeria",
+    "target": "Assassination",
+    "value": 150
+  },
+  {
+    "source": "Nigeria",
+    "target": "Unarmed Assault",
+    "value": 35
+  },
+  {
+    "source": "Nigeria",
+    "target": "Facility/Infrastructure Attack",
+    "value": 95
+  },
+  {
+    "source": "Nigeria",
+    "target": "Hijacking",
+    "value": 0
+  },
+  {
+    "source": "Somalia",
+    "target": "Bombing/Explosion",
+    "value": 5791
+  },
+  {
+    "source": "Somalia",
+    "target": "Armed Assault",
+    "value": 1466
+  },
+  {
+    "source": "Somalia",
+    "target": "Hostage Taking",
+    "value": 452
+  },
+  {
+    "source": "Somalia",
+    "target": "Unknown",
+    "value": 570
+  },
+  {
+    "source": "Somalia",
+    "target": "Assassination",
+    "value": 489
+  },
+  {
+    "source": "Somalia",
+    "target": "Unarmed Assault",
+    "value": 74
+  },
+  {
+    "source": "Somalia",
+    "target": "Facility/Infrastructure Attack",
+    "value": 24
+  },
+  {
+    "source": "Somalia",
+    "target": "Hijacking",
+    "value": 9
+  },
+  {
+    "source": "Kenya",
+    "target": "Bombing/Explosion",
+    "value": 5325
+  },
+  {
+    "source": "Kenya",
+    "target": "Armed Assault",
+    "value": 457
+  },
+  {
+    "source": "Kenya",
+    "target": "Hostage Taking",
+    "value": 379
+  },
+  {
+    "source": "Kenya",
+    "target": "Unknown",
+    "value": 60
+  },
+  {
+    "source": "Kenya",
+    "target": "Assassination",
+    "value": 21
+  },
+  {
+    "source": "Kenya",
+    "target": "Unarmed Assault",
+    "value": 7
+  },
+  {
+    "source": "Kenya",
+    "target": "Facility/Infrastructure Attack",
+    "value": 6
+  },
+  {
+    "source": "Kenya",
+    "target": "Hijacking",
+    "value": 8
+  },
+  {
+    "source": "South Africa",
+    "target": "Bombing/Explosion",
+    "value": 2802
+  },
+  {
+    "source": "South Africa",
+    "target": "Armed Assault",
+    "value": 1293
+  },
+  {
+    "source": "South Africa",
+    "target": "Hostage Taking",
+    "value": 0
+  },
+  {
+    "source": "South Africa",
+    "target": "Unknown",
+    "value": 169
+  },
+  {
+    "source": "South Africa",
+    "target": "Assassination",
+    "value": 202
+  },
+  {
+    "source": "South Africa",
+    "target": "Unarmed Assault",
+    "value": 6
+  },
+  {
+    "source": "South Africa",
+    "target": "Facility/Infrastructure Attack",
+    "value": 72
+  },
+  {
+    "source": "South Africa",
+    "target": "Hijacking",
+    "value": 1
+  },
+  {
+    "source": "Angola",
+    "target": "Bombing/Explosion",
+    "value": 862
+  },
+  {
+    "source": "Angola",
+    "target": "Armed Assault",
+    "value": 955
+  },
+  {
+    "source": "Angola",
+    "target": "Hostage Taking",
+    "value": 64
+  },
+  {
+    "source": "Angola",
+    "target": "Unknown",
+    "value": 115
+  },
+  {
+    "source": "Angola",
+    "target": "Assassination",
+    "value": 4
+  },
+  {
+    "source": "Angola",
+    "target": "Unarmed Assault",
+    "value": 405
+  },
+  {
+    "source": "Angola",
+    "target": "Facility/Infrastructure Attack",
+    "value": 50
+  },
+  {
+    "source": "Burundi",
+    "target": "Bombing/Explosion",
+    "value": 1216
+  },
+  {
+    "source": "Burundi",
+    "target": "Armed Assault",
+    "value": 908
+  },
+  {
+    "source": "Burundi",
+    "target": "Hostage Taking",
+    "value": 1
+  },
+  {
+    "source": "Burundi",
+    "target": "Unknown",
+    "value": 301
+  },
+  {
+    "source": "Burundi",
+    "target": "Assassination",
+    "value": 20
+  },
+  {
+    "source": "Burundi",
+    "target": "Facility/Infrastructure Attack",
+    "value": 8
+  },
+  {
+    "source": "Burundi",
+    "target": "Hijacking",
+    "value": 0
+  },
+  {
+    "source": "Sudan",
+    "target": "Bombing/Explosion",
+    "value": 232
+  },
+  {
+    "source": "Sudan",
+    "target": "Armed Assault",
+    "value": 1181
+  },
+  {
+    "source": "Sudan",
+    "target": "Hostage Taking",
+    "value": 207
+  },
+  {
+    "source": "Sudan",
+    "target": "Unknown",
+    "value": 413
+  },
+  {
+    "source": "Sudan",
+    "target": "Assassination",
+    "value": 20
+  },
+  {
+    "source": "Sudan",
+    "target": "Unarmed Assault",
+    "value": 100
+  },
+  {
+    "source": "Sudan",
+    "target": "Facility/Infrastructure Attack",
+    "value": 8
+  },
+  {
+    "source": "Sudan",
+    "target": "Hijacking",
+    "value": 8
+  },
+  {
+    "source": "Chad",
+    "target": "Bombing/Explosion",
+    "value": 497
+  },
+  {
+    "source": "Chad",
+    "target": "Armed Assault",
+    "value": 1100
+  },
+  {
+    "source": "Chad",
+    "target": "Hostage Taking",
+    "value": 14
+  },
+  {
+    "source": "Chad",
+    "target": "Unknown",
+    "value": 70
+  },
+  {
+    "source": "Chad",
+    "target": "Assassination",
+    "value": 0
+  },
+  {
+    "source": "Chad",
+    "target": "Facility/Infrastructure Attack",
+    "value": 0
+  },
+  {
+    "source": "Chad",
+    "target": "Hijacking",
+    "value": 0
+  },
+  {
+    "source": "Mozambique",
+    "target": "Bombing/Explosion",
+    "value": 374
+  },
+  {
+    "source": "Mozambique",
+    "target": "Armed Assault",
+    "value": 1007
+  },
+  {
+    "source": "Mozambique",
+    "target": "Hostage Taking",
+    "value": 12
+  },
+  {
+    "source": "Mozambique",
+    "target": "Unknown",
+    "value": 29
+  },
+  {
+    "source": "Mozambique",
+    "target": "Assassination",
+    "value": 16
+  },
+  {
+    "source": "Mozambique",
+    "target": "Unarmed Assault",
+    "value": 1
+  },
+  {
+    "source": "Mozambique",
+    "target": "Facility/Infrastructure Attack",
+    "value": 79
+  },
+  {
+    "source": "Mozambique",
+    "target": "Hijacking",
+    "value": 0
+  },
+  {
+    "source": "Democratic Republic of the Congo",
+    "target": "Bombing/Explosion",
+    "value": 195
+  },
+  {
+    "source": "Democratic Republic of the Congo",
+    "target": "Armed Assault",
+    "value": 555
+  },
+  {
+    "source": "Democratic Republic of the Congo",
+    "target": "Hostage Taking",
+    "value": 326
+  },
+  {
+    "source": "Democratic Republic of the Congo",
+    "target": "Unknown",
+    "value": 219
+  },
+  {
+    "source": "Democratic Republic of the Congo",
+    "target": "Assassination",
+    "value": 14
+  },
+  {
+    "source": "Democratic Republic of the Congo",
+    "target": "Facility/Infrastructure Attack",
+    "value": 60
+  },
+  {
+    "source": "Democratic Republic of the Congo",
+    "target": "Hijacking",
+    "value": 0
+  },
+  {
+    "source": "Mali",
+    "target": "Bombing/Explosion",
+    "value": 649
+  },
+  {
+    "source": "Mali",
+    "target": "Armed Assault",
+    "value": 423
+  },
+  {
+    "source": "Mali",
+    "target": "Hostage Taking",
+    "value": 168
+  },
+  {
+    "source": "Mali",
+    "target": "Unknown",
+    "value": 95
+  },
+  {
+    "source": "Mali",
+    "target": "Assassination",
+    "value": 7
+  },
+  {
+    "source": "Mali",
+    "target": "Unarmed Assault",
+    "value": 7
+  },
+  {
+    "source": "Mali",
+    "target": "Facility/Infrastructure Attack",
+    "value": 7
+  },
+  {
+    "source": "Mali",
+    "target": "Hijacking",
+    "value": 0
+  },
+  {
+    "source": "Other",
+    "target": "Bombing/Explosion",
+    "value": 4131
+  },
+  {
+    "source": "Other",
+    "target": "Armed Assault",
+    "value": 3387
+  },
+  {
+    "source": "Other",
+    "target": "Hostage Taking",
+    "value": 1521
+  },
+  {
+    "source": "Other",
+    "target": "Unknown",
+    "value": 532
+  },
+  {
+    "source": "Other",
+    "target": "Assassination",
+    "value": 139
+  },
+  {
+    "source": "Other",
+    "target": "Unarmed Assault",
+    "value": 118
+  },
+  {
+    "source": "Other",
+    "target": "Facility/Infrastructure Attack",
+    "value": 93
+  },
+  {
+    "source": "Other",
+    "target": "Hijacking",
+    "value": 12
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Private Citizens & Property",
+    "value": 8180
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Government",
+    "value": 6608
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Business, Utilities & Communication",
+    "value": 4705
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Military",
+    "value": 3302
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Transportation",
+    "value": 2457
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Unknown, religious & militia",
+    "value": 1887
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Police",
+    "value": 1309
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Private Citizens & Property",
+    "value": 6889
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Government",
+    "value": 2106
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Business, Utilities & Communication",
+    "value": 1000
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Military",
+    "value": 2272
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Transportation",
+    "value": 1387
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Unknown, religious & militia",
+    "value": 1318
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Police",
+    "value": 744
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Private Citizens & Property",
+    "value": 1789
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Government",
+    "value": 456
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Business, Utilities & Communication",
+    "value": 662
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Military",
+    "value": 268
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Transportation",
+    "value": 44
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Unknown, religious & militia",
+    "value": 429
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Police",
+    "value": 46
+  },
+  {
+    "source": "Unknown",
+    "target": "Private Citizens & Property",
+    "value": 1310
+  },
+  {
+    "source": "Unknown",
+    "target": "Government",
+    "value": 116
+  },
+  {
+    "source": "Unknown",
+    "target": "Business, Utilities & Communication",
+    "value": 212
+  },
+  {
+    "source": "Unknown",
+    "target": "Military",
+    "value": 602
+  },
+  {
+    "source": "Unknown",
+    "target": "Transportation",
+    "value": 115
+  },
+  {
+    "source": "Unknown",
+    "target": "Unknown, religious & militia",
+    "value": 158
+  },
+  {
+    "source": "Unknown",
+    "target": "Police",
+    "value": 111
+  },
+  {
+    "source": "Assassination",
+    "target": "Private Citizens & Property",
+    "value": 163
+  },
+  {
+    "source": "Assassination",
+    "target": "Government",
+    "value": 575
+  },
+  {
+    "source": "Assassination",
+    "target": "Business, Utilities & Communication",
+    "value": 36
+  },
+  {
+    "source": "Assassination",
+    "target": "Military",
+    "value": 79
+  },
+  {
+    "source": "Assassination",
+    "target": "Transportation",
+    "value": 64
+  },
+  {
+    "source": "Assassination",
+    "target": "Unknown, religious & militia",
+    "value": 99
+  },
+  {
+    "source": "Assassination",
+    "target": "Police",
+    "value": 66
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Private Citizens & Property",
+    "value": 586
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Government",
+    "value": 30
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Business, Utilities & Communication",
+    "value": 50
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Military",
+    "value": 1
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Unknown, religious & militia",
+    "value": 49
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Police",
+    "value": 37
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Private Citizens & Property",
+    "value": 159
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Government",
+    "value": 5
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Business, Utilities & Communication",
+    "value": 73
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Military",
+    "value": 184
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Transportation",
+    "value": 63
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Unknown, religious & militia",
+    "value": 8
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Police",
+    "value": 10
+  },
+  {
+    "source": "Hijacking",
+    "target": "Private Citizens & Property",
+    "value": 10
+  },
+  {
+    "source": "Hijacking",
+    "target": "Government",
+    "value": 7
+  },
+  {
+    "source": "Hijacking",
+    "target": "Business, Utilities & Communication",
+    "value": 0
+  },
+  {
+    "source": "Hijacking",
+    "target": "Military",
+    "value": 1
+  },
+  {
+    "source": "Hijacking",
+    "target": "Transportation",
+    "value": 9
+  },
+  {
+    "source": "Hijacking",
+    "target": "Unknown, religious & militia",
+    "value": 11
+  },
+  {
+    "source": "Hijacking",
+    "target": "Police",
+    "value": 0
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "START Primary Collection",
+    "value": 10108
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "PGIS",
+    "value": 4304
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "CETIS",
+    "value": 2570
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "ISVG",
+    "value": 1803
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Other Source",
+    "value": 301
+  },
+  {
+    "source": "Government",
+    "target": "START Primary Collection",
+    "value": 2604
+  },
+  {
+    "source": "Government",
+    "target": "PGIS",
+    "value": 897
+  },
+  {
+    "source": "Government",
+    "target": "CETIS",
+    "value": 4342
+  },
+  {
+    "source": "Government",
+    "target": "ISVG",
+    "value": 817
+  },
+  {
+    "source": "Government",
+    "target": "Other Source",
+    "value": 1243
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "START Primary Collection",
+    "value": 3524
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "PGIS",
+    "value": 1948
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "CETIS",
+    "value": 516
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "ISVG",
+    "value": 517
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Other Source",
+    "value": 233
+  },
+  {
+    "source": "Military",
+    "target": "START Primary Collection",
+    "value": 4982
+  },
+  {
+    "source": "Military",
+    "target": "PGIS",
+    "value": 764
+  },
+  {
+    "source": "Military",
+    "target": "CETIS",
+    "value": 570
+  },
+  {
+    "source": "Military",
+    "target": "ISVG",
+    "value": 244
+  },
+  {
+    "source": "Military",
+    "target": "Other Source",
+    "value": 149
+  },
+  {
+    "source": "Transportation",
+    "target": "START Primary Collection",
+    "value": 1380
+  },
+  {
+    "source": "Transportation",
+    "target": "PGIS",
+    "value": 2086
+  },
+  {
+    "source": "Transportation",
+    "target": "CETIS",
+    "value": 473
+  },
+  {
+    "source": "Transportation",
+    "target": "ISVG",
+    "value": 183
+  },
+  {
+    "source": "Transportation",
+    "target": "Other Source",
+    "value": 17
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "START Primary Collection",
+    "value": 2526
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "PGIS",
+    "value": 1050
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "CETIS",
+    "value": 121
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "ISVG",
+    "value": 242
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Other Source",
+    "value": 20
+  },
+  {
+    "source": "Police",
+    "target": "START Primary Collection",
+    "value": 1241
+  },
+  {
+    "source": "Police",
+    "target": "PGIS",
+    "value": 561
+  },
+  {
+    "source": "Police",
+    "target": "CETIS",
+    "value": 175
+  },
+  {
+    "source": "Police",
+    "target": "ISVG",
+    "value": 116
+  },
+  {
+    "source": "Police",
+    "target": "Other Source",
+    "value": 230
+  }
+]}
+}

@@ -1,0 +1,1285 @@
+{"items": {
+"nodes":[
+  {
+    "node": "1",
+    "name": "1970-1974",
+    "value": 5,
+    "id": "1970-1974"
+  },
+  {
+    "node": "2",
+    "name": "1975-1979",
+    "value": 46,
+    "id": "1975-1979"
+  },
+  {
+    "node": "3",
+    "name": "1980-1984",
+    "value": 362,
+    "id": "1980-1984"
+  },
+  {
+    "node": "4",
+    "name": "1985-1989",
+    "value": 2509,
+    "id": "1985-1989"
+  },
+  {
+    "node": "5",
+    "name": "1990-1994",
+    "value": 2199,
+    "id": "1990-1994"
+  },
+  {
+    "node": "6",
+    "name": "1995-1999",
+    "value": 2641,
+    "id": "1995-1999"
+  },
+  {
+    "node": "7",
+    "name": "2000-2004",
+    "value": 1798,
+    "id": "2000-2004"
+  },
+  {
+    "node": "8",
+    "name": "2005-2009",
+    "value": 6228,
+    "id": "2005-2009"
+  },
+  {
+    "node": "9",
+    "name": "2010-2014",
+    "value": 17532,
+    "id": "2010-2014"
+  },
+  {
+    "node": "10",
+    "name": "2015-2017",
+    "value": 11654,
+    "id": "2015-2017"
+  },
+  {
+    "node": "11",
+    "name": "Pakistan",
+    "value": 14368,
+    "id": "Pakistan"
+  },
+  {
+    "node": "12",
+    "name": "Afghanistan",
+    "value": 12731,
+    "id": "Afghanistan"
+  },
+  {
+    "node": "13",
+    "name": "India",
+    "value": 11960,
+    "id": "India"
+  },
+  {
+    "node": "14",
+    "name": "Sri Lanka",
+    "value": 3022,
+    "id": "Sri-Lanka"
+  },
+  {
+    "node": "15",
+    "name": "Bangladesh",
+    "value": 1648,
+    "id": "Bangladesh"
+  },
+  {
+    "node": "16",
+    "name": "Nepal",
+    "value": 1215,
+    "id": "Nepal"
+  },
+  {
+    "node": "17",
+    "name": "Maldives",
+    "value": 22,
+    "id": "Maldives"
+  },
+  {
+    "node": "18",
+    "name": "Bhutan",
+    "value": 6,
+    "id": "Bhutan"
+  },
+  {
+    "node": "19",
+    "name": "Mauritius",
+    "value": 2,
+    "id": "Mauritius"
+  },
+  {
+    "node": "20",
+    "name": "Bombing/Explosion",
+    "value": 21246,
+    "id": "Bombing-Explosion"
+  },
+  {
+    "node": "21",
+    "name": "Armed Assault",
+    "value": 11404,
+    "id": "Armed-Assault"
+  },
+  {
+    "node": "22",
+    "name": "Assassination",
+    "value": 4301,
+    "id": "Assassination"
+  },
+  {
+    "node": "23",
+    "name": "Hostage Taking",
+    "value": 3397,
+    "id": "Hostage-Taking"
+  },
+  {
+    "node": "24",
+    "name": "Facility/Infrastructure Attack",
+    "value": 2189,
+    "id": "Facility-Infrastructure-Attack"
+  },
+  {
+    "node": "25",
+    "name": "Unknown",
+    "value": 2021,
+    "id": "Unknown"
+  },
+  {
+    "node": "26",
+    "name": "Unarmed Assault",
+    "value": 323,
+    "id": "Unarmed-Assault"
+  },
+  {
+    "node": "27",
+    "name": "Hijacking",
+    "value": 93,
+    "id": "Hijacking"
+  },
+  {
+    "node": "28",
+    "name": "Private Citizens & Property",
+    "value": 10604,
+    "id": "Private-Citizens---Property"
+  },
+  {
+    "node": "29",
+    "name": "Police",
+    "value": 8471,
+    "id": "Police"
+  },
+  {
+    "node": "30",
+    "name": "Business, Utilities & Communication",
+    "value": 6740,
+    "id": "Business--Utilities---Communication"
+  },
+  {
+    "node": "31",
+    "name": "Government",
+    "value": 5765,
+    "id": "Government"
+  },
+  {
+    "node": "32",
+    "name": "Military",
+    "value": 5696,
+    "id": "Military"
+  },
+  {
+    "node": "33",
+    "name": "Unknown, religious & militia",
+    "value": 5363,
+    "id": "Unknown--religious---militia"
+  },
+  {
+    "node": "34",
+    "name": "Transportation",
+    "value": 2335,
+    "id": "Transportation"
+  },
+  {
+    "node": "35",
+    "name": "START Primary Collection",
+    "value": 25476,
+    "id": "START-Primary-Collection"
+  },
+  {
+    "node": "36",
+    "name": "PGIS",
+    "value": 7351,
+    "id": "PGIS"
+  },
+  {
+    "node": "37",
+    "name": "ISVG",
+    "value": 7086,
+    "id": "ISVG"
+  },
+  {
+    "node": "38",
+    "name": "CETIS",
+    "value": 4251,
+    "id": "CETIS"
+  },
+  {
+    "node": "39",
+    "name": "Other Source",
+    "value": 810,
+    "id": "Other-Source"
+  }
+], 
+ "links":[
+  {
+    "source": "1970-1974",
+    "target": "Pakistan",
+    "value": 3
+  },
+  {
+    "source": "1970-1974",
+    "target": "Afghanistan",
+    "value": 1
+  },
+  {
+    "source": "1970-1974",
+    "target": "India",
+    "value": 1
+  },
+  {
+    "source": "1975-1979",
+    "target": "Pakistan",
+    "value": 14
+  },
+  {
+    "source": "1975-1979",
+    "target": "Afghanistan",
+    "value": 3
+  },
+  {
+    "source": "1975-1979",
+    "target": "India",
+    "value": 23
+  },
+  {
+    "source": "1975-1979",
+    "target": "Sri Lanka",
+    "value": 4
+  },
+  {
+    "source": "1975-1979",
+    "target": "Bangladesh",
+    "value": 2
+  },
+  {
+    "source": "1980-1984",
+    "target": "Pakistan",
+    "value": 21
+  },
+  {
+    "source": "1980-1984",
+    "target": "India",
+    "value": 245
+  },
+  {
+    "source": "1980-1984",
+    "target": "Sri Lanka",
+    "value": 92
+  },
+  {
+    "source": "1980-1984",
+    "target": "Bangladesh",
+    "value": 4
+  },
+  {
+    "source": "1985-1989",
+    "target": "Pakistan",
+    "value": 175
+  },
+  {
+    "source": "1985-1989",
+    "target": "Afghanistan",
+    "value": 22
+  },
+  {
+    "source": "1985-1989",
+    "target": "India",
+    "value": 983
+  },
+  {
+    "source": "1985-1989",
+    "target": "Sri Lanka",
+    "value": 1227
+  },
+  {
+    "source": "1985-1989",
+    "target": "Bangladesh",
+    "value": 90
+  },
+  {
+    "source": "1985-1989",
+    "target": "Nepal",
+    "value": 9
+  },
+  {
+    "source": "1985-1989",
+    "target": "Maldives",
+    "value": 1
+  },
+  {
+    "source": "1985-1989",
+    "target": "Mauritius",
+    "value": 2
+  },
+  {
+    "source": "1990-1994",
+    "target": "Pakistan",
+    "value": 476
+  },
+  {
+    "source": "1990-1994",
+    "target": "Afghanistan",
+    "value": 77
+  },
+  {
+    "source": "1990-1994",
+    "target": "India",
+    "value": 1032
+  },
+  {
+    "source": "1990-1994",
+    "target": "Sri Lanka",
+    "value": 394
+  },
+  {
+    "source": "1990-1994",
+    "target": "Bangladesh",
+    "value": 208
+  },
+  {
+    "source": "1990-1994",
+    "target": "Nepal",
+    "value": 12
+  },
+  {
+    "source": "1995-1999",
+    "target": "Pakistan",
+    "value": 1128
+  },
+  {
+    "source": "1995-1999",
+    "target": "Afghanistan",
+    "value": 21
+  },
+  {
+    "source": "1995-1999",
+    "target": "India",
+    "value": 758
+  },
+  {
+    "source": "1995-1999",
+    "target": "Sri Lanka",
+    "value": 447
+  },
+  {
+    "source": "1995-1999",
+    "target": "Bangladesh",
+    "value": 265
+  },
+  {
+    "source": "1995-1999",
+    "target": "Nepal",
+    "value": 22
+  },
+  {
+    "source": "2000-2004",
+    "target": "Pakistan",
+    "value": 244
+  },
+  {
+    "source": "2000-2004",
+    "target": "Afghanistan",
+    "value": 254
+  },
+  {
+    "source": "2000-2004",
+    "target": "India",
+    "value": 902
+  },
+  {
+    "source": "2000-2004",
+    "target": "Sri Lanka",
+    "value": 149
+  },
+  {
+    "source": "2000-2004",
+    "target": "Bangladesh",
+    "value": 58
+  },
+  {
+    "source": "2000-2004",
+    "target": "Nepal",
+    "value": 191
+  },
+  {
+    "source": "2005-2009",
+    "target": "Pakistan",
+    "value": 1736
+  },
+  {
+    "source": "2005-2009",
+    "target": "Afghanistan",
+    "value": 1695
+  },
+  {
+    "source": "2005-2009",
+    "target": "India",
+    "value": 1668
+  },
+  {
+    "source": "2005-2009",
+    "target": "Sri Lanka",
+    "value": 619
+  },
+  {
+    "source": "2005-2009",
+    "target": "Bangladesh",
+    "value": 101
+  },
+  {
+    "source": "2005-2009",
+    "target": "Nepal",
+    "value": 402
+  },
+  {
+    "source": "2005-2009",
+    "target": "Maldives",
+    "value": 3
+  },
+  {
+    "source": "2005-2009",
+    "target": "Bhutan",
+    "value": 4
+  },
+  {
+    "source": "2010-2014",
+    "target": "Pakistan",
+    "value": 7745
+  },
+  {
+    "source": "2010-2014",
+    "target": "Afghanistan",
+    "value": 5699
+  },
+  {
+    "source": "2010-2014",
+    "target": "India",
+    "value": 3473
+  },
+  {
+    "source": "2010-2014",
+    "target": "Sri Lanka",
+    "value": 37
+  },
+  {
+    "source": "2010-2014",
+    "target": "Bangladesh",
+    "value": 322
+  },
+  {
+    "source": "2010-2014",
+    "target": "Nepal",
+    "value": 241
+  },
+  {
+    "source": "2010-2014",
+    "target": "Maldives",
+    "value": 13
+  },
+  {
+    "source": "2010-2014",
+    "target": "Bhutan",
+    "value": 2
+  },
+  {
+    "source": "2015-2017",
+    "target": "Pakistan",
+    "value": 2826
+  },
+  {
+    "source": "2015-2017",
+    "target": "Afghanistan",
+    "value": 4959
+  },
+  {
+    "source": "2015-2017",
+    "target": "India",
+    "value": 2875
+  },
+  {
+    "source": "2015-2017",
+    "target": "Sri Lanka",
+    "value": 53
+  },
+  {
+    "source": "2015-2017",
+    "target": "Bangladesh",
+    "value": 598
+  },
+  {
+    "source": "2015-2017",
+    "target": "Nepal",
+    "value": 338
+  },
+  {
+    "source": "2015-2017",
+    "target": "Maldives",
+    "value": 5
+  },
+  {
+    "source": "Pakistan",
+    "target": "Bombing/Explosion",
+    "value": 7613
+  },
+  {
+    "source": "Pakistan",
+    "target": "Armed Assault",
+    "value": 3859
+  },
+  {
+    "source": "Pakistan",
+    "target": "Assassination",
+    "value": 1406
+  },
+  {
+    "source": "Pakistan",
+    "target": "Hostage Taking",
+    "value": 858
+  },
+  {
+    "source": "Pakistan",
+    "target": "Facility/Infrastructure Attack",
+    "value": 300
+  },
+  {
+    "source": "Pakistan",
+    "target": "Unknown",
+    "value": 236
+  },
+  {
+    "source": "Pakistan",
+    "target": "Unarmed Assault",
+    "value": 77
+  },
+  {
+    "source": "Pakistan",
+    "target": "Hijacking",
+    "value": 19
+  },
+  {
+    "source": "Afghanistan",
+    "target": "Bombing/Explosion",
+    "value": 6245
+  },
+  {
+    "source": "Afghanistan",
+    "target": "Armed Assault",
+    "value": 2877
+  },
+  {
+    "source": "Afghanistan",
+    "target": "Assassination",
+    "value": 954
+  },
+  {
+    "source": "Afghanistan",
+    "target": "Hostage Taking",
+    "value": 1038
+  },
+  {
+    "source": "Afghanistan",
+    "target": "Facility/Infrastructure Attack",
+    "value": 355
+  },
+  {
+    "source": "Afghanistan",
+    "target": "Unknown",
+    "value": 1173
+  },
+  {
+    "source": "Afghanistan",
+    "target": "Unarmed Assault",
+    "value": 73
+  },
+  {
+    "source": "Afghanistan",
+    "target": "Hijacking",
+    "value": 16
+  },
+  {
+    "source": "India",
+    "target": "Bombing/Explosion",
+    "value": 4825
+  },
+  {
+    "source": "India",
+    "target": "Armed Assault",
+    "value": 3184
+  },
+  {
+    "source": "India",
+    "target": "Assassination",
+    "value": 1229
+  },
+  {
+    "source": "India",
+    "target": "Hostage Taking",
+    "value": 1228
+  },
+  {
+    "source": "India",
+    "target": "Facility/Infrastructure Attack",
+    "value": 996
+  },
+  {
+    "source": "India",
+    "target": "Unknown",
+    "value": 312
+  },
+  {
+    "source": "India",
+    "target": "Unarmed Assault",
+    "value": 143
+  },
+  {
+    "source": "India",
+    "target": "Hijacking",
+    "value": 43
+  },
+  {
+    "source": "Sri Lanka",
+    "target": "Bombing/Explosion",
+    "value": 1151
+  },
+  {
+    "source": "Sri Lanka",
+    "target": "Armed Assault",
+    "value": 998
+  },
+  {
+    "source": "Sri Lanka",
+    "target": "Assassination",
+    "value": 438
+  },
+  {
+    "source": "Sri Lanka",
+    "target": "Hostage Taking",
+    "value": 98
+  },
+  {
+    "source": "Sri Lanka",
+    "target": "Facility/Infrastructure Attack",
+    "value": 155
+  },
+  {
+    "source": "Sri Lanka",
+    "target": "Unknown",
+    "value": 161
+  },
+  {
+    "source": "Sri Lanka",
+    "target": "Unarmed Assault",
+    "value": 9
+  },
+  {
+    "source": "Sri Lanka",
+    "target": "Hijacking",
+    "value": 12
+  },
+  {
+    "source": "Bangladesh",
+    "target": "Bombing/Explosion",
+    "value": 791
+  },
+  {
+    "source": "Bangladesh",
+    "target": "Armed Assault",
+    "value": 292
+  },
+  {
+    "source": "Bangladesh",
+    "target": "Assassination",
+    "value": 164
+  },
+  {
+    "source": "Bangladesh",
+    "target": "Hostage Taking",
+    "value": 58
+  },
+  {
+    "source": "Bangladesh",
+    "target": "Facility/Infrastructure Attack",
+    "value": 236
+  },
+  {
+    "source": "Bangladesh",
+    "target": "Unknown",
+    "value": 93
+  },
+  {
+    "source": "Bangladesh",
+    "target": "Unarmed Assault",
+    "value": 12
+  },
+  {
+    "source": "Bangladesh",
+    "target": "Hijacking",
+    "value": 2
+  },
+  {
+    "source": "Nepal",
+    "target": "Bombing/Explosion",
+    "value": 614
+  },
+  {
+    "source": "Nepal",
+    "target": "Armed Assault",
+    "value": 191
+  },
+  {
+    "source": "Nepal",
+    "target": "Assassination",
+    "value": 104
+  },
+  {
+    "source": "Nepal",
+    "target": "Hostage Taking",
+    "value": 114
+  },
+  {
+    "source": "Nepal",
+    "target": "Facility/Infrastructure Attack",
+    "value": 138
+  },
+  {
+    "source": "Nepal",
+    "target": "Unknown",
+    "value": 45
+  },
+  {
+    "source": "Nepal",
+    "target": "Unarmed Assault",
+    "value": 8
+  },
+  {
+    "source": "Nepal",
+    "target": "Hijacking",
+    "value": 1
+  },
+  {
+    "source": "Maldives",
+    "target": "Bombing/Explosion",
+    "value": 2
+  },
+  {
+    "source": "Maldives",
+    "target": "Armed Assault",
+    "value": 3
+  },
+  {
+    "source": "Maldives",
+    "target": "Assassination",
+    "value": 4
+  },
+  {
+    "source": "Maldives",
+    "target": "Hostage Taking",
+    "value": 2
+  },
+  {
+    "source": "Maldives",
+    "target": "Facility/Infrastructure Attack",
+    "value": 9
+  },
+  {
+    "source": "Maldives",
+    "target": "Unknown",
+    "value": 1
+  },
+  {
+    "source": "Maldives",
+    "target": "Unarmed Assault",
+    "value": 1
+  },
+  {
+    "source": "Bhutan",
+    "target": "Bombing/Explosion",
+    "value": 5
+  },
+  {
+    "source": "Bhutan",
+    "target": "Hostage Taking",
+    "value": 1
+  },
+  {
+    "source": "Mauritius",
+    "target": "Assassination",
+    "value": 2
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Private Citizens & Property",
+    "value": 4364
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Police",
+    "value": 3296
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Business, Utilities & Communication",
+    "value": 3741
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Government",
+    "value": 2101
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Military",
+    "value": 2987
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Unknown, religious & militia",
+    "value": 3139
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Transportation",
+    "value": 1618
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Private Citizens & Property",
+    "value": 2850
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Police",
+    "value": 3372
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Business, Utilities & Communication",
+    "value": 941
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Government",
+    "value": 1129
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Military",
+    "value": 1838
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Unknown, religious & militia",
+    "value": 915
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Transportation",
+    "value": 359
+  },
+  {
+    "source": "Assassination",
+    "target": "Private Citizens & Property",
+    "value": 1109
+  },
+  {
+    "source": "Assassination",
+    "target": "Police",
+    "value": 591
+  },
+  {
+    "source": "Assassination",
+    "target": "Business, Utilities & Communication",
+    "value": 316
+  },
+  {
+    "source": "Assassination",
+    "target": "Government",
+    "value": 1392
+  },
+  {
+    "source": "Assassination",
+    "target": "Military",
+    "value": 98
+  },
+  {
+    "source": "Assassination",
+    "target": "Unknown, religious & militia",
+    "value": 779
+  },
+  {
+    "source": "Assassination",
+    "target": "Transportation",
+    "value": 16
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Private Citizens & Property",
+    "value": 1337
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Police",
+    "value": 359
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Business, Utilities & Communication",
+    "value": 706
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Government",
+    "value": 602
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Military",
+    "value": 152
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Unknown, religious & militia",
+    "value": 190
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Transportation",
+    "value": 51
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Private Citizens & Property",
+    "value": 338
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Police",
+    "value": 151
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Business, Utilities & Communication",
+    "value": 848
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Government",
+    "value": 385
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Military",
+    "value": 89
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Unknown, religious & militia",
+    "value": 183
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Transportation",
+    "value": 195
+  },
+  {
+    "source": "Unknown",
+    "target": "Private Citizens & Property",
+    "value": 450
+  },
+  {
+    "source": "Unknown",
+    "target": "Police",
+    "value": 664
+  },
+  {
+    "source": "Unknown",
+    "target": "Business, Utilities & Communication",
+    "value": 92
+  },
+  {
+    "source": "Unknown",
+    "target": "Government",
+    "value": 126
+  },
+  {
+    "source": "Unknown",
+    "target": "Military",
+    "value": 523
+  },
+  {
+    "source": "Unknown",
+    "target": "Unknown, religious & militia",
+    "value": 125
+  },
+  {
+    "source": "Unknown",
+    "target": "Transportation",
+    "value": 41
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Private Citizens & Property",
+    "value": 141
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Police",
+    "value": 33
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Business, Utilities & Communication",
+    "value": 82
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Government",
+    "value": 26
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Military",
+    "value": 6
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Unknown, religious & militia",
+    "value": 32
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Transportation",
+    "value": 3
+  },
+  {
+    "source": "Hijacking",
+    "target": "Private Citizens & Property",
+    "value": 15
+  },
+  {
+    "source": "Hijacking",
+    "target": "Police",
+    "value": 5
+  },
+  {
+    "source": "Hijacking",
+    "target": "Business, Utilities & Communication",
+    "value": 14
+  },
+  {
+    "source": "Hijacking",
+    "target": "Government",
+    "value": 4
+  },
+  {
+    "source": "Hijacking",
+    "target": "Military",
+    "value": 3
+  },
+  {
+    "source": "Hijacking",
+    "target": "Transportation",
+    "value": 52
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "START Primary Collection",
+    "value": 5166
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "PGIS",
+    "value": 2033
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "ISVG",
+    "value": 2175
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "CETIS",
+    "value": 959
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Other Source",
+    "value": 271
+  },
+  {
+    "source": "Police",
+    "target": "START Primary Collection",
+    "value": 5714
+  },
+  {
+    "source": "Police",
+    "target": "PGIS",
+    "value": 1174
+  },
+  {
+    "source": "Police",
+    "target": "ISVG",
+    "value": 677
+  },
+  {
+    "source": "Police",
+    "target": "CETIS",
+    "value": 821
+  },
+  {
+    "source": "Police",
+    "target": "Other Source",
+    "value": 85
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "START Primary Collection",
+    "value": 3451
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "PGIS",
+    "value": 820
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "ISVG",
+    "value": 1757
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "CETIS",
+    "value": 621
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Other Source",
+    "value": 91
+  },
+  {
+    "source": "Government",
+    "target": "START Primary Collection",
+    "value": 2638
+  },
+  {
+    "source": "Government",
+    "target": "PGIS",
+    "value": 959
+  },
+  {
+    "source": "Government",
+    "target": "ISVG",
+    "value": 1337
+  },
+  {
+    "source": "Government",
+    "target": "CETIS",
+    "value": 683
+  },
+  {
+    "source": "Government",
+    "target": "Other Source",
+    "value": 148
+  },
+  {
+    "source": "Military",
+    "target": "START Primary Collection",
+    "value": 4068
+  },
+  {
+    "source": "Military",
+    "target": "PGIS",
+    "value": 765
+  },
+  {
+    "source": "Military",
+    "target": "ISVG",
+    "value": 122
+  },
+  {
+    "source": "Military",
+    "target": "CETIS",
+    "value": 637
+  },
+  {
+    "source": "Military",
+    "target": "Other Source",
+    "value": 104
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "START Primary Collection",
+    "value": 3684
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "PGIS",
+    "value": 822
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "ISVG",
+    "value": 530
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "CETIS",
+    "value": 258
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Other Source",
+    "value": 69
+  },
+  {
+    "source": "Transportation",
+    "target": "START Primary Collection",
+    "value": 755
+  },
+  {
+    "source": "Transportation",
+    "target": "PGIS",
+    "value": 778
+  },
+  {
+    "source": "Transportation",
+    "target": "ISVG",
+    "value": 488
+  },
+  {
+    "source": "Transportation",
+    "target": "CETIS",
+    "value": 272
+  },
+  {
+    "source": "Transportation",
+    "target": "Other Source",
+    "value": 42
+  }
+]}
+}

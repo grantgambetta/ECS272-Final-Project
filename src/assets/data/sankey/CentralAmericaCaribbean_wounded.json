@@ -1,0 +1,1533 @@
+{"items": {
+"nodes":[
+  {
+    "node": "1",
+    "name": "1970-1974",
+    "value": 32,
+    "id": "1970-1974"
+  },
+  {
+    "node": "2",
+    "name": "1975-1979",
+    "value": 886,
+    "id": "1975-1979"
+  },
+  {
+    "node": "3",
+    "name": "1980-1984",
+    "value": 4753,
+    "id": "1980-1984"
+  },
+  {
+    "node": "4",
+    "name": "1985-1989",
+    "value": 2737,
+    "id": "1985-1989"
+  },
+  {
+    "node": "5",
+    "name": "1990-1994",
+    "value": 1437,
+    "id": "1990-1994"
+  },
+  {
+    "node": "6",
+    "name": "1995-1999",
+    "value": 410,
+    "id": "1995-1999"
+  },
+  {
+    "node": "7",
+    "name": "2000-2004",
+    "value": 38,
+    "id": "2000-2004"
+  },
+  {
+    "node": "8",
+    "name": "2005-2009",
+    "value": 21,
+    "id": "2005-2009"
+  },
+  {
+    "node": "9",
+    "name": "2010-2014",
+    "value": 22,
+    "id": "2010-2014"
+  },
+  {
+    "node": "10",
+    "name": "2015-2017",
+    "value": 8,
+    "id": "2015-2017"
+  },
+  {
+    "node": "11",
+    "name": "El Salvador",
+    "value": 5320,
+    "id": "El-Salvador"
+  },
+  {
+    "node": "12",
+    "name": "Nicaragua",
+    "value": 1970,
+    "id": "Nicaragua"
+  },
+  {
+    "node": "13",
+    "name": "Guatemala",
+    "value": 2050,
+    "id": "Guatemala"
+  },
+  {
+    "node": "14",
+    "name": "Haiti",
+    "value": 213,
+    "id": "Haiti"
+  },
+  {
+    "node": "15",
+    "name": "Honduras",
+    "value": 323,
+    "id": "Honduras"
+  },
+  {
+    "node": "16",
+    "name": "Dominican Republic",
+    "value": 90,
+    "id": "Dominican-Republic"
+  },
+  {
+    "node": "17",
+    "name": "Panama",
+    "value": 127,
+    "id": "Panama"
+  },
+  {
+    "node": "18",
+    "name": "Guadeloupe",
+    "value": 56,
+    "id": "Guadeloupe"
+  },
+  {
+    "node": "19",
+    "name": "Costa Rica",
+    "value": 67,
+    "id": "Costa-Rica"
+  },
+  {
+    "node": "20",
+    "name": "Jamaica",
+    "value": 36,
+    "id": "Jamaica"
+  },
+  {
+    "node": "21",
+    "name": "Trinidad and Tobago",
+    "value": 22,
+    "id": "Trinidad-and-Tobago"
+  },
+  {
+    "node": "22",
+    "name": "Other",
+    "value": 70,
+    "id": "Other"
+  },
+  {
+    "node": "23",
+    "name": "Armed Assault",
+    "value": 4361,
+    "id": "Armed-Assault"
+  },
+  {
+    "node": "24",
+    "name": "Bombing/Explosion",
+    "value": 3239,
+    "id": "Bombing-Explosion"
+  },
+  {
+    "node": "25",
+    "name": "Unknown",
+    "value": 354,
+    "id": "Unknown"
+  },
+  {
+    "node": "26",
+    "name": "Assassination",
+    "value": 1254,
+    "id": "Assassination"
+  },
+  {
+    "node": "27",
+    "name": "Facility/Infrastructure Attack",
+    "value": 403,
+    "id": "Facility-Infrastructure-Attack"
+  },
+  {
+    "node": "28",
+    "name": "Hostage Taking",
+    "value": 688,
+    "id": "Hostage-Taking"
+  },
+  {
+    "node": "29",
+    "name": "Unarmed Assault",
+    "value": 19,
+    "id": "Unarmed-Assault"
+  },
+  {
+    "node": "30",
+    "name": "Hijacking",
+    "value": 26,
+    "id": "Hijacking"
+  },
+  {
+    "node": "31",
+    "name": "Military",
+    "value": 3065,
+    "id": "Military"
+  },
+  {
+    "node": "32",
+    "name": "Private Citizens & Property",
+    "value": 1535,
+    "id": "Private-Citizens---Property"
+  },
+  {
+    "node": "33",
+    "name": "Business, Utilities & Communication",
+    "value": 3071,
+    "id": "Business--Utilities---Communication"
+  },
+  {
+    "node": "34",
+    "name": "Government",
+    "value": 1331,
+    "id": "Government"
+  },
+  {
+    "node": "35",
+    "name": "Police",
+    "value": 584,
+    "id": "Police"
+  },
+  {
+    "node": "36",
+    "name": "Transportation",
+    "value": 519,
+    "id": "Transportation"
+  },
+  {
+    "node": "37",
+    "name": "Unknown, religious & militia",
+    "value": 239,
+    "id": "Unknown--religious---militia"
+  },
+  {
+    "node": "38",
+    "name": "PGIS",
+    "value": 10241,
+    "id": "PGIS"
+  },
+  {
+    "node": "39",
+    "name": "CETIS",
+    "value": 37,
+    "id": "CETIS"
+  },
+  {
+    "node": "40",
+    "name": "START Primary Collection",
+    "value": 29,
+    "id": "START-Primary-Collection"
+  },
+  {
+    "node": "41",
+    "name": "Other Source",
+    "value": 27,
+    "id": "Other-Source"
+  },
+  {
+    "node": "42",
+    "name": "ISVG",
+    "value": 10,
+    "id": "ISVG"
+  }
+], 
+ "links":[
+  {
+    "source": "1970-1974",
+    "target": "El Salvador",
+    "value": 3
+  },
+  {
+    "source": "1970-1974",
+    "target": "Nicaragua",
+    "value": 0
+  },
+  {
+    "source": "1970-1974",
+    "target": "Guatemala",
+    "value": 0
+  },
+  {
+    "source": "1970-1974",
+    "target": "Haiti",
+    "value": 0
+  },
+  {
+    "source": "1970-1974",
+    "target": "Honduras",
+    "value": 0
+  },
+  {
+    "source": "1970-1974",
+    "target": "Dominican Republic",
+    "value": 0
+  },
+  {
+    "source": "1970-1974",
+    "target": "Panama",
+    "value": 0
+  },
+  {
+    "source": "1970-1974",
+    "target": "Costa Rica",
+    "value": 0
+  },
+  {
+    "source": "1970-1974",
+    "target": "Jamaica",
+    "value": 0
+  },
+  {
+    "source": "1975-1979",
+    "target": "El Salvador",
+    "value": 131
+  },
+  {
+    "source": "1975-1979",
+    "target": "Nicaragua",
+    "value": 163
+  },
+  {
+    "source": "1975-1979",
+    "target": "Guatemala",
+    "value": 46
+  },
+  {
+    "source": "1975-1979",
+    "target": "Honduras",
+    "value": 12
+  },
+  {
+    "source": "1975-1979",
+    "target": "Dominican Republic",
+    "value": 1
+  },
+  {
+    "source": "1975-1979",
+    "target": "Panama",
+    "value": 1
+  },
+  {
+    "source": "1975-1979",
+    "target": "Costa Rica",
+    "value": 6
+  },
+  {
+    "source": "1975-1979",
+    "target": "Jamaica",
+    "value": 0
+  },
+  {
+    "source": "1975-1979",
+    "target": "Trinidad and Tobago",
+    "value": 3
+  },
+  {
+    "source": "1975-1979",
+    "target": "Other",
+    "value": 0
+  },
+  {
+    "source": "1980-1984",
+    "target": "El Salvador",
+    "value": 1774
+  },
+  {
+    "source": "1980-1984",
+    "target": "Nicaragua",
+    "value": 690
+  },
+  {
+    "source": "1980-1984",
+    "target": "Guatemala",
+    "value": 790
+  },
+  {
+    "source": "1980-1984",
+    "target": "Haiti",
+    "value": 9
+  },
+  {
+    "source": "1980-1984",
+    "target": "Honduras",
+    "value": 41
+  },
+  {
+    "source": "1980-1984",
+    "target": "Dominican Republic",
+    "value": 5
+  },
+  {
+    "source": "1980-1984",
+    "target": "Panama",
+    "value": 3
+  },
+  {
+    "source": "1980-1984",
+    "target": "Guadeloupe",
+    "value": 27
+  },
+  {
+    "source": "1980-1984",
+    "target": "Costa Rica",
+    "value": 16
+  },
+  {
+    "source": "1980-1984",
+    "target": "Jamaica",
+    "value": 1
+  },
+  {
+    "source": "1980-1984",
+    "target": "Trinidad and Tobago",
+    "value": 14
+  },
+  {
+    "source": "1980-1984",
+    "target": "Other",
+    "value": 31
+  },
+  {
+    "source": "1985-1989",
+    "target": "El Salvador",
+    "value": 1759
+  },
+  {
+    "source": "1985-1989",
+    "target": "Nicaragua",
+    "value": 730
+  },
+  {
+    "source": "1985-1989",
+    "target": "Guatemala",
+    "value": 174
+  },
+  {
+    "source": "1985-1989",
+    "target": "Haiti",
+    "value": 15
+  },
+  {
+    "source": "1985-1989",
+    "target": "Honduras",
+    "value": 57
+  },
+  {
+    "source": "1985-1989",
+    "target": "Dominican Republic",
+    "value": 10
+  },
+  {
+    "source": "1985-1989",
+    "target": "Panama",
+    "value": 1
+  },
+  {
+    "source": "1985-1989",
+    "target": "Guadeloupe",
+    "value": 18
+  },
+  {
+    "source": "1985-1989",
+    "target": "Costa Rica",
+    "value": 11
+  },
+  {
+    "source": "1985-1989",
+    "target": "Jamaica",
+    "value": 0
+  },
+  {
+    "source": "1985-1989",
+    "target": "Trinidad and Tobago",
+    "value": 0
+  },
+  {
+    "source": "1985-1989",
+    "target": "Other",
+    "value": 1
+  },
+  {
+    "source": "1990-1994",
+    "target": "El Salvador",
+    "value": 1311
+  },
+  {
+    "source": "1990-1994",
+    "target": "Nicaragua",
+    "value": 73
+  },
+  {
+    "source": "1990-1994",
+    "target": "Guatemala",
+    "value": 170
+  },
+  {
+    "source": "1990-1994",
+    "target": "Haiti",
+    "value": 164
+  },
+  {
+    "source": "1990-1994",
+    "target": "Honduras",
+    "value": 65
+  },
+  {
+    "source": "1990-1994",
+    "target": "Dominican Republic",
+    "value": 31
+  },
+  {
+    "source": "1990-1994",
+    "target": "Panama",
+    "value": 74
+  },
+  {
+    "source": "1990-1994",
+    "target": "Guadeloupe",
+    "value": 0
+  },
+  {
+    "source": "1990-1994",
+    "target": "Costa Rica",
+    "value": 0
+  },
+  {
+    "source": "1990-1994",
+    "target": "Jamaica",
+    "value": 0
+  },
+  {
+    "source": "1990-1994",
+    "target": "Trinidad and Tobago",
+    "value": 1
+  },
+  {
+    "source": "1990-1994",
+    "target": "Other",
+    "value": 10
+  },
+  {
+    "source": "1995-1999",
+    "target": "El Salvador",
+    "value": 84
+  },
+  {
+    "source": "1995-1999",
+    "target": "Nicaragua",
+    "value": 46
+  },
+  {
+    "source": "1995-1999",
+    "target": "Guatemala",
+    "value": 41
+  },
+  {
+    "source": "1995-1999",
+    "target": "Haiti",
+    "value": 61
+  },
+  {
+    "source": "1995-1999",
+    "target": "Honduras",
+    "value": 49
+  },
+  {
+    "source": "1995-1999",
+    "target": "Dominican Republic",
+    "value": 41
+  },
+  {
+    "source": "1995-1999",
+    "target": "Panama",
+    "value": 4
+  },
+  {
+    "source": "1995-1999",
+    "target": "Costa Rica",
+    "value": 5
+  },
+  {
+    "source": "1995-1999",
+    "target": "Jamaica",
+    "value": 33
+  },
+  {
+    "source": "1995-1999",
+    "target": "Trinidad and Tobago",
+    "value": 3
+  },
+  {
+    "source": "1995-1999",
+    "target": "Other",
+    "value": 12
+  },
+  {
+    "source": "2000-2004",
+    "target": "Nicaragua",
+    "value": 1
+  },
+  {
+    "source": "2000-2004",
+    "target": "Guatemala",
+    "value": 6
+  },
+  {
+    "source": "2000-2004",
+    "target": "Haiti",
+    "value": 49
+  },
+  {
+    "source": "2000-2004",
+    "target": "Honduras",
+    "value": 14
+  },
+  {
+    "source": "2000-2004",
+    "target": "Panama",
+    "value": 0
+  },
+  {
+    "source": "2000-2004",
+    "target": "Costa Rica",
+    "value": 0
+  },
+  {
+    "source": "2000-2004",
+    "target": "Other",
+    "value": 12
+  },
+  {
+    "source": "2005-2009",
+    "target": "Guatemala",
+    "value": 0
+  },
+  {
+    "source": "2005-2009",
+    "target": "Haiti",
+    "value": 2
+  },
+  {
+    "source": "2005-2009",
+    "target": "Honduras",
+    "value": 1
+  },
+  {
+    "source": "2005-2009",
+    "target": "Panama",
+    "value": 0
+  },
+  {
+    "source": "2005-2009",
+    "target": "Jamaica",
+    "value": 1
+  },
+  {
+    "source": "2005-2009",
+    "target": "Trinidad and Tobago",
+    "value": 14
+  },
+  {
+    "source": "2005-2009",
+    "target": "Other",
+    "value": 0
+  },
+  {
+    "source": "2010-2014",
+    "target": "Nicaragua",
+    "value": 28
+  },
+  {
+    "source": "2010-2014",
+    "target": "Guatemala",
+    "value": 4
+  },
+  {
+    "source": "2010-2014",
+    "target": "Honduras",
+    "value": 1
+  },
+  {
+    "source": "2010-2014",
+    "target": "Dominican Republic",
+    "value": 35
+  },
+  {
+    "source": "2010-2014",
+    "target": "Jamaica",
+    "value": 1
+  },
+  {
+    "source": "2010-2014",
+    "target": "Trinidad and Tobago",
+    "value": 0
+  },
+  {
+    "source": "2010-2014",
+    "target": "Other",
+    "value": 0
+  },
+  {
+    "source": "2015-2017",
+    "target": "Haiti",
+    "value": 0
+  },
+  {
+    "source": "2015-2017",
+    "target": "Honduras",
+    "value": 0
+  },
+  {
+    "source": "2015-2017",
+    "target": "Dominican Republic",
+    "value": 1
+  },
+  {
+    "source": "2015-2017",
+    "target": "Panama",
+    "value": 0
+  },
+  {
+    "source": "2015-2017",
+    "target": "Jamaica",
+    "value": 0
+  },
+  {
+    "source": "2015-2017",
+    "target": "Trinidad and Tobago",
+    "value": 0
+  },
+  {
+    "source": "El Salvador",
+    "target": "Armed Assault",
+    "value": 3301
+  },
+  {
+    "source": "El Salvador",
+    "target": "Bombing/Explosion",
+    "value": 1477
+  },
+  {
+    "source": "El Salvador",
+    "target": "Unknown",
+    "value": 138
+  },
+  {
+    "source": "El Salvador",
+    "target": "Assassination",
+    "value": 70
+  },
+  {
+    "source": "El Salvador",
+    "target": "Facility/Infrastructure Attack",
+    "value": 37
+  },
+  {
+    "source": "El Salvador",
+    "target": "Hostage Taking",
+    "value": 39
+  },
+  {
+    "source": "El Salvador",
+    "target": "Unarmed Assault",
+    "value": 0
+  },
+  {
+    "source": "Nicaragua",
+    "target": "Armed Assault",
+    "value": 1334
+  },
+  {
+    "source": "Nicaragua",
+    "target": "Bombing/Explosion",
+    "value": 294
+  },
+  {
+    "source": "Nicaragua",
+    "target": "Unknown",
+    "value": 38
+  },
+  {
+    "source": "Nicaragua",
+    "target": "Assassination",
+    "value": 46
+  },
+  {
+    "source": "Nicaragua",
+    "target": "Facility/Infrastructure Attack",
+    "value": 6
+  },
+  {
+    "source": "Nicaragua",
+    "target": "Hostage Taking",
+    "value": 13
+  },
+  {
+    "source": "Nicaragua",
+    "target": "Hijacking",
+    "value": 0
+  },
+  {
+    "source": "Guatemala",
+    "target": "Armed Assault",
+    "value": 504
+  },
+  {
+    "source": "Guatemala",
+    "target": "Bombing/Explosion",
+    "value": 542
+  },
+  {
+    "source": "Guatemala",
+    "target": "Unknown",
+    "value": 78
+  },
+  {
+    "source": "Guatemala",
+    "target": "Assassination",
+    "value": 70
+  },
+  {
+    "source": "Guatemala",
+    "target": "Facility/Infrastructure Attack",
+    "value": 18
+  },
+  {
+    "source": "Guatemala",
+    "target": "Hostage Taking",
+    "value": 18
+  },
+  {
+    "source": "Guatemala",
+    "target": "Unarmed Assault",
+    "value": 0
+  },
+  {
+    "source": "Guatemala",
+    "target": "Hijacking",
+    "value": 1
+  },
+  {
+    "source": "Haiti",
+    "target": "Armed Assault",
+    "value": 128
+  },
+  {
+    "source": "Haiti",
+    "target": "Bombing/Explosion",
+    "value": 135
+  },
+  {
+    "source": "Haiti",
+    "target": "Unknown",
+    "value": 5
+  },
+  {
+    "source": "Haiti",
+    "target": "Assassination",
+    "value": 24
+  },
+  {
+    "source": "Haiti",
+    "target": "Facility/Infrastructure Attack",
+    "value": 5
+  },
+  {
+    "source": "Haiti",
+    "target": "Hostage Taking",
+    "value": 1
+  },
+  {
+    "source": "Haiti",
+    "target": "Unarmed Assault",
+    "value": 2
+  },
+  {
+    "source": "Haiti",
+    "target": "Hijacking",
+    "value": 0
+  },
+  {
+    "source": "Honduras",
+    "target": "Armed Assault",
+    "value": 65
+  },
+  {
+    "source": "Honduras",
+    "target": "Bombing/Explosion",
+    "value": 146
+  },
+  {
+    "source": "Honduras",
+    "target": "Unknown",
+    "value": 2
+  },
+  {
+    "source": "Honduras",
+    "target": "Assassination",
+    "value": 22
+  },
+  {
+    "source": "Honduras",
+    "target": "Facility/Infrastructure Attack",
+    "value": 0
+  },
+  {
+    "source": "Honduras",
+    "target": "Hostage Taking",
+    "value": 3
+  },
+  {
+    "source": "Honduras",
+    "target": "Unarmed Assault",
+    "value": 1
+  },
+  {
+    "source": "Honduras",
+    "target": "Hijacking",
+    "value": 1
+  },
+  {
+    "source": "Dominican Republic",
+    "target": "Armed Assault",
+    "value": 54
+  },
+  {
+    "source": "Dominican Republic",
+    "target": "Bombing/Explosion",
+    "value": 25
+  },
+  {
+    "source": "Dominican Republic",
+    "target": "Unknown",
+    "value": 4
+  },
+  {
+    "source": "Dominican Republic",
+    "target": "Assassination",
+    "value": 4
+  },
+  {
+    "source": "Dominican Republic",
+    "target": "Facility/Infrastructure Attack",
+    "value": 36
+  },
+  {
+    "source": "Dominican Republic",
+    "target": "Hostage Taking",
+    "value": 0
+  },
+  {
+    "source": "Dominican Republic",
+    "target": "Unarmed Assault",
+    "value": 1
+  },
+  {
+    "source": "Panama",
+    "target": "Armed Assault",
+    "value": 5
+  },
+  {
+    "source": "Panama",
+    "target": "Bombing/Explosion",
+    "value": 75
+  },
+  {
+    "source": "Panama",
+    "target": "Unknown",
+    "value": 0
+  },
+  {
+    "source": "Panama",
+    "target": "Assassination",
+    "value": 1
+  },
+  {
+    "source": "Panama",
+    "target": "Facility/Infrastructure Attack",
+    "value": 2
+  },
+  {
+    "source": "Panama",
+    "target": "Hostage Taking",
+    "value": 0
+  },
+  {
+    "source": "Panama",
+    "target": "Hijacking",
+    "value": 0
+  },
+  {
+    "source": "Guadeloupe",
+    "target": "Armed Assault",
+    "value": 0
+  },
+  {
+    "source": "Guadeloupe",
+    "target": "Bombing/Explosion",
+    "value": 43
+  },
+  {
+    "source": "Guadeloupe",
+    "target": "Unknown",
+    "value": 0
+  },
+  {
+    "source": "Guadeloupe",
+    "target": "Assassination",
+    "value": 2
+  },
+  {
+    "source": "Costa Rica",
+    "target": "Armed Assault",
+    "value": 6
+  },
+  {
+    "source": "Costa Rica",
+    "target": "Bombing/Explosion",
+    "value": 28
+  },
+  {
+    "source": "Costa Rica",
+    "target": "Unknown",
+    "value": 0
+  },
+  {
+    "source": "Costa Rica",
+    "target": "Assassination",
+    "value": 2
+  },
+  {
+    "source": "Costa Rica",
+    "target": "Facility/Infrastructure Attack",
+    "value": 0
+  },
+  {
+    "source": "Costa Rica",
+    "target": "Hostage Taking",
+    "value": 2
+  },
+  {
+    "source": "Costa Rica",
+    "target": "Hijacking",
+    "value": 0
+  },
+  {
+    "source": "Jamaica",
+    "target": "Armed Assault",
+    "value": 33
+  },
+  {
+    "source": "Jamaica",
+    "target": "Bombing/Explosion",
+    "value": 0
+  },
+  {
+    "source": "Jamaica",
+    "target": "Assassination",
+    "value": 3
+  },
+  {
+    "source": "Jamaica",
+    "target": "Facility/Infrastructure Attack",
+    "value": 0
+  },
+  {
+    "source": "Jamaica",
+    "target": "Hostage Taking",
+    "value": 0
+  },
+  {
+    "source": "Jamaica",
+    "target": "Unarmed Assault",
+    "value": 0
+  },
+  {
+    "source": "Trinidad and Tobago",
+    "target": "Armed Assault",
+    "value": 0
+  },
+  {
+    "source": "Trinidad and Tobago",
+    "target": "Bombing/Explosion",
+    "value": 31
+  },
+  {
+    "source": "Trinidad and Tobago",
+    "target": "Assassination",
+    "value": 1
+  },
+  {
+    "source": "Trinidad and Tobago",
+    "target": "Facility/Infrastructure Attack",
+    "value": 0
+  },
+  {
+    "source": "Trinidad and Tobago",
+    "target": "Unarmed Assault",
+    "value": 3
+  },
+  {
+    "source": "Other",
+    "target": "Armed Assault",
+    "value": 29
+  },
+  {
+    "source": "Other",
+    "target": "Bombing/Explosion",
+    "value": 23
+  },
+  {
+    "source": "Other",
+    "target": "Unknown",
+    "value": 1
+  },
+  {
+    "source": "Other",
+    "target": "Assassination",
+    "value": 1
+  },
+  {
+    "source": "Other",
+    "target": "Facility/Infrastructure Attack",
+    "value": 1
+  },
+  {
+    "source": "Other",
+    "target": "Hostage Taking",
+    "value": 0
+  },
+  {
+    "source": "Other",
+    "target": "Unarmed Assault",
+    "value": 9
+  },
+  {
+    "source": "Other",
+    "target": "Hijacking",
+    "value": 2
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Military",
+    "value": 3641
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Private Citizens & Property",
+    "value": 591
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Business, Utilities & Communication",
+    "value": 289
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Government",
+    "value": 225
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Police",
+    "value": 376
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Transportation",
+    "value": 271
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Unknown, religious & militia",
+    "value": 66
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Military",
+    "value": 1055
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Private Citizens & Property",
+    "value": 456
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Business, Utilities & Communication",
+    "value": 401
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Government",
+    "value": 356
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Police",
+    "value": 228
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Transportation",
+    "value": 218
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Unknown, religious & militia",
+    "value": 105
+  },
+  {
+    "source": "Unknown",
+    "target": "Military",
+    "value": 161
+  },
+  {
+    "source": "Unknown",
+    "target": "Private Citizens & Property",
+    "value": 36
+  },
+  {
+    "source": "Unknown",
+    "target": "Business, Utilities & Communication",
+    "value": 40
+  },
+  {
+    "source": "Unknown",
+    "target": "Government",
+    "value": 10
+  },
+  {
+    "source": "Unknown",
+    "target": "Police",
+    "value": 15
+  },
+  {
+    "source": "Unknown",
+    "target": "Transportation",
+    "value": 1
+  },
+  {
+    "source": "Unknown",
+    "target": "Unknown, religious & militia",
+    "value": 3
+  },
+  {
+    "source": "Assassination",
+    "target": "Military",
+    "value": 24
+  },
+  {
+    "source": "Assassination",
+    "target": "Private Citizens & Property",
+    "value": 31
+  },
+  {
+    "source": "Assassination",
+    "target": "Business, Utilities & Communication",
+    "value": 28
+  },
+  {
+    "source": "Assassination",
+    "target": "Government",
+    "value": 94
+  },
+  {
+    "source": "Assassination",
+    "target": "Police",
+    "value": 36
+  },
+  {
+    "source": "Assassination",
+    "target": "Transportation",
+    "value": 0
+  },
+  {
+    "source": "Assassination",
+    "target": "Unknown, religious & militia",
+    "value": 33
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Military",
+    "value": 0
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Private Citizens & Property",
+    "value": 7
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Business, Utilities & Communication",
+    "value": 26
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Government",
+    "value": 6
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Police",
+    "value": 14
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Transportation",
+    "value": 52
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Unknown, religious & militia",
+    "value": 0
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Military",
+    "value": 16
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Private Citizens & Property",
+    "value": 5
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Business, Utilities & Communication",
+    "value": 9
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Government",
+    "value": 30
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Police",
+    "value": 0
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Transportation",
+    "value": 13
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Unknown, religious & militia",
+    "value": 3
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Private Citizens & Property",
+    "value": 1
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Business, Utilities & Communication",
+    "value": 0
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Government",
+    "value": 11
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Police",
+    "value": 1
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Transportation",
+    "value": 3
+  },
+  {
+    "source": "Hijacking",
+    "target": "Business, Utilities & Communication",
+    "value": 2
+  },
+  {
+    "source": "Hijacking",
+    "target": "Government",
+    "value": 0
+  },
+  {
+    "source": "Hijacking",
+    "target": "Transportation",
+    "value": 2
+  },
+  {
+    "source": "Military",
+    "target": "PGIS",
+    "value": 4895
+  },
+  {
+    "source": "Military",
+    "target": "CETIS",
+    "value": 0
+  },
+  {
+    "source": "Military",
+    "target": "Other Source",
+    "value": 2
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "PGIS",
+    "value": 1064
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "CETIS",
+    "value": 45
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "START Primary Collection",
+    "value": 0
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Other Source",
+    "value": 18
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "ISVG",
+    "value": 0
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "PGIS",
+    "value": 789
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "CETIS",
+    "value": 1
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "START Primary Collection",
+    "value": 4
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Other Source",
+    "value": 0
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "ISVG",
+    "value": 1
+  },
+  {
+    "source": "Government",
+    "target": "PGIS",
+    "value": 718
+  },
+  {
+    "source": "Government",
+    "target": "CETIS",
+    "value": 9
+  },
+  {
+    "source": "Government",
+    "target": "START Primary Collection",
+    "value": 3
+  },
+  {
+    "source": "Government",
+    "target": "Other Source",
+    "value": 2
+  },
+  {
+    "source": "Government",
+    "target": "ISVG",
+    "value": 0
+  },
+  {
+    "source": "Police",
+    "target": "PGIS",
+    "value": 657
+  },
+  {
+    "source": "Police",
+    "target": "CETIS",
+    "value": 1
+  },
+  {
+    "source": "Police",
+    "target": "START Primary Collection",
+    "value": 0
+  },
+  {
+    "source": "Police",
+    "target": "Other Source",
+    "value": 12
+  },
+  {
+    "source": "Police",
+    "target": "ISVG",
+    "value": 0
+  },
+  {
+    "source": "Transportation",
+    "target": "PGIS",
+    "value": 511
+  },
+  {
+    "source": "Transportation",
+    "target": "CETIS",
+    "value": 14
+  },
+  {
+    "source": "Transportation",
+    "target": "START Primary Collection",
+    "value": 35
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "PGIS",
+    "value": 169
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "START Primary Collection",
+    "value": 28
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Other Source",
+    "value": 13
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "ISVG",
+    "value": 0
+  }
+]}
+}

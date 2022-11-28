@@ -1,0 +1,1738 @@
+{"items": {
+"nodes":[
+  {
+    "node": "1",
+    "name": "1970-1974",
+    "value": 197,
+    "id": "1970-1974"
+  },
+  {
+    "node": "2",
+    "name": "1975-1979",
+    "value": 893,
+    "id": "1975-1979"
+  },
+  {
+    "node": "3",
+    "name": "1980-1984",
+    "value": 1641,
+    "id": "1980-1984"
+  },
+  {
+    "node": "4",
+    "name": "1985-1989",
+    "value": 1242,
+    "id": "1985-1989"
+  },
+  {
+    "node": "5",
+    "name": "1990-1994",
+    "value": 3349,
+    "id": "1990-1994"
+  },
+  {
+    "node": "6",
+    "name": "1995-1999",
+    "value": 2074,
+    "id": "1995-1999"
+  },
+  {
+    "node": "7",
+    "name": "2000-2004",
+    "value": 1762,
+    "id": "2000-2004"
+  },
+  {
+    "node": "8",
+    "name": "2005-2009",
+    "value": 6351,
+    "id": "2005-2009"
+  },
+  {
+    "node": "9",
+    "name": "2010-2014",
+    "value": 17034,
+    "id": "2010-2014"
+  },
+  {
+    "node": "10",
+    "name": "2015-2017",
+    "value": 15931,
+    "id": "2015-2017"
+  },
+  {
+    "node": "11",
+    "name": "Iraq",
+    "value": 24636,
+    "id": "Iraq"
+  },
+  {
+    "node": "12",
+    "name": "Syria",
+    "value": 2201,
+    "id": "Syria"
+  },
+  {
+    "node": "13",
+    "name": "Algeria",
+    "value": 2743,
+    "id": "Algeria"
+  },
+  {
+    "node": "14",
+    "name": "Yemen",
+    "value": 3347,
+    "id": "Yemen"
+  },
+  {
+    "node": "15",
+    "name": "Turkey",
+    "value": 4292,
+    "id": "Turkey"
+  },
+  {
+    "node": "16",
+    "name": "Lebanon",
+    "value": 2478,
+    "id": "Lebanon"
+  },
+  {
+    "node": "17",
+    "name": "Egypt",
+    "value": 2479,
+    "id": "Egypt"
+  },
+  {
+    "node": "18",
+    "name": "Libya",
+    "value": 2249,
+    "id": "Libya"
+  },
+  {
+    "node": "19",
+    "name": "Israel",
+    "value": 2183,
+    "id": "Israel"
+  },
+  {
+    "node": "20",
+    "name": "Iran",
+    "value": 684,
+    "id": "Iran"
+  },
+  {
+    "node": "21",
+    "name": "West Bank and Gaza Strip",
+    "value": 2227,
+    "id": "West-Bank-and-Gaza-Strip"
+  },
+  {
+    "node": "22",
+    "name": "Other",
+    "value": 955,
+    "id": "Other"
+  },
+  {
+    "node": "23",
+    "name": "Bombing/Explosion",
+    "value": 30908,
+    "id": "Bombing-Explosion"
+  },
+  {
+    "node": "24",
+    "name": "Armed Assault",
+    "value": 9273,
+    "id": "Armed-Assault"
+  },
+  {
+    "node": "25",
+    "name": "Hostage Taking",
+    "value": 2766,
+    "id": "Hostage-Taking"
+  },
+  {
+    "node": "26",
+    "name": "Unknown",
+    "value": 1891,
+    "id": "Unknown"
+  },
+  {
+    "node": "27",
+    "name": "Assassination",
+    "value": 4206,
+    "id": "Assassination"
+  },
+  {
+    "node": "28",
+    "name": "Facility/Infrastructure Attack",
+    "value": 1115,
+    "id": "Facility-Infrastructure-Attack"
+  },
+  {
+    "node": "29",
+    "name": "Unarmed Assault",
+    "value": 177,
+    "id": "Unarmed-Assault"
+  },
+  {
+    "node": "30",
+    "name": "Hijacking",
+    "value": 138,
+    "id": "Hijacking"
+  },
+  {
+    "node": "31",
+    "name": "Private Citizens & Property",
+    "value": 15457,
+    "id": "Private-Citizens---Property"
+  },
+  {
+    "node": "32",
+    "name": "Military",
+    "value": 9269,
+    "id": "Military"
+  },
+  {
+    "node": "33",
+    "name": "Police",
+    "value": 6893,
+    "id": "Police"
+  },
+  {
+    "node": "34",
+    "name": "Unknown, religious & militia",
+    "value": 5604,
+    "id": "Unknown--religious---militia"
+  },
+  {
+    "node": "35",
+    "name": "Business, Utilities & Communication",
+    "value": 6676,
+    "id": "Business--Utilities---Communication"
+  },
+  {
+    "node": "36",
+    "name": "Government",
+    "value": 5056,
+    "id": "Government"
+  },
+  {
+    "node": "37",
+    "name": "Transportation",
+    "value": 1519,
+    "id": "Transportation"
+  },
+  {
+    "node": "38",
+    "name": "START Primary Collection",
+    "value": 30246,
+    "id": "START-Primary-Collection"
+  },
+  {
+    "node": "39",
+    "name": "CETIS",
+    "value": 5272,
+    "id": "CETIS"
+  },
+  {
+    "node": "40",
+    "name": "PGIS",
+    "value": 8731,
+    "id": "PGIS"
+  },
+  {
+    "node": "41",
+    "name": "ISVG",
+    "value": 5037,
+    "id": "ISVG"
+  },
+  {
+    "node": "42",
+    "name": "Other Source",
+    "value": 1188,
+    "id": "Other-Source"
+  }
+], 
+ "links":[
+  {
+    "source": "1970-1974",
+    "target": "Syria",
+    "value": 1
+  },
+  {
+    "source": "1970-1974",
+    "target": "Algeria",
+    "value": 0
+  },
+  {
+    "source": "1970-1974",
+    "target": "Turkey",
+    "value": 4
+  },
+  {
+    "source": "1970-1974",
+    "target": "Lebanon",
+    "value": 4
+  },
+  {
+    "source": "1970-1974",
+    "target": "Egypt",
+    "value": 1
+  },
+  {
+    "source": "1970-1974",
+    "target": "Israel",
+    "value": 107
+  },
+  {
+    "source": "1970-1974",
+    "target": "Iran",
+    "value": 7
+  },
+  {
+    "source": "1970-1974",
+    "target": "West Bank and Gaza Strip",
+    "value": 1
+  },
+  {
+    "source": "1970-1974",
+    "target": "Other",
+    "value": 4
+  },
+  {
+    "source": "1975-1979",
+    "target": "Iraq",
+    "value": 13
+  },
+  {
+    "source": "1975-1979",
+    "target": "Syria",
+    "value": 86
+  },
+  {
+    "source": "1975-1979",
+    "target": "Algeria",
+    "value": 0
+  },
+  {
+    "source": "1975-1979",
+    "target": "Turkey",
+    "value": 199
+  },
+  {
+    "source": "1975-1979",
+    "target": "Lebanon",
+    "value": 175
+  },
+  {
+    "source": "1975-1979",
+    "target": "Egypt",
+    "value": 4
+  },
+  {
+    "source": "1975-1979",
+    "target": "Libya",
+    "value": 0
+  },
+  {
+    "source": "1975-1979",
+    "target": "Israel",
+    "value": 146
+  },
+  {
+    "source": "1975-1979",
+    "target": "Iran",
+    "value": 519
+  },
+  {
+    "source": "1975-1979",
+    "target": "West Bank and Gaza Strip",
+    "value": 10
+  },
+  {
+    "source": "1975-1979",
+    "target": "Other",
+    "value": 33
+  },
+  {
+    "source": "1980-1984",
+    "target": "Iraq",
+    "value": 105
+  },
+  {
+    "source": "1980-1984",
+    "target": "Syria",
+    "value": 380
+  },
+  {
+    "source": "1980-1984",
+    "target": "Turkey",
+    "value": 160
+  },
+  {
+    "source": "1980-1984",
+    "target": "Lebanon",
+    "value": 1264
+  },
+  {
+    "source": "1980-1984",
+    "target": "Egypt",
+    "value": 68
+  },
+  {
+    "source": "1980-1984",
+    "target": "Libya",
+    "value": 15
+  },
+  {
+    "source": "1980-1984",
+    "target": "Israel",
+    "value": 43
+  },
+  {
+    "source": "1980-1984",
+    "target": "Iran",
+    "value": 447
+  },
+  {
+    "source": "1980-1984",
+    "target": "West Bank and Gaza Strip",
+    "value": 58
+  },
+  {
+    "source": "1980-1984",
+    "target": "Other",
+    "value": 166
+  },
+  {
+    "source": "1985-1989",
+    "target": "Iraq",
+    "value": 43
+  },
+  {
+    "source": "1985-1989",
+    "target": "Syria",
+    "value": 38
+  },
+  {
+    "source": "1985-1989",
+    "target": "Turkey",
+    "value": 548
+  },
+  {
+    "source": "1985-1989",
+    "target": "Lebanon",
+    "value": 1358
+  },
+  {
+    "source": "1985-1989",
+    "target": "Egypt",
+    "value": 17
+  },
+  {
+    "source": "1985-1989",
+    "target": "Israel",
+    "value": 87
+  },
+  {
+    "source": "1985-1989",
+    "target": "Iran",
+    "value": 93
+  },
+  {
+    "source": "1985-1989",
+    "target": "West Bank and Gaza Strip",
+    "value": 89
+  },
+  {
+    "source": "1985-1989",
+    "target": "Other",
+    "value": 285
+  },
+  {
+    "source": "1990-1994",
+    "target": "Iraq",
+    "value": 193
+  },
+  {
+    "source": "1990-1994",
+    "target": "Algeria",
+    "value": 781
+  },
+  {
+    "source": "1990-1994",
+    "target": "Yemen",
+    "value": 35
+  },
+  {
+    "source": "1990-1994",
+    "target": "Turkey",
+    "value": 3035
+  },
+  {
+    "source": "1990-1994",
+    "target": "Lebanon",
+    "value": 347
+  },
+  {
+    "source": "1990-1994",
+    "target": "Egypt",
+    "value": 251
+  },
+  {
+    "source": "1990-1994",
+    "target": "Libya",
+    "value": 0
+  },
+  {
+    "source": "1990-1994",
+    "target": "Israel",
+    "value": 186
+  },
+  {
+    "source": "1990-1994",
+    "target": "Iran",
+    "value": 95
+  },
+  {
+    "source": "1990-1994",
+    "target": "West Bank and Gaza Strip",
+    "value": 327
+  },
+  {
+    "source": "1990-1994",
+    "target": "Other",
+    "value": 16
+  },
+  {
+    "source": "1995-1999",
+    "target": "Iraq",
+    "value": 324
+  },
+  {
+    "source": "1995-1999",
+    "target": "Syria",
+    "value": 17
+  },
+  {
+    "source": "1995-1999",
+    "target": "Algeria",
+    "value": 6632
+  },
+  {
+    "source": "1995-1999",
+    "target": "Yemen",
+    "value": 37
+  },
+  {
+    "source": "1995-1999",
+    "target": "Turkey",
+    "value": 530
+  },
+  {
+    "source": "1995-1999",
+    "target": "Lebanon",
+    "value": 168
+  },
+  {
+    "source": "1995-1999",
+    "target": "Egypt",
+    "value": 406
+  },
+  {
+    "source": "1995-1999",
+    "target": "Libya",
+    "value": 12
+  },
+  {
+    "source": "1995-1999",
+    "target": "Israel",
+    "value": 147
+  },
+  {
+    "source": "1995-1999",
+    "target": "Iran",
+    "value": 13
+  },
+  {
+    "source": "1995-1999",
+    "target": "West Bank and Gaza Strip",
+    "value": 82
+  },
+  {
+    "source": "1995-1999",
+    "target": "Other",
+    "value": 55
+  },
+  {
+    "source": "2000-2004",
+    "target": "Iraq",
+    "value": 2591
+  },
+  {
+    "source": "2000-2004",
+    "target": "Syria",
+    "value": 4
+  },
+  {
+    "source": "2000-2004",
+    "target": "Algeria",
+    "value": 2202
+  },
+  {
+    "source": "2000-2004",
+    "target": "Yemen",
+    "value": 41
+  },
+  {
+    "source": "2000-2004",
+    "target": "Turkey",
+    "value": 121
+  },
+  {
+    "source": "2000-2004",
+    "target": "Lebanon",
+    "value": 18
+  },
+  {
+    "source": "2000-2004",
+    "target": "Egypt",
+    "value": 37
+  },
+  {
+    "source": "2000-2004",
+    "target": "Israel",
+    "value": 704
+  },
+  {
+    "source": "2000-2004",
+    "target": "Iran",
+    "value": 5
+  },
+  {
+    "source": "2000-2004",
+    "target": "West Bank and Gaza Strip",
+    "value": 394
+  },
+  {
+    "source": "2000-2004",
+    "target": "Other",
+    "value": 210
+  },
+  {
+    "source": "2005-2009",
+    "target": "Iraq",
+    "value": 20116
+  },
+  {
+    "source": "2005-2009",
+    "target": "Syria",
+    "value": 23
+  },
+  {
+    "source": "2005-2009",
+    "target": "Algeria",
+    "value": 1107
+  },
+  {
+    "source": "2005-2009",
+    "target": "Yemen",
+    "value": 171
+  },
+  {
+    "source": "2005-2009",
+    "target": "Turkey",
+    "value": 166
+  },
+  {
+    "source": "2005-2009",
+    "target": "Lebanon",
+    "value": 238
+  },
+  {
+    "source": "2005-2009",
+    "target": "Egypt",
+    "value": 112
+  },
+  {
+    "source": "2005-2009",
+    "target": "Libya",
+    "value": 0
+  },
+  {
+    "source": "2005-2009",
+    "target": "Israel",
+    "value": 154
+  },
+  {
+    "source": "2005-2009",
+    "target": "Iran",
+    "value": 208
+  },
+  {
+    "source": "2005-2009",
+    "target": "West Bank and Gaza Strip",
+    "value": 176
+  },
+  {
+    "source": "2005-2009",
+    "target": "Other",
+    "value": 108
+  },
+  {
+    "source": "2010-2014",
+    "target": "Iraq",
+    "value": 27636
+  },
+  {
+    "source": "2010-2014",
+    "target": "Syria",
+    "value": 5920
+  },
+  {
+    "source": "2010-2014",
+    "target": "Algeria",
+    "value": 302
+  },
+  {
+    "source": "2010-2014",
+    "target": "Yemen",
+    "value": 3839
+  },
+  {
+    "source": "2010-2014",
+    "target": "Turkey",
+    "value": 407
+  },
+  {
+    "source": "2010-2014",
+    "target": "Lebanon",
+    "value": 336
+  },
+  {
+    "source": "2010-2014",
+    "target": "Egypt",
+    "value": 658
+  },
+  {
+    "source": "2010-2014",
+    "target": "Libya",
+    "value": 959
+  },
+  {
+    "source": "2010-2014",
+    "target": "Israel",
+    "value": 90
+  },
+  {
+    "source": "2010-2014",
+    "target": "Iran",
+    "value": 197
+  },
+  {
+    "source": "2010-2014",
+    "target": "West Bank and Gaza Strip",
+    "value": 106
+  },
+  {
+    "source": "2010-2014",
+    "target": "Other",
+    "value": 141
+  },
+  {
+    "source": "2015-2017",
+    "target": "Iraq",
+    "value": 27568
+  },
+  {
+    "source": "2015-2017",
+    "target": "Syria",
+    "value": 8760
+  },
+  {
+    "source": "2015-2017",
+    "target": "Algeria",
+    "value": 42
+  },
+  {
+    "source": "2015-2017",
+    "target": "Yemen",
+    "value": 4653
+  },
+  {
+    "source": "2015-2017",
+    "target": "Turkey",
+    "value": 1718
+  },
+  {
+    "source": "2015-2017",
+    "target": "Lebanon",
+    "value": 153
+  },
+  {
+    "source": "2015-2017",
+    "target": "Egypt",
+    "value": 2315
+  },
+  {
+    "source": "2015-2017",
+    "target": "Libya",
+    "value": 1612
+  },
+  {
+    "source": "2015-2017",
+    "target": "Israel",
+    "value": 39
+  },
+  {
+    "source": "2015-2017",
+    "target": "Iran",
+    "value": 89
+  },
+  {
+    "source": "2015-2017",
+    "target": "West Bank and Gaza Strip",
+    "value": 257
+  },
+  {
+    "source": "2015-2017",
+    "target": "Other",
+    "value": 672
+  },
+  {
+    "source": "Iraq",
+    "target": "Bombing/Explosion",
+    "value": 53578
+  },
+  {
+    "source": "Iraq",
+    "target": "Armed Assault",
+    "value": 9175
+  },
+  {
+    "source": "Iraq",
+    "target": "Hostage Taking",
+    "value": 8845
+  },
+  {
+    "source": "Iraq",
+    "target": "Unknown",
+    "value": 5136
+  },
+  {
+    "source": "Iraq",
+    "target": "Assassination",
+    "value": 1640
+  },
+  {
+    "source": "Iraq",
+    "target": "Facility/Infrastructure Attack",
+    "value": 195
+  },
+  {
+    "source": "Iraq",
+    "target": "Unarmed Assault",
+    "value": 3
+  },
+  {
+    "source": "Iraq",
+    "target": "Hijacking",
+    "value": 17
+  },
+  {
+    "source": "Syria",
+    "target": "Bombing/Explosion",
+    "value": 9192
+  },
+  {
+    "source": "Syria",
+    "target": "Armed Assault",
+    "value": 1248
+  },
+  {
+    "source": "Syria",
+    "target": "Hostage Taking",
+    "value": 3237
+  },
+  {
+    "source": "Syria",
+    "target": "Unknown",
+    "value": 1382
+  },
+  {
+    "source": "Syria",
+    "target": "Assassination",
+    "value": 165
+  },
+  {
+    "source": "Syria",
+    "target": "Facility/Infrastructure Attack",
+    "value": 3
+  },
+  {
+    "source": "Syria",
+    "target": "Unarmed Assault",
+    "value": 2
+  },
+  {
+    "source": "Syria",
+    "target": "Hijacking",
+    "value": 0
+  },
+  {
+    "source": "Algeria",
+    "target": "Bombing/Explosion",
+    "value": 2645
+  },
+  {
+    "source": "Algeria",
+    "target": "Armed Assault",
+    "value": 6372
+  },
+  {
+    "source": "Algeria",
+    "target": "Hostage Taking",
+    "value": 277
+  },
+  {
+    "source": "Algeria",
+    "target": "Unknown",
+    "value": 1190
+  },
+  {
+    "source": "Algeria",
+    "target": "Assassination",
+    "value": 556
+  },
+  {
+    "source": "Algeria",
+    "target": "Facility/Infrastructure Attack",
+    "value": 17
+  },
+  {
+    "source": "Algeria",
+    "target": "Unarmed Assault",
+    "value": 1
+  },
+  {
+    "source": "Algeria",
+    "target": "Hijacking",
+    "value": 8
+  },
+  {
+    "source": "Yemen",
+    "target": "Bombing/Explosion",
+    "value": 4284
+  },
+  {
+    "source": "Yemen",
+    "target": "Armed Assault",
+    "value": 1735
+  },
+  {
+    "source": "Yemen",
+    "target": "Hostage Taking",
+    "value": 569
+  },
+  {
+    "source": "Yemen",
+    "target": "Unknown",
+    "value": 1628
+  },
+  {
+    "source": "Yemen",
+    "target": "Assassination",
+    "value": 524
+  },
+  {
+    "source": "Yemen",
+    "target": "Facility/Infrastructure Attack",
+    "value": 28
+  },
+  {
+    "source": "Yemen",
+    "target": "Unarmed Assault",
+    "value": 0
+  },
+  {
+    "source": "Yemen",
+    "target": "Hijacking",
+    "value": 8
+  },
+  {
+    "source": "Turkey",
+    "target": "Bombing/Explosion",
+    "value": 2083
+  },
+  {
+    "source": "Turkey",
+    "target": "Armed Assault",
+    "value": 3797
+  },
+  {
+    "source": "Turkey",
+    "target": "Hostage Taking",
+    "value": 66
+  },
+  {
+    "source": "Turkey",
+    "target": "Unknown",
+    "value": 301
+  },
+  {
+    "source": "Turkey",
+    "target": "Assassination",
+    "value": 551
+  },
+  {
+    "source": "Turkey",
+    "target": "Facility/Infrastructure Attack",
+    "value": 60
+  },
+  {
+    "source": "Turkey",
+    "target": "Unarmed Assault",
+    "value": 21
+  },
+  {
+    "source": "Turkey",
+    "target": "Hijacking",
+    "value": 9
+  },
+  {
+    "source": "Lebanon",
+    "target": "Bombing/Explosion",
+    "value": 3236
+  },
+  {
+    "source": "Lebanon",
+    "target": "Armed Assault",
+    "value": 372
+  },
+  {
+    "source": "Lebanon",
+    "target": "Hostage Taking",
+    "value": 49
+  },
+  {
+    "source": "Lebanon",
+    "target": "Unknown",
+    "value": 44
+  },
+  {
+    "source": "Lebanon",
+    "target": "Assassination",
+    "value": 360
+  },
+  {
+    "source": "Lebanon",
+    "target": "Facility/Infrastructure Attack",
+    "value": 0
+  },
+  {
+    "source": "Lebanon",
+    "target": "Unarmed Assault",
+    "value": 0
+  },
+  {
+    "source": "Lebanon",
+    "target": "Hijacking",
+    "value": 0
+  },
+  {
+    "source": "Egypt",
+    "target": "Bombing/Explosion",
+    "value": 1987
+  },
+  {
+    "source": "Egypt",
+    "target": "Armed Assault",
+    "value": 1321
+  },
+  {
+    "source": "Egypt",
+    "target": "Hostage Taking",
+    "value": 83
+  },
+  {
+    "source": "Egypt",
+    "target": "Unknown",
+    "value": 192
+  },
+  {
+    "source": "Egypt",
+    "target": "Assassination",
+    "value": 268
+  },
+  {
+    "source": "Egypt",
+    "target": "Facility/Infrastructure Attack",
+    "value": 13
+  },
+  {
+    "source": "Egypt",
+    "target": "Unarmed Assault",
+    "value": 0
+  },
+  {
+    "source": "Egypt",
+    "target": "Hijacking",
+    "value": 5
+  },
+  {
+    "source": "Libya",
+    "target": "Bombing/Explosion",
+    "value": 1191
+  },
+  {
+    "source": "Libya",
+    "target": "Armed Assault",
+    "value": 529
+  },
+  {
+    "source": "Libya",
+    "target": "Hostage Taking",
+    "value": 417
+  },
+  {
+    "source": "Libya",
+    "target": "Unknown",
+    "value": 279
+  },
+  {
+    "source": "Libya",
+    "target": "Assassination",
+    "value": 175
+  },
+  {
+    "source": "Libya",
+    "target": "Facility/Infrastructure Attack",
+    "value": 6
+  },
+  {
+    "source": "Libya",
+    "target": "Unarmed Assault",
+    "value": 1
+  },
+  {
+    "source": "Libya",
+    "target": "Hijacking",
+    "value": 0
+  },
+  {
+    "source": "Israel",
+    "target": "Bombing/Explosion",
+    "value": 1106
+  },
+  {
+    "source": "Israel",
+    "target": "Armed Assault",
+    "value": 275
+  },
+  {
+    "source": "Israel",
+    "target": "Hostage Taking",
+    "value": 127
+  },
+  {
+    "source": "Israel",
+    "target": "Unknown",
+    "value": 18
+  },
+  {
+    "source": "Israel",
+    "target": "Assassination",
+    "value": 110
+  },
+  {
+    "source": "Israel",
+    "target": "Facility/Infrastructure Attack",
+    "value": 5
+  },
+  {
+    "source": "Israel",
+    "target": "Unarmed Assault",
+    "value": 56
+  },
+  {
+    "source": "Israel",
+    "target": "Hijacking",
+    "value": 6
+  },
+  {
+    "source": "Iran",
+    "target": "Bombing/Explosion",
+    "value": 762
+  },
+  {
+    "source": "Iran",
+    "target": "Armed Assault",
+    "value": 223
+  },
+  {
+    "source": "Iran",
+    "target": "Hostage Taking",
+    "value": 24
+  },
+  {
+    "source": "Iran",
+    "target": "Unknown",
+    "value": 101
+  },
+  {
+    "source": "Iran",
+    "target": "Assassination",
+    "value": 118
+  },
+  {
+    "source": "Iran",
+    "target": "Facility/Infrastructure Attack",
+    "value": 436
+  },
+  {
+    "source": "Iran",
+    "target": "Unarmed Assault",
+    "value": 5
+  },
+  {
+    "source": "Iran",
+    "target": "Hijacking",
+    "value": 4
+  },
+  {
+    "source": "West Bank and Gaza Strip",
+    "target": "Bombing/Explosion",
+    "value": 347
+  },
+  {
+    "source": "West Bank and Gaza Strip",
+    "target": "Armed Assault",
+    "value": 727
+  },
+  {
+    "source": "West Bank and Gaza Strip",
+    "target": "Hostage Taking",
+    "value": 65
+  },
+  {
+    "source": "West Bank and Gaza Strip",
+    "target": "Unknown",
+    "value": 14
+  },
+  {
+    "source": "West Bank and Gaza Strip",
+    "target": "Assassination",
+    "value": 270
+  },
+  {
+    "source": "West Bank and Gaza Strip",
+    "target": "Facility/Infrastructure Attack",
+    "value": 22
+  },
+  {
+    "source": "West Bank and Gaza Strip",
+    "target": "Unarmed Assault",
+    "value": 55
+  },
+  {
+    "source": "West Bank and Gaza Strip",
+    "target": "Hijacking",
+    "value": 0
+  },
+  {
+    "source": "Other",
+    "target": "Bombing/Explosion",
+    "value": 772
+  },
+  {
+    "source": "Other",
+    "target": "Armed Assault",
+    "value": 427
+  },
+  {
+    "source": "Other",
+    "target": "Hostage Taking",
+    "value": 78
+  },
+  {
+    "source": "Other",
+    "target": "Unknown",
+    "value": 291
+  },
+  {
+    "source": "Other",
+    "target": "Assassination",
+    "value": 37
+  },
+  {
+    "source": "Other",
+    "target": "Facility/Infrastructure Attack",
+    "value": 17
+  },
+  {
+    "source": "Other",
+    "target": "Unarmed Assault",
+    "value": 1
+  },
+  {
+    "source": "Other",
+    "target": "Hijacking",
+    "value": 67
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Private Citizens & Property",
+    "value": 29788
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Military",
+    "value": 17289
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Police",
+    "value": 9257
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Unknown, religious & militia",
+    "value": 9278
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Business, Utilities & Communication",
+    "value": 8499
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Government",
+    "value": 4222
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Transportation",
+    "value": 2850
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Private Citizens & Property",
+    "value": 9433
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Military",
+    "value": 7252
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Police",
+    "value": 5094
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Unknown, religious & militia",
+    "value": 1411
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Business, Utilities & Communication",
+    "value": 1338
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Government",
+    "value": 1079
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Transportation",
+    "value": 594
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Private Citizens & Property",
+    "value": 6702
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Military",
+    "value": 3994
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Police",
+    "value": 1188
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Unknown, religious & militia",
+    "value": 432
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Business, Utilities & Communication",
+    "value": 821
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Government",
+    "value": 607
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Transportation",
+    "value": 93
+  },
+  {
+    "source": "Unknown",
+    "target": "Private Citizens & Property",
+    "value": 3194
+  },
+  {
+    "source": "Unknown",
+    "target": "Military",
+    "value": 5091
+  },
+  {
+    "source": "Unknown",
+    "target": "Police",
+    "value": 607
+  },
+  {
+    "source": "Unknown",
+    "target": "Unknown, religious & militia",
+    "value": 974
+  },
+  {
+    "source": "Unknown",
+    "target": "Business, Utilities & Communication",
+    "value": 522
+  },
+  {
+    "source": "Unknown",
+    "target": "Government",
+    "value": 93
+  },
+  {
+    "source": "Unknown",
+    "target": "Transportation",
+    "value": 95
+  },
+  {
+    "source": "Assassination",
+    "target": "Private Citizens & Property",
+    "value": 948
+  },
+  {
+    "source": "Assassination",
+    "target": "Military",
+    "value": 557
+  },
+  {
+    "source": "Assassination",
+    "target": "Police",
+    "value": 813
+  },
+  {
+    "source": "Assassination",
+    "target": "Unknown, religious & militia",
+    "value": 721
+  },
+  {
+    "source": "Assassination",
+    "target": "Business, Utilities & Communication",
+    "value": 409
+  },
+  {
+    "source": "Assassination",
+    "target": "Government",
+    "value": 1302
+  },
+  {
+    "source": "Assassination",
+    "target": "Transportation",
+    "value": 24
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Private Citizens & Property",
+    "value": 67
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Military",
+    "value": 19
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Police",
+    "value": 45
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Unknown, religious & militia",
+    "value": 51
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Business, Utilities & Communication",
+    "value": 599
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Government",
+    "value": 18
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Transportation",
+    "value": 3
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Private Citizens & Property",
+    "value": 62
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Military",
+    "value": 41
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Police",
+    "value": 11
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Unknown, religious & militia",
+    "value": 0
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Business, Utilities & Communication",
+    "value": 2
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Government",
+    "value": 1
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Transportation",
+    "value": 28
+  },
+  {
+    "source": "Hijacking",
+    "target": "Private Citizens & Property",
+    "value": 3
+  },
+  {
+    "source": "Hijacking",
+    "target": "Military",
+    "value": 18
+  },
+  {
+    "source": "Hijacking",
+    "target": "Police",
+    "value": 5
+  },
+  {
+    "source": "Hijacking",
+    "target": "Unknown, religious & militia",
+    "value": 3
+  },
+  {
+    "source": "Hijacking",
+    "target": "Business, Utilities & Communication",
+    "value": 3
+  },
+  {
+    "source": "Hijacking",
+    "target": "Government",
+    "value": 0
+  },
+  {
+    "source": "Hijacking",
+    "target": "Transportation",
+    "value": 92
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "START Primary Collection",
+    "value": 27672
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "CETIS",
+    "value": 10814
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "PGIS",
+    "value": 6559
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "ISVG",
+    "value": 3858
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Other Source",
+    "value": 1294
+  },
+  {
+    "source": "Military",
+    "target": "START Primary Collection",
+    "value": 27150
+  },
+  {
+    "source": "Military",
+    "target": "CETIS",
+    "value": 2309
+  },
+  {
+    "source": "Military",
+    "target": "PGIS",
+    "value": 3411
+  },
+  {
+    "source": "Military",
+    "target": "ISVG",
+    "value": 753
+  },
+  {
+    "source": "Military",
+    "target": "Other Source",
+    "value": 638
+  },
+  {
+    "source": "Police",
+    "target": "START Primary Collection",
+    "value": 10214
+  },
+  {
+    "source": "Police",
+    "target": "CETIS",
+    "value": 3362
+  },
+  {
+    "source": "Police",
+    "target": "PGIS",
+    "value": 1974
+  },
+  {
+    "source": "Police",
+    "target": "ISVG",
+    "value": 1146
+  },
+  {
+    "source": "Police",
+    "target": "Other Source",
+    "value": 324
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "START Primary Collection",
+    "value": 7760
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "CETIS",
+    "value": 2101
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "PGIS",
+    "value": 1605
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "ISVG",
+    "value": 1302
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Other Source",
+    "value": 102
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "START Primary Collection",
+    "value": 6522
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "CETIS",
+    "value": 2401
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "PGIS",
+    "value": 2158
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "ISVG",
+    "value": 1017
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Other Source",
+    "value": 95
+  },
+  {
+    "source": "Government",
+    "target": "START Primary Collection",
+    "value": 3061
+  },
+  {
+    "source": "Government",
+    "target": "CETIS",
+    "value": 1407
+  },
+  {
+    "source": "Government",
+    "target": "PGIS",
+    "value": 1349
+  },
+  {
+    "source": "Government",
+    "target": "ISVG",
+    "value": 1450
+  },
+  {
+    "source": "Government",
+    "target": "Other Source",
+    "value": 55
+  },
+  {
+    "source": "Transportation",
+    "target": "START Primary Collection",
+    "value": 1320
+  },
+  {
+    "source": "Transportation",
+    "target": "CETIS",
+    "value": 862
+  },
+  {
+    "source": "Transportation",
+    "target": "PGIS",
+    "value": 1054
+  },
+  {
+    "source": "Transportation",
+    "target": "ISVG",
+    "value": 340
+  },
+  {
+    "source": "Transportation",
+    "target": "Other Source",
+    "value": 203
+  }
+]}
+}

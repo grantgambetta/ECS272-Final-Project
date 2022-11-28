@@ -1,0 +1,976 @@
+{"items": {
+"nodes":[
+  {
+    "node": "1",
+    "name": "1970-1974",
+    "value": 12,
+    "id": "1970-1974"
+  },
+  {
+    "node": "2",
+    "name": "1975-1979",
+    "value": 4,
+    "id": "1975-1979"
+  },
+  {
+    "node": "3",
+    "name": "1980-1984",
+    "value": 23,
+    "id": "1980-1984"
+  },
+  {
+    "node": "4",
+    "name": "1985-1989",
+    "value": 55,
+    "id": "1985-1989"
+  },
+  {
+    "node": "5",
+    "name": "1990-1994",
+    "value": 59,
+    "id": "1990-1994"
+  },
+  {
+    "node": "6",
+    "name": "1995-1999",
+    "value": 54,
+    "id": "1995-1999"
+  },
+  {
+    "node": "7",
+    "name": "2000-2004",
+    "value": 16,
+    "id": "2000-2004"
+  },
+  {
+    "node": "8",
+    "name": "2005-2009",
+    "value": 12,
+    "id": "2005-2009"
+  },
+  {
+    "node": "9",
+    "name": "2010-2014",
+    "value": 11,
+    "id": "2010-2014"
+  },
+  {
+    "node": "10",
+    "name": "2015-2017",
+    "value": 36,
+    "id": "2015-2017"
+  },
+  {
+    "node": "11",
+    "name": "Australia",
+    "value": 114,
+    "id": "Australia"
+  },
+  {
+    "node": "12",
+    "name": "Papua New Guinea",
+    "value": 89,
+    "id": "Papua-New-Guinea"
+  },
+  {
+    "node": "13",
+    "name": "New Caledonia",
+    "value": 31,
+    "id": "New-Caledonia"
+  },
+  {
+    "node": "14",
+    "name": "New Zealand",
+    "value": 20,
+    "id": "New-Zealand"
+  },
+  {
+    "node": "15",
+    "name": "Fiji",
+    "value": 17,
+    "id": "Fiji"
+  },
+  {
+    "node": "16",
+    "name": "Solomon Islands",
+    "value": 4,
+    "id": "Solomon-Islands"
+  },
+  {
+    "node": "17",
+    "name": "French Polynesia",
+    "value": 3,
+    "id": "French-Polynesia"
+  },
+  {
+    "node": "18",
+    "name": "Vanuatu",
+    "value": 2,
+    "id": "Vanuatu"
+  },
+  {
+    "node": "19",
+    "name": "New Hebrides",
+    "value": 1,
+    "id": "New-Hebrides"
+  },
+  {
+    "node": "20",
+    "name": "Wallis and Futuna",
+    "value": 1,
+    "id": "Wallis-and-Futuna"
+  },
+  {
+    "node": "21",
+    "name": "Bombing/Explosion",
+    "value": 75,
+    "id": "Bombing-Explosion"
+  },
+  {
+    "node": "22",
+    "name": "Facility/Infrastructure Attack",
+    "value": 71,
+    "id": "Facility-Infrastructure-Attack"
+  },
+  {
+    "node": "23",
+    "name": "Armed Assault",
+    "value": 51,
+    "id": "Armed-Assault"
+  },
+  {
+    "node": "24",
+    "name": "Assassination",
+    "value": 36,
+    "id": "Assassination"
+  },
+  {
+    "node": "25",
+    "name": "Hostage Taking",
+    "value": 19,
+    "id": "Hostage-Taking"
+  },
+  {
+    "node": "26",
+    "name": "Unknown",
+    "value": 16,
+    "id": "Unknown"
+  },
+  {
+    "node": "27",
+    "name": "Unarmed Assault",
+    "value": 11,
+    "id": "Unarmed-Assault"
+  },
+  {
+    "node": "28",
+    "name": "Hijacking",
+    "value": 3,
+    "id": "Hijacking"
+  },
+  {
+    "node": "29",
+    "name": "Government",
+    "value": 82,
+    "id": "Government"
+  },
+  {
+    "node": "30",
+    "name": "Business, Utilities & Communication",
+    "value": 64,
+    "id": "Business--Utilities---Communication"
+  },
+  {
+    "node": "31",
+    "name": "Private Citizens & Property",
+    "value": 38,
+    "id": "Private-Citizens---Property"
+  },
+  {
+    "node": "32",
+    "name": "Police",
+    "value": 32,
+    "id": "Police"
+  },
+  {
+    "node": "33",
+    "name": "Unknown, religious & militia",
+    "value": 32,
+    "id": "Unknown--religious---militia"
+  },
+  {
+    "node": "34",
+    "name": "Transportation",
+    "value": 19,
+    "id": "Transportation"
+  },
+  {
+    "node": "35",
+    "name": "Military",
+    "value": 15,
+    "id": "Military"
+  },
+  {
+    "node": "36",
+    "name": "PGIS",
+    "value": 190,
+    "id": "PGIS"
+  },
+  {
+    "node": "37",
+    "name": "START Primary Collection",
+    "value": 46,
+    "id": "START-Primary-Collection"
+  },
+  {
+    "node": "38",
+    "name": "CETIS",
+    "value": 25,
+    "id": "CETIS"
+  },
+  {
+    "node": "39",
+    "name": "Other Source",
+    "value": 11,
+    "id": "Other-Source"
+  },
+  {
+    "node": "40",
+    "name": "ISVG",
+    "value": 10,
+    "id": "ISVG"
+  }
+], 
+ "links":[
+  {
+    "source": "1970-1974",
+    "target": "Australia",
+    "value": 11
+  },
+  {
+    "source": "1970-1974",
+    "target": "New Zealand",
+    "value": 1
+  },
+  {
+    "source": "1975-1979",
+    "target": "Australia",
+    "value": 4
+  },
+  {
+    "source": "1980-1984",
+    "target": "Australia",
+    "value": 9
+  },
+  {
+    "source": "1980-1984",
+    "target": "New Caledonia",
+    "value": 10
+  },
+  {
+    "source": "1980-1984",
+    "target": "New Zealand",
+    "value": 3
+  },
+  {
+    "source": "1980-1984",
+    "target": "New Hebrides",
+    "value": 1
+  },
+  {
+    "source": "1985-1989",
+    "target": "Australia",
+    "value": 7
+  },
+  {
+    "source": "1985-1989",
+    "target": "Papua New Guinea",
+    "value": 24
+  },
+  {
+    "source": "1985-1989",
+    "target": "New Caledonia",
+    "value": 19
+  },
+  {
+    "source": "1985-1989",
+    "target": "Fiji",
+    "value": 5
+  },
+  {
+    "source": "1990-1994",
+    "target": "Australia",
+    "value": 17
+  },
+  {
+    "source": "1990-1994",
+    "target": "Papua New Guinea",
+    "value": 33
+  },
+  {
+    "source": "1990-1994",
+    "target": "New Caledonia",
+    "value": 2
+  },
+  {
+    "source": "1990-1994",
+    "target": "New Zealand",
+    "value": 2
+  },
+  {
+    "source": "1990-1994",
+    "target": "Fiji",
+    "value": 4
+  },
+  {
+    "source": "1990-1994",
+    "target": "Wallis and Futuna",
+    "value": 1
+  },
+  {
+    "source": "1995-1999",
+    "target": "Australia",
+    "value": 20
+  },
+  {
+    "source": "1995-1999",
+    "target": "Papua New Guinea",
+    "value": 22
+  },
+  {
+    "source": "1995-1999",
+    "target": "New Zealand",
+    "value": 3
+  },
+  {
+    "source": "1995-1999",
+    "target": "Fiji",
+    "value": 3
+  },
+  {
+    "source": "1995-1999",
+    "target": "Solomon Islands",
+    "value": 1
+  },
+  {
+    "source": "1995-1999",
+    "target": "French Polynesia",
+    "value": 3
+  },
+  {
+    "source": "1995-1999",
+    "target": "Vanuatu",
+    "value": 2
+  },
+  {
+    "source": "2000-2004",
+    "target": "Australia",
+    "value": 3
+  },
+  {
+    "source": "2000-2004",
+    "target": "Papua New Guinea",
+    "value": 1
+  },
+  {
+    "source": "2000-2004",
+    "target": "New Zealand",
+    "value": 4
+  },
+  {
+    "source": "2000-2004",
+    "target": "Fiji",
+    "value": 5
+  },
+  {
+    "source": "2000-2004",
+    "target": "Solomon Islands",
+    "value": 3
+  },
+  {
+    "source": "2005-2009",
+    "target": "Australia",
+    "value": 6
+  },
+  {
+    "source": "2005-2009",
+    "target": "Papua New Guinea",
+    "value": 1
+  },
+  {
+    "source": "2005-2009",
+    "target": "New Zealand",
+    "value": 5
+  },
+  {
+    "source": "2010-2014",
+    "target": "Australia",
+    "value": 10
+  },
+  {
+    "source": "2010-2014",
+    "target": "New Zealand",
+    "value": 1
+  },
+  {
+    "source": "2015-2017",
+    "target": "Australia",
+    "value": 27
+  },
+  {
+    "source": "2015-2017",
+    "target": "Papua New Guinea",
+    "value": 8
+  },
+  {
+    "source": "2015-2017",
+    "target": "New Zealand",
+    "value": 1
+  },
+  {
+    "source": "Australia",
+    "target": "Bombing/Explosion",
+    "value": 39
+  },
+  {
+    "source": "Australia",
+    "target": "Facility/Infrastructure Attack",
+    "value": 38
+  },
+  {
+    "source": "Australia",
+    "target": "Armed Assault",
+    "value": 14
+  },
+  {
+    "source": "Australia",
+    "target": "Assassination",
+    "value": 10
+  },
+  {
+    "source": "Australia",
+    "target": "Hostage Taking",
+    "value": 3
+  },
+  {
+    "source": "Australia",
+    "target": "Unknown",
+    "value": 6
+  },
+  {
+    "source": "Australia",
+    "target": "Unarmed Assault",
+    "value": 4
+  },
+  {
+    "source": "Papua New Guinea",
+    "target": "Bombing/Explosion",
+    "value": 12
+  },
+  {
+    "source": "Papua New Guinea",
+    "target": "Facility/Infrastructure Attack",
+    "value": 9
+  },
+  {
+    "source": "Papua New Guinea",
+    "target": "Armed Assault",
+    "value": 33
+  },
+  {
+    "source": "Papua New Guinea",
+    "target": "Assassination",
+    "value": 15
+  },
+  {
+    "source": "Papua New Guinea",
+    "target": "Hostage Taking",
+    "value": 8
+  },
+  {
+    "source": "Papua New Guinea",
+    "target": "Unknown",
+    "value": 10
+  },
+  {
+    "source": "Papua New Guinea",
+    "target": "Hijacking",
+    "value": 2
+  },
+  {
+    "source": "New Caledonia",
+    "target": "Bombing/Explosion",
+    "value": 11
+  },
+  {
+    "source": "New Caledonia",
+    "target": "Facility/Infrastructure Attack",
+    "value": 8
+  },
+  {
+    "source": "New Caledonia",
+    "target": "Armed Assault",
+    "value": 2
+  },
+  {
+    "source": "New Caledonia",
+    "target": "Assassination",
+    "value": 8
+  },
+  {
+    "source": "New Caledonia",
+    "target": "Hostage Taking",
+    "value": 2
+  },
+  {
+    "source": "New Zealand",
+    "target": "Bombing/Explosion",
+    "value": 6
+  },
+  {
+    "source": "New Zealand",
+    "target": "Facility/Infrastructure Attack",
+    "value": 6
+  },
+  {
+    "source": "New Zealand",
+    "target": "Armed Assault",
+    "value": 1
+  },
+  {
+    "source": "New Zealand",
+    "target": "Hostage Taking",
+    "value": 1
+  },
+  {
+    "source": "New Zealand",
+    "target": "Unarmed Assault",
+    "value": 6
+  },
+  {
+    "source": "Fiji",
+    "target": "Bombing/Explosion",
+    "value": 6
+  },
+  {
+    "source": "Fiji",
+    "target": "Facility/Infrastructure Attack",
+    "value": 7
+  },
+  {
+    "source": "Fiji",
+    "target": "Assassination",
+    "value": 1
+  },
+  {
+    "source": "Fiji",
+    "target": "Hostage Taking",
+    "value": 3
+  },
+  {
+    "source": "Solomon Islands",
+    "target": "Armed Assault",
+    "value": 1
+  },
+  {
+    "source": "Solomon Islands",
+    "target": "Assassination",
+    "value": 2
+  },
+  {
+    "source": "Solomon Islands",
+    "target": "Hijacking",
+    "value": 1
+  },
+  {
+    "source": "French Polynesia",
+    "target": "Facility/Infrastructure Attack",
+    "value": 2
+  },
+  {
+    "source": "French Polynesia",
+    "target": "Unarmed Assault",
+    "value": 1
+  },
+  {
+    "source": "Vanuatu",
+    "target": "Hostage Taking",
+    "value": 2
+  },
+  {
+    "source": "New Hebrides",
+    "target": "Bombing/Explosion",
+    "value": 1
+  },
+  {
+    "source": "Wallis and Futuna",
+    "target": "Facility/Infrastructure Attack",
+    "value": 1
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Government",
+    "value": 19
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Business, Utilities & Communication",
+    "value": 31
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Private Citizens & Property",
+    "value": 13
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Police",
+    "value": 3
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Unknown, religious & militia",
+    "value": 1
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Transportation",
+    "value": 8
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Government",
+    "value": 11
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Business, Utilities & Communication",
+    "value": 14
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Private Citizens & Property",
+    "value": 11
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Police",
+    "value": 6
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Unknown, religious & militia",
+    "value": 25
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Transportation",
+    "value": 3
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Military",
+    "value": 1
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Government",
+    "value": 12
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Business, Utilities & Communication",
+    "value": 9
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Private Citizens & Property",
+    "value": 3
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Police",
+    "value": 13
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Unknown, religious & militia",
+    "value": 3
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Transportation",
+    "value": 6
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Military",
+    "value": 5
+  },
+  {
+    "source": "Assassination",
+    "target": "Government",
+    "value": 19
+  },
+  {
+    "source": "Assassination",
+    "target": "Business, Utilities & Communication",
+    "value": 3
+  },
+  {
+    "source": "Assassination",
+    "target": "Private Citizens & Property",
+    "value": 2
+  },
+  {
+    "source": "Assassination",
+    "target": "Police",
+    "value": 4
+  },
+  {
+    "source": "Assassination",
+    "target": "Unknown, religious & militia",
+    "value": 2
+  },
+  {
+    "source": "Assassination",
+    "target": "Military",
+    "value": 6
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Government",
+    "value": 7
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Business, Utilities & Communication",
+    "value": 2
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Private Citizens & Property",
+    "value": 2
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Police",
+    "value": 5
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Unknown, religious & militia",
+    "value": 1
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Transportation",
+    "value": 1
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Military",
+    "value": 1
+  },
+  {
+    "source": "Unknown",
+    "target": "Government",
+    "value": 6
+  },
+  {
+    "source": "Unknown",
+    "target": "Business, Utilities & Communication",
+    "value": 3
+  },
+  {
+    "source": "Unknown",
+    "target": "Private Citizens & Property",
+    "value": 4
+  },
+  {
+    "source": "Unknown",
+    "target": "Police",
+    "value": 1
+  },
+  {
+    "source": "Unknown",
+    "target": "Military",
+    "value": 2
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Government",
+    "value": 7
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Business, Utilities & Communication",
+    "value": 1
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Private Citizens & Property",
+    "value": 3
+  },
+  {
+    "source": "Hijacking",
+    "target": "Government",
+    "value": 1
+  },
+  {
+    "source": "Hijacking",
+    "target": "Business, Utilities & Communication",
+    "value": 1
+  },
+  {
+    "source": "Hijacking",
+    "target": "Transportation",
+    "value": 1
+  },
+  {
+    "source": "Government",
+    "target": "PGIS",
+    "value": 57
+  },
+  {
+    "source": "Government",
+    "target": "START Primary Collection",
+    "value": 5
+  },
+  {
+    "source": "Government",
+    "target": "CETIS",
+    "value": 10
+  },
+  {
+    "source": "Government",
+    "target": "Other Source",
+    "value": 6
+  },
+  {
+    "source": "Government",
+    "target": "ISVG",
+    "value": 4
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "PGIS",
+    "value": 48
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "START Primary Collection",
+    "value": 10
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "CETIS",
+    "value": 4
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Other Source",
+    "value": 1
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "ISVG",
+    "value": 1
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "PGIS",
+    "value": 28
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "START Primary Collection",
+    "value": 4
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "CETIS",
+    "value": 2
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Other Source",
+    "value": 2
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "ISVG",
+    "value": 2
+  },
+  {
+    "source": "Police",
+    "target": "PGIS",
+    "value": 21
+  },
+  {
+    "source": "Police",
+    "target": "START Primary Collection",
+    "value": 6
+  },
+  {
+    "source": "Police",
+    "target": "CETIS",
+    "value": 3
+  },
+  {
+    "source": "Police",
+    "target": "ISVG",
+    "value": 2
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "PGIS",
+    "value": 8
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "START Primary Collection",
+    "value": 20
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "CETIS",
+    "value": 3
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "ISVG",
+    "value": 1
+  },
+  {
+    "source": "Transportation",
+    "target": "PGIS",
+    "value": 14
+  },
+  {
+    "source": "Transportation",
+    "target": "START Primary Collection",
+    "value": 1
+  },
+  {
+    "source": "Transportation",
+    "target": "CETIS",
+    "value": 3
+  },
+  {
+    "source": "Transportation",
+    "target": "Other Source",
+    "value": 1
+  },
+  {
+    "source": "Military",
+    "target": "PGIS",
+    "value": 14
+  },
+  {
+    "source": "Military",
+    "target": "Other Source",
+    "value": 1
+  }
+]}
+}
