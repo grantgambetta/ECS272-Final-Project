@@ -19,7 +19,7 @@ export default {
   },
   props:{
     mySankeyData: {
-      type: Array,
+      type: Object,
       },
     regionString:{
       type: String,
@@ -29,7 +29,8 @@ export default {
     mySankeyData: function(newVal, oldVal) { // watch it
       // immediate: true,
       console.log('Prop changed: ', newVal, ' | was: ', oldVal)
-      // this.drawSankey(newVal, "#sankey",this.regionString)
+      d3.select("#sankey").selectAll('svg').remove(); // remove previous block
+      this.drawSankey(newVal, "#sankey",this.regionString)
     }
   },
   mounted() {
@@ -47,6 +48,7 @@ export default {
         // https://stackblitz.com/edit/vue-unqnbj?file=src%2Fcomponents%2FUI.vue
         // const { items } = this;
 
+    
         // console.log("Width is "+Element.clientWidth())
 
         var margin = {top: 10, right: 10, bottom: 10, left: 10},
