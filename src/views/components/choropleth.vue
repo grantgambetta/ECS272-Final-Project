@@ -37,7 +37,7 @@ export default {
   methods:{
     drawChoropleth(data, id,path) {
         const worldMap = geomap();
-        const path1=require('../../assets/data/countries.json')
+        const path1 = require('../../assets/data/countries.json')
         worldMap.geoData(data);
         
         worldMap.draw(select(id));

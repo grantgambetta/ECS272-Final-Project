@@ -17,6 +17,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/vue-fontawesome": "^3.0.1",
     "@popperjs/core": "^2.10.2",
+    "@tidyjs/tidy": "^2.5.2",
     "@vue/compiler-sfc": "^3.2.33",
     "animate.css": "^4.1.1",
     "ant-design-vue": "^2.2.8",
