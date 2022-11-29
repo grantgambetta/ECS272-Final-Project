@@ -41,6 +41,42 @@ export default {
         worldMap.geoData(data);
         
         worldMap.draw(select(id));
+        
+        // dummy rectangles to select regions
+        const svg = d3.select(id)
+          .append("svg")
+          .attr("width", 1000)
+          .attr("height", 100);
+
+        const rect = svg
+          .append("rect")
+          .attr("id","SouthAmerica")
+          .attr("x", 0)
+          .attr("y", 0)
+          .attr("width", 400)
+          .attr("height", 70)
+          .text("South America")
+          .attr("opacity",0.5)
+          .attr("fill", "red")
+          .on("click",(e,d,i) => {
+            this.$emit("clicked",{'data':"SouthAmerica"})
+          });
+
+          const rect2 = svg
+          .append("rect")
+          .attr("id","MiddleEastNorthAfrica")
+          .attr("x", 500)
+          .attr("y", 0)
+          .attr("width", 400)
+          .attr("height", 70)
+          .text("Middle east")
+          .attr("opacity",0.5)
+          .attr("fill", "blue")
+          .on("click",(e,d,i) => {
+            this.$emit("clicked",{'data':"MiddleEastNorthAfrica"})
+          });
+
+
 
     }
   },
