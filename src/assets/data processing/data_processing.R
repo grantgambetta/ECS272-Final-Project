@@ -10,8 +10,8 @@ library(jsonlite)
 
 # NEED TO CHANGE THIS PATH IF RUNNING IN OTHER MACHINE!
 file_path <- "D:/ECS272-Final-Project/src/assets/data/%s"
-df <- read_csv(sprintf(file_path,"globalterrorismdb_0718dist.csv"))
-
+df <- read_csv("globalterrorismdb_0718dist.csv")
+df
 
 # Explore content
 # DIMENSIONS
