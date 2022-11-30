@@ -16,6 +16,15 @@
     </div>
     <div class="row">
         <h1 class="chartTitle">DETAILED VIEW</h1>
+        <label class="button">
+            Choose Metric to show:     
+        </label>
+        <select id="metric" @change="handleMetricChange">
+            <option value="count_attacks">Number of Attacks</option>
+            <option value="kills">People killed</option>
+            <option value="wounded">People injured</option>
+        </select>
+        <br>
         <Sankey v-if="dataExists" :mySankeyData="mySankeyData" :regionString="regionString" />
     </div>
 </template>
@@ -29,11 +38,13 @@ import Sankey from "../components/sankey.vue"
 import Choropleth from "../components/choropleth.vue"
 import StackedArea from "../components/stackedArea.vue"
 import * as d3 from "d3";
+import { json as d3JSONFetch } from 'd3-fetch';
 import csvPath from '../../assets/data/stackedArea.csv';
 
 import dataSankey from "../../assets/data/sankey/SouthAmerica_count_attacks.json"
 import jsonPath from "../../assets/data/sankey/MiddleEastNorthAfrica_count_attacks.json";
 import dataSankeyME from "../../assets/data/sankey/MiddleEastNorthAfrica_count_attacks.json"
+const path1="../../assets/data/sankey/MiddleEastNorthAfrica_count_attacks.json";
 
 
 export default {
@@ -44,6 +55,7 @@ export default {
             myScatterData: [],
             mySankeyData: dataSankey["items"],
             regionString: "SouthAmerica",
+            metricString: "count_attacks",
             myStackedAreaData: [], 
             myMapData: []
         }
@@ -75,33 +87,19 @@ export default {
             // });
         },
         handleClickRegion(data){
-            console.log("To do: ",data);
-            switch(data.data){
-                case "MiddleEastNorthAfrica":
-                    console.log("succes");
-                    this.regionString="MiddleEastNorthAfrica";
-                    // this.mySankeyData=dataSankeyME['items'];
-                    this.mySankeyData = {
-                    ...dataSankeyME['items'],
-                    };
-                    // const path1=require("../../assets/data/sankey/MiddleEastNorthAfrica_count_attacks.json")
-                    // d3.json(dataSankeyME).then((dataX) => {
-                    //     this.mySankeyData=dataX['items'];
-                    // });
-                    break;
-                case "SouthAmerica":
-                    console.log("failure or south");
-                    this.regionString="SouthAmerica";
-                    this.mySankeyData=dataSankey['items'];          
-                    break;
-            } 
+            console.log("Update region: ",data);
+            // update selected region
+            this.regionString=data.data;    
+            // update data for sankey, require reads the json
+            this.mySankeyData=require("../../assets/data/sankey/"+this.regionString+"_"+this.metricString+".json")['items'];
         },
-        // drawSankeyAgain(xyz){
-        //     // console.log(Sankey)
-        //     // this.mySankeyData=dataSankeyME['items']
-        //     // this.Sankey.methods.drawSankey(dataSankeyME, "#sankey","MiddleEastNorthAfrica") 
-
-        // }
+        handleMetricChange(data){
+            console.log("Update metric: ",d3.select('#metric').property("value"));
+            // update selected metric
+            this.metricString=d3.select('#metric').property("value");
+            // update data for sankey, require reads the json
+            this.mySankeyData=require("../../assets/data/sankey/"+this.regionString+"_"+this.metricString+".json")['items'];
+        }
     }
 }
 

@@ -23,10 +23,13 @@ export default {
       },
     regionString:{
       type: String,
+    },
+    metricString:{
+      type: String,
     }
   },
   watch:{
-    mySankeyData: function(newVal, oldVal) { // watch it
+    mySankeyData: function(newVal, oldVal) { // watch event
       // immediate: true,
       console.log('Prop changed: ', newVal, ' | was: ', oldVal)
       d3.select("#sankey").selectAll('svg').remove(); // remove previous block
@@ -48,7 +51,7 @@ export default {
         // https://stackblitz.com/edit/vue-unqnbj?file=src%2Fcomponents%2FUI.vue
         // const { items } = this;
 
-    
+
         // console.log("Width is "+Element.clientWidth())
 
         var margin = {top: 10, right: 10, bottom: 10, left: 10},
@@ -163,30 +166,12 @@ export default {
         // .select(this.$refs.svg)
         .attr('width',width)
         .attr('height',height)
-        .attr('viewBox', [0, 0, width, height ]);
-
-
-        // height scale
-        //scaling factor for sankey to work
-        var scalingHeight_factor=1
-        switch(region_selected){
-          case "SouthAmerica":
-            scalingHeight_factor=4.4; // South America
-            break;
-          case "MiddleEastNorthAfrica":
-            scalingHeight_factor = 3.25; // Middle east
-            break;
-          case "NorthAmerica":
-            scalingHeight_factor=1;
-            break;
-          }
-        
+        .attr('viewBox', [0, 0, width, height ]);       
 
         const h = d3.scaleLinear()
                     .domain([0, d3.max(data.nodes, d => d.value)]).nice()
-                    .rangeRound([0, nodeHeight*scalingHeight_factor]); // MAGIC NUMBER TO MAKE EVERYTHING SCALE
-        console.log("MAX VALUE NODE",d3.max(data.nodes, d => d.value))
-        console.log("MAX VALUE LINKS",d3.max(data.links, d => d.value))
+                    .rangeRound([0, nodeHeight]); 
+
 
        /* const s = sankey()
         .nodeId((d) => d.name)
@@ -271,6 +256,19 @@ export default {
             [width, height - nodeHeight],
         ])(data); // this line is key, it passes the data from JSON to the render display
 
+        var metricText=d3.select('#metric').property('value')
+        switch (metricText){
+          case "count_attacks":
+            metricText="number of attacks"
+            break;
+          case "kills":
+            metricText="people killed"
+            break;
+          case "wounded":
+            metricText="people injured"
+            break;
+        }
+
 
         svg
         .append('g')
@@ -280,6 +278,7 @@ export default {
         .data(nodes)
         .join('rect')
         .attr("class", function(d) { return "myNode sankey-" + d.id })
+        .attr("id", d => "node"+d.id)
         .attr('x', (d) => d.x0)
         .attr('y', (d) => d.y0)
         // .attr('height', (d) => nodeHeight)
@@ -290,7 +289,7 @@ export default {
         .on("mouseleave", noHighlight)
         .on("click",mouseClick)
         .append('title')
-        .text((d) => `${d.name}\n${d.value} number of attacks`);
+        .text((d) => `${d.name}\n${d.value} ${metricText}`);
 
         const link = svg
         .append('g')
@@ -331,23 +330,22 @@ export default {
         // .attr('stroke',(d) => color(d.source.name))
         .attr('stroke-width', (d) => Math.max(1, d.width));
 
-
         // USE TWO LINKS TO CHANGE OPACITIY
         link
         .append('path')
         .attr('d', sankeyLinkHorizontal())
         .attr("class", function(d) { return "myLink sankeyLinkTarget-" + d.target.name.replaceAll(" ","-").replaceAll("/","-").replaceAll("&","-").replaceAll(",","-")})
         // .attr("class", function(d) { return "myLink sankeyLinkTarget-" + d.target.name })
+        .attr('id',d => "link"+d.source.name.replaceAll(" ","-").replaceAll("/","-").replaceAll("&","-").replaceAll(",","-"))
         .attr('stroke', (d) =>
             !ENABLE_LINKS_GRADIENTS ? color(d.source.name) : `url(#${d.uid})`
         )
         // .attr('stroke',(d) => color(d.source.name))
         .attr('stroke-width', (d) => Math.max(1, d.width));
 
-
         link
         .append('title')
-        .text((d) => `${d.source.name} → ${d.target.name}\n${d.value} number of attacks`);
+        .text((d) => `${d.source.name} → ${d.target.name}\n${d.value} ${metricText}`);
 
         svg
         .append('g')
@@ -364,6 +362,23 @@ export default {
         .on("mouseover", highlight)
         .on("mouseleave", noHighlight);
 
+
+             // scaling factor for sankey to look good
+        // Sum all over the links of bombing explosion
+        var sum = 0;
+        d3.selectAll('#linkBombing-Explosion').each(function( index ) {
+            sum += Number(d3.select(this).attr('stroke-width'))
+        });
+        console.log("Scaling factor")
+        // get height for the node of bombing explosion
+        var nodeSum=d3.select('#nodeBombing-Explosion').attr('height')
+        // factor to scale
+        var scalingHeight_factor=sum/nodeSum
+        console.log("Scaling factor "+scalingHeight_factor)
+        // update height of nodes
+        d3
+          .selectAll('.myNode')
+          .attr('height', (d) => h(d.value)*scalingHeight_factor)
 
 
         // function drawDetail(){

@@ -62,6 +62,15 @@ export default {
             this.$emit("clicked",{'data':"SouthAmerica"})
           });
 
+        rect
+          .append("text")
+          .attr("x", 0)
+          .attr("y", 0)
+          .attr("dy", ".35em")
+          .attr("fill","black")
+          .text("South America");
+
+
           const rect2 = svg
           .append("rect")
           .attr("id","MiddleEastNorthAfrica")
