@@ -121,6 +121,10 @@ export default {
         float: left;
         width: 50%;
     }
+    .columnMap{
+        float: left;
+        width: 75%;
+    }
     /* Clear floats after the columns */
     .row:after {
     content: "";

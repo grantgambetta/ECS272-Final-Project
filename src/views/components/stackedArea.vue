@@ -33,8 +33,8 @@
                 // Source: https://d3-graph-gallery.com/graph/stackedarea_template.html
                 // set the dimensions and margins of the graph
                 const margin = {top: 60, right: 160, bottom: 50, left: 80},
-                    width = 860 - margin.left - margin.right,
-                    height = 350 - margin.top - margin.bottom;
+                    width = 660 - margin.left - margin.right,
+                    height = 250 - margin.top - margin.bottom;
 
                 // const margin = { top: 40, right: 160, bottom: 40, left: 80};
                 // const height = 300;
