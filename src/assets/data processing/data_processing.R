@@ -33,10 +33,6 @@ nrow(df) # total attacks
 
 # Data mutate ----
 
-# Playground region
-df <- df %>% filter(region_txt=="Middle East & North Africa")
-
-
 # change some names
 df <- df %>% mutate(year=iyear,
                     yearDate=as_date(paste0(year,"-01-01")),
@@ -123,7 +119,7 @@ write.csv(data_stackedArea,
 ## SANKEY DIAGRAM ------
 # COUNTRY, ATTACK TYPE  AND YEAR GROUP
 
-# Dataframe for javascript
+# Dataframe for javascript with all data
 data_js <- df %>% group_by(region,year_group,country_txt,
                            type_sankey,target_sankey,dbsource_sankey) %>% 
   summarise(count_attacks=n(),
@@ -132,125 +128,189 @@ data_js <- df %>% group_by(region,year_group,country_txt,
 write.csv(data_js,
           sprintf(file_path,"dataSankeyAll.csv"))
 
+# Playground region
+# df <- df %>% filter(region_txt=="Middle East & North Africa")
+# df <- df %>% filter(region_txt=="South America")
 
+# Chile case
+# df <- df %>% filter(country_txt=="Chile")
 
 ## Order the data for the Sankey, by number of attacks
 
 # order_region <- df %>% group_by(region) %>% 
 #   tally(sort = T) %>% pull(region)
-order_country <- df %>% group_by(country_txt) %>% 
-  tally(sort = T) %>% head(11) %>% pull(country_txt)
-df <- df %>% mutate(country_sankey=
-                      if_else(country_txt %in% order_country,
-                              country_txt,"Other"))
-order_country <- c(order_country,"Other")
-order_type <- df %>% group_by(type_sankey) %>% 
-  tally(sort = T) %>% pull(type_sankey)
-order_year <- df$year_group %>% unique()
-order_target <- df %>% group_by(target_sankey) %>% 
-  tally(sort=T) %>% pull(target_sankey)
-order_source <- df %>% group_by(dbsource_sankey) %>% 
-  tally(sort=T) %>% pull(dbsource_sankey)
 
+# LOOP TO GENERATE ALL POSSIBLE REGIONS + VALUES
 
+options(dplyr.summarise.inform = FALSE)
+df_all <- df
 
-df <- df %>% 
-  mutate(
-    # region=factor(region,levels=order_region),
-    country_sankey=factor(country_sankey,levels=order_country),
-    type_sankey=factor(type_sankey,levels=order_type),
-    year_group=factor(year_group,levels=order_year),
-    target_sankey=factor(target_sankey,levels = order_target),
-    dbsource_sankey=factor(dbsource_sankey,levels = order_source))
+regions <- df_all$region_txt %>% unique()
+regions_code <- sapply( regions, function(x)
+  paste(substr(strsplit(x, " ")[[1]], 1, 1), collapse="") ) %>% 
+  unname() %>% str_remove_all("&")
 
-# from year to country
-data <- df %>% 
-  group_by(year_group,country_sankey) %>% 
-  summarise(value=n()) %>%
-  arrange(year_group,country_sankey) %>% 
-  ungroup() %>% 
-  rename(source=year_group,target=country_sankey) %>% 
-  mutate(source=as.character(source),target=as.character(target))
+metrics <- c("count_attacks","kills","wounded")
 
-# from country to type
-data2 <- df %>% 
-  group_by(country_sankey,type_sankey) %>% 
-  summarise(value=n()) %>% 
-  arrange(country_sankey,type_sankey) %>%  ungroup() %>% 
-  rename(source=country_sankey,target=type_sankey) %>% 
-  mutate(source=as.character(source),target=as.character(target))
+for (r in regions){
+  df <- df_all %>% filter(region_txt==r)
+  df %>% group_by(country_txt) %>% tally(sort=T) %>% 
+    head(11) %>%  pull(country_txt) %>% print()
+  
+  for (m in metrics){
+  
+    order_country <- df %>% group_by(country_txt) %>% 
+      summarise(count_attacks=n(),
+                kills=sum(nkill,na.rm=T),
+                wounded=sum(nwound,na.rm=T)) %>% 
+      mutate(value=!!sym(m)) %>% arrange(desc(value)) %>% 
+      head(11) %>% pull(country_txt)
+    df <- df %>% mutate(country_sankey=
+                          if_else(country_txt %in% order_country,
+                                  country_txt,"Other"))
+    order_country <- c(order_country,"Other")
+    # print(order_country)
+    
+    order_type <- df %>% group_by(type_sankey) %>% 
+      summarise(count_attacks=n(),
+                kills=sum(nkill,na.rm=T),
+                wounded=sum(nwound,na.rm=T)) %>% 
+      mutate(value=!!sym(m)) %>% arrange(desc(value)) %>% 
+      pull(type_sankey)
+    
+    order_year <- df$year_group %>% unique()
+    
+    order_target <- df %>% group_by(target_sankey) %>% 
+      summarise(count_attacks=n(),
+                kills=sum(nkill,na.rm=T),
+                wounded=sum(nwound,na.rm=T)) %>% 
+      mutate(value=!!sym(m)) %>% arrange(desc(value)) %>%  
+      pull(target_sankey)
+    
+    order_source <- df %>% group_by(dbsource_sankey) %>% 
+      summarise(count_attacks=n(),
+                kills=sum(nkill,na.rm=T),
+                wounded=sum(nwound,na.rm=T)) %>% 
+      mutate(value=!!sym(m)) %>% arrange(desc(value)) %>% 
+      pull(dbsource_sankey)
+    
+    df <- df %>% 
+      mutate(
+        # region=factor(region,levels=order_region),
+        country_sankey=factor(country_sankey,levels=order_country),
+        type_sankey=factor(type_sankey,levels=order_type),
+        year_group=factor(year_group,levels=order_year),
+        target_sankey=factor(target_sankey,levels = order_target),
+        dbsource_sankey=factor(dbsource_sankey,levels = order_source))
+    
+    # from year to country
+    data <- df %>% 
+      group_by(year_group,country_sankey) %>% 
+      summarise(count_attacks=n(),
+                kills=sum(nkill,na.rm=T),
+                wounded=sum(nwound,na.rm=T)) %>% 
+      mutate(value=!!sym(m)) %>% 
+      select(-count_attacks,-kills,-wounded) %>% 
+      arrange(year_group,country_sankey) %>% 
+      ungroup() %>% 
+      rename(source=year_group,target=country_sankey) %>% 
+      mutate(source=as.character(source),target=as.character(target))
+    
+    # from country to type
+    data2 <- df %>% 
+      group_by(country_sankey,type_sankey) %>% 
+      summarise(count_attacks=n(),
+                kills=sum(nkill,na.rm=T),
+                wounded=sum(nwound,na.rm=T)) %>% 
+      mutate(value=!!sym(m)) %>% 
+      select(-count_attacks,-kills,-wounded) %>% 
+      arrange(country_sankey,type_sankey) %>%  ungroup() %>% 
+      rename(source=country_sankey,target=type_sankey) %>% 
+      mutate(source=as.character(source),target=as.character(target))
+    
+    # from type to target
+    data3 <- df %>% 
+      group_by(type_sankey,target_sankey) %>% 
+      summarise(count_attacks=n(),
+                kills=sum(nkill,na.rm=T),
+                wounded=sum(nwound,na.rm=T)) %>% 
+      mutate(value=!!sym(m)) %>% 
+      select(-count_attacks,-kills,-wounded) %>% 
+      arrange(type_sankey,target_sankey) %>%  ungroup() %>% 
+      rename(source=type_sankey,target=target_sankey) %>% 
+      mutate(source=as.character(source),target=as.character(target))
+    
+    # from target to dbsource
+    data4 <- df %>% 
+      group_by(target_sankey,dbsource_sankey) %>% 
+      summarise(count_attacks=n(),
+                kills=sum(nkill,na.rm=T),
+                wounded=sum(nwound,na.rm=T)) %>% 
+      mutate(value=!!sym(m)) %>% 
+      select(-count_attacks,-kills,-wounded) %>% 
+      arrange(target_sankey,dbsource_sankey) %>%  ungroup() %>% 
+      rename(source=target_sankey,target=dbsource_sankey) %>% 
+      mutate(source=as.character(source),target=as.character(target))
+    
+    
+    ## Nodes - SIMPLY THE CATEGORIES and the TOTAL VALUES FOR THE HEIGHT
+    nodes_type <- df %>% 
+      group_by(type_sankey) %>% 
+      summarise(value=n()) %>% 
+      arrange(type_sankey) %>% 
+      ungroup() %>% 
+      rename(name=type_sankey) %>% mutate(name=as.character(name))
+    # nodes_region <- df %>% 
+    #   group_by(region) %>% 
+    #   summarise(value=n()) %>% 
+    #   arrange(region) %>% 
+    #   ungroup() %>% 
+    #   rename(name=region) %>% mutate(name=as.character(name))
+    nodes_year <- df %>% 
+      group_by(year_group) %>% 
+      summarise(value=n()) %>% 
+      arrange(year_group) %>%  ungroup() %>% 
+      rename(name=year_group) %>% mutate(name=as.character(name))
+    nodes_country<- df %>% 
+      group_by(country_sankey) %>% 
+      summarise(value=n()) %>% 
+      arrange(country_sankey) %>% 
+      ungroup() %>% 
+      rename(name=country_sankey) %>% mutate(name=as.character(name))
+    nodes_target <- df %>% 
+      group_by(target_sankey) %>% 
+      summarise(value=n()) %>% 
+      arrange(target_sankey) %>% 
+      ungroup() %>% 
+      rename(name=target_sankey) %>% mutate(name=as.character(name))
+    nodes_source <- df %>% 
+      group_by(dbsource_sankey) %>% 
+      summarise(value=n()) %>% 
+      arrange(dbsource_sankey) %>% 
+      ungroup() %>% 
+      rename(name=dbsource_sankey) %>% mutate(name=as.character(name))
+    
+    
+    nodes <- rbind(nodes_year,nodes_country,nodes_type,
+                   nodes_target,nodes_source) %>% 
+      rownames_to_column() %>% rename(node=rowname) %>% 
+      mutate(id=str_replace_all(name," |/","-") %>% str_replace_all("&","-") %>% 
+               str_replace_all(",","-"))
+    
+    nodes <- toJSON(nodes, pretty = T)
+    
+    # links: node names to values
+    links <- rbind(data,data2,data3,data4)
+    links <- toJSON(links, pretty = T)
+    
+    file_name <- paste0("sankey/",str_remove_all(r," |&"),"_",m,".json")
+    
+    # export to JSON
+    write(paste0('{"items": {\n"nodes":',nodes,', \n "links":',links,"}\n}"), 
+          sprintf(file_path,file_name))
+  }
+}
 
-# from type to target
-data3 <- df %>% 
-  group_by(type_sankey,target_sankey) %>% 
-  summarise(value=n()) %>% 
-  arrange(type_sankey,target_sankey) %>%  ungroup() %>% 
-  rename(source=type_sankey,target=target_sankey) %>% 
-  mutate(source=as.character(source),target=as.character(target))
-
-# from target to dbsource
-data4 <- df %>% 
-  group_by(target_sankey,dbsource_sankey) %>% 
-  summarise(value=n()) %>% 
-  arrange(target_sankey,dbsource_sankey) %>%  ungroup() %>% 
-  rename(source=target_sankey,target=dbsource_sankey) %>% 
-  mutate(source=as.character(source),target=as.character(target))
-
-
-## Nodes - SIMPLY THE CATEGORIES and the TOTAL VALUES FOR THE HEIGHT
-nodes_type <- df %>% 
-  group_by(type_sankey) %>% 
-  summarise(value=n()) %>% 
-  arrange(type_sankey) %>% 
-  ungroup() %>% 
-  rename(name=type_sankey) %>% mutate(name=as.character(name))
-# nodes_region <- df %>% 
-#   group_by(region) %>% 
-#   summarise(value=n()) %>% 
-#   arrange(region) %>% 
-#   ungroup() %>% 
-#   rename(name=region) %>% mutate(name=as.character(name))
-nodes_year <- df %>% 
-  group_by(year_group) %>% 
-  summarise(value=n()) %>% 
-  arrange(year_group) %>%  ungroup() %>% 
-  rename(name=year_group) %>% mutate(name=as.character(name))
-nodes_country<- df %>% 
-  group_by(country_sankey) %>% 
-  summarise(value=n()) %>% 
-  arrange(country_sankey) %>% 
-  ungroup() %>% 
-  rename(name=country_sankey) %>% mutate(name=as.character(name))
-nodes_target <- df %>% 
-  group_by(target_sankey) %>% 
-  summarise(value=n()) %>% 
-  arrange(target_sankey) %>% 
-  ungroup() %>% 
-  rename(name=target_sankey) %>% mutate(name=as.character(name))
-nodes_source <- df %>% 
-  group_by(dbsource_sankey) %>% 
-  summarise(value=n()) %>% 
-  arrange(dbsource_sankey) %>% 
-  ungroup() %>% 
-  rename(name=dbsource_sankey) %>% mutate(name=as.character(name))
-
-
-
-nodes <- rbind(nodes_year,nodes_country,nodes_type,
-               nodes_target,nodes_source) %>% 
-  rownames_to_column() %>% rename(node=rowname) %>% 
-  mutate(id=str_replace_all(name," |/","-") %>% str_replace_all("&","-") %>% 
-           str_replace_all(",","-"))
-
-nodes <- toJSON(nodes, pretty = T)
-
-# links: node names to values
-links <- rbind(data,data2,data3,data4)
-links <- toJSON(links, pretty = T)
-
-# export to JSON
-write(paste0('{"items": {\n"nodes":',nodes,', \n "links":',links,"}\n}"), 
-      sprintf(file_path,"sankey.json"))
 
 
 
