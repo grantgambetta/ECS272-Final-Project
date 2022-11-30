@@ -82,8 +82,6 @@ export default {
             .style("stroke", "transparent")
         }
         
-        console.log("HEREEE")
-        console.log(topo.features)
         // Draw the map
         svg.append("g")
           .selectAll("path")
