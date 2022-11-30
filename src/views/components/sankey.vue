@@ -7,7 +7,6 @@ import * as d3 from 'd3';
 import { sankey, sankeyLinkHorizontal } from 'd3-sankey';
 // import dataSankey from "../../assets/data/sankey2.json"
 import dataSankey from "../../assets/data/sankey/SouthAmerica_count_attacks.json"
-// import dataSankey from "../../assets/data/sankey/NorthAmerica_count_attacks.json"
 
 
 export default {

@@ -4,7 +4,6 @@
             <h1 class="chartTitle">Global Terrorism Attacks 1970-2017</h1>
             <div class="row1">
                 <h1 class="VisTitle">World Map to Select and visualize all data</h1>
-
                 <Choropleth v-if="dataExists" :myMapData="myMapData" @clicked="handleClickRegion"/>
 
             </div>
@@ -44,9 +43,6 @@ import { json as d3JSONFetch } from 'd3-fetch';
 import csvPath from '../../assets/data/stackedArea.csv';
 
 import dataSankey from "../../assets/data/sankey/SouthAmerica_count_attacks.json"
-import jsonPath from "../../assets/data/sankey/MiddleEastNorthAfrica_count_attacks.json";
-import dataSankeyME from "../../assets/data/sankey/MiddleEastNorthAfrica_count_attacks.json"
-const path1="../../assets/data/sankey/MiddleEastNorthAfrica_count_attacks.json";
 
 
 export default {
