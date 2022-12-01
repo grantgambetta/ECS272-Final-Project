@@ -1,5 +1,5 @@
 <template>
-    <div id="sankey"></div>
+    <div id="sankey" style = "position: absolute; left: -500px; top: 500px;"></div>
 </template>
 
 <script>

@@ -1,23 +1,23 @@
 <template>
     <div class="row">
         <div class="column">
-            <h1 class="chartTitle">Global Terrorism Attacks 1970-2017</h1>
+            <h1 class="chartTitle" style = "position: absolute; top: 65px;">Global Terrorism Activities 1970-2017</h1>
             <div class="row1">
-                <h1 class="VisTitle">World Map to Select and visualize all data</h1>
+                <h1 class="VisTitle" style = "position: absolute; top: 120px; left: 170px;">World Map to Select a Country/Region</h1>
                 <Choropleth v-if="dataExists" :myMapData="myMapData" @clicked="handleClickRegion"/>
 
             </div>
         </div>     
         <div class="column">
             <div class="row">
-                <h1 class="VisTitle">Time series data</h1>
+                <h1 class="VisTitle" style = "position: absolute; left: 1350px; top: 110px;">Time Series Stacked Area Chart</h1>
                 <StackedArea v-if="dataExists" :myStackedAreaData="myStackedAreaData"/>
             </div>
         </div>
     </div>
-    <div class="row">
-        <h1 class="chartTitle">DETAILED VIEW</h1>
-        <label class="button">
+    <div class="row" style = "position: absolute; left: 850px; top: 70px;">
+        <!--h1 class="chartTitle">DETAILED VIEW</h1-->
+        <label class="button" >
             Choose Metric to show:     
         </label>
         <select id="metric" @change="handleMetricChange">

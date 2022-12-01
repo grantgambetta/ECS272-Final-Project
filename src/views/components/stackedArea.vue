@@ -1,5 +1,5 @@
 <template>
-    <div id="stackedArea"></div>
+    <div id="stackedArea" style = "position: absolute; left: 1050px;"></div>
 </template>
 
 <script>
@@ -33,8 +33,8 @@
                 // Source: https://d3-graph-gallery.com/graph/stackedarea_template.html
                 // set the dimensions and margins of the graph
                 const margin = {top: 60, right: 160, bottom: 50, left: 80},
-                    width = 660 - margin.left - margin.right,
-                    height = 250 - margin.top - margin.bottom;
+                    width = 950 - margin.left - margin.right,
+                    height = 450 - margin.top - margin.bottom;
 
                 // const margin = { top: 40, right: 160, bottom: 40, left: 80};
                 // const height = 300;
@@ -82,21 +82,24 @@
                 const xAxis = svg.append("g")
                     .attr("transform", `translate(0, ${height})`)
                     .call(d3.axisBottom(x).ticks(5))
+                    .style("font", "14px arial");
 
                 // Add X axis label:
-                svg.append("text")
-                    .attr("text-anchor", "end")
-                    .attr("x", width)
-                    .attr("y", height+40 )
-                    .text("Time (year)");
+                // svg.append("text")
+                //     .attr("text-anchor", "end")
+                //     .attr("x", width - 330)
+                //     .attr("y", height+45)
+                //     .text("Year")
+                //     .style("font-size","18px");
 
                 // Add Y axis label:
                 svg.append("text")
                     .attr("text-anchor", "end")
-                    .attr("x", 0)
-                    .attr("y", -20 )
+                    .attr("x", -40)
+                    .attr("y", -15 )
                     .text("Number of attacks")
                     .attr("text-anchor", "start")
+                    .style("font-size", "16px")
 
                 // Add Y axis
                 const y = d3.scaleLinear()
@@ -104,6 +107,7 @@
                     .range([ height, 0 ]);
                 svg.append("g")
                     .call(d3.axisLeft(y).ticks(5))
+                    .style("font", "14px arial");
 
 
 
