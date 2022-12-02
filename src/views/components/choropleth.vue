@@ -9,7 +9,6 @@ import { select } from 'd3-selection';
 import dataMap from "../../assets/data/countries.json"
 
 
-
 export default {
   name: 'Choropleth',
   data() {
@@ -19,15 +18,20 @@ export default {
   },
   props:{
     myMapData: Array,
+    test:{
+      type: String,
+    }
   },
   mounted() {
     console.log(dataMap);
     let localData = dataMap;
-    this.drawChoropleth(localData, "#choropleth") 
+    this.drawChoropleth(localData, "#choropleth","count_attacks") 
     console.log("Data Passed down as a Prop  ", this.myMapData)
   },
   methods:{
-    drawChoropleth(data2, id) {
+    drawChoropleth(data2, id,metricText) {
+
+      const vueThis = this
 
       // The svg
       const svg = d3.select("#choropleth"),
@@ -44,13 +48,9 @@ export default {
       // Data and color scale
       const data = new Map();
 
-      /*
-      in the if-else statement, for each metric need to pass in the dataset, domain values, create the legend, and create color scheme
-      */
       // attacks
-      const domain_values = [10, 100, 1000, 5000, 10000, 15000, 30000] 
-      const attacks_data = "https://raw.githubusercontent.com/grantgambetta/ECS272-Final-Project/main/src/assets/data/map/choropleth_attacks.csv"
-      const color_scheme = d3.schemeReds[domain_values.length]
+      var domain_values = [10, 100, 1000, 5000, 10000, 15000, 30000] 
+      var color_scheme = d3.schemeReds[domain_values.length]
       var legendBar = legend({
             color: d3.scaleThreshold(
                 domain_values,
@@ -60,36 +60,9 @@ export default {
             tickSize: 0,
         });
 
-      const csv_file = attacks_data
-
-      // deaths
-    //   const domain_values = [20, 100, 1000, 5000, 15000, 30000, 45000]
-    //   const deaths_data = "https://raw.githubusercontent.com/grantgambetta/ECS272-Final-Project/main/src/assets/data/map/choropleth_deaths.csv"
-    //   const color_scheme = d3.schemeReds[domain_values.length]
-    //   var legendBar = legend({
-    //         color: d3.scaleThreshold(
-    //             domain_values,
-    //             color_scheme
-    //         ),
-    //         title: "Number of Casualities",
-    //         tickSize: 0,
-    //     });
-    //   const csv_file = deaths_data
+      var csv_file = "https://raw.githubusercontent.com/grantgambetta/ECS272-Final-Project/main/src/assets/data/map/choropleth_attacks.csv"
 
 
-      // injuries
-    //   const domain_values = [30, 100, 1000, 5000, 10000, 15000, 30000, 50000, 150000]
-    //   const injuries_data = "https://raw.githubusercontent.com/grantgambetta/ECS272-Final-Project/main/src/assets/data/map/choropleth_injured.csv"
-    //   const color_scheme = d3.schemeReds[domain_values.length]
-    //   var legendBar = legend({
-    //         color: d3.scaleThreshold(
-    //             domain_values,
-    //             color_scheme
-    //         ),
-    //         title: "Number of Injuries",
-    //         tickSize: 0
-    //     });
-    //   const csv_file = injuries_data
 
     // define color scale with domain values and color scheme for selected metric
       const colorScale = d3.scaleThreshold()
@@ -98,15 +71,21 @@ export default {
 
       
       // pass in selected dataset in d3.csv
-      Promise.all([
-      d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson"),
-      d3.csv(csv_file, function(d) {
-          data.set(d.iso3, +d.measure)
-      })]).then(function(loadData) {
-        let topo = loadData[0]
+      
+      const drawMap=function(path_map){
+
         
+        Promise.all([
+      d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson"),
+      d3.csv(path_map, function(d) {
+          data.set(d.iso3, +d.measure)
+        })]).then(function(loadData) {
+          let topo = loadData[0]
+        
+        var freeze=false // if click event, then we freeze the current highlight
           let mouseOver = function(d) {
-          d3.selectAll(".Country")
+          if (!freeze){
+            d3.selectAll(".Country")
             .transition()
             .duration(0)
             .style("opacity", .5)
@@ -115,17 +94,44 @@ export default {
             .duration(0)
             .style("opacity", 1)
             .style("stroke", "black")
+          }
         }
       
         let mouseLeave = function(d) {
-          d3.selectAll(".Country")
-            .transition()
-            .duration(0)
-            .style("opacity", .8)
-          d3.select(this)
+          if (!freeze){
+            d3.selectAll(".Country")
+              .transition()
+              .duration(0)
+              .style("opacity", .8)
+              .style("stroke", "transparent")
+            d3.select(this)
             .transition()
             .duration(0)
             .style("stroke", "transparent")
+          }
+        }
+
+        const mouseClick = function(event,d){
+          // change freeze condition
+          if (freeze){
+            freeze=false
+          } else {
+            freeze=true
+            
+            let selectedReg = d3.select(this).attr('region')
+            console.log(selectedReg)
+            
+            // change storke for all selected region
+            d3.selectAll(".Country")
+            .filter(function() {
+              return d3.select(this).attr("region") == selectedReg; // filter by single attribute
+                })
+                .style("opacity", 1)
+                .style("stroke", "black")
+            
+            vueThis.$emit("clicked",{'data':selectedReg})
+          }
+
         }
         
         // Draw the map
@@ -145,17 +151,96 @@ export default {
             })
             .style("stroke", "transparent")
             .attr("class", function(d){ return "Country" } )
-            .attr("id", d => d.properties.name)
+            .attr("id", d => d.id)
             .style("opacity", .8)
-             .on("mouseover", mouseOver )
-             .on("mouseleave", mouseLeave )
-      
-      })
+            .on("mouseover", mouseOver )
+            .on("mouseleave", mouseLeave )
+            .on("click",mouseClick)
+            // .on("click",(e,d,i) => {
+            //   mouseClick
+            //   // vueThis.$emit("clicked",{'data':"MiddleEastNorthAfrica"})
+            //   });
 
-      // select the svg area
-      var svg2 = d3.select("#legend")
+             // add key from country to region
+             const csv_keyCountryRegion_path ="https://raw.githubusercontent.com/grantgambetta/ECS272-Final-Project/main/src/assets/data/country_region.csv"
+              d3.csv(csv_keyCountryRegion_path).then((keyRegion) => {
+                let dictionary = Object.assign({}, ...keyRegion.map((x) => ({[x.iso3]: x.region_txt.replaceAll(" ","").replaceAll("/","").replaceAll("&","").replaceAll(",","")})));
+                console.log(dictionary)
+                svg
+                  .selectAll("path")
+                  .attr("region",d => dictionary[d.id])
+              })
 
+            // svg
+            //   .selectAll("path")
+            //   .on("click",(e,d,i) => {
+            //     this.$emit("clicked",{'data':"MiddleEastNorthAfrica"})
+            //   });
+          })
+        }
 
+        drawMap(csv_file);
+          
+        d3.select("#metric").on("change",function(d){
+          console.log('WORKDED')
+          d3.select("#choropleth").selectAll('path').remove(); // remove previous block
+          d3.select('#legend').selectAll('g').remove();
+
+          var selectedOption = d3.select(this).property("value")
+          /*
+      in the if-else statement, for each metric need to pass in the dataset, domain values, create the legend, and create color scheme
+      */
+
+     // attacks
+          if (selectedOption=="count_attacks"){
+            domain_values = [10, 100, 1000, 5000, 10000, 15000, 30000] 
+            color_scheme = d3.schemeReds[domain_values.length]
+            legendBar = legend({
+                  color: d3.scaleThreshold(
+                      domain_values,
+                      color_scheme
+                  ),
+                  title: "Number of Attacks",
+                  tickSize: 0,
+              });
+            csv_file = "https://raw.githubusercontent.com/grantgambetta/ECS272-Final-Project/main/src/assets/data/map/choropleth_attacks.csv"
+          }
+          // deaths
+          else if (selectedOption=="kills"){
+            domain_values = [20, 100, 1000, 5000, 15000, 30000, 45000]
+            color_scheme = d3.schemeReds[domain_values.length]
+            legendBar = legend({
+                  color: d3.scaleThreshold(
+                      domain_values,
+                      color_scheme
+                  ),
+                  title: "Number of Casualities",
+                  tickSize: 0,
+              });
+            csv_file = "https://raw.githubusercontent.com/grantgambetta/ECS272-Final-Project/main/src/assets/data/map/choropleth_deaths.csv"
+          }
+          // injuries
+          else {
+              domain_values = [30, 100, 1000, 5000, 10000, 15000, 30000, 50000, 150000]
+              color_scheme = d3.schemeReds[domain_values.length]
+              legendBar = legend({
+                    color: d3.scaleThreshold(
+                        domain_values,
+                        color_scheme
+                    ),
+                    title: "Number of Injuries",
+                    tickSize: 0
+                });
+              csv_file = "https://raw.githubusercontent.com/grantgambetta/ECS272-Final-Project/main/src/assets/data/map/choropleth_injured.csv"
+          }
+          // draw map again
+          drawMap(csv_file) 
+        })
+          
+          // select the svg area
+          var svg2 = d3.select("#legend")
+
+          
       // Usually you have a color scale in your chart already
       // var color = d3.scaleThreshold()
       // .domain(keys)
@@ -275,6 +360,7 @@ export default {
                     .selectAll("rect")
                     .data(color.range())
                     .join("rect")
+                        .attr("id","legendMap")
                         .attr("x", (d, i) => x(i - 1))
                         .attr("y", marginTop)
                         .attr("width", (d, i) => x(i) - x(i - 1))
@@ -335,7 +421,7 @@ export default {
                 return canvas;
             }
 
-        // dummy rectangles to select regions
+        // // dummy rectangles to select regions
         // const svg3 = d3.select(id)
         //   .append("svg")
         //   .attr("width", 1000)

@@ -54,6 +54,7 @@ export default {
             mySankeyData: dataSankey["items"],
             regionString: "SouthAmerica",
             metricString: "count_attacks",
+            test: "test",
             myStackedAreaData: [], 
             myMapData: []
         }
@@ -93,8 +94,11 @@ export default {
         },
         handleMetricChange(data){
             console.log("Update metric: ",d3.select('#metric').property("value"));
+            
             // update selected metric
             this.metricString=d3.select('#metric').property("value");
+            this.test=d3.select('#metric').property("value");
+            
             // update data for sankey, require reads the json
             this.mySankeyData=require("../../assets/data/sankey/"+this.regionString+"_"+this.metricString+".json")['items'];
         }
