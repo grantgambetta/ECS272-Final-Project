@@ -28,6 +28,8 @@
         <br>
         <Sankey v-if="dataExists" :mySankeyData="mySankeyData" :regionString="regionString" />
     </div>
+    <h1 style = "position: absolute; left: 40px; top: 580px;">Summary Statistics</h1>
+    <div id="summary_stats" style = "position: absolute; top: 600px; left: 40px; height: 400; width: 400;"></div>
 </template>
 
 <script>
