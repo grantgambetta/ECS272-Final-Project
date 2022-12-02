@@ -1,0 +1,454 @@
+{
+"data":[
+  {
+    "yearDate": "1970-01-01",
+    "Japan": 0,
+    "Taiwan": 0,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 0,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "1971-01-01",
+    "Japan": 0,
+    "Taiwan": 25,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 0,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "1973-01-01",
+    "Japan": 0,
+    "Taiwan": 0,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 0,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "1974-01-01",
+    "Japan": 0,
+    "Taiwan": 0,
+    "South Korea": 1,
+    "Hong Kong": 0,
+    "China": 0,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "1975-01-01",
+    "Japan": 0,
+    "Taiwan": 0,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 0,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "1976-01-01",
+    "Japan": 2,
+    "Taiwan": 0,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 0,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "1977-01-01",
+    "Japan": 0,
+    "Taiwan": 0,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 0,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "1978-01-01",
+    "Japan": 4,
+    "Taiwan": 0,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 0,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "1979-01-01",
+    "Japan": 5,
+    "Taiwan": 0,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 0,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "1980-01-01",
+    "Japan": 0,
+    "Taiwan": 0,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 0,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "1981-01-01",
+    "Japan": 0,
+    "Taiwan": 0,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 0,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "1982-01-01",
+    "Japan": 0,
+    "Taiwan": 0,
+    "South Korea": 1,
+    "Hong Kong": 0,
+    "China": 0,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "1983-01-01",
+    "Japan": 2,
+    "Taiwan": 0,
+    "South Korea": 1,
+    "Hong Kong": 0,
+    "China": 0,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "1984-01-01",
+    "Japan": 0,
+    "Taiwan": 0,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 0,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "1985-01-01",
+    "Japan": 2,
+    "Taiwan": 0,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 0,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "1986-01-01",
+    "Japan": 3,
+    "Taiwan": 0,
+    "South Korea": 5,
+    "Hong Kong": 0,
+    "China": 0,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "1987-01-01",
+    "Japan": 1,
+    "Taiwan": 0,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 0,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "1988-01-01",
+    "Japan": 0,
+    "Taiwan": 0,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 0,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "1989-01-01",
+    "Japan": 2,
+    "Taiwan": 0,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 20,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "1990-01-01",
+    "Japan": 2,
+    "Taiwan": 0,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 2,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "1991-01-01",
+    "Japan": 1,
+    "Taiwan": 7,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 0,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "1992-01-01",
+    "Japan": 0,
+    "Taiwan": 16,
+    "South Korea": 1,
+    "Hong Kong": 1,
+    "China": 9,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "1994-01-01",
+    "Japan": 8,
+    "Taiwan": 1,
+    "South Korea": 1,
+    "Hong Kong": 3,
+    "China": 18,
+    "North Korea": 3,
+    "Macau": 0
+  },
+  {
+    "yearDate": "1995-01-01",
+    "Japan": 15,
+    "Taiwan": 0,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 6,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "1996-01-01",
+    "Japan": 0,
+    "Taiwan": 9,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 23,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "1997-01-01",
+    "Japan": 0,
+    "Taiwan": 0,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 37,
+    "North Korea": 0,
+    "Macau": 1
+  },
+  {
+    "yearDate": "1998-01-01",
+    "Japan": 0,
+    "Taiwan": 0,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 50,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "1999-01-01",
+    "Japan": 0,
+    "Taiwan": 0,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 5,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "2000-01-01",
+    "Japan": 0,
+    "Taiwan": 0,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 1,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "2001-01-01",
+    "Japan": 0,
+    "Taiwan": 2,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 7,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "2002-01-01",
+    "Japan": 0,
+    "Taiwan": 0,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 1,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "2003-01-01",
+    "Japan": 0,
+    "Taiwan": 0,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 1,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "2004-01-01",
+    "Japan": 0,
+    "Taiwan": 0,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 4,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "2005-01-01",
+    "Japan": 0,
+    "Taiwan": 0,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 12,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "2006-01-01",
+    "Japan": 0,
+    "Taiwan": 0,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 0,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "2008-01-01",
+    "Japan": 0,
+    "Taiwan": 0,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 39,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "2009-01-01",
+    "Japan": 0,
+    "Taiwan": 0,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 186,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "2010-01-01",
+    "Japan": 0,
+    "Taiwan": 0,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 7,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "2011-01-01",
+    "Japan": 0,
+    "Taiwan": 0,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 19,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "2012-01-01",
+    "Japan": 0,
+    "Taiwan": 0,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 27,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "2013-01-01",
+    "Japan": 0,
+    "Taiwan": 0,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 60,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "2014-01-01",
+    "Japan": 0,
+    "Taiwan": 0,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 322,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "2015-01-01",
+    "Japan": 0,
+    "Taiwan": 0,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 123,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "2016-01-01",
+    "Japan": 19,
+    "Taiwan": 0,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 13,
+    "North Korea": 0,
+    "Macau": 0
+  },
+  {
+    "yearDate": "2017-01-01",
+    "Japan": 0,
+    "Taiwan": 0,
+    "South Korea": 0,
+    "Hong Kong": 0,
+    "China": 16,
+    "North Korea": 0,
+    "Macau": 0
+  }
+]
+}

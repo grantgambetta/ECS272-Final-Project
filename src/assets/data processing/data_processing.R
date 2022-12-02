@@ -10,7 +10,7 @@ library(jsonlite)
 
 # NEED TO CHANGE THIS PATH IF RUNNING IN OTHER MACHINE!
 file_path <- "D:/ECS272-Final-Project/src/assets/data/%s"
-df <- read_csv("globalterrorismdb_0718dist.csv")
+df <- read_csv(sprintf(file_path,"globalterrorismdb_0718dist.csv"))
 df
 
 # Explore content
@@ -89,31 +89,56 @@ table(df$dbsource_sankey) %>% sort(decreasing = T)
 
 
 ## Stacked Area ----
-# Data by year and world region
-data_stackedArea <- df %>% 
-  group_by(yearDate,region) %>% 
-  summarise(count_attacks=n(),
-            kills=sum(nkill,na.rm=T),
-            wounded=sum(nwound,na.rm=T)) %>% 
-  ungroup() %>% 
-  mutate(kills_per_attack=kills/count_attacks,
-         wounded_per_attack=wounded/count_attacks)
 
-# Spread data to long format
-data_stackedArea <- data_stackedArea %>% 
-  select(yearDate,region,count_attacks) %>% 
-  pivot_wider(names_from = region, values_from = count_attacks,
-              values_fill = 0) %>% 
-  arrange(yearDate)
+# LOOP TO GENERATE ALL POSSIBLE REGIONS + VALUES
+options(dplyr.summarise.inform = FALSE)
+df_all <- df
+regions <- df_all$region_txt %>% unique()
+regions <- c("world",regions)
+metrics <- c("count_attacks","kills","wounded")
+
+for (r in regions){
+  
+  if (r!="world"){
+    df <- df_all %>% filter(region_txt==r)
+  } else{
+    df <- df_all %>% mutate(country_txt=region_txt)
+  }
+  
+  for (m in metrics){
+    # Data by year and world region
+    data_stackedArea <- df %>% 
+      group_by(yearDate,country_txt) %>% 
+      summarise(count_attacks=n(),
+                kills=sum(nkill,na.rm=T),
+                wounded=sum(nwound,na.rm=T)) %>% 
+      mutate(value=!!sym(m)) %>% 
+      # select(-count_attacks,-kills,-wounded) %>% 
+      ungroup() %>% 
+      mutate(kills_per_attack=kills/count_attacks,
+             wounded_per_attack=wounded/count_attacks)
+    
+    # Spread data to long format
+    data_stackedArea <- data_stackedArea %>% 
+      select(yearDate,country_txt,value) %>% 
+      pivot_wider(names_from = country_txt, values_from = value,
+                  values_fill = 0) %>% 
+      arrange(yearDate)
+    
+    # Export to JSON and csv format 
+    file_name <- paste0(sprintf(file_path,"timeSeries/"),str_remove_all(r," |&"),"_",m,".%s")
+    
+    
+    export_stackedArea <- toJSON(data_stackedArea, pretty = T)
+    #json
+    write(paste0('{\n"data":',export_stackedArea,"\n}"), 
+          sprintf(file_name,"json"))
+    # write.csv(data_stackedArea,
+    #       sprintf(file_name,"csv"))
+  }
+}
 
 
-# Export to JSON format 
-export_stackedArea <- toJSON(data_stackedArea, pretty = T)
-#json
-write(paste0('{\n"data":',export_stackedArea,"\n}"), 
-      sprintf(file_path,"stackedArea.json"))
-write.csv(data_stackedArea,
-      sprintf(file_path,"stackedArea.csv"))
 
 
 ## SANKEY DIAGRAM ------
@@ -132,13 +157,7 @@ write.csv(data_js,
 # df <- df %>% filter(region_txt=="Middle East & North Africa")
 # df <- df %>% filter(region_txt=="South America")
 
-# Chile case
-# df <- df %>% filter(country_txt=="Chile")
 
-## Order the data for the Sankey, by number of attacks
-
-# order_region <- df %>% group_by(region) %>% 
-#   tally(sort = T) %>% pull(region)
 
 # LOOP TO GENERATE ALL POSSIBLE REGIONS + VALUES
 
@@ -146,29 +165,48 @@ options(dplyr.summarise.inform = FALSE)
 df_all <- df
 
 regions <- df_all$region_txt %>% unique()
-regions_code <- sapply( regions, function(x)
-  paste(substr(strsplit(x, " ")[[1]], 1, 1), collapse="") ) %>% 
-  unname() %>% str_remove_all("&")
+
+regions <- c("world",regions)
 
 metrics <- c("count_attacks","kills","wounded")
 
 for (r in regions){
-  df <- df_all %>% filter(region_txt==r)
+  
+  if (r!="world"){
+    df <- df_all %>% filter(region_txt==r)
+  } else{
+    df <- df_all %>% mutate(country_txt=region_txt)
+  }
+  
+  
   df %>% group_by(country_txt) %>% tally(sort=T) %>% 
     head(11) %>%  pull(country_txt) %>% print()
   
   for (m in metrics){
   
-    order_country <- df %>% group_by(country_txt) %>% 
-      summarise(count_attacks=n(),
-                kills=sum(nkill,na.rm=T),
-                wounded=sum(nwound,na.rm=T)) %>% 
-      mutate(value=!!sym(m)) %>% arrange(desc(value)) %>% 
-      head(11) %>% pull(country_txt)
-    df <- df %>% mutate(country_sankey=
-                          if_else(country_txt %in% order_country,
-                                  country_txt,"Other"))
-    order_country <- c(order_country,"Other")
+    if (r!="world"){
+      order_country <- df %>% group_by(country_txt) %>% 
+        summarise(count_attacks=n(),
+                  kills=sum(nkill,na.rm=T),
+                  wounded=sum(nwound,na.rm=T)) %>% 
+        mutate(value=!!sym(m)) %>% arrange(desc(value)) %>% 
+        head(11) %>% pull(country_txt)
+      df <- df %>% mutate(country_sankey=
+                            if_else(country_txt %in% order_country,
+                                    country_txt,"Other"))
+      order_country <- c(order_country,"Other")
+    } else {
+        order_country <- df %>% group_by(country_txt) %>% 
+          summarise(count_attacks=n(),
+                    kills=sum(nkill,na.rm=T),
+                    wounded=sum(nwound,na.rm=T)) %>% 
+          mutate(value=!!sym(m)) %>% arrange(desc(value)) %>% 
+          head(12) %>% pull(country_txt)
+        df <- df %>% mutate(country_sankey=
+                              if_else(country_txt %in% order_country,
+                                      country_txt,"Other"))
+    }
+    
     # print(order_country)
     
     order_type <- df %>% group_by(type_sankey) %>% 

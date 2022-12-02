@@ -6,7 +6,7 @@
 import * as d3 from 'd3';
 import { sankey, sankeyLinkHorizontal } from 'd3-sankey';
 // import dataSankey from "../../assets/data/sankey2.json"
-import dataSankey from "../../assets/data/sankey/SouthAmerica_count_attacks.json"
+import dataSankey from "../../assets/data/sankey/world_count_attacks.json"
 
 
 export default {
@@ -66,16 +66,14 @@ export default {
         // Colors Legend
         // color generator: https://observablehq.com/@d3/color-schemes 
         // (can modify the code to generate 24 discrete categories)
-        const regions=["Middle East & North Africa","South Asia","South America","Sub-Saharan Africa",
-                        "Western Europe","Southeast Asia","Central America & Caribbean","Eastern Europe",
-                        "North America","East Asia","Central Asia","Australasia & Oceania"]
-        const color_regions=["#e6ab02","#1b9e77","#d95f02","#66a61e",
-                    "#e7298a","#666666","#a6761d","#7570b3",
-                    "#33a02c","#fdbf6f","#1f78b4","#000000"]
-        
-        
+
         var countries=[]
         switch(region_selected){
+          case "world":
+            countries=["Middle East & North Africa","South Asia","South America","Sub-Saharan Africa",
+                        "Western Europe","Southeast Asia","Central America & Caribbean","Eastern Europe",
+                        "North America","East Asia","Central Asia","Australasia & Oceania"];
+            break;
           case "CentralAmericaCaribbean":
             countries=["El Salvador","Guatemala","Nicaragua","Honduras","Haiti",
                       "Panama","Dominican Republic","Costa Rica","Guadeloupe","Jamaica",

@@ -1,0 +1,1773 @@
+{"items": {
+"nodes":[
+  {
+    "node": "1",
+    "name": "1970-1974",
+    "value": 2744,
+    "id": "1970-1974"
+  },
+  {
+    "node": "2",
+    "name": "1975-1979",
+    "value": 7170,
+    "id": "1975-1979"
+  },
+  {
+    "node": "3",
+    "name": "1980-1984",
+    "value": 14157,
+    "id": "1980-1984"
+  },
+  {
+    "node": "4",
+    "name": "1985-1989",
+    "value": 17003,
+    "id": "1985-1989"
+  },
+  {
+    "node": "5",
+    "name": "1990-1994",
+    "value": 17097,
+    "id": "1990-1994"
+  },
+  {
+    "node": "6",
+    "name": "1995-1999",
+    "value": 11665,
+    "id": "1995-1999"
+  },
+  {
+    "node": "7",
+    "name": "2000-2004",
+    "value": 7497,
+    "id": "2000-2004"
+  },
+  {
+    "node": "8",
+    "name": "2005-2009",
+    "value": 17543,
+    "id": "2005-2009"
+  },
+  {
+    "node": "9",
+    "name": "2010-2014",
+    "value": 47363,
+    "id": "2010-2014"
+  },
+  {
+    "node": "10",
+    "name": "2015-2017",
+    "value": 39452,
+    "id": "2015-2017"
+  },
+  {
+    "node": "11",
+    "name": "Middle East & North Africa",
+    "value": 50474,
+    "id": "Middle-East---North-Africa"
+  },
+  {
+    "node": "12",
+    "name": "South Asia",
+    "value": 44974,
+    "id": "South-Asia"
+  },
+  {
+    "node": "13",
+    "name": "Sub-Saharan Africa",
+    "value": 17550,
+    "id": "Sub-Saharan-Africa"
+  },
+  {
+    "node": "14",
+    "name": "Southeast Asia",
+    "value": 12485,
+    "id": "Southeast-Asia"
+  },
+  {
+    "node": "15",
+    "name": "North America",
+    "value": 3456,
+    "id": "North-America"
+  },
+  {
+    "node": "16",
+    "name": "Western Europe",
+    "value": 16639,
+    "id": "Western-Europe"
+  },
+  {
+    "node": "17",
+    "name": "South America",
+    "value": 18978,
+    "id": "South-America"
+  },
+  {
+    "node": "18",
+    "name": "Eastern Europe",
+    "value": 5144,
+    "id": "Eastern-Europe"
+  },
+  {
+    "node": "19",
+    "name": "East Asia",
+    "value": 802,
+    "id": "East-Asia"
+  },
+  {
+    "node": "20",
+    "name": "Central America & Caribbean",
+    "value": 10344,
+    "id": "Central-America---Caribbean"
+  },
+  {
+    "node": "21",
+    "name": "Central Asia",
+    "value": 563,
+    "id": "Central-Asia"
+  },
+  {
+    "node": "22",
+    "name": "Australasia & Oceania",
+    "value": 282,
+    "id": "Australasia---Oceania"
+  },
+  {
+    "node": "23",
+    "name": "Bombing/Explosion",
+    "value": 88255,
+    "id": "Bombing-Explosion"
+  },
+  {
+    "node": "24",
+    "name": "Armed Assault",
+    "value": 42669,
+    "id": "Armed-Assault"
+  },
+  {
+    "node": "25",
+    "name": "Hijacking",
+    "value": 659,
+    "id": "Hijacking"
+  },
+  {
+    "node": "26",
+    "name": "Unknown",
+    "value": 7276,
+    "id": "Unknown"
+  },
+  {
+    "node": "27",
+    "name": "Unarmed Assault",
+    "value": 1015,
+    "id": "Unarmed-Assault"
+  },
+  {
+    "node": "28",
+    "name": "Assassination",
+    "value": 19312,
+    "id": "Assassination"
+  },
+  {
+    "node": "29",
+    "name": "Hostage Taking",
+    "value": 12149,
+    "id": "Hostage-Taking"
+  },
+  {
+    "node": "30",
+    "name": "Facility/Infrastructure Attack",
+    "value": 10356,
+    "id": "Facility-Infrastructure-Attack"
+  },
+  {
+    "node": "31",
+    "name": "Private Citizens & Property",
+    "value": 44531,
+    "id": "Private-Citizens---Property"
+  },
+  {
+    "node": "32",
+    "name": "Military",
+    "value": 27984,
+    "id": "Military"
+  },
+  {
+    "node": "33",
+    "name": "Business, Utilities & Communication",
+    "value": 35941,
+    "id": "Business--Utilities---Communication"
+  },
+  {
+    "node": "34",
+    "name": "Police",
+    "value": 24506,
+    "id": "Police"
+  },
+  {
+    "node": "35",
+    "name": "Government",
+    "value": 24856,
+    "id": "Government"
+  },
+  {
+    "node": "36",
+    "name": "Transportation",
+    "value": 8493,
+    "id": "Transportation"
+  },
+  {
+    "node": "37",
+    "name": "Unknown, religious & militia",
+    "value": 15380,
+    "id": "Unknown--religious---militia"
+  },
+  {
+    "node": "38",
+    "name": "START Primary Collection",
+    "value": 78002,
+    "id": "START-Primary-Collection"
+  },
+  {
+    "node": "39",
+    "name": "PGIS",
+    "value": 63740,
+    "id": "PGIS"
+  },
+  {
+    "node": "40",
+    "name": "CETIS",
+    "value": 16163,
+    "id": "CETIS"
+  },
+  {
+    "node": "41",
+    "name": "ISVG",
+    "value": 17207,
+    "id": "ISVG"
+  },
+  {
+    "node": "42",
+    "name": "Other Source",
+    "value": 6579,
+    "id": "Other-Source"
+  }
+], 
+ "links":[
+  {
+    "source": "1970-1974",
+    "target": "Middle East & North Africa",
+    "value": 285
+  },
+  {
+    "source": "1970-1974",
+    "target": "South Asia",
+    "value": 23
+  },
+  {
+    "source": "1970-1974",
+    "target": "Sub-Saharan Africa",
+    "value": 3
+  },
+  {
+    "source": "1970-1974",
+    "target": "Southeast Asia",
+    "value": 32
+  },
+  {
+    "source": "1970-1974",
+    "target": "North America",
+    "value": 344
+  },
+  {
+    "source": "1970-1974",
+    "target": "Western Europe",
+    "value": 1306
+  },
+  {
+    "source": "1970-1974",
+    "target": "South America",
+    "value": 53
+  },
+  {
+    "source": "1970-1974",
+    "target": "Eastern Europe",
+    "value": 7
+  },
+  {
+    "source": "1970-1974",
+    "target": "East Asia",
+    "value": 7
+  },
+  {
+    "source": "1970-1974",
+    "target": "Central America & Caribbean",
+    "value": 3
+  },
+  {
+    "source": "1970-1974",
+    "target": "Australasia & Oceania",
+    "value": 0
+  },
+  {
+    "source": "1975-1979",
+    "target": "Middle East & North Africa",
+    "value": 2189
+  },
+  {
+    "source": "1975-1979",
+    "target": "South Asia",
+    "value": 69
+  },
+  {
+    "source": "1975-1979",
+    "target": "Sub-Saharan Africa",
+    "value": 419
+  },
+  {
+    "source": "1975-1979",
+    "target": "Southeast Asia",
+    "value": 712
+  },
+  {
+    "source": "1975-1979",
+    "target": "North America",
+    "value": 325
+  },
+  {
+    "source": "1975-1979",
+    "target": "Western Europe",
+    "value": 1539
+  },
+  {
+    "source": "1975-1979",
+    "target": "South America",
+    "value": 292
+  },
+  {
+    "source": "1975-1979",
+    "target": "Eastern Europe",
+    "value": 13
+  },
+  {
+    "source": "1975-1979",
+    "target": "East Asia",
+    "value": 58
+  },
+  {
+    "source": "1975-1979",
+    "target": "Central America & Caribbean",
+    "value": 363
+  },
+  {
+    "source": "1975-1979",
+    "target": "Australasia & Oceania",
+    "value": 18
+  },
+  {
+    "source": "1980-1984",
+    "target": "Middle East & North Africa",
+    "value": 6090
+  },
+  {
+    "source": "1980-1984",
+    "target": "South Asia",
+    "value": 1140
+  },
+  {
+    "source": "1980-1984",
+    "target": "Sub-Saharan Africa",
+    "value": 1677
+  },
+  {
+    "source": "1980-1984",
+    "target": "Southeast Asia",
+    "value": 1621
+  },
+  {
+    "source": "1980-1984",
+    "target": "North America",
+    "value": 884
+  },
+  {
+    "source": "1980-1984",
+    "target": "Western Europe",
+    "value": 3031
+  },
+  {
+    "source": "1980-1984",
+    "target": "South America",
+    "value": 1752
+  },
+  {
+    "source": "1980-1984",
+    "target": "Eastern Europe",
+    "value": 13
+  },
+  {
+    "source": "1980-1984",
+    "target": "East Asia",
+    "value": 46
+  },
+  {
+    "source": "1980-1984",
+    "target": "Central America & Caribbean",
+    "value": 3401
+  },
+  {
+    "source": "1980-1984",
+    "target": "Australasia & Oceania",
+    "value": 7
+  },
+  {
+    "source": "1985-1989",
+    "target": "Middle East & North Africa",
+    "value": 4972
+  },
+  {
+    "source": "1985-1989",
+    "target": "South Asia",
+    "value": 9101
+  },
+  {
+    "source": "1985-1989",
+    "target": "Sub-Saharan Africa",
+    "value": 3144
+  },
+  {
+    "source": "1985-1989",
+    "target": "Southeast Asia",
+    "value": 2276
+  },
+  {
+    "source": "1985-1989",
+    "target": "North America",
+    "value": 82
+  },
+  {
+    "source": "1985-1989",
+    "target": "Western Europe",
+    "value": 3086
+  },
+  {
+    "source": "1985-1989",
+    "target": "South America",
+    "value": 3569
+  },
+  {
+    "source": "1985-1989",
+    "target": "Eastern Europe",
+    "value": 62
+  },
+  {
+    "source": "1985-1989",
+    "target": "East Asia",
+    "value": 80
+  },
+  {
+    "source": "1985-1989",
+    "target": "Central America & Caribbean",
+    "value": 2776
+  },
+  {
+    "source": "1985-1989",
+    "target": "Australasia & Oceania",
+    "value": 70
+  },
+  {
+    "source": "1990-1994",
+    "target": "Middle East & North Africa",
+    "value": 5012
+  },
+  {
+    "source": "1990-1994",
+    "target": "South Asia",
+    "value": 9498
+  },
+  {
+    "source": "1990-1994",
+    "target": "Sub-Saharan Africa",
+    "value": 4298
+  },
+  {
+    "source": "1990-1994",
+    "target": "Southeast Asia",
+    "value": 2023
+  },
+  {
+    "source": "1990-1994",
+    "target": "North America",
+    "value": 68
+  },
+  {
+    "source": "1990-1994",
+    "target": "Western Europe",
+    "value": 1968
+  },
+  {
+    "source": "1990-1994",
+    "target": "South America",
+    "value": 3957
+  },
+  {
+    "source": "1990-1994",
+    "target": "Eastern Europe",
+    "value": 414
+  },
+  {
+    "source": "1990-1994",
+    "target": "East Asia",
+    "value": 829
+  },
+  {
+    "source": "1990-1994",
+    "target": "Central America & Caribbean",
+    "value": 1899
+  },
+  {
+    "source": "1990-1994",
+    "target": "Central Asia",
+    "value": 1177
+  },
+  {
+    "source": "1990-1994",
+    "target": "Australasia & Oceania",
+    "value": 60
+  },
+  {
+    "source": "1995-1999",
+    "target": "Middle East & North Africa",
+    "value": 9040
+  },
+  {
+    "source": "1995-1999",
+    "target": "South Asia",
+    "value": 14140
+  },
+  {
+    "source": "1995-1999",
+    "target": "Sub-Saharan Africa",
+    "value": 8129
+  },
+  {
+    "source": "1995-1999",
+    "target": "Southeast Asia",
+    "value": 1953
+  },
+  {
+    "source": "1995-1999",
+    "target": "North America",
+    "value": 1215
+  },
+  {
+    "source": "1995-1999",
+    "target": "Western Europe",
+    "value": 1510
+  },
+  {
+    "source": "1995-1999",
+    "target": "South America",
+    "value": 2251
+  },
+  {
+    "source": "1995-1999",
+    "target": "Eastern Europe",
+    "value": 1714
+  },
+  {
+    "source": "1995-1999",
+    "target": "East Asia",
+    "value": 6921
+  },
+  {
+    "source": "1995-1999",
+    "target": "Central America & Caribbean",
+    "value": 379
+  },
+  {
+    "source": "1995-1999",
+    "target": "Central Asia",
+    "value": 375
+  },
+  {
+    "source": "1995-1999",
+    "target": "Australasia & Oceania",
+    "value": 56
+  },
+  {
+    "source": "2000-2004",
+    "target": "Middle East & North Africa",
+    "value": 12686
+  },
+  {
+    "source": "2000-2004",
+    "target": "South Asia",
+    "value": 11381
+  },
+  {
+    "source": "2000-2004",
+    "target": "Sub-Saharan Africa",
+    "value": 1927
+  },
+  {
+    "source": "2000-2004",
+    "target": "Southeast Asia",
+    "value": 3858
+  },
+  {
+    "source": "2000-2004",
+    "target": "North America",
+    "value": 16575
+  },
+  {
+    "source": "2000-2004",
+    "target": "Western Europe",
+    "value": 2491
+  },
+  {
+    "source": "2000-2004",
+    "target": "South America",
+    "value": 2120
+  },
+  {
+    "source": "2000-2004",
+    "target": "Eastern Europe",
+    "value": 3730
+  },
+  {
+    "source": "2000-2004",
+    "target": "East Asia",
+    "value": 177
+  },
+  {
+    "source": "2000-2004",
+    "target": "Central America & Caribbean",
+    "value": 82
+  },
+  {
+    "source": "2000-2004",
+    "target": "Central Asia",
+    "value": 167
+  },
+  {
+    "source": "2000-2004",
+    "target": "Australasia & Oceania",
+    "value": 17
+  },
+  {
+    "source": "2005-2009",
+    "target": "Middle East & North Africa",
+    "value": 49534
+  },
+  {
+    "source": "2005-2009",
+    "target": "South Asia",
+    "value": 26505
+  },
+  {
+    "source": "2005-2009",
+    "target": "Sub-Saharan Africa",
+    "value": 4590
+  },
+  {
+    "source": "2005-2009",
+    "target": "Southeast Asia",
+    "value": 4437
+  },
+  {
+    "source": "2005-2009",
+    "target": "North America",
+    "value": 224
+  },
+  {
+    "source": "2005-2009",
+    "target": "Western Europe",
+    "value": 1197
+  },
+  {
+    "source": "2005-2009",
+    "target": "South America",
+    "value": 874
+  },
+  {
+    "source": "2005-2009",
+    "target": "Eastern Europe",
+    "value": 1178
+  },
+  {
+    "source": "2005-2009",
+    "target": "East Asia",
+    "value": 257
+  },
+  {
+    "source": "2005-2009",
+    "target": "Central America & Caribbean",
+    "value": 18
+  },
+  {
+    "source": "2005-2009",
+    "target": "Central Asia",
+    "value": 180
+  },
+  {
+    "source": "2005-2009",
+    "target": "Australasia & Oceania",
+    "value": 0
+  },
+  {
+    "source": "2010-2014",
+    "target": "Middle East & North Africa",
+    "value": 68918
+  },
+  {
+    "source": "2010-2014",
+    "target": "South Asia",
+    "value": 41003
+  },
+  {
+    "source": "2010-2014",
+    "target": "Sub-Saharan Africa",
+    "value": 13014
+  },
+  {
+    "source": "2010-2014",
+    "target": "Southeast Asia",
+    "value": 5733
+  },
+  {
+    "source": "2010-2014",
+    "target": "North America",
+    "value": 608
+  },
+  {
+    "source": "2010-2014",
+    "target": "Western Europe",
+    "value": 269
+  },
+  {
+    "source": "2010-2014",
+    "target": "South America",
+    "value": 1356
+  },
+  {
+    "source": "2010-2014",
+    "target": "Eastern Europe",
+    "value": 3191
+  },
+  {
+    "source": "2010-2014",
+    "target": "East Asia",
+    "value": 633
+  },
+  {
+    "source": "2010-2014",
+    "target": "Central America & Caribbean",
+    "value": 69
+  },
+  {
+    "source": "2010-2014",
+    "target": "Central Asia",
+    "value": 66
+  },
+  {
+    "source": "2010-2014",
+    "target": "Australasia & Oceania",
+    "value": 7
+  },
+  {
+    "source": "2015-2017",
+    "target": "Middle East & North Africa",
+    "value": 55582
+  },
+  {
+    "source": "2015-2017",
+    "target": "South Asia",
+    "value": 28500
+  },
+  {
+    "source": "2015-2017",
+    "target": "Sub-Saharan Africa",
+    "value": 15656
+  },
+  {
+    "source": "2015-2017",
+    "target": "Southeast Asia",
+    "value": 3614
+  },
+  {
+    "source": "2015-2017",
+    "target": "North America",
+    "value": 1206
+  },
+  {
+    "source": "2015-2017",
+    "target": "Western Europe",
+    "value": 1935
+  },
+  {
+    "source": "2015-2017",
+    "target": "South America",
+    "value": 480
+  },
+  {
+    "source": "2015-2017",
+    "target": "Eastern Europe",
+    "value": 1723
+  },
+  {
+    "source": "2015-2017",
+    "target": "East Asia",
+    "value": 205
+  },
+  {
+    "source": "2015-2017",
+    "target": "Central America & Caribbean",
+    "value": 1
+  },
+  {
+    "source": "2015-2017",
+    "target": "Central Asia",
+    "value": 44
+  },
+  {
+    "source": "2015-2017",
+    "target": "Australasia & Oceania",
+    "value": 25
+  },
+  {
+    "source": "Middle East & North Africa",
+    "target": "Bombing/Explosion",
+    "value": 187839
+  },
+  {
+    "source": "Middle East & North Africa",
+    "target": "Armed Assault",
+    "value": 14894
+  },
+  {
+    "source": "Middle East & North Africa",
+    "target": "Hijacking",
+    "value": 73
+  },
+  {
+    "source": "Middle East & North Africa",
+    "target": "Unknown",
+    "value": 3477
+  },
+  {
+    "source": "Middle East & North Africa",
+    "target": "Unarmed Assault",
+    "value": 701
+  },
+  {
+    "source": "Middle East & North Africa",
+    "target": "Assassination",
+    "value": 4521
+  },
+  {
+    "source": "Middle East & North Africa",
+    "target": "Hostage Taking",
+    "value": 2185
+  },
+  {
+    "source": "Middle East & North Africa",
+    "target": "Facility/Infrastructure Attack",
+    "value": 618
+  },
+  {
+    "source": "South Asia",
+    "target": "Bombing/Explosion",
+    "value": 97925
+  },
+  {
+    "source": "South Asia",
+    "target": "Armed Assault",
+    "value": 24505
+  },
+  {
+    "source": "South Asia",
+    "target": "Hijacking",
+    "value": 206
+  },
+  {
+    "source": "South Asia",
+    "target": "Unknown",
+    "value": 6529
+  },
+  {
+    "source": "South Asia",
+    "target": "Unarmed Assault",
+    "value": 3661
+  },
+  {
+    "source": "South Asia",
+    "target": "Assassination",
+    "value": 5180
+  },
+  {
+    "source": "South Asia",
+    "target": "Hostage Taking",
+    "value": 2222
+  },
+  {
+    "source": "South Asia",
+    "target": "Facility/Infrastructure Attack",
+    "value": 1132
+  },
+  {
+    "source": "Sub-Saharan Africa",
+    "target": "Bombing/Explosion",
+    "value": 28448
+  },
+  {
+    "source": "Sub-Saharan Africa",
+    "target": "Armed Assault",
+    "value": 15716
+  },
+  {
+    "source": "Sub-Saharan Africa",
+    "target": "Hijacking",
+    "value": 38
+  },
+  {
+    "source": "Sub-Saharan Africa",
+    "target": "Unknown",
+    "value": 2624
+  },
+  {
+    "source": "Sub-Saharan Africa",
+    "target": "Unarmed Assault",
+    "value": 753
+  },
+  {
+    "source": "Sub-Saharan Africa",
+    "target": "Assassination",
+    "value": 1082
+  },
+  {
+    "source": "Sub-Saharan Africa",
+    "target": "Hostage Taking",
+    "value": 3694
+  },
+  {
+    "source": "Sub-Saharan Africa",
+    "target": "Facility/Infrastructure Attack",
+    "value": 502
+  },
+  {
+    "source": "Southeast Asia",
+    "target": "Bombing/Explosion",
+    "value": 18547
+  },
+  {
+    "source": "Southeast Asia",
+    "target": "Armed Assault",
+    "value": 5667
+  },
+  {
+    "source": "Southeast Asia",
+    "target": "Hijacking",
+    "value": 35
+  },
+  {
+    "source": "Southeast Asia",
+    "target": "Unknown",
+    "value": 611
+  },
+  {
+    "source": "Southeast Asia",
+    "target": "Unarmed Assault",
+    "value": 152
+  },
+  {
+    "source": "Southeast Asia",
+    "target": "Assassination",
+    "value": 821
+  },
+  {
+    "source": "Southeast Asia",
+    "target": "Hostage Taking",
+    "value": 222
+  },
+  {
+    "source": "Southeast Asia",
+    "target": "Facility/Infrastructure Attack",
+    "value": 204
+  },
+  {
+    "source": "North America",
+    "target": "Bombing/Explosion",
+    "value": 1806
+  },
+  {
+    "source": "North America",
+    "target": "Armed Assault",
+    "value": 1542
+  },
+  {
+    "source": "North America",
+    "target": "Hijacking",
+    "value": 16512
+  },
+  {
+    "source": "North America",
+    "target": "Unknown",
+    "value": 25
+  },
+  {
+    "source": "North America",
+    "target": "Unarmed Assault",
+    "value": 970
+  },
+  {
+    "source": "North America",
+    "target": "Assassination",
+    "value": 84
+  },
+  {
+    "source": "North America",
+    "target": "Hostage Taking",
+    "value": 132
+  },
+  {
+    "source": "North America",
+    "target": "Facility/Infrastructure Attack",
+    "value": 460
+  },
+  {
+    "source": "Western Europe",
+    "target": "Bombing/Explosion",
+    "value": 14046
+  },
+  {
+    "source": "Western Europe",
+    "target": "Armed Assault",
+    "value": 2062
+  },
+  {
+    "source": "Western Europe",
+    "target": "Hijacking",
+    "value": 66
+  },
+  {
+    "source": "Western Europe",
+    "target": "Unknown",
+    "value": 126
+  },
+  {
+    "source": "Western Europe",
+    "target": "Unarmed Assault",
+    "value": 435
+  },
+  {
+    "source": "Western Europe",
+    "target": "Assassination",
+    "value": 801
+  },
+  {
+    "source": "Western Europe",
+    "target": "Hostage Taking",
+    "value": 422
+  },
+  {
+    "source": "Western Europe",
+    "target": "Facility/Infrastructure Attack",
+    "value": 374
+  },
+  {
+    "source": "South America",
+    "target": "Bombing/Explosion",
+    "value": 10933
+  },
+  {
+    "source": "South America",
+    "target": "Armed Assault",
+    "value": 3887
+  },
+  {
+    "source": "South America",
+    "target": "Hijacking",
+    "value": 9
+  },
+  {
+    "source": "South America",
+    "target": "Unknown",
+    "value": 745
+  },
+  {
+    "source": "South America",
+    "target": "Unarmed Assault",
+    "value": 108
+  },
+  {
+    "source": "South America",
+    "target": "Assassination",
+    "value": 655
+  },
+  {
+    "source": "South America",
+    "target": "Hostage Taking",
+    "value": 224
+  },
+  {
+    "source": "South America",
+    "target": "Facility/Infrastructure Attack",
+    "value": 143
+  },
+  {
+    "source": "Eastern Europe",
+    "target": "Bombing/Explosion",
+    "value": 8262
+  },
+  {
+    "source": "Eastern Europe",
+    "target": "Armed Assault",
+    "value": 1852
+  },
+  {
+    "source": "Eastern Europe",
+    "target": "Hijacking",
+    "value": 25
+  },
+  {
+    "source": "Eastern Europe",
+    "target": "Unknown",
+    "value": 188
+  },
+  {
+    "source": "Eastern Europe",
+    "target": "Unarmed Assault",
+    "value": 88
+  },
+  {
+    "source": "Eastern Europe",
+    "target": "Assassination",
+    "value": 401
+  },
+  {
+    "source": "Eastern Europe",
+    "target": "Hostage Taking",
+    "value": 1166
+  },
+  {
+    "source": "Eastern Europe",
+    "target": "Facility/Infrastructure Attack",
+    "value": 63
+  },
+  {
+    "source": "East Asia",
+    "target": "Bombing/Explosion",
+    "value": 1135
+  },
+  {
+    "source": "East Asia",
+    "target": "Armed Assault",
+    "value": 707
+  },
+  {
+    "source": "East Asia",
+    "target": "Hijacking",
+    "value": 17
+  },
+  {
+    "source": "East Asia",
+    "target": "Unknown",
+    "value": 107
+  },
+  {
+    "source": "East Asia",
+    "target": "Unarmed Assault",
+    "value": 7040
+  },
+  {
+    "source": "East Asia",
+    "target": "Assassination",
+    "value": 35
+  },
+  {
+    "source": "East Asia",
+    "target": "Hostage Taking",
+    "value": 30
+  },
+  {
+    "source": "East Asia",
+    "target": "Facility/Infrastructure Attack",
+    "value": 142
+  },
+  {
+    "source": "Central America & Caribbean",
+    "target": "Bombing/Explosion",
+    "value": 2819
+  },
+  {
+    "source": "Central America & Caribbean",
+    "target": "Armed Assault",
+    "value": 5459
+  },
+  {
+    "source": "Central America & Caribbean",
+    "target": "Hijacking",
+    "value": 4
+  },
+  {
+    "source": "Central America & Caribbean",
+    "target": "Unknown",
+    "value": 266
+  },
+  {
+    "source": "Central America & Caribbean",
+    "target": "Unarmed Assault",
+    "value": 16
+  },
+  {
+    "source": "Central America & Caribbean",
+    "target": "Assassination",
+    "value": 246
+  },
+  {
+    "source": "Central America & Caribbean",
+    "target": "Hostage Taking",
+    "value": 76
+  },
+  {
+    "source": "Central America & Caribbean",
+    "target": "Facility/Infrastructure Attack",
+    "value": 105
+  },
+  {
+    "source": "Central Asia",
+    "target": "Bombing/Explosion",
+    "value": 849
+  },
+  {
+    "source": "Central Asia",
+    "target": "Armed Assault",
+    "value": 988
+  },
+  {
+    "source": "Central Asia",
+    "target": "Hijacking",
+    "value": 16
+  },
+  {
+    "source": "Central Asia",
+    "target": "Unknown",
+    "value": 21
+  },
+  {
+    "source": "Central Asia",
+    "target": "Unarmed Assault",
+    "value": 62
+  },
+  {
+    "source": "Central Asia",
+    "target": "Assassination",
+    "value": 52
+  },
+  {
+    "source": "Central Asia",
+    "target": "Hostage Taking",
+    "value": 12
+  },
+  {
+    "source": "Central Asia",
+    "target": "Facility/Infrastructure Attack",
+    "value": 9
+  },
+  {
+    "source": "Australasia & Oceania",
+    "target": "Bombing/Explosion",
+    "value": 77
+  },
+  {
+    "source": "Australasia & Oceania",
+    "target": "Armed Assault",
+    "value": 87
+  },
+  {
+    "source": "Australasia & Oceania",
+    "target": "Hijacking",
+    "value": 0
+  },
+  {
+    "source": "Australasia & Oceania",
+    "target": "Unknown",
+    "value": 6
+  },
+  {
+    "source": "Australasia & Oceania",
+    "target": "Unarmed Assault",
+    "value": 41
+  },
+  {
+    "source": "Australasia & Oceania",
+    "target": "Assassination",
+    "value": 9
+  },
+  {
+    "source": "Australasia & Oceania",
+    "target": "Hostage Taking",
+    "value": 27
+  },
+  {
+    "source": "Australasia & Oceania",
+    "target": "Facility/Infrastructure Attack",
+    "value": 13
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Private Citizens & Property",
+    "value": 129578
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Military",
+    "value": 44160
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Business, Utilities & Communication",
+    "value": 54322
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Police",
+    "value": 43865
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Government",
+    "value": 36544
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Transportation",
+    "value": 31998
+  },
+  {
+    "source": "Bombing/Explosion",
+    "target": "Unknown, religious & militia",
+    "value": 32219
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Private Citizens & Property",
+    "value": 21891
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Military",
+    "value": 19332
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Business, Utilities & Communication",
+    "value": 6009
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Police",
+    "value": 13902
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Government",
+    "value": 6254
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Transportation",
+    "value": 4859
+  },
+  {
+    "source": "Armed Assault",
+    "target": "Unknown, religious & militia",
+    "value": 5119
+  },
+  {
+    "source": "Hijacking",
+    "target": "Private Citizens & Property",
+    "value": 16435
+  },
+  {
+    "source": "Hijacking",
+    "target": "Military",
+    "value": 10
+  },
+  {
+    "source": "Hijacking",
+    "target": "Business, Utilities & Communication",
+    "value": 13
+  },
+  {
+    "source": "Hijacking",
+    "target": "Police",
+    "value": 19
+  },
+  {
+    "source": "Hijacking",
+    "target": "Government",
+    "value": 114
+  },
+  {
+    "source": "Hijacking",
+    "target": "Transportation",
+    "value": 376
+  },
+  {
+    "source": "Hijacking",
+    "target": "Unknown, religious & militia",
+    "value": 34
+  },
+  {
+    "source": "Unknown",
+    "target": "Private Citizens & Property",
+    "value": 3797
+  },
+  {
+    "source": "Unknown",
+    "target": "Military",
+    "value": 4576
+  },
+  {
+    "source": "Unknown",
+    "target": "Business, Utilities & Communication",
+    "value": 841
+  },
+  {
+    "source": "Unknown",
+    "target": "Police",
+    "value": 3024
+  },
+  {
+    "source": "Unknown",
+    "target": "Government",
+    "value": 660
+  },
+  {
+    "source": "Unknown",
+    "target": "Transportation",
+    "value": 491
+  },
+  {
+    "source": "Unknown",
+    "target": "Unknown, religious & militia",
+    "value": 1336
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Private Citizens & Property",
+    "value": 2474
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Military",
+    "value": 458
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Business, Utilities & Communication",
+    "value": 3661
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Police",
+    "value": 701
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Government",
+    "value": 241
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Transportation",
+    "value": 6313
+  },
+  {
+    "source": "Unarmed Assault",
+    "target": "Unknown, religious & militia",
+    "value": 179
+  },
+  {
+    "source": "Assassination",
+    "target": "Private Citizens & Property",
+    "value": 1786
+  },
+  {
+    "source": "Assassination",
+    "target": "Military",
+    "value": 1007
+  },
+  {
+    "source": "Assassination",
+    "target": "Business, Utilities & Communication",
+    "value": 616
+  },
+  {
+    "source": "Assassination",
+    "target": "Police",
+    "value": 2191
+  },
+  {
+    "source": "Assassination",
+    "target": "Government",
+    "value": 6153
+  },
+  {
+    "source": "Assassination",
+    "target": "Transportation",
+    "value": 83
+  },
+  {
+    "source": "Assassination",
+    "target": "Unknown, religious & militia",
+    "value": 2051
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Private Citizens & Property",
+    "value": 3496
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Military",
+    "value": 1145
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Business, Utilities & Communication",
+    "value": 2634
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Police",
+    "value": 748
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Government",
+    "value": 1163
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Transportation",
+    "value": 246
+  },
+  {
+    "source": "Hostage Taking",
+    "target": "Unknown, religious & militia",
+    "value": 980
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Private Citizens & Property",
+    "value": 785
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Military",
+    "value": 350
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Business, Utilities & Communication",
+    "value": 1201
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Police",
+    "value": 253
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Government",
+    "value": 414
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Transportation",
+    "value": 699
+  },
+  {
+    "source": "Facility/Infrastructure Attack",
+    "target": "Unknown, religious & militia",
+    "value": 63
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "START Primary Collection",
+    "value": 75914
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "PGIS",
+    "value": 26974
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "CETIS",
+    "value": 50270
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "ISVG",
+    "value": 23691
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Other Source",
+    "value": 3393
+  },
+  {
+    "source": "Military",
+    "target": "START Primary Collection",
+    "value": 40579
+  },
+  {
+    "source": "Military",
+    "target": "PGIS",
+    "value": 15497
+  },
+  {
+    "source": "Military",
+    "target": "CETIS",
+    "value": 10604
+  },
+  {
+    "source": "Military",
+    "target": "ISVG",
+    "value": 2272
+  },
+  {
+    "source": "Military",
+    "target": "Other Source",
+    "value": 2086
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "START Primary Collection",
+    "value": 26369
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "PGIS",
+    "value": 19052
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "CETIS",
+    "value": 12359
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "ISVG",
+    "value": 8846
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Other Source",
+    "value": 2671
+  },
+  {
+    "source": "Police",
+    "target": "START Primary Collection",
+    "value": 32756
+  },
+  {
+    "source": "Police",
+    "target": "PGIS",
+    "value": 12306
+  },
+  {
+    "source": "Police",
+    "target": "CETIS",
+    "value": 12829
+  },
+  {
+    "source": "Police",
+    "target": "ISVG",
+    "value": 5417
+  },
+  {
+    "source": "Police",
+    "target": "Other Source",
+    "value": 1395
+  },
+  {
+    "source": "Government",
+    "target": "START Primary Collection",
+    "value": 15122
+  },
+  {
+    "source": "Government",
+    "target": "PGIS",
+    "value": 11868
+  },
+  {
+    "source": "Government",
+    "target": "CETIS",
+    "value": 13043
+  },
+  {
+    "source": "Government",
+    "target": "ISVG",
+    "value": 9686
+  },
+  {
+    "source": "Government",
+    "target": "Other Source",
+    "value": 1824
+  },
+  {
+    "source": "Transportation",
+    "target": "START Primary Collection",
+    "value": 6867
+  },
+  {
+    "source": "Transportation",
+    "target": "PGIS",
+    "value": 22318
+  },
+  {
+    "source": "Transportation",
+    "target": "CETIS",
+    "value": 10681
+  },
+  {
+    "source": "Transportation",
+    "target": "ISVG",
+    "value": 4110
+  },
+  {
+    "source": "Transportation",
+    "target": "Other Source",
+    "value": 1089
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "START Primary Collection",
+    "value": 18599
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "PGIS",
+    "value": 9984
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "CETIS",
+    "value": 7374
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "ISVG",
+    "value": 5646
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Other Source",
+    "value": 378
+  }
+]}
+}

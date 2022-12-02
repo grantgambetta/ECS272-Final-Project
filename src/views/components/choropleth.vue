@@ -18,18 +18,15 @@ export default {
   },
   props:{
     myMapData: Array,
-    test:{
-      type: String,
-    }
   },
   mounted() {
     console.log(dataMap);
     let localData = dataMap;
-    this.drawChoropleth(localData, "#choropleth","count_attacks") 
+    this.drawChoropleth(localData, "#choropleth") 
     console.log("Data Passed down as a Prop  ", this.myMapData)
   },
   methods:{
-    drawChoropleth(data2, id,metricText) {
+    drawChoropleth(data2, id) {
 
       const vueThis = this
 
@@ -68,7 +65,7 @@ export default {
 
       var csv_file = "https://raw.githubusercontent.com/grantgambetta/ECS272-Final-Project/main/src/assets/data/map/choropleth_attacks.csv"
 
-
+      var selectedReg="world"
 
     // define color scale with domain values and color scheme for selected metric
       const colorScale = d3.scaleThreshold()
@@ -81,7 +78,7 @@ export default {
       const drawMap=function(path_map){
 
         
-        Promise.all([
+      Promise.all([
       d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson"),
       d3.csv(path_map, function(d) {
           data.set(d.iso3, +d.measure)
@@ -89,7 +86,8 @@ export default {
           let topo = loadData[0]
         
         var freeze=false // if click event, then we freeze the current highlight
-          let mouseOver = function(d) {
+        
+        let mouseOver = function(d) {
           if (!freeze){
             d3.selectAll(".Country")
             .transition()
@@ -119,8 +117,6 @@ export default {
             .transition()
             .duration(0)
             .style("stroke", "transparent")
-            // tooltip.transition().duration(300)
-			// .style("opacity", 0);
           }
         }
 
@@ -128,10 +124,12 @@ export default {
           // change freeze condition
           if (freeze){
             freeze=false
+            selectedReg="world"
+            vueThis.$emit("clicked",{'data':'world'})
           } else {
             freeze=true
             
-            let selectedReg = d3.select(this).attr('region')
+            selectedReg = d3.select(this).attr('region')
             console.log(selectedReg)
             
             // change storke for all selected region
@@ -147,6 +145,7 @@ export default {
 
         }
         
+
         // Draw the map
         svg.append("g")
           .selectAll("path")
@@ -169,33 +168,43 @@ export default {
             .on("mouseover", mouseOver )
             .on("mouseleave", mouseLeave )
             .on("click",mouseClick)
-            // .on("click",(e,d,i) => {
-            //   mouseClick
-            //   // vueThis.$emit("clicked",{'data':"MiddleEastNorthAfrica"})
-            //   });
 
              // add key from country to region
              const csv_keyCountryRegion_path ="https://raw.githubusercontent.com/grantgambetta/ECS272-Final-Project/main/src/assets/data/country_region.csv"
               d3.csv(csv_keyCountryRegion_path).then((keyRegion) => {
                 let dictionary = Object.assign({}, ...keyRegion.map((x) => ({[x.iso3]: x.region_txt.replaceAll(" ","").replaceAll("/","").replaceAll("&","").replaceAll(",","")})));
-                console.log(dictionary)
+                // console.log(dictionary)
                 svg
                   .selectAll("path")
                   .attr("region",d => dictionary[d.id])
               })
 
-            // svg
-            //   .selectAll("path")
-            //   .on("click",(e,d,i) => {
-            //     this.$emit("clicked",{'data':"MiddleEastNorthAfrica"})
-            //   });
+            //   // keep region selected while changing metric
+            // if (regionText!="world"){
+            //   console.log("DEBUDDGGG "+selectedReg)
+            //   d3.selectAll(".Country")
+            //     .style("opacity", .8)
+            //     .style("stroke", "transparent")
+            //     .attr("color","black")
+            //     // change storke for all selected region
+            //   d3.selectAll(".Country")
+            //     .filter(function() {
+            //       return d3.select(this).attr("region") == selectedReg; 
+            //     })
+            //     .style("opacity", 1)
+            //     .style("stroke", "black")
+            //     freeze=true;
+            //   }
+
           })
         }
 
         drawMap(csv_file);
-          
+        
+      
+        
         d3.select("#metric").on("change",function(d){
-          console.log('WORKDED')
+          
           d3.select("#choropleth").selectAll('path').remove(); // remove previous block
           d3.select('#legend').selectAll('g').remove();
 
@@ -251,6 +260,7 @@ export default {
           }
           // draw map again
           drawMap(csv_file) 
+          
         })
           
           // select the svg area

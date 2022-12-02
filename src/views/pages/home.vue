@@ -4,14 +4,14 @@
             <h1 class="chartTitle" style = "position: absolute; top: 65px;">Global Terrorism Activities 1970-2017</h1>
             <div class="row1">
                 <h1 class="VisTitle" style = "position: absolute; top: 120px; left: 170px;">World Map to Select a Country/Region</h1>
-                <Choropleth v-if="dataExists" :myMapData="myMapData" @clicked="handleClickRegion"/>
+                <Choropleth v-if="dataExists" :myMapData="myMapData" :regionString="regionString" @clicked="handleClickRegion"/>
 
             </div>
         </div>     
         <div class="column">
             <div class="row">
-                <h1 class="VisTitle" style = "position: absolute; left: 1350px; top: 110px;">Time Series Stacked Area Chart</h1>
-                <StackedArea v-if="dataExists" :myStackedAreaData="myStackedAreaData"/>
+                <h1 class="VisTitle" style = "position: absolute; left: 1350px; top: 110px;">Evolution over time</h1>
+                <StackedArea v-if="dataExists" :myStackedAreaData="myStackedAreaData" :regionString="regionString"/>
             </div>
         </div>
     </div>
@@ -39,10 +39,10 @@ import Sankey from "../components/sankey.vue"
 import Choropleth from "../components/choropleth.vue"
 import StackedArea from "../components/stackedArea.vue"
 import * as d3 from "d3";
-import { json as d3JSONFetch } from 'd3-fetch';
 import csvPath from '../../assets/data/stackedArea.csv';
 
-import dataSankey from "../../assets/data/sankey/SouthAmerica_count_attacks.json"
+import dataStackedArea from "../../assets/data/timeSeries/world_count_attacks.json"
+import dataSankey from "../../assets/data/sankey/world_count_attacks.json"
 
 
 export default {
@@ -50,11 +50,10 @@ export default {
         return {
             dataExists: true,
             myBarData: [],
-            myScatterData: [],
+            myScatterData: dataStackedArea['data'],
             mySankeyData: dataSankey["items"],
-            regionString: "SouthAmerica",
+            regionString: "world",
             metricString: "count_attacks",
-            test: "test",
             myStackedAreaData: [], 
             myMapData: []
         }
@@ -91,16 +90,20 @@ export default {
             this.regionString=data.data;    
             // update data for sankey, require reads the json
             this.mySankeyData=require("../../assets/data/sankey/"+this.regionString+"_"+this.metricString+".json")['items'];
+            // update time series
+            this.myStackedAreaData=require("../../assets/data/timeSeries/"+this.regionString+"_"+this.metricString+".json")['data'];
         },
         handleMetricChange(data){
             console.log("Update metric: ",d3.select('#metric').property("value"));
             
             // update selected metric
-            this.metricString=d3.select('#metric').property("value");
-            this.test=d3.select('#metric').property("value");
-            
+            this.metricString=d3.select('#metric').property("value");  
+            this.regionString="world";   
             // update data for sankey, require reads the json
             this.mySankeyData=require("../../assets/data/sankey/"+this.regionString+"_"+this.metricString+".json")['items'];
+            
+            // update time series
+            this.myStackedAreaData=require("../../assets/data/timeSeries/"+this.regionString+"_"+this.metricString+".json")['data'];
         }
     }
 }

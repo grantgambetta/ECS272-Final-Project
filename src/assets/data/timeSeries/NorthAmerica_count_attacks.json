@@ -1,0 +1,286 @@
+{
+"data":[
+  {
+    "yearDate": "1970-01-01",
+    "Canada": 2,
+    "Mexico": 2,
+    "United States": 468
+  },
+  {
+    "yearDate": "1971-01-01",
+    "Canada": 0,
+    "Mexico": 0,
+    "United States": 247
+  },
+  {
+    "yearDate": "1972-01-01",
+    "Canada": 4,
+    "Mexico": 1,
+    "United States": 68
+  },
+  {
+    "yearDate": "1973-01-01",
+    "Canada": 0,
+    "Mexico": 6,
+    "United States": 58
+  },
+  {
+    "yearDate": "1974-01-01",
+    "Canada": 1,
+    "Mexico": 16,
+    "United States": 94
+  },
+  {
+    "yearDate": "1975-01-01",
+    "Canada": 0,
+    "Mexico": 10,
+    "United States": 149
+  },
+  {
+    "yearDate": "1976-01-01",
+    "Canada": 0,
+    "Mexico": 20,
+    "United States": 105
+  },
+  {
+    "yearDate": "1977-01-01",
+    "Canada": 0,
+    "Mexico": 19,
+    "United States": 130
+  },
+  {
+    "yearDate": "1978-01-01",
+    "Canada": 0,
+    "Mexico": 30,
+    "United States": 87
+  },
+  {
+    "yearDate": "1979-01-01",
+    "Canada": 0,
+    "Mexico": 10,
+    "United States": 69
+  },
+  {
+    "yearDate": "1980-01-01",
+    "Canada": 3,
+    "Mexico": 5,
+    "United States": 67
+  },
+  {
+    "yearDate": "1981-01-01",
+    "Canada": 0,
+    "Mexico": 3,
+    "United States": 74
+  },
+  {
+    "yearDate": "1982-01-01",
+    "Canada": 5,
+    "Mexico": 3,
+    "United States": 78
+  },
+  {
+    "yearDate": "1983-01-01",
+    "Canada": 1,
+    "Mexico": 2,
+    "United States": 44
+  },
+  {
+    "yearDate": "1984-01-01",
+    "Canada": 0,
+    "Mexico": 4,
+    "United States": 63
+  },
+  {
+    "yearDate": "1985-01-01",
+    "Canada": 3,
+    "Mexico": 1,
+    "United States": 40
+  },
+  {
+    "yearDate": "1986-01-01",
+    "Canada": 2,
+    "Mexico": 2,
+    "United States": 49
+  },
+  {
+    "yearDate": "1987-01-01",
+    "Canada": 0,
+    "Mexico": 1,
+    "United States": 34
+  },
+  {
+    "yearDate": "1988-01-01",
+    "Canada": 0,
+    "Mexico": 3,
+    "United States": 27
+  },
+  {
+    "yearDate": "1989-01-01",
+    "Canada": 1,
+    "Mexico": 1,
+    "United States": 42
+  },
+  {
+    "yearDate": "1990-01-01",
+    "Canada": 0,
+    "Mexico": 5,
+    "United States": 32
+  },
+  {
+    "yearDate": "1991-01-01",
+    "Canada": 0,
+    "Mexico": 10,
+    "United States": 30
+  },
+  {
+    "yearDate": "1992-01-01",
+    "Canada": 3,
+    "Mexico": 6,
+    "United States": 32
+  },
+  {
+    "yearDate": "1994-01-01",
+    "Canada": 4,
+    "Mexico": 42,
+    "United States": 55
+  },
+  {
+    "yearDate": "1995-01-01",
+    "Canada": 5,
+    "Mexico": 29,
+    "United States": 60
+  },
+  {
+    "yearDate": "1996-01-01",
+    "Canada": 1,
+    "Mexico": 75,
+    "United States": 35
+  },
+  {
+    "yearDate": "1997-01-01",
+    "Canada": 2,
+    "Mexico": 95,
+    "United States": 40
+  },
+  {
+    "yearDate": "1998-01-01",
+    "Canada": 4,
+    "Mexico": 2,
+    "United States": 31
+  },
+  {
+    "yearDate": "1999-01-01",
+    "Canada": 2,
+    "Mexico": 1,
+    "United States": 53
+  },
+  {
+    "yearDate": "2000-01-01",
+    "Canada": 5,
+    "Mexico": 4,
+    "United States": 32
+  },
+  {
+    "yearDate": "2001-01-01",
+    "Canada": 0,
+    "Mexico": 7,
+    "United States": 41
+  },
+  {
+    "yearDate": "2002-01-01",
+    "Canada": 0,
+    "Mexico": 0,
+    "United States": 33
+  },
+  {
+    "yearDate": "2003-01-01",
+    "Canada": 0,
+    "Mexico": 1,
+    "United States": 33
+  },
+  {
+    "yearDate": "2004-01-01",
+    "Canada": 2,
+    "Mexico": 1,
+    "United States": 9
+  },
+  {
+    "yearDate": "2005-01-01",
+    "Canada": 0,
+    "Mexico": 1,
+    "United States": 21
+  },
+  {
+    "yearDate": "2006-01-01",
+    "Canada": 2,
+    "Mexico": 7,
+    "United States": 6
+  },
+  {
+    "yearDate": "2007-01-01",
+    "Canada": 0,
+    "Mexico": 10,
+    "United States": 8
+  },
+  {
+    "yearDate": "2008-01-01",
+    "Canada": 5,
+    "Mexico": 8,
+    "United States": 18
+  },
+  {
+    "yearDate": "2009-01-01",
+    "Canada": 4,
+    "Mexico": 1,
+    "United States": 11
+  },
+  {
+    "yearDate": "2010-01-01",
+    "Canada": 2,
+    "Mexico": 5,
+    "United States": 17
+  },
+  {
+    "yearDate": "2011-01-01",
+    "Canada": 0,
+    "Mexico": 2,
+    "United States": 10
+  },
+  {
+    "yearDate": "2012-01-01",
+    "Canada": 3,
+    "Mexico": 16,
+    "United States": 20
+  },
+  {
+    "yearDate": "2013-01-01",
+    "Canada": 4,
+    "Mexico": 8,
+    "United States": 20
+  },
+  {
+    "yearDate": "2014-01-01",
+    "Canada": 3,
+    "Mexico": 5,
+    "United States": 29
+  },
+  {
+    "yearDate": "2015-01-01",
+    "Canada": 5,
+    "Mexico": 19,
+    "United States": 38
+  },
+  {
+    "yearDate": "2016-01-01",
+    "Canada": 6,
+    "Mexico": 5,
+    "United States": 64
+  },
+  {
+    "yearDate": "2017-01-01",
+    "Canada": 12,
+    "Mexico": 20,
+    "United States": 65
+  }
+]
+}

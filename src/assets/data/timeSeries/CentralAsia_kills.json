@@ -1,0 +1,290 @@
+{
+"data":[
+  {
+    "yearDate": "1991-01-01",
+    "Armenia": 0,
+    "Azerbaijan": 26,
+    "Georgia": 2,
+    "Kazakhstan": 0,
+    "Tajikistan": 0,
+    "Uzbekistan": 0,
+    "Kyrgyzstan": 0,
+    "Turkmenistan": 0
+  },
+  {
+    "yearDate": "1992-01-01",
+    "Armenia": 2,
+    "Azerbaijan": 186,
+    "Georgia": 109,
+    "Kazakhstan": 9,
+    "Tajikistan": 14,
+    "Uzbekistan": 0,
+    "Kyrgyzstan": 0,
+    "Turkmenistan": 0
+  },
+  {
+    "yearDate": "1994-01-01",
+    "Armenia": 15,
+    "Azerbaijan": 30,
+    "Georgia": 29,
+    "Kazakhstan": 0,
+    "Tajikistan": 48,
+    "Uzbekistan": 0,
+    "Kyrgyzstan": 0,
+    "Turkmenistan": 0
+  },
+  {
+    "yearDate": "1995-01-01",
+    "Armenia": 2,
+    "Azerbaijan": 0,
+    "Georgia": 14,
+    "Kazakhstan": 0,
+    "Tajikistan": 78,
+    "Uzbekistan": 0,
+    "Kyrgyzstan": 0,
+    "Turkmenistan": 0
+  },
+  {
+    "yearDate": "1996-01-01",
+    "Armenia": 2,
+    "Azerbaijan": 2,
+    "Georgia": 2,
+    "Kazakhstan": 0,
+    "Tajikistan": 50,
+    "Uzbekistan": 0,
+    "Kyrgyzstan": 0,
+    "Turkmenistan": 0
+  },
+  {
+    "yearDate": "1997-01-01",
+    "Armenia": 0,
+    "Azerbaijan": 1,
+    "Georgia": 35,
+    "Kazakhstan": 2,
+    "Tajikistan": 43,
+    "Uzbekistan": 0,
+    "Kyrgyzstan": 0,
+    "Turkmenistan": 0
+  },
+  {
+    "yearDate": "1998-01-01",
+    "Armenia": 0,
+    "Azerbaijan": 0,
+    "Georgia": 32,
+    "Kazakhstan": 0,
+    "Tajikistan": 29,
+    "Uzbekistan": 0,
+    "Kyrgyzstan": 0,
+    "Turkmenistan": 0
+  },
+  {
+    "yearDate": "1999-01-01",
+    "Armenia": 8,
+    "Azerbaijan": 0,
+    "Georgia": 5,
+    "Kazakhstan": 0,
+    "Tajikistan": 2,
+    "Uzbekistan": 19,
+    "Kyrgyzstan": 1,
+    "Turkmenistan": 0
+  },
+  {
+    "yearDate": "2000-01-01",
+    "Armenia": 0,
+    "Azerbaijan": 0,
+    "Georgia": 3,
+    "Kazakhstan": 2,
+    "Tajikistan": 11,
+    "Uzbekistan": 0,
+    "Kyrgyzstan": 2,
+    "Turkmenistan": 0
+  },
+  {
+    "yearDate": "2001-01-01",
+    "Armenia": 1,
+    "Azerbaijan": 1,
+    "Georgia": 6,
+    "Kazakhstan": 0,
+    "Tajikistan": 8,
+    "Uzbekistan": 0,
+    "Kyrgyzstan": 0,
+    "Turkmenistan": 0
+  },
+  {
+    "yearDate": "2002-01-01",
+    "Armenia": 0,
+    "Azerbaijan": 0,
+    "Georgia": 1,
+    "Kazakhstan": 0,
+    "Tajikistan": 0,
+    "Uzbekistan": 0,
+    "Kyrgyzstan": 2,
+    "Turkmenistan": 0
+  },
+  {
+    "yearDate": "2003-01-01",
+    "Armenia": 0,
+    "Azerbaijan": 0,
+    "Georgia": 0,
+    "Kazakhstan": 0,
+    "Tajikistan": 0,
+    "Uzbekistan": 0,
+    "Kyrgyzstan": 1,
+    "Turkmenistan": 0
+  },
+  {
+    "yearDate": "2004-01-01",
+    "Armenia": 0,
+    "Azerbaijan": 0,
+    "Georgia": 0,
+    "Kazakhstan": 0,
+    "Tajikistan": 0,
+    "Uzbekistan": 36,
+    "Kyrgyzstan": 0,
+    "Turkmenistan": 0
+  },
+  {
+    "yearDate": "2005-01-01",
+    "Armenia": 0,
+    "Azerbaijan": 0,
+    "Georgia": 8,
+    "Kazakhstan": 0,
+    "Tajikistan": 0,
+    "Uzbekistan": 10,
+    "Kyrgyzstan": 0,
+    "Turkmenistan": 0
+  },
+  {
+    "yearDate": "2006-01-01",
+    "Armenia": 0,
+    "Azerbaijan": 0,
+    "Georgia": 5,
+    "Kazakhstan": 0,
+    "Tajikistan": 0,
+    "Uzbekistan": 0,
+    "Kyrgyzstan": 1,
+    "Turkmenistan": 0
+  },
+  {
+    "yearDate": "2007-01-01",
+    "Armenia": 0,
+    "Azerbaijan": 0,
+    "Georgia": 0,
+    "Kazakhstan": 0,
+    "Tajikistan": 1,
+    "Uzbekistan": 0,
+    "Kyrgyzstan": 0,
+    "Turkmenistan": 0
+  },
+  {
+    "yearDate": "2008-01-01",
+    "Armenia": 0,
+    "Azerbaijan": 5,
+    "Georgia": 13,
+    "Kazakhstan": 2,
+    "Tajikistan": 0,
+    "Uzbekistan": 0,
+    "Kyrgyzstan": 0,
+    "Turkmenistan": 0
+  },
+  {
+    "yearDate": "2009-01-01",
+    "Armenia": 1,
+    "Azerbaijan": 1,
+    "Georgia": 5,
+    "Kazakhstan": 0,
+    "Tajikistan": 0,
+    "Uzbekistan": 3,
+    "Kyrgyzstan": 0,
+    "Turkmenistan": 0
+  },
+  {
+    "yearDate": "2010-01-01",
+    "Armenia": 0,
+    "Azerbaijan": 0,
+    "Georgia": 4,
+    "Kazakhstan": 0,
+    "Tajikistan": 4,
+    "Uzbekistan": 0,
+    "Kyrgyzstan": 0,
+    "Turkmenistan": 0
+  },
+  {
+    "yearDate": "2011-01-01",
+    "Armenia": 0,
+    "Azerbaijan": 0,
+    "Georgia": 1,
+    "Kazakhstan": 12,
+    "Tajikistan": 0,
+    "Uzbekistan": 0,
+    "Kyrgyzstan": 0,
+    "Turkmenistan": 0
+  },
+  {
+    "yearDate": "2012-01-01",
+    "Armenia": 0,
+    "Azerbaijan": 0,
+    "Georgia": 1,
+    "Kazakhstan": 2,
+    "Tajikistan": 3,
+    "Uzbekistan": 0,
+    "Kyrgyzstan": 0,
+    "Turkmenistan": 0
+  },
+  {
+    "yearDate": "2013-01-01",
+    "Armenia": 0,
+    "Azerbaijan": 0,
+    "Georgia": 2,
+    "Kazakhstan": 0,
+    "Tajikistan": 0,
+    "Uzbekistan": 0,
+    "Kyrgyzstan": 0,
+    "Turkmenistan": 0
+  },
+  {
+    "yearDate": "2014-01-01",
+    "Armenia": 0,
+    "Azerbaijan": 0,
+    "Georgia": 0,
+    "Kazakhstan": 0,
+    "Tajikistan": 1,
+    "Uzbekistan": 0,
+    "Kyrgyzstan": 1,
+    "Turkmenistan": 3
+  },
+  {
+    "yearDate": "2015-01-01",
+    "Armenia": 0,
+    "Azerbaijan": 0,
+    "Georgia": 0,
+    "Kazakhstan": 0,
+    "Tajikistan": 12,
+    "Uzbekistan": 0,
+    "Kyrgyzstan": 1,
+    "Turkmenistan": 0
+  },
+  {
+    "yearDate": "2016-01-01",
+    "Armenia": 6,
+    "Azerbaijan": 1,
+    "Georgia": 1,
+    "Kazakhstan": 10,
+    "Tajikistan": 2,
+    "Uzbekistan": 0,
+    "Kyrgyzstan": 1,
+    "Turkmenistan": 0
+  },
+  {
+    "yearDate": "2017-01-01",
+    "Armenia": 0,
+    "Azerbaijan": 5,
+    "Georgia": 0,
+    "Kazakhstan": 0,
+    "Tajikistan": 1,
+    "Uzbekistan": 0,
+    "Kyrgyzstan": 0,
+    "Turkmenistan": 0
+  }
+]
+}

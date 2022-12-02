@@ -5,8 +5,7 @@
 <script>
     import * as d3 from "d3";
     // import dataStackedArea from "../../assets/data/stackedArea.json"; /* Example of reading in data direct from file*/
-    import dataStackedArea from "../../assets/data/stackedArea.json"; /* Example of reading in data direct from file*/
-
+    import dataStackedArea from "../../assets/data/timeSeries/world_count_attacks.json"; /* Example of reading in data direct from file*/
 
     export default {
         name: 'StackedArea',
@@ -18,17 +17,33 @@
             }
         },
         props:{
-            myStackedAreaData: Array,
+            myStackedAreaData: {
+                type: Object,
+                },
+            regionString:{
+                type: String,
+                },
+            metricString:{
+                type: String,
+                }
+        },
+        watch:{
+            myStackedAreaData: function(newVal, oldVal) { // watch event
+            // immediate: true,
+            // console.log('Prop changed: ', newVal, ' | was: ', oldVal)
+            d3.select("#stackedArea").selectAll('svg').remove(); // remove previous block
+            this.drawStackedArea(newVal, "#stackedArea",this.regionString)
+            }
         },
         mounted(){
             console.log(dataStackedArea);
             // let localData = d3.csv(dataStackedArea);
             let localData = dataStackedArea['data'];
-            this.drawStackedArea(localData, "#stackedArea") /* Example of reading data from a json file */
+            this.drawStackedArea(localData, "#stackedArea",this.regionString) /* Example of reading data from a json file */
             console.log("Data Passed down as a Prop  ", this.myStackedAreaData)
         },
         methods: {
-            drawStackedArea(data, id) {
+            drawStackedArea(data, id,region_selected) {
                 
                 // Source: https://d3-graph-gallery.com/graph/stackedarea_template.html
                 // set the dimensions and margins of the graph
@@ -52,10 +67,81 @@
                 // GENERAL //
                 //////////
 
+                // Colors Legend
+                // color generator: https://observablehq.com/@d3/color-schemes 
+                // (can modify the code to generate 24 discrete categories)
 
-                const keys =["Middle East & North Africa","South Asia","South America","Sub-Saharan Africa",
-                "Western Europe","Southeast Asia","Central America & Caribbean","Eastern Europe",
-                "North America","East Asia","Central Asia","Australasia & Oceania"]
+                var keys=[]
+                switch(region_selected){
+                case "world":
+                    keys=["Middle East & North Africa","South Asia","South America","Sub-Saharan Africa",
+                                "Western Europe","Southeast Asia","Central America & Caribbean","Eastern Europe",
+                                "North America","East Asia","Central Asia","Australasia & Oceania"];
+                    break;
+                case "CentralAmericaCaribbean":
+                    keys=["El Salvador","Guatemala","Nicaragua","Honduras","Haiti",
+                            "Panama","Dominican Republic","Costa Rica","Guadeloupe","Jamaica",
+                            "Cuba","Other"];
+                    break;
+                case "NorthAmerica":
+                    keys=["United States","Mexico","Canada"]; // 3 only
+                    break;
+                case "SoutheastAsia":
+                    keys=["Philippines","Thailand","Indonesia","Myanmar","Cambodia",
+                            "Malaysia","Laos","Vietnam","East Timor","Singapore",
+                            "Brunei","Other"];
+                    break;
+                case "WesternEurope":
+                    keys=["United Kingdom","Spain","France","Italy","Greece",
+                            "Germany","West Germany (FRG)","Ireland","Belgium","Portugal",
+                            "Cyprus","Other"];
+                    break;
+                case "EastAsia":
+                    keys=["Japan","China","Taiwan","South Korea","Macau",
+                            "Hong Kong","North Korea"]; // 7 only
+                    break;
+                case "SouthAmerica":
+                    keys=["Colombia","Peru","Chile","Argentina","Bolivia",
+                                "Venezuela","Brazil","Ecuador","Paraguay","Uruguay",
+                                "Suriname","Other"];
+                    break;
+                case "EasternEurope":
+                    keys=["Russia","Ukraine","Yugoslavia","Kosovo","Bosnia-Herzegovina",
+                            "Macedonia","Albania","Soviet Union","Croatia","Bulgaria",
+                            "Hungary","Other"];
+                    break;
+                case "Sub-SaharanAfrica":
+                    keys=["Somalia","Nigeria","South Africa","Sudan","Democratic Republic of the Congo",
+                            "Kenya","Burundi","Mali","Angola","Uganda",
+                            "Mozambique","Other"];
+                    break;
+                case "MiddleEastNorthAfrica":
+                    keys=["Iraq","Turkey","Yemen","Algeria",
+                            "Egypt","Lebanon","Libya","West Bank and Gaza Strip",
+                            "Syria","Israel","Iran","Other"];
+                    break;
+                case "AustralasiaOceania":
+                    keys=["Australia","Papua New Guinea","New Caledonia","New Zealand","Fiji",
+                            "Solomon Islands","French Polynesia","Vanuatu","New Hebrides","Wallis and Futuna"]; //10 only
+                    break;
+                case "SouthAsia":
+                    keys=["Pakistan","Afghanistan","India","Sri Lanka","Bangladesh",
+                            "Nepal","Maldives","Bhutan","Mauritius"]; //9 only
+                    break;
+                case "CentralAsia":
+                    keys=["Georgia","Tajikistan","Azerbaijan","Kyrgyzstan","Kazakhstan",
+                            "Armenia","Uzbekistan","Turkmenistan"]; // 8 only
+                    break;
+                }
+
+                var color_countries=["#fcb59b","#fca082","#fc8a6b","#fb7455",
+                                    "#f75d43","#ef4533","#e23028","#d01f20",
+                                    "#bb151a","#a40f16","#870811","#67000d"].reverse()  // scale of red
+                color_countries=color_countries.slice(0,keys.length)
+
+                // const keys =["Middle East & North Africa","South Asia","South America","Sub-Saharan Africa",
+                // "Western Europe","Southeast Asia","Central America & Caribbean","Eastern Europe",
+                // "North America","East Asia","Central Asia","Australasia & Oceania"]
             
                 const color = d3.scaleOrdinal()
                     .domain(keys)
@@ -92,24 +178,54 @@
                 //     .text("Year")
                 //     .style("font-size","18px");
 
+
+                var metricText=d3.select('#metric').property('value')
+                switch (metricText){
+                case "count_attacks":
+                    metricText="Number of Attacks"
+                    break;
+                case "kills":
+                    metricText="Total People Killed"
+                    break;
+                case "wounded":
+                    metricText="Total People Injured"
+                    break;
+                }
+
                 // Add Y axis label:
                 svg.append("text")
                     .attr("text-anchor", "end")
                     .attr("x", -40)
                     .attr("y", -15 )
-                    .text("Number of attacks")
+                    .text(metricText)
                     .attr("text-anchor", "start")
                     .style("font-size", "16px")
 
                 // Add Y axis
+                
+                // get maximum value in whole data set
+                var dataNumeric=data;
+                // remove year column not numeric
+                dataNumeric = dataNumeric.map(({yearDate, ...rest}) => {
+                    return rest;
+                    }); 
+                // get max Year as the sum
+                var maxValue=0
+                for (var i = 0; i < dataNumeric.length; i++){
+                    var obj = dataNumeric[i];
+                    let cumSum=0
+                    for (var key in obj){
+                        cumSum+=obj[key];
+                    }
+                    maxValue=Math.max(cumSum,maxValue); // update max year
+                }
+
                 const y = d3.scaleLinear()
-                    .domain([0, 20000])
+                    .domain([0, maxValue*1.2]) // scale a little larger
                     .range([ height, 0 ]);
                 svg.append("g")
                     .call(d3.axisLeft(y).ticks(5))
                     .style("font", "14px arial");
-
-
 
                 //////////
                 // BRUSHING AND CHART //
