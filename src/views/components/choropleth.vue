@@ -5,8 +5,8 @@
 
 <script>
 import * as d3 from 'd3';
-import { select } from 'd3-selection';
-import dataMap from "../../assets/data/countries.json"
+import * as d3_selection from 'd3-selection';
+import dataMap from "../../assets/data/countries.json";
 
 
 export default {
@@ -33,10 +33,15 @@ export default {
 
       const vueThis = this
 
-      // The svg
+      // define the svg
       const svg = d3.select("#choropleth"),
         width = +svg.attr("width"),
         height = +svg.attr("height");
+
+        // add tooltip
+    const tooltip = d3.select("body").append("div")
+        .attr("class", "tooltip")
+        .style("opacity", 0);
 
       // Map and projection
       const path = d3.geoPath();
@@ -50,7 +55,7 @@ export default {
 
       // attacks
       var domain_values = [10, 100, 1000, 5000, 10000, 15000, 30000] 
-      const legend_values = ['10', '100', '1000', '5000', '10k', '15k', '30k']
+      const legend_values = ['10', '100', '1000', '5000', '10K', '15K', '30K']
       var color_scheme = d3.schemeReds[domain_values.length]
       var legendBar = legend({
             color: d3.scaleThreshold(
@@ -95,7 +100,12 @@ export default {
             .duration(0)
             .style("opacity", 1)
             .style("stroke", "black")
-          }
+        //  tooltip.style("left", (d3_selection.event.pageX + 15) + "px")
+		// 	.style("top", (d3_selection.event.pageY - 28) + "px")
+		// 	.transition().duration(400)
+		// 	.style("opacity", 1)
+		// 	.text(d.properties.name + ': ' + Math.round((d.total / 1000000) * 10) / 10 + ' mio.');
+            }
         }
       
         let mouseLeave = function(d) {
@@ -109,6 +119,8 @@ export default {
             .transition()
             .duration(0)
             .style("stroke", "transparent")
+            // tooltip.transition().duration(300)
+			// .style("opacity", 0);
           }
         }
 
@@ -195,7 +207,7 @@ export default {
      // attacks
           if (selectedOption=="count_attacks"){
             domain_values = [10, 100, 1000, 5000, 10000, 15000, 30000] 
-            const legend_values = ['10', '100', '1000', '5000', '10k', '15k', '30k']
+            const legend_values = ['10', '100', '1000', '5000', '10K', '15K', '30K']
             color_scheme = d3.schemeReds[domain_values.length]
             legendBar = legend({
                   color: d3.scaleThreshold(
@@ -210,7 +222,7 @@ export default {
           // deaths
           else if (selectedOption=="kills"){
             domain_values = [20, 100, 1000, 5000, 15000, 30000, 45000]
-            const legend_values = ['20', '100', '1000', '5000', '15k', '30k', '45k']
+            const legend_values = ['20', '100', '1000', '5000', '15K', '30K', '45K']
             color_scheme = d3.schemeReds[domain_values.length]
             legendBar = legend({
                   color: d3.scaleThreshold(
@@ -225,7 +237,7 @@ export default {
           // injuries
           else {
               domain_values = [30, 100, 1000, 5000, 10000, 15000, 30000, 50000, 150000]
-              const legend_values = ['30', '100', '1000', '5000', '10k', '15k', '30k', '50k', '150k']
+              const legend_values = ['30', '100', '1000', '5000', '10K', '15K', '30K', '50K', '150K']
               color_scheme = d3.schemeReds[domain_values.length]
               legendBar = legend({
                     color: d3.scaleThreshold(
