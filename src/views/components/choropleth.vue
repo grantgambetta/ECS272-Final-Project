@@ -50,10 +50,11 @@ export default {
 
       // attacks
       var domain_values = [10, 100, 1000, 5000, 10000, 15000, 30000] 
+      const legend_values = ['10', '100', '1000', '5000', '10k', '15k', '30k']
       var color_scheme = d3.schemeReds[domain_values.length]
       var legendBar = legend({
             color: d3.scaleThreshold(
-                domain_values,
+                legend_values,
                 color_scheme
             ),
             title: "Number of Attacks",
@@ -194,24 +195,26 @@ export default {
      // attacks
           if (selectedOption=="count_attacks"){
             domain_values = [10, 100, 1000, 5000, 10000, 15000, 30000] 
+            const legend_values = ['10', '100', '1000', '5000', '10k', '15k', '30k']
             color_scheme = d3.schemeReds[domain_values.length]
             legendBar = legend({
                   color: d3.scaleThreshold(
-                      domain_values,
+                      legend_values,
                       color_scheme
                   ),
                   title: "Number of Attacks",
-                  tickSize: 0,
+                  tickSize: 0
               });
             csv_file = "https://raw.githubusercontent.com/grantgambetta/ECS272-Final-Project/main/src/assets/data/map/choropleth_attacks.csv"
           }
           // deaths
           else if (selectedOption=="kills"){
             domain_values = [20, 100, 1000, 5000, 15000, 30000, 45000]
+            const legend_values = ['20', '100', '1000', '5000', '15k', '30k', '45k']
             color_scheme = d3.schemeReds[domain_values.length]
             legendBar = legend({
                   color: d3.scaleThreshold(
-                      domain_values,
+                      legend_values,
                       color_scheme
                   ),
                   title: "Number of Casualities",
@@ -222,10 +225,11 @@ export default {
           // injuries
           else {
               domain_values = [30, 100, 1000, 5000, 10000, 15000, 30000, 50000, 150000]
+              const legend_values = ['30', '100', '1000', '5000', '10k', '15k', '30k', '50k', '150k']
               color_scheme = d3.schemeReds[domain_values.length]
               legendBar = legend({
                     color: d3.scaleThreshold(
-                        domain_values,
+                        legend_values,
                         color_scheme
                     ),
                     title: "Number of Injuries",
