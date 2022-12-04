@@ -224,33 +224,63 @@
   },
   {
     "node": "38",
-    "name": "PGIS",
-    "value": 16203,
-    "id": "PGIS"
+    "name": "Undetermined",
+    "value": 5243,
+    "id": "Undetermined"
   },
   {
     "node": "39",
-    "name": "START Primary Collection",
-    "value": 1132,
-    "id": "START-Primary-Collection"
+    "name": "Shining Path",
+    "value": 4554,
+    "id": "Shining-Path"
   },
   {
     "node": "40",
-    "name": "CETIS",
-    "value": 901,
-    "id": "CETIS"
+    "name": "Revolutionary Armed Forces of Colombia",
+    "value": 2484,
+    "id": "Revolutionary-Armed-Forces-of-Colombia"
   },
   {
     "node": "41",
-    "name": "ISVG",
-    "value": 518,
-    "id": "ISVG"
+    "name": "National Liberation Army of Colombia",
+    "value": 1561,
+    "id": "National-Liberation-Army-of-Colombia"
   },
   {
     "node": "42",
-    "name": "Other Source",
-    "value": 224,
-    "id": "Other-Source"
+    "name": "Manuel Rodriguez Patriotic Front",
+    "value": 830,
+    "id": "Manuel-Rodriguez-Patriotic-Front"
+  },
+  {
+    "node": "43",
+    "name": "Tupac Amaru Revolutionary Movement",
+    "value": 557,
+    "id": "Tupac-Amaru-Revolutionary-Movement"
+  },
+  {
+    "node": "44",
+    "name": "M-19",
+    "value": 553,
+    "id": "M-19"
+  },
+  {
+    "node": "45",
+    "name": "Narco-Terrorists",
+    "value": 366,
+    "id": "Narco-Terrorists"
+  },
+  {
+    "node": "46",
+    "name": "Movement of the Revolutionary Left",
+    "value": 315,
+    "id": "Movement-of-the-Revolutionary-Left"
+  },
+  {
+    "node": "47",
+    "name": "Other group",
+    "value": 2515,
+    "id": "Other-group"
   }
 ], 
  "links":[
@@ -1496,178 +1526,353 @@
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "PGIS",
-    "value": 5671
+    "target": "Undetermined",
+    "value": 1841
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "START Primary Collection",
-    "value": 367
+    "target": "Shining Path",
+    "value": 1537
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "CETIS",
-    "value": 274
+    "target": "Revolutionary Armed Forces of Colombia",
+    "value": 615
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "ISVG",
-    "value": 208
+    "target": "National Liberation Army of Colombia",
+    "value": 610
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "Other Source",
-    "value": 44
+    "target": "Manuel Rodriguez Patriotic Front",
+    "value": 398
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Tupac Amaru Revolutionary Movement",
+    "value": 297
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "M-19",
+    "value": 142
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Narco-Terrorists",
+    "value": 136
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Movement of the Revolutionary Left",
+    "value": 190
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Other group",
+    "value": 798
   },
   {
     "source": "Private Citizens & Property",
-    "target": "PGIS",
-    "value": 2675
+    "target": "Undetermined",
+    "value": 829
   },
   {
     "source": "Private Citizens & Property",
-    "target": "START Primary Collection",
-    "value": 147
+    "target": "Shining Path",
+    "value": 892
   },
   {
     "source": "Private Citizens & Property",
-    "target": "CETIS",
-    "value": 220
+    "target": "Revolutionary Armed Forces of Colombia",
+    "value": 518
   },
   {
     "source": "Private Citizens & Property",
-    "target": "ISVG",
-    "value": 127
+    "target": "National Liberation Army of Colombia",
+    "value": 213
   },
   {
     "source": "Private Citizens & Property",
-    "target": "Other Source",
-    "value": 103
+    "target": "Manuel Rodriguez Patriotic Front",
+    "value": 81
   },
   {
-    "source": "Government",
-    "target": "PGIS",
-    "value": 2910
+    "source": "Private Citizens & Property",
+    "target": "Tupac Amaru Revolutionary Movement",
+    "value": 72
   },
   {
-    "source": "Government",
-    "target": "START Primary Collection",
-    "value": 66
+    "source": "Private Citizens & Property",
+    "target": "M-19",
+    "value": 78
   },
   {
-    "source": "Government",
-    "target": "CETIS",
-    "value": 141
-  },
-  {
-    "source": "Government",
-    "target": "ISVG",
-    "value": 73
-  },
-  {
-    "source": "Government",
-    "target": "Other Source",
-    "value": 49
-  },
-  {
-    "source": "Police",
-    "target": "PGIS",
-    "value": 1886
-  },
-  {
-    "source": "Police",
-    "target": "START Primary Collection",
-    "value": 227
-  },
-  {
-    "source": "Police",
-    "target": "CETIS",
-    "value": 115
-  },
-  {
-    "source": "Police",
-    "target": "ISVG",
-    "value": 21
-  },
-  {
-    "source": "Police",
-    "target": "Other Source",
-    "value": 7
-  },
-  {
-    "source": "Military",
-    "target": "PGIS",
-    "value": 1480
-  },
-  {
-    "source": "Military",
-    "target": "START Primary Collection",
-    "value": 196
-  },
-  {
-    "source": "Military",
-    "target": "CETIS",
-    "value": 71
-  },
-  {
-    "source": "Military",
-    "target": "ISVG",
-    "value": 19
-  },
-  {
-    "source": "Military",
-    "target": "Other Source",
-    "value": 4
-  },
-  {
-    "source": "Transportation",
-    "target": "PGIS",
-    "value": 1069
-  },
-  {
-    "source": "Transportation",
-    "target": "START Primary Collection",
+    "source": "Private Citizens & Property",
+    "target": "Narco-Terrorists",
     "value": 63
   },
   {
-    "source": "Transportation",
-    "target": "CETIS",
-    "value": 53
+    "source": "Private Citizens & Property",
+    "target": "Movement of the Revolutionary Left",
+    "value": 24
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Other group",
+    "value": 502
+  },
+  {
+    "source": "Government",
+    "target": "Undetermined",
+    "value": 1257
+  },
+  {
+    "source": "Government",
+    "target": "Shining Path",
+    "value": 774
+  },
+  {
+    "source": "Government",
+    "target": "Revolutionary Armed Forces of Colombia",
+    "value": 241
+  },
+  {
+    "source": "Government",
+    "target": "National Liberation Army of Colombia",
+    "value": 185
+  },
+  {
+    "source": "Government",
+    "target": "Manuel Rodriguez Patriotic Front",
+    "value": 109
+  },
+  {
+    "source": "Government",
+    "target": "Tupac Amaru Revolutionary Movement",
+    "value": 93
+  },
+  {
+    "source": "Government",
+    "target": "M-19",
+    "value": 62
+  },
+  {
+    "source": "Government",
+    "target": "Narco-Terrorists",
+    "value": 35
+  },
+  {
+    "source": "Government",
+    "target": "Movement of the Revolutionary Left",
+    "value": 17
+  },
+  {
+    "source": "Government",
+    "target": "Other group",
+    "value": 466
+  },
+  {
+    "source": "Police",
+    "target": "Undetermined",
+    "value": 449
+  },
+  {
+    "source": "Police",
+    "target": "Shining Path",
+    "value": 613
+  },
+  {
+    "source": "Police",
+    "target": "Revolutionary Armed Forces of Colombia",
+    "value": 411
+  },
+  {
+    "source": "Police",
+    "target": "National Liberation Army of Colombia",
+    "value": 180
+  },
+  {
+    "source": "Police",
+    "target": "Manuel Rodriguez Patriotic Front",
+    "value": 91
+  },
+  {
+    "source": "Police",
+    "target": "Tupac Amaru Revolutionary Movement",
+    "value": 33
+  },
+  {
+    "source": "Police",
+    "target": "M-19",
+    "value": 71
+  },
+  {
+    "source": "Police",
+    "target": "Narco-Terrorists",
+    "value": 113
+  },
+  {
+    "source": "Police",
+    "target": "Movement of the Revolutionary Left",
+    "value": 33
+  },
+  {
+    "source": "Police",
+    "target": "Other group",
+    "value": 262
+  },
+  {
+    "source": "Military",
+    "target": "Undetermined",
+    "value": 251
+  },
+  {
+    "source": "Military",
+    "target": "Shining Path",
+    "value": 432
+  },
+  {
+    "source": "Military",
+    "target": "Revolutionary Armed Forces of Colombia",
+    "value": 459
+  },
+  {
+    "source": "Military",
+    "target": "National Liberation Army of Colombia",
+    "value": 213
+  },
+  {
+    "source": "Military",
+    "target": "Manuel Rodriguez Patriotic Front",
+    "value": 34
+  },
+  {
+    "source": "Military",
+    "target": "Tupac Amaru Revolutionary Movement",
+    "value": 34
+  },
+  {
+    "source": "Military",
+    "target": "M-19",
+    "value": 119
+  },
+  {
+    "source": "Military",
+    "target": "Narco-Terrorists",
+    "value": 8
+  },
+  {
+    "source": "Military",
+    "target": "Movement of the Revolutionary Left",
+    "value": 2
+  },
+  {
+    "source": "Military",
+    "target": "Other group",
+    "value": 218
   },
   {
     "source": "Transportation",
-    "target": "ISVG",
-    "value": 59
+    "target": "Undetermined",
+    "value": 401
   },
   {
     "source": "Transportation",
-    "target": "Other Source",
-    "value": 12
+    "target": "Shining Path",
+    "value": 225
+  },
+  {
+    "source": "Transportation",
+    "target": "Revolutionary Armed Forces of Colombia",
+    "value": 171
+  },
+  {
+    "source": "Transportation",
+    "target": "National Liberation Army of Colombia",
+    "value": 100
+  },
+  {
+    "source": "Transportation",
+    "target": "Manuel Rodriguez Patriotic Front",
+    "value": 93
+  },
+  {
+    "source": "Transportation",
+    "target": "Tupac Amaru Revolutionary Movement",
+    "value": 23
+  },
+  {
+    "source": "Transportation",
+    "target": "M-19",
+    "value": 65
+  },
+  {
+    "source": "Transportation",
+    "target": "Narco-Terrorists",
+    "value": 9
+  },
+  {
+    "source": "Transportation",
+    "target": "Movement of the Revolutionary Left",
+    "value": 45
+  },
+  {
+    "source": "Transportation",
+    "target": "Other group",
+    "value": 124
   },
   {
     "source": "Unknown, religious & militia",
-    "target": "PGIS",
-    "value": 512
+    "target": "Undetermined",
+    "value": 215
   },
   {
     "source": "Unknown, religious & militia",
-    "target": "START Primary Collection",
-    "value": 66
+    "target": "Shining Path",
+    "value": 81
   },
   {
     "source": "Unknown, religious & militia",
-    "target": "CETIS",
-    "value": 27
+    "target": "Revolutionary Armed Forces of Colombia",
+    "value": 69
   },
   {
     "source": "Unknown, religious & militia",
-    "target": "ISVG",
-    "value": 11
+    "target": "National Liberation Army of Colombia",
+    "value": 60
   },
   {
     "source": "Unknown, religious & militia",
-    "target": "Other Source",
+    "target": "Manuel Rodriguez Patriotic Front",
+    "value": 24
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Tupac Amaru Revolutionary Movement",
     "value": 5
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "M-19",
+    "value": 16
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Narco-Terrorists",
+    "value": 2
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Movement of the Revolutionary Left",
+    "value": 4
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Other group",
+    "value": 145
   }
 ]}
 }

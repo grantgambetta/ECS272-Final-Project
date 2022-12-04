@@ -224,33 +224,63 @@
   },
   {
     "node": "38",
-    "name": "START Primary Collection",
-    "value": 78002,
-    "id": "START-Primary-Collection"
+    "name": "Undetermined",
+    "value": 82782,
+    "id": "Undetermined"
   },
   {
     "node": "39",
-    "name": "PGIS",
-    "value": 63740,
-    "id": "PGIS"
+    "name": "Taliban",
+    "value": 7516,
+    "id": "Taliban"
   },
   {
     "node": "40",
-    "name": "ISVG",
-    "value": 17207,
-    "id": "ISVG"
+    "name": "Islamic State of Iraq and the Levant",
+    "value": 5613,
+    "id": "Islamic-State-of-Iraq-and-the-Levant"
   },
   {
     "node": "41",
-    "name": "CETIS",
-    "value": 16163,
-    "id": "CETIS"
+    "name": "Shining Path",
+    "value": 4555,
+    "id": "Shining-Path"
   },
   {
     "node": "42",
-    "name": "Other Source",
-    "value": 6579,
-    "id": "Other-Source"
+    "name": "Farabundo Marti National Liberation Front",
+    "value": 3351,
+    "id": "Farabundo-Marti-National-Liberation-Front"
+  },
+  {
+    "node": "43",
+    "name": "Al-Shabaab",
+    "value": 3288,
+    "id": "Al-Shabaab"
+  },
+  {
+    "node": "44",
+    "name": "New Peoples Army",
+    "value": 2772,
+    "id": "New-Peoples-Army"
+  },
+  {
+    "node": "45",
+    "name": "Irish Republican Army",
+    "value": 2671,
+    "id": "Irish-Republican-Army"
+  },
+  {
+    "node": "46",
+    "name": "Revolutionary Armed Forces of Colombia",
+    "value": 2487,
+    "id": "Revolutionary-Armed-Forces-of-Colombia"
+  },
+  {
+    "node": "47",
+    "name": "Other group",
+    "value": 66656,
+    "id": "Other-group"
   }
 ], 
  "links":[
@@ -1596,178 +1626,353 @@
   },
   {
     "source": "Private Citizens & Property",
-    "target": "START Primary Collection",
-    "value": 20503
+    "target": "Undetermined",
+    "value": 21100
   },
   {
     "source": "Private Citizens & Property",
-    "target": "PGIS",
-    "value": 11736
+    "target": "Taliban",
+    "value": 1428
   },
   {
     "source": "Private Citizens & Property",
-    "target": "ISVG",
-    "value": 5650
+    "target": "Islamic State of Iraq and the Levant",
+    "value": 2246
   },
   {
     "source": "Private Citizens & Property",
-    "target": "CETIS",
-    "value": 4511
+    "target": "Shining Path",
+    "value": 892
   },
   {
     "source": "Private Citizens & Property",
-    "target": "Other Source",
-    "value": 2131
+    "target": "Farabundo Marti National Liberation Front",
+    "value": 371
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Al-Shabaab",
+    "value": 613
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "New Peoples Army",
+    "value": 312
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Irish Republican Army",
+    "value": 423
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Revolutionary Armed Forces of Colombia",
+    "value": 520
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Other group",
+    "value": 16626
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "START Primary Collection",
-    "value": 10321
+    "target": "Undetermined",
+    "value": 16109
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "PGIS",
-    "value": 17817
+    "target": "Taliban",
+    "value": 542
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "ISVG",
-    "value": 3736
+    "target": "Islamic State of Iraq and the Levant",
+    "value": 436
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "CETIS",
-    "value": 2876
+    "target": "Shining Path",
+    "value": 1537
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "Other Source",
-    "value": 1191
+    "target": "Farabundo Marti National Liberation Front",
+    "value": 1297
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Al-Shabaab",
+    "value": 299
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "New Peoples Army",
+    "value": 575
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Irish Republican Army",
+    "value": 555
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Revolutionary Armed Forces of Colombia",
+    "value": 615
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Other group",
+    "value": 13976
   },
   {
     "source": "Military",
-    "target": "START Primary Collection",
-    "value": 15958
+    "target": "Undetermined",
+    "value": 9015
   },
   {
     "source": "Military",
-    "target": "PGIS",
-    "value": 8583
+    "target": "Taliban",
+    "value": 1468
   },
   {
     "source": "Military",
-    "target": "ISVG",
-    "value": 500
+    "target": "Islamic State of Iraq and the Levant",
+    "value": 1454
   },
   {
     "source": "Military",
-    "target": "CETIS",
-    "value": 1931
+    "target": "Shining Path",
+    "value": 432
   },
   {
     "source": "Military",
-    "target": "Other Source",
-    "value": 1012
+    "target": "Farabundo Marti National Liberation Front",
+    "value": 1230
+  },
+  {
+    "source": "Military",
+    "target": "Al-Shabaab",
+    "value": 1412
+  },
+  {
+    "source": "Military",
+    "target": "New Peoples Army",
+    "value": 994
+  },
+  {
+    "source": "Military",
+    "target": "Irish Republican Army",
+    "value": 785
+  },
+  {
+    "source": "Military",
+    "target": "Revolutionary Armed Forces of Colombia",
+    "value": 459
+  },
+  {
+    "source": "Military",
+    "target": "Other group",
+    "value": 10735
   },
   {
     "source": "Government",
-    "target": "START Primary Collection",
-    "value": 7703
+    "target": "Undetermined",
+    "value": 13159
   },
   {
     "source": "Government",
-    "target": "PGIS",
-    "value": 10582
+    "target": "Taliban",
+    "value": 985
   },
   {
     "source": "Government",
-    "target": "ISVG",
-    "value": 3265
+    "target": "Islamic State of Iraq and the Levant",
+    "value": 163
   },
   {
     "source": "Government",
-    "target": "CETIS",
-    "value": 2549
+    "target": "Shining Path",
+    "value": 774
   },
   {
     "source": "Government",
-    "target": "Other Source",
-    "value": 757
+    "target": "Farabundo Marti National Liberation Front",
+    "value": 168
+  },
+  {
+    "source": "Government",
+    "target": "Al-Shabaab",
+    "value": 505
+  },
+  {
+    "source": "Government",
+    "target": "New Peoples Army",
+    "value": 317
+  },
+  {
+    "source": "Government",
+    "target": "Irish Republican Army",
+    "value": 164
+  },
+  {
+    "source": "Government",
+    "target": "Revolutionary Armed Forces of Colombia",
+    "value": 241
+  },
+  {
+    "source": "Government",
+    "target": "Other group",
+    "value": 8380
   },
   {
     "source": "Police",
-    "target": "START Primary Collection",
-    "value": 12235
+    "target": "Undetermined",
+    "value": 10412
   },
   {
     "source": "Police",
-    "target": "PGIS",
-    "value": 7170
+    "target": "Taliban",
+    "value": 2541
   },
   {
     "source": "Police",
-    "target": "ISVG",
-    "value": 1840
+    "target": "Islamic State of Iraq and the Levant",
+    "value": 655
   },
   {
     "source": "Police",
-    "target": "CETIS",
-    "value": 2467
+    "target": "Shining Path",
+    "value": 613
   },
   {
     "source": "Police",
-    "target": "Other Source",
-    "value": 794
+    "target": "Farabundo Marti National Liberation Front",
+    "value": 123
+  },
+  {
+    "source": "Police",
+    "target": "Al-Shabaab",
+    "value": 253
+  },
+  {
+    "source": "Police",
+    "target": "New Peoples Army",
+    "value": 412
+  },
+  {
+    "source": "Police",
+    "target": "Irish Republican Army",
+    "value": 533
+  },
+  {
+    "source": "Police",
+    "target": "Revolutionary Armed Forces of Colombia",
+    "value": 412
+  },
+  {
+    "source": "Police",
+    "target": "Other group",
+    "value": 8552
   },
   {
     "source": "Unknown, religious & militia",
-    "target": "START Primary Collection",
-    "value": 9457
+    "target": "Undetermined",
+    "value": 9206
   },
   {
     "source": "Unknown, religious & militia",
-    "target": "PGIS",
-    "value": 3318
+    "target": "Taliban",
+    "value": 421
   },
   {
     "source": "Unknown, religious & militia",
-    "target": "ISVG",
-    "value": 1265
+    "target": "Islamic State of Iraq and the Levant",
+    "value": 595
   },
   {
     "source": "Unknown, religious & militia",
-    "target": "CETIS",
-    "value": 930
+    "target": "Shining Path",
+    "value": 81
   },
   {
     "source": "Unknown, religious & militia",
-    "target": "Other Source",
-    "value": 410
+    "target": "Farabundo Marti National Liberation Front",
+    "value": 15
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Al-Shabaab",
+    "value": 136
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "New Peoples Army",
+    "value": 90
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Irish Republican Army",
+    "value": 121
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Revolutionary Armed Forces of Colombia",
+    "value": 69
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Other group",
+    "value": 4646
   },
   {
     "source": "Transportation",
-    "target": "START Primary Collection",
-    "value": 1825
+    "target": "Undetermined",
+    "value": 3781
   },
   {
     "source": "Transportation",
-    "target": "PGIS",
-    "value": 4534
+    "target": "Taliban",
+    "value": 131
   },
   {
     "source": "Transportation",
-    "target": "ISVG",
-    "value": 951
+    "target": "Islamic State of Iraq and the Levant",
+    "value": 64
   },
   {
     "source": "Transportation",
-    "target": "CETIS",
-    "value": 899
+    "target": "Shining Path",
+    "value": 226
   },
   {
     "source": "Transportation",
-    "target": "Other Source",
-    "value": 284
+    "target": "Farabundo Marti National Liberation Front",
+    "value": 147
+  },
+  {
+    "source": "Transportation",
+    "target": "Al-Shabaab",
+    "value": 70
+  },
+  {
+    "source": "Transportation",
+    "target": "New Peoples Army",
+    "value": 72
+  },
+  {
+    "source": "Transportation",
+    "target": "Irish Republican Army",
+    "value": 90
+  },
+  {
+    "source": "Transportation",
+    "target": "Revolutionary Armed Forces of Colombia",
+    "value": 171
+  },
+  {
+    "source": "Transportation",
+    "target": "Other group",
+    "value": 3741
   }
 ]}
 }

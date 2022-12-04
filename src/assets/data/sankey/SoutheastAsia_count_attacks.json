@@ -224,33 +224,63 @@
   },
   {
     "node": "38",
-    "name": "START Primary Collection",
-    "value": 6099,
-    "id": "START-Primary-Collection"
+    "name": "Undetermined",
+    "value": 6030,
+    "id": "Undetermined"
   },
   {
     "node": "39",
-    "name": "PGIS",
-    "value": 2765,
-    "id": "PGIS"
+    "name": "New Peoples Army",
+    "value": 2770,
+    "id": "New-Peoples-Army"
   },
   {
     "node": "40",
-    "name": "ISVG",
-    "value": 1774,
-    "id": "ISVG"
+    "name": "Abu Sayyaf Group",
+    "value": 527,
+    "id": "Abu-Sayyaf-Group"
   },
   {
     "node": "41",
-    "name": "CETIS",
-    "value": 1726,
-    "id": "CETIS"
+    "name": "Bangsamoro Islamic Freedom Movement",
+    "value": 391,
+    "id": "Bangsamoro-Islamic-Freedom-Movement"
   },
   {
     "node": "42",
-    "name": "Other Source",
-    "value": 121,
-    "id": "Other-Source"
+    "name": "Moro Islamic Liberation Front",
+    "value": 366,
+    "id": "Moro-Islamic-Liberation-Front"
+  },
+  {
+    "node": "43",
+    "name": "Separatists",
+    "value": 335,
+    "id": "Separatists"
+  },
+  {
+    "node": "44",
+    "name": "Moro National Liberation Front",
+    "value": 197,
+    "id": "Moro-National-Liberation-Front"
+  },
+  {
+    "node": "45",
+    "name": "Khmer Rouge",
+    "value": 160,
+    "id": "Khmer-Rouge"
+  },
+  {
+    "node": "46",
+    "name": "Runda Kumpulan Kecil",
+    "value": 150,
+    "id": "Runda-Kumpulan-Kecil"
+  },
+  {
+    "node": "47",
+    "name": "Other group",
+    "value": 1559,
+    "id": "Other-group"
   }
 ], 
  "links":[
@@ -1241,178 +1271,348 @@
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "START Primary Collection",
-    "value": 1247
+    "target": "Undetermined",
+    "value": 1462
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "PGIS",
-    "value": 652
+    "target": "New Peoples Army",
+    "value": 574
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "ISVG",
-    "value": 570
+    "target": "Abu Sayyaf Group",
+    "value": 127
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "CETIS",
-    "value": 395
+    "target": "Bangsamoro Islamic Freedom Movement",
+    "value": 51
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "Other Source",
-    "value": 19
-  },
-  {
-    "source": "Private Citizens & Property",
-    "target": "START Primary Collection",
-    "value": 884
-  },
-  {
-    "source": "Private Citizens & Property",
-    "target": "PGIS",
-    "value": 455
-  },
-  {
-    "source": "Private Citizens & Property",
-    "target": "ISVG",
-    "value": 646
-  },
-  {
-    "source": "Private Citizens & Property",
-    "target": "CETIS",
-    "value": 521
-  },
-  {
-    "source": "Private Citizens & Property",
-    "target": "Other Source",
-    "value": 52
-  },
-  {
-    "source": "Military",
-    "target": "START Primary Collection",
-    "value": 1619
-  },
-  {
-    "source": "Military",
-    "target": "PGIS",
-    "value": 437
-  },
-  {
-    "source": "Military",
-    "target": "ISVG",
-    "value": 50
-  },
-  {
-    "source": "Military",
-    "target": "CETIS",
-    "value": 181
-  },
-  {
-    "source": "Military",
-    "target": "Other Source",
-    "value": 1
-  },
-  {
-    "source": "Government",
-    "target": "START Primary Collection",
-    "value": 1076
-  },
-  {
-    "source": "Government",
-    "target": "PGIS",
-    "value": 486
-  },
-  {
-    "source": "Government",
-    "target": "ISVG",
-    "value": 293
-  },
-  {
-    "source": "Government",
-    "target": "CETIS",
-    "value": 214
-  },
-  {
-    "source": "Government",
-    "target": "Other Source",
-    "value": 22
-  },
-  {
-    "source": "Police",
-    "target": "START Primary Collection",
-    "value": 764
-  },
-  {
-    "source": "Police",
-    "target": "PGIS",
-    "value": 297
-  },
-  {
-    "source": "Police",
-    "target": "ISVG",
-    "value": 72
-  },
-  {
-    "source": "Police",
-    "target": "CETIS",
-    "value": 209
-  },
-  {
-    "source": "Police",
-    "target": "Other Source",
-    "value": 6
-  },
-  {
-    "source": "Unknown, religious & militia",
-    "target": "START Primary Collection",
-    "value": 372
-  },
-  {
-    "source": "Unknown, religious & militia",
-    "target": "PGIS",
-    "value": 185
-  },
-  {
-    "source": "Unknown, religious & militia",
-    "target": "ISVG",
+    "target": "Moro Islamic Liberation Front",
     "value": 74
   },
   {
-    "source": "Unknown, religious & militia",
-    "target": "CETIS",
-    "value": 95
+    "source": "Business, Utilities & Communication",
+    "target": "Separatists",
+    "value": 96
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Moro National Liberation Front",
+    "value": 71
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Khmer Rouge",
+    "value": 7
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Runda Kumpulan Kecil",
+    "value": 48
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Other group",
+    "value": 373
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Undetermined",
+    "value": 1403
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "New Peoples Army",
+    "value": 311
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Abu Sayyaf Group",
+    "value": 136
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Bangsamoro Islamic Freedom Movement",
+    "value": 48
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Moro Islamic Liberation Front",
+    "value": 144
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Separatists",
+    "value": 43
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Moro National Liberation Front",
+    "value": 34
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Khmer Rouge",
+    "value": 50
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Runda Kumpulan Kecil",
+    "value": 35
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Other group",
+    "value": 354
+  },
+  {
+    "source": "Military",
+    "target": "Undetermined",
+    "value": 635
+  },
+  {
+    "source": "Military",
+    "target": "New Peoples Army",
+    "value": 994
+  },
+  {
+    "source": "Military",
+    "target": "Abu Sayyaf Group",
+    "value": 94
+  },
+  {
+    "source": "Military",
+    "target": "Bangsamoro Islamic Freedom Movement",
+    "value": 206
+  },
+  {
+    "source": "Military",
+    "target": "Moro Islamic Liberation Front",
+    "value": 56
+  },
+  {
+    "source": "Military",
+    "target": "Separatists",
+    "value": 72
+  },
+  {
+    "source": "Military",
+    "target": "Moro National Liberation Front",
+    "value": 30
+  },
+  {
+    "source": "Military",
+    "target": "Khmer Rouge",
+    "value": 10
+  },
+  {
+    "source": "Military",
+    "target": "Runda Kumpulan Kecil",
+    "value": 22
+  },
+  {
+    "source": "Military",
+    "target": "Other group",
+    "value": 169
+  },
+  {
+    "source": "Government",
+    "target": "Undetermined",
+    "value": 1426
+  },
+  {
+    "source": "Government",
+    "target": "New Peoples Army",
+    "value": 317
+  },
+  {
+    "source": "Government",
+    "target": "Abu Sayyaf Group",
+    "value": 52
+  },
+  {
+    "source": "Government",
+    "target": "Bangsamoro Islamic Freedom Movement",
+    "value": 16
+  },
+  {
+    "source": "Government",
+    "target": "Moro Islamic Liberation Front",
+    "value": 25
+  },
+  {
+    "source": "Government",
+    "target": "Separatists",
+    "value": 41
+  },
+  {
+    "source": "Government",
+    "target": "Moro National Liberation Front",
+    "value": 16
+  },
+  {
+    "source": "Government",
+    "target": "Khmer Rouge",
+    "value": 31
+  },
+  {
+    "source": "Government",
+    "target": "Runda Kumpulan Kecil",
+    "value": 4
+  },
+  {
+    "source": "Government",
+    "target": "Other group",
+    "value": 163
+  },
+  {
+    "source": "Police",
+    "target": "Undetermined",
+    "value": 573
+  },
+  {
+    "source": "Police",
+    "target": "New Peoples Army",
+    "value": 412
+  },
+  {
+    "source": "Police",
+    "target": "Abu Sayyaf Group",
+    "value": 28
+  },
+  {
+    "source": "Police",
+    "target": "Bangsamoro Islamic Freedom Movement",
+    "value": 20
+  },
+  {
+    "source": "Police",
+    "target": "Moro Islamic Liberation Front",
+    "value": 15
+  },
+  {
+    "source": "Police",
+    "target": "Separatists",
+    "value": 61
+  },
+  {
+    "source": "Police",
+    "target": "Moro National Liberation Front",
+    "value": 15
+  },
+  {
+    "source": "Police",
+    "target": "Runda Kumpulan Kecil",
+    "value": 25
+  },
+  {
+    "source": "Police",
+    "target": "Other group",
+    "value": 199
   },
   {
     "source": "Unknown, religious & militia",
-    "target": "Other Source",
+    "target": "Undetermined",
+    "value": 304
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "New Peoples Army",
+    "value": 90
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Abu Sayyaf Group",
+    "value": 41
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Bangsamoro Islamic Freedom Movement",
+    "value": 42
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Moro Islamic Liberation Front",
+    "value": 29
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Separatists",
+    "value": 18
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Moro National Liberation Front",
+    "value": 13
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Khmer Rouge",
+    "value": 3
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Runda Kumpulan Kecil",
+    "value": 10
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Other group",
+    "value": 182
+  },
+  {
+    "source": "Transportation",
+    "target": "Undetermined",
+    "value": 227
+  },
+  {
+    "source": "Transportation",
+    "target": "New Peoples Army",
+    "value": 72
+  },
+  {
+    "source": "Transportation",
+    "target": "Abu Sayyaf Group",
+    "value": 49
+  },
+  {
+    "source": "Transportation",
+    "target": "Bangsamoro Islamic Freedom Movement",
+    "value": 8
+  },
+  {
+    "source": "Transportation",
+    "target": "Moro Islamic Liberation Front",
+    "value": 23
+  },
+  {
+    "source": "Transportation",
+    "target": "Separatists",
+    "value": 4
+  },
+  {
+    "source": "Transportation",
+    "target": "Moro National Liberation Front",
+    "value": 18
+  },
+  {
+    "source": "Transportation",
+    "target": "Khmer Rouge",
+    "value": 59
+  },
+  {
+    "source": "Transportation",
+    "target": "Runda Kumpulan Kecil",
     "value": 6
   },
   {
     "source": "Transportation",
-    "target": "START Primary Collection",
-    "value": 137
-  },
-  {
-    "source": "Transportation",
-    "target": "PGIS",
-    "value": 253
-  },
-  {
-    "source": "Transportation",
-    "target": "ISVG",
-    "value": 69
-  },
-  {
-    "source": "Transportation",
-    "target": "CETIS",
-    "value": 111
-  },
-  {
-    "source": "Transportation",
-    "target": "Other Source",
-    "value": 15
+    "target": "Other group",
+    "value": 119
   }
 ]}
 }

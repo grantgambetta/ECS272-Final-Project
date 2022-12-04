@@ -170,33 +170,63 @@
   },
   {
     "node": "29",
-    "name": "Other Source",
-    "value": 1518,
-    "id": "Other-Source"
+    "name": "Undetermined",
+    "value": 919,
+    "id": "Undetermined"
   },
   {
     "node": "30",
-    "name": "PGIS",
-    "value": 1362,
-    "id": "PGIS"
+    "name": "Anti-Abortion extremists",
+    "value": 196,
+    "id": "Anti-Abortion-extremists"
   },
   {
     "node": "31",
-    "name": "START Primary Collection",
-    "value": 344,
-    "id": "START-Primary-Collection"
+    "name": "Left-Wing Militants",
+    "value": 169,
+    "id": "Left-Wing-Militants"
   },
   {
     "node": "32",
-    "name": "CETIS",
-    "value": 175,
-    "id": "CETIS"
+    "name": "Fuerzas Armadas de Liberacion Nacional",
+    "value": 120,
+    "id": "Fuerzas-Armadas-de-Liberacion-Nacional"
   },
   {
     "node": "33",
-    "name": "ISVG",
-    "value": 57,
-    "id": "ISVG"
+    "name": "White extremists",
+    "value": 87,
+    "id": "White-extremists"
+  },
+  {
+    "node": "34",
+    "name": "New World Liberation Front",
+    "value": 86,
+    "id": "New-World-Liberation-Front"
+  },
+  {
+    "node": "35",
+    "name": "Black Nationalists",
+    "value": 83,
+    "id": "Black-Nationalists"
+  },
+  {
+    "node": "36",
+    "name": "Animal Liberation Front",
+    "value": 81,
+    "id": "Animal-Liberation-Front"
+  },
+  {
+    "node": "37",
+    "name": "Jewish Defense League",
+    "value": 74,
+    "id": "Jewish-Defense-League"
+  },
+  {
+    "node": "38",
+    "name": "Other group",
+    "value": 1641,
+    "id": "Other-group"
   }
 ], 
  "links":[
@@ -722,178 +752,283 @@
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "Other Source",
-    "value": 622
+    "target": "Undetermined",
+    "value": 341
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "PGIS",
-    "value": 541
+    "target": "Anti-Abortion extremists",
+    "value": 3
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "START Primary Collection",
-    "value": 96
+    "target": "Left-Wing Militants",
+    "value": 44
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "CETIS",
+    "target": "Fuerzas Armadas de Liberacion Nacional",
+    "value": 79
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "White extremists",
+    "value": 23
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "New World Liberation Front",
+    "value": 57
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Black Nationalists",
+    "value": 22
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Animal Liberation Front",
     "value": 67
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "ISVG",
-    "value": 26
+    "target": "Jewish Defense League",
+    "value": 25
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Other group",
+    "value": 691
   },
   {
     "source": "Private Citizens & Property",
-    "target": "Other Source",
-    "value": 373
+    "target": "Undetermined",
+    "value": 179
   },
   {
     "source": "Private Citizens & Property",
-    "target": "PGIS",
-    "value": 222
+    "target": "Anti-Abortion extremists",
+    "value": 193
   },
   {
     "source": "Private Citizens & Property",
-    "target": "START Primary Collection",
-    "value": 82
+    "target": "Left-Wing Militants",
+    "value": 5
   },
   {
     "source": "Private Citizens & Property",
-    "target": "CETIS",
-    "value": 59
+    "target": "Fuerzas Armadas de Liberacion Nacional",
+    "value": 2
   },
   {
     "source": "Private Citizens & Property",
-    "target": "ISVG",
+    "target": "White extremists",
+    "value": 43
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "New World Liberation Front",
     "value": 10
   },
   {
-    "source": "Government",
-    "target": "Other Source",
-    "value": 208
+    "source": "Private Citizens & Property",
+    "target": "Black Nationalists",
+    "value": 7
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Animal Liberation Front",
+    "value": 5
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Jewish Defense League",
+    "value": 18
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Other group",
+    "value": 284
   },
   {
     "source": "Government",
-    "target": "PGIS",
-    "value": 336
+    "target": "Undetermined",
+    "value": 180
   },
   {
     "source": "Government",
-    "target": "START Primary Collection",
+    "target": "Left-Wing Militants",
+    "value": 51
+  },
+  {
+    "source": "Government",
+    "target": "Fuerzas Armadas de Liberacion Nacional",
+    "value": 21
+  },
+  {
+    "source": "Government",
+    "target": "White extremists",
+    "value": 5
+  },
+  {
+    "source": "Government",
+    "target": "New World Liberation Front",
+    "value": 14
+  },
+  {
+    "source": "Government",
+    "target": "Black Nationalists",
+    "value": 5
+  },
+  {
+    "source": "Government",
+    "target": "Animal Liberation Front",
+    "value": 8
+  },
+  {
+    "source": "Government",
+    "target": "Jewish Defense League",
     "value": 22
   },
   {
     "source": "Government",
-    "target": "CETIS",
-    "value": 25
-  },
-  {
-    "source": "Government",
-    "target": "ISVG",
-    "value": 6
+    "target": "Other group",
+    "value": 291
   },
   {
     "source": "Police",
-    "target": "Other Source",
-    "value": 95
+    "target": "Undetermined",
+    "value": 60
   },
   {
     "source": "Police",
-    "target": "PGIS",
-    "value": 102
+    "target": "Left-Wing Militants",
+    "value": 9
   },
   {
     "source": "Police",
-    "target": "START Primary Collection",
-    "value": 26
-  },
-  {
-    "source": "Police",
-    "target": "CETIS",
-    "value": 8
-  },
-  {
-    "source": "Police",
-    "target": "ISVG",
-    "value": 4
-  },
-  {
-    "source": "Unknown, religious & militia",
-    "target": "Other Source",
-    "value": 67
-  },
-  {
-    "source": "Unknown, religious & militia",
-    "target": "PGIS",
-    "value": 43
-  },
-  {
-    "source": "Unknown, religious & militia",
-    "target": "START Primary Collection",
-    "value": 88
-  },
-  {
-    "source": "Unknown, religious & militia",
-    "target": "CETIS",
-    "value": 8
-  },
-  {
-    "source": "Unknown, religious & militia",
-    "target": "ISVG",
-    "value": 6
-  },
-  {
-    "source": "Military",
-    "target": "Other Source",
-    "value": 125
-  },
-  {
-    "source": "Military",
-    "target": "PGIS",
-    "value": 68
-  },
-  {
-    "source": "Military",
-    "target": "START Primary Collection",
-    "value": 10
-  },
-  {
-    "source": "Military",
-    "target": "CETIS",
+    "target": "Fuerzas Armadas de Liberacion Nacional",
     "value": 7
   },
   {
-    "source": "Military",
-    "target": "ISVG",
+    "source": "Police",
+    "target": "New World Liberation Front",
+    "value": 3
+  },
+  {
+    "source": "Police",
+    "target": "Black Nationalists",
+    "value": 41
+  },
+  {
+    "source": "Police",
+    "target": "Animal Liberation Front",
     "value": 1
   },
   {
-    "source": "Transportation",
-    "target": "Other Source",
-    "value": 28
-  },
-  {
-    "source": "Transportation",
-    "target": "PGIS",
-    "value": 50
-  },
-  {
-    "source": "Transportation",
-    "target": "START Primary Collection",
-    "value": 20
-  },
-  {
-    "source": "Transportation",
-    "target": "CETIS",
+    "source": "Police",
+    "target": "Jewish Defense League",
     "value": 1
   },
   {
-    "source": "Transportation",
-    "target": "ISVG",
+    "source": "Police",
+    "target": "Other group",
+    "value": 113
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Undetermined",
+    "value": 103
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Left-Wing Militants",
+    "value": 2
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "White extremists",
+    "value": 13
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "New World Liberation Front",
+    "value": 1
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Black Nationalists",
+    "value": 7
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Jewish Defense League",
     "value": 4
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Other group",
+    "value": 82
+  },
+  {
+    "source": "Military",
+    "target": "Undetermined",
+    "value": 31
+  },
+  {
+    "source": "Military",
+    "target": "Left-Wing Militants",
+    "value": 58
+  },
+  {
+    "source": "Military",
+    "target": "Fuerzas Armadas de Liberacion Nacional",
+    "value": 8
+  },
+  {
+    "source": "Military",
+    "target": "White extremists",
+    "value": 2
+  },
+  {
+    "source": "Military",
+    "target": "New World Liberation Front",
+    "value": 1
+  },
+  {
+    "source": "Military",
+    "target": "Other group",
+    "value": 111
+  },
+  {
+    "source": "Transportation",
+    "target": "Undetermined",
+    "value": 25
+  },
+  {
+    "source": "Transportation",
+    "target": "Fuerzas Armadas de Liberacion Nacional",
+    "value": 3
+  },
+  {
+    "source": "Transportation",
+    "target": "White extremists",
+    "value": 1
+  },
+  {
+    "source": "Transportation",
+    "target": "Black Nationalists",
+    "value": 1
+  },
+  {
+    "source": "Transportation",
+    "target": "Jewish Defense League",
+    "value": 4
+  },
+  {
+    "source": "Transportation",
+    "target": "Other group",
+    "value": 69
   }
 ]}
 }

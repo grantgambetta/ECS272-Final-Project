@@ -194,33 +194,63 @@
   },
   {
     "node": "33",
-    "name": "PGIS",
-    "value": 581,
-    "id": "PGIS"
+    "name": "Undetermined",
+    "value": 468,
+    "id": "Undetermined"
   },
   {
     "node": "34",
-    "name": "START Primary Collection",
-    "value": 105,
-    "id": "START-Primary-Collection"
+    "name": "Uighur Separatists",
+    "value": 86,
+    "id": "Uighur-Separatists"
   },
   {
     "node": "35",
-    "name": "CETIS",
-    "value": 60,
-    "id": "CETIS"
+    "name": "Chukakuha",
+    "value": 61,
+    "id": "Chukakuha"
   },
   {
     "node": "36",
-    "name": "ISVG",
-    "value": 35,
-    "id": "ISVG"
+    "name": "Revolutionary Workers Council",
+    "value": 25,
+    "id": "Revolutionary-Workers-Council"
   },
   {
     "node": "37",
-    "name": "Other Source",
-    "value": 21,
-    "id": "Other-Source"
+    "name": "East Asia Anti Japanese Armed Front",
+    "value": 12,
+    "id": "East-Asia-Anti-Japanese-Armed-Front"
+  },
+  {
+    "node": "38",
+    "name": "Anti-Nuclear extremists",
+    "value": 9,
+    "id": "Anti-Nuclear-extremists"
+  },
+  {
+    "node": "39",
+    "name": "Aum Shinri Kyo",
+    "value": 8,
+    "id": "Aum-Shinri-Kyo"
+  },
+  {
+    "node": "40",
+    "name": "Senki",
+    "value": 8,
+    "id": "Senki"
+  },
+  {
+    "node": "41",
+    "name": "Radicals",
+    "value": 6,
+    "id": "Radicals"
+  },
+  {
+    "node": "42",
+    "name": "Other group",
+    "value": 119,
+    "id": "Other-group"
   }
 ], 
  "links":[
@@ -876,168 +906,278 @@
   },
   {
     "source": "Transportation",
-    "target": "PGIS",
-    "value": 173
+    "target": "Undetermined",
+    "value": 98
   },
   {
     "source": "Transportation",
-    "target": "START Primary Collection",
-    "value": 20
+    "target": "Uighur Separatists",
+    "value": 57
   },
   {
     "source": "Transportation",
-    "target": "CETIS",
-    "value": 9
+    "target": "Chukakuha",
+    "value": 25
   },
   {
     "source": "Transportation",
-    "target": "ISVG",
-    "value": 4
-  },
-  {
-    "source": "Transportation",
-    "target": "Other Source",
+    "target": "Revolutionary Workers Council",
     "value": 5
   },
   {
-    "source": "Government",
-    "target": "PGIS",
-    "value": 129
+    "source": "Transportation",
+    "target": "Anti-Nuclear extremists",
+    "value": 7
+  },
+  {
+    "source": "Transportation",
+    "target": "Aum Shinri Kyo",
+    "value": 3
+  },
+  {
+    "source": "Transportation",
+    "target": "Senki",
+    "value": 1
+  },
+  {
+    "source": "Transportation",
+    "target": "Radicals",
+    "value": 2
+  },
+  {
+    "source": "Transportation",
+    "target": "Other group",
+    "value": 13
   },
   {
     "source": "Government",
-    "target": "START Primary Collection",
-    "value": 11
+    "target": "Undetermined",
+    "value": 96
   },
   {
     "source": "Government",
-    "target": "CETIS",
-    "value": 17
-  },
-  {
-    "source": "Government",
-    "target": "ISVG",
+    "target": "Uighur Separatists",
     "value": 4
   },
   {
     "source": "Government",
-    "target": "Other Source",
+    "target": "Chukakuha",
+    "value": 12
+  },
+  {
+    "source": "Government",
+    "target": "Revolutionary Workers Council",
+    "value": 3
+  },
+  {
+    "source": "Government",
+    "target": "East Asia Anti Japanese Armed Front",
+    "value": 1
+  },
+  {
+    "source": "Government",
+    "target": "Aum Shinri Kyo",
+    "value": 1
+  },
+  {
+    "source": "Government",
+    "target": "Senki",
+    "value": 2
+  },
+  {
+    "source": "Government",
+    "target": "Other group",
+    "value": 43
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Undetermined",
+    "value": 112
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Uighur Separatists",
+    "value": 5
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Chukakuha",
+    "value": 8
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Revolutionary Workers Council",
+    "value": 2
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "East Asia Anti Japanese Armed Front",
     "value": 1
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "PGIS",
-    "value": 102
+    "target": "Senki",
+    "value": 1
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "START Primary Collection",
-    "value": 17
+    "target": "Radicals",
+    "value": 1
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "CETIS",
-    "value": 15
+    "target": "Other group",
+    "value": 16
   },
   {
-    "source": "Business, Utilities & Communication",
-    "target": "ISVG",
-    "value": 5
+    "source": "Private Citizens & Property",
+    "target": "Undetermined",
+    "value": 61
   },
   {
-    "source": "Business, Utilities & Communication",
-    "target": "Other Source",
+    "source": "Private Citizens & Property",
+    "target": "Uighur Separatists",
     "value": 7
   },
   {
     "source": "Private Citizens & Property",
-    "target": "PGIS",
-    "value": 53
+    "target": "Chukakuha",
+    "value": 2
   },
   {
     "source": "Private Citizens & Property",
-    "target": "START Primary Collection",
-    "value": 19
+    "target": "Revolutionary Workers Council",
+    "value": 5
   },
   {
     "source": "Private Citizens & Property",
-    "target": "CETIS",
-    "value": 12
+    "target": "East Asia Anti Japanese Armed Front",
+    "value": 1
   },
   {
     "source": "Private Citizens & Property",
-    "target": "ISVG",
+    "target": "Aum Shinri Kyo",
+    "value": 2
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Senki",
+    "value": 1
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Radicals",
+    "value": 1
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Other group",
+    "value": 21
+  },
+  {
+    "source": "Police",
+    "target": "Undetermined",
+    "value": 49
+  },
+  {
+    "source": "Police",
+    "target": "Uighur Separatists",
     "value": 11
   },
   {
-    "source": "Private Citizens & Property",
-    "target": "Other Source",
-    "value": 6
+    "source": "Police",
+    "target": "Chukakuha",
+    "value": 9
   },
   {
     "source": "Police",
-    "target": "PGIS",
-    "value": 57
+    "target": "Revolutionary Workers Council",
+    "value": 3
   },
   {
     "source": "Police",
-    "target": "START Primary Collection",
-    "value": 31
+    "target": "East Asia Anti Japanese Armed Front",
+    "value": 9
   },
   {
     "source": "Police",
-    "target": "CETIS",
+    "target": "Anti-Nuclear extremists",
+    "value": 2
+  },
+  {
+    "source": "Police",
+    "target": "Aum Shinri Kyo",
+    "value": 1
+  },
+  {
+    "source": "Police",
+    "target": "Radicals",
+    "value": 2
+  },
+  {
+    "source": "Police",
+    "target": "Other group",
+    "value": 12
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Undetermined",
+    "value": 26
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Uighur Separatists",
+    "value": 1
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Chukakuha",
     "value": 4
   },
   {
-    "source": "Police",
-    "target": "ISVG",
-    "value": 6
+    "source": "Unknown, religious & militia",
+    "target": "Revolutionary Workers Council",
+    "value": 5
   },
   {
     "source": "Unknown, religious & militia",
-    "target": "PGIS",
-    "value": 37
+    "target": "Other group",
+    "value": 8
   },
   {
-    "source": "Unknown, religious & militia",
-    "target": "START Primary Collection",
-    "value": 3
+    "source": "Military",
+    "target": "Undetermined",
+    "value": 26
   },
   {
-    "source": "Unknown, religious & militia",
-    "target": "ISVG",
-    "value": 3
-  },
-  {
-    "source": "Unknown, religious & militia",
-    "target": "Other Source",
+    "source": "Military",
+    "target": "Uighur Separatists",
     "value": 1
   },
   {
     "source": "Military",
-    "target": "PGIS",
-    "value": 30
+    "target": "Chukakuha",
+    "value": 1
   },
   {
     "source": "Military",
-    "target": "START Primary Collection",
-    "value": 4
-  },
-  {
-    "source": "Military",
-    "target": "CETIS",
-    "value": 3
-  },
-  {
-    "source": "Military",
-    "target": "ISVG",
+    "target": "Revolutionary Workers Council",
     "value": 2
   },
   {
     "source": "Military",
-    "target": "Other Source",
+    "target": "Aum Shinri Kyo",
     "value": 1
+  },
+  {
+    "source": "Military",
+    "target": "Senki",
+    "value": 3
+  },
+  {
+    "source": "Military",
+    "target": "Other group",
+    "value": 6
   }
 ]}
 }

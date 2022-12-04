@@ -176,33 +176,13 @@
   },
   {
     "node": "30",
-    "name": "PGIS",
-    "value": 284,
-    "id": "PGIS"
+    "name": "Other group",
+    "value": 70,
+    "id": "Other-group"
   },
   {
     "node": "31",
-    "name": "CETIS",
-    "value": 117,
-    "id": "CETIS"
-  },
-  {
-    "node": "32",
-    "name": "ISVG",
-    "value": 78,
-    "id": "ISVG"
-  },
-  {
-    "node": "33",
-    "name": "Other Source",
-    "value": 19,
-    "id": "Other-Source"
-  },
-  {
-    "node": "34",
-    "name": "START Primary Collection",
-    "value": 65,
-    "id": "START-Primary-Collection"
+    "value": 493
   }
 ], 
  "links":[
@@ -883,158 +863,66 @@
   },
   {
     "source": "Private Citizens & Property",
-    "target": "PGIS",
-    "value": 944
+    "target": "Other group",
+    "value": 2
   },
   {
     "source": "Private Citizens & Property",
-    "target": "CETIS",
-    "value": 113
-  },
-  {
-    "source": "Private Citizens & Property",
-    "target": "ISVG",
-    "value": 16
-  },
-  {
-    "source": "Private Citizens & Property",
-    "target": "Other Source",
-    "value": 1
-  },
-  {
-    "source": "Private Citizens & Property",
-    "target": "START Primary Collection",
-    "value": 11
+    "value": 1083
   },
   {
     "source": "Police",
-    "target": "PGIS",
-    "value": 27
+    "target": "Other group",
+    "value": 38
   },
   {
     "source": "Police",
-    "target": "CETIS",
-    "value": 93
-  },
-  {
-    "source": "Police",
-    "target": "ISVG",
-    "value": 71
-  },
-  {
-    "source": "Police",
-    "target": "START Primary Collection",
-    "value": 16
+    "value": 169
   },
   {
     "source": "Transportation",
-    "target": "PGIS",
-    "value": 168
+    "target": "Other group",
+    "value": 0
   },
   {
     "source": "Transportation",
-    "target": "CETIS",
-    "value": 15
-  },
-  {
-    "source": "Transportation",
-    "target": "ISVG",
-    "value": 9
-  },
-  {
-    "source": "Transportation",
-    "target": "Other Source",
-    "value": 1
+    "value": 193
   },
   {
     "source": "Government",
-    "target": "PGIS",
-    "value": 23
-  },
-  {
-    "source": "Government",
-    "target": "CETIS",
-    "value": 118
-  },
-  {
-    "source": "Government",
-    "target": "ISVG",
-    "value": 6
-  },
-  {
-    "source": "Government",
-    "target": "Other Source",
-    "value": 5
-  },
-  {
-    "source": "Government",
-    "target": "START Primary Collection",
-    "value": 15
-  },
-  {
-    "source": "Business, Utilities & Communication",
-    "target": "PGIS",
-    "value": 40
-  },
-  {
-    "source": "Business, Utilities & Communication",
-    "target": "CETIS",
-    "value": 28
-  },
-  {
-    "source": "Business, Utilities & Communication",
-    "target": "ISVG",
+    "target": "Other group",
     "value": 14
   },
   {
-    "source": "Business, Utilities & Communication",
-    "target": "Other Source",
-    "value": 64
+    "source": "Government",
+    "value": 153
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "START Primary Collection",
-    "value": 10
+    "target": "Other group",
+    "value": 8
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "value": 148
   },
   {
     "source": "Military",
-    "target": "PGIS",
-    "value": 67
-  },
-  {
-    "source": "Military",
-    "target": "CETIS",
-    "value": 23
-  },
-  {
-    "source": "Military",
-    "target": "ISVG",
-    "value": 4
-  },
-  {
-    "source": "Military",
-    "target": "START Primary Collection",
-    "value": 10
-  },
-  {
-    "source": "Unknown, religious & militia",
-    "target": "PGIS",
+    "target": "Other group",
     "value": 12
   },
   {
-    "source": "Unknown, religious & militia",
-    "target": "CETIS",
-    "value": 70
+    "source": "Military",
+    "value": 92
   },
   {
     "source": "Unknown, religious & militia",
-    "target": "ISVG",
-    "value": 13
+    "target": "Other group",
+    "value": 9
   },
   {
     "source": "Unknown, religious & militia",
-    "target": "START Primary Collection",
-    "value": 2
+    "value": 88
   }
 ]}
 }

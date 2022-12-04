@@ -224,33 +224,63 @@
   },
   {
     "node": "38",
-    "name": "PGIS",
-    "value": 11339,
-    "id": "PGIS"
+    "name": "Undetermined",
+    "value": 5052,
+    "id": "Undetermined"
   },
   {
     "node": "39",
-    "name": "Other Source",
-    "value": 1887,
-    "id": "Other-Source"
+    "name": "Irish Republican Army",
+    "value": 2668,
+    "id": "Irish-Republican-Army"
   },
   {
     "node": "40",
-    "name": "START Primary Collection",
-    "value": 1574,
-    "id": "START-Primary-Collection"
+    "name": "Basque Fatherland and Freedom",
+    "value": 2022,
+    "id": "Basque-Fatherland-and-Freedom"
   },
   {
     "node": "41",
-    "name": "CETIS",
-    "value": 1307,
-    "id": "CETIS"
+    "name": "Corsican National Liberation Front",
+    "value": 639,
+    "id": "Corsican-National-Liberation-Front"
   },
   {
     "node": "42",
-    "name": "ISVG",
-    "value": 532,
-    "id": "ISVG"
+    "name": "Protestant extremists",
+    "value": 333,
+    "id": "Protestant-extremists"
+  },
+  {
+    "node": "43",
+    "name": "Ulster Volunteer Force",
+    "value": 270,
+    "id": "Ulster-Volunteer-Force"
+  },
+  {
+    "node": "44",
+    "name": "Ulster Freedom Fighters",
+    "value": 260,
+    "id": "Ulster-Freedom-Fighters"
+  },
+  {
+    "node": "45",
+    "name": "Red Brigades",
+    "value": 217,
+    "id": "Red-Brigades"
+  },
+  {
+    "node": "46",
+    "name": "Neo-Nazi extremists",
+    "value": 215,
+    "id": "Neo-Nazi-extremists"
+  },
+  {
+    "node": "47",
+    "name": "Other group",
+    "value": 4963,
+    "id": "Other-group"
   }
 ], 
  "links":[
@@ -1526,178 +1556,348 @@
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "PGIS",
-    "value": 4062
+    "target": "Undetermined",
+    "value": 1487
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "Other Source",
-    "value": 168
+    "target": "Irish Republican Army",
+    "value": 555
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "START Primary Collection",
-    "value": 214
+    "target": "Basque Fatherland and Freedom",
+    "value": 777
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "CETIS",
-    "value": 409
+    "target": "Corsican National Liberation Front",
+    "value": 235
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "ISVG",
-    "value": 147
+    "target": "Protestant extremists",
+    "value": 40
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Ulster Volunteer Force",
+    "value": 36
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Ulster Freedom Fighters",
+    "value": 57
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Red Brigades",
+    "value": 100
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Neo-Nazi extremists",
+    "value": 79
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Other group",
+    "value": 1634
   },
   {
     "source": "Private Citizens & Property",
-    "target": "PGIS",
-    "value": 1581
+    "target": "Undetermined",
+    "value": 1185
   },
   {
     "source": "Private Citizens & Property",
-    "target": "Other Source",
-    "value": 794
+    "target": "Irish Republican Army",
+    "value": 423
   },
   {
     "source": "Private Citizens & Property",
-    "target": "START Primary Collection",
-    "value": 690
+    "target": "Basque Fatherland and Freedom",
+    "value": 197
   },
   {
     "source": "Private Citizens & Property",
-    "target": "CETIS",
-    "value": 279
-  },
-  {
-    "source": "Private Citizens & Property",
-    "target": "ISVG",
-    "value": 117
-  },
-  {
-    "source": "Government",
-    "target": "PGIS",
-    "value": 2148
-  },
-  {
-    "source": "Government",
-    "target": "Other Source",
-    "value": 76
-  },
-  {
-    "source": "Government",
-    "target": "START Primary Collection",
-    "value": 151
-  },
-  {
-    "source": "Government",
-    "target": "CETIS",
-    "value": 337
-  },
-  {
-    "source": "Government",
-    "target": "ISVG",
-    "value": 120
-  },
-  {
-    "source": "Police",
-    "target": "PGIS",
-    "value": 1590
-  },
-  {
-    "source": "Police",
-    "target": "Other Source",
-    "value": 175
-  },
-  {
-    "source": "Police",
-    "target": "START Primary Collection",
-    "value": 168
-  },
-  {
-    "source": "Police",
-    "target": "CETIS",
-    "value": 120
-  },
-  {
-    "source": "Police",
-    "target": "ISVG",
-    "value": 86
-  },
-  {
-    "source": "Military",
-    "target": "PGIS",
-    "value": 869
-  },
-  {
-    "source": "Military",
-    "target": "Other Source",
-    "value": 446
-  },
-  {
-    "source": "Military",
-    "target": "START Primary Collection",
-    "value": 30
-  },
-  {
-    "source": "Military",
-    "target": "CETIS",
-    "value": 31
-  },
-  {
-    "source": "Military",
-    "target": "ISVG",
-    "value": 7
-  },
-  {
-    "source": "Unknown, religious & militia",
-    "target": "PGIS",
-    "value": 469
-  },
-  {
-    "source": "Unknown, religious & militia",
-    "target": "Other Source",
+    "target": "Corsican National Liberation Front",
     "value": 167
   },
   {
-    "source": "Unknown, religious & militia",
-    "target": "START Primary Collection",
-    "value": 287
+    "source": "Private Citizens & Property",
+    "target": "Protestant extremists",
+    "value": 252
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Ulster Volunteer Force",
+    "value": 184
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Ulster Freedom Fighters",
+    "value": 149
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Red Brigades",
+    "value": 14
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Neo-Nazi extremists",
+    "value": 88
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Other group",
+    "value": 802
+  },
+  {
+    "source": "Government",
+    "target": "Undetermined",
+    "value": 1079
+  },
+  {
+    "source": "Government",
+    "target": "Irish Republican Army",
+    "value": 161
+  },
+  {
+    "source": "Government",
+    "target": "Basque Fatherland and Freedom",
+    "value": 223
+  },
+  {
+    "source": "Government",
+    "target": "Corsican National Liberation Front",
+    "value": 132
+  },
+  {
+    "source": "Government",
+    "target": "Protestant extremists",
+    "value": 16
+  },
+  {
+    "source": "Government",
+    "target": "Ulster Volunteer Force",
+    "value": 9
+  },
+  {
+    "source": "Government",
+    "target": "Ulster Freedom Fighters",
+    "value": 15
+  },
+  {
+    "source": "Government",
+    "target": "Red Brigades",
+    "value": 51
+  },
+  {
+    "source": "Government",
+    "target": "Neo-Nazi extremists",
+    "value": 14
+  },
+  {
+    "source": "Government",
+    "target": "Other group",
+    "value": 1132
+  },
+  {
+    "source": "Police",
+    "target": "Undetermined",
+    "value": 457
+  },
+  {
+    "source": "Police",
+    "target": "Irish Republican Army",
+    "value": 533
+  },
+  {
+    "source": "Police",
+    "target": "Basque Fatherland and Freedom",
+    "value": 546
+  },
+  {
+    "source": "Police",
+    "target": "Corsican National Liberation Front",
+    "value": 49
+  },
+  {
+    "source": "Police",
+    "target": "Protestant extremists",
+    "value": 2
+  },
+  {
+    "source": "Police",
+    "target": "Ulster Volunteer Force",
+    "value": 2
+  },
+  {
+    "source": "Police",
+    "target": "Ulster Freedom Fighters",
+    "value": 4
+  },
+  {
+    "source": "Police",
+    "target": "Red Brigades",
+    "value": 43
+  },
+  {
+    "source": "Police",
+    "target": "Neo-Nazi extremists",
+    "value": 15
+  },
+  {
+    "source": "Police",
+    "target": "Other group",
+    "value": 488
+  },
+  {
+    "source": "Military",
+    "target": "Undetermined",
+    "value": 193
+  },
+  {
+    "source": "Military",
+    "target": "Irish Republican Army",
+    "value": 785
+  },
+  {
+    "source": "Military",
+    "target": "Basque Fatherland and Freedom",
+    "value": 142
+  },
+  {
+    "source": "Military",
+    "target": "Corsican National Liberation Front",
+    "value": 12
+  },
+  {
+    "source": "Military",
+    "target": "Protestant extremists",
+    "value": 2
+  },
+  {
+    "source": "Military",
+    "target": "Ulster Volunteer Force",
+    "value": 4
+  },
+  {
+    "source": "Military",
+    "target": "Ulster Freedom Fighters",
+    "value": 2
+  },
+  {
+    "source": "Military",
+    "target": "Red Brigades",
+    "value": 6
+  },
+  {
+    "source": "Military",
+    "target": "Neo-Nazi extremists",
+    "value": 2
+  },
+  {
+    "source": "Military",
+    "target": "Other group",
+    "value": 235
   },
   {
     "source": "Unknown, religious & militia",
-    "target": "CETIS",
-    "value": 66
+    "target": "Undetermined",
+    "value": 440
   },
   {
     "source": "Unknown, religious & militia",
-    "target": "ISVG",
-    "value": 32
+    "target": "Irish Republican Army",
+    "value": 121
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Basque Fatherland and Freedom",
+    "value": 31
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Corsican National Liberation Front",
+    "value": 31
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Protestant extremists",
+    "value": 21
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Ulster Volunteer Force",
+    "value": 33
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Ulster Freedom Fighters",
+    "value": 31
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Red Brigades",
+    "value": 1
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Neo-Nazi extremists",
+    "value": 11
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Other group",
+    "value": 301
   },
   {
     "source": "Transportation",
-    "target": "PGIS",
-    "value": 620
+    "target": "Undetermined",
+    "value": 211
   },
   {
     "source": "Transportation",
-    "target": "Other Source",
-    "value": 61
+    "target": "Irish Republican Army",
+    "value": 90
   },
   {
     "source": "Transportation",
-    "target": "START Primary Collection",
-    "value": 34
+    "target": "Basque Fatherland and Freedom",
+    "value": 106
   },
   {
     "source": "Transportation",
-    "target": "CETIS",
-    "value": 65
+    "target": "Corsican National Liberation Front",
+    "value": 13
   },
   {
     "source": "Transportation",
-    "target": "ISVG",
-    "value": 23
+    "target": "Ulster Volunteer Force",
+    "value": 2
+  },
+  {
+    "source": "Transportation",
+    "target": "Ulster Freedom Fighters",
+    "value": 2
+  },
+  {
+    "source": "Transportation",
+    "target": "Red Brigades",
+    "value": 2
+  },
+  {
+    "source": "Transportation",
+    "target": "Neo-Nazi extremists",
+    "value": 6
+  },
+  {
+    "source": "Transportation",
+    "target": "Other group",
+    "value": 371
   }
 ]}
 }

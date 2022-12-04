@@ -224,33 +224,63 @@
   },
   {
     "node": "38",
-    "name": "PGIS",
-    "value": 10241,
-    "id": "PGIS"
+    "name": "Undetermined",
+    "value": 3687,
+    "id": "Undetermined"
   },
   {
     "node": "39",
-    "name": "CETIS",
-    "value": 37,
-    "id": "CETIS"
+    "name": "Farabundo Marti National Liberation Front",
+    "value": 3351,
+    "id": "Farabundo-Marti-National-Liberation-Front"
   },
   {
     "node": "40",
-    "name": "START Primary Collection",
-    "value": 29,
-    "id": "START-Primary-Collection"
+    "name": "Nicaraguan Democratic Force",
+    "value": 894,
+    "id": "Nicaraguan-Democratic-Force"
   },
   {
     "node": "41",
-    "name": "Other Source",
-    "value": 27,
-    "id": "Other-Source"
+    "name": "Nicaraguan Resistance",
+    "value": 231,
+    "id": "Nicaraguan-Resistance"
   },
   {
     "node": "42",
-    "name": "ISVG",
-    "value": 10,
-    "id": "ISVG"
+    "name": "Sandinista National Liberation Front",
+    "value": 209,
+    "id": "Sandinista-National-Liberation-Front"
+  },
+  {
+    "node": "43",
+    "name": "Peoples Liberation Forces",
+    "value": 167,
+    "id": "Peoples-Liberation-Forces"
+  },
+  {
+    "node": "44",
+    "name": "Guerrilla Army of the Poor",
+    "value": 155,
+    "id": "Guerrilla-Army-of-the-Poor"
+  },
+  {
+    "node": "45",
+    "name": "Democratic Revolutionary Alliance",
+    "value": 140,
+    "id": "Democratic-Revolutionary-Alliance"
+  },
+  {
+    "node": "46",
+    "name": "Death Squad",
+    "value": 131,
+    "id": "Death-Squad"
+  },
+  {
+    "node": "47",
+    "name": "Other group",
+    "value": 1379,
+    "id": "Other-group"
   }
 ], 
  "links":[
@@ -1361,153 +1391,338 @@
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "PGIS",
-    "value": 3054
+    "target": "Undetermined",
+    "value": 1034
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "CETIS",
-    "value": 3
+    "target": "Farabundo Marti National Liberation Front",
+    "value": 1297
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "START Primary Collection",
-    "value": 9
+    "target": "Nicaraguan Democratic Force",
+    "value": 109
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "Other Source",
-    "value": 3
+    "target": "Nicaraguan Resistance",
+    "value": 47
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "ISVG",
-    "value": 2
+    "target": "Sandinista National Liberation Front",
+    "value": 83
   },
   {
-    "source": "Military",
-    "target": "PGIS",
-    "value": 3062
+    "source": "Business, Utilities & Communication",
+    "target": "Peoples Liberation Forces",
+    "value": 55
   },
   {
-    "source": "Military",
-    "target": "CETIS",
-    "value": 1
+    "source": "Business, Utilities & Communication",
+    "target": "Guerrilla Army of the Poor",
+    "value": 34
   },
   {
-    "source": "Military",
-    "target": "Other Source",
-    "value": 2
-  },
-  {
-    "source": "Private Citizens & Property",
-    "target": "PGIS",
-    "value": 1513
-  },
-  {
-    "source": "Private Citizens & Property",
-    "target": "CETIS",
-    "value": 4
-  },
-  {
-    "source": "Private Citizens & Property",
-    "target": "START Primary Collection",
-    "value": 4
-  },
-  {
-    "source": "Private Citizens & Property",
-    "target": "Other Source",
-    "value": 12
-  },
-  {
-    "source": "Private Citizens & Property",
-    "target": "ISVG",
-    "value": 2
-  },
-  {
-    "source": "Government",
-    "target": "PGIS",
-    "value": 1291
-  },
-  {
-    "source": "Government",
-    "target": "CETIS",
-    "value": 20
-  },
-  {
-    "source": "Government",
-    "target": "START Primary Collection",
-    "value": 9
-  },
-  {
-    "source": "Government",
-    "target": "Other Source",
-    "value": 7
-  },
-  {
-    "source": "Government",
-    "target": "ISVG",
-    "value": 4
-  },
-  {
-    "source": "Police",
-    "target": "PGIS",
-    "value": 575
-  },
-  {
-    "source": "Police",
-    "target": "CETIS",
+    "source": "Business, Utilities & Communication",
+    "target": "Democratic Revolutionary Alliance",
     "value": 5
   },
   {
+    "source": "Business, Utilities & Communication",
+    "target": "Death Squad",
+    "value": 25
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Other group",
+    "value": 382
+  },
+  {
+    "source": "Military",
+    "target": "Undetermined",
+    "value": 694
+  },
+  {
+    "source": "Military",
+    "target": "Farabundo Marti National Liberation Front",
+    "value": 1230
+  },
+  {
+    "source": "Military",
+    "target": "Nicaraguan Democratic Force",
+    "value": 577
+  },
+  {
+    "source": "Military",
+    "target": "Nicaraguan Resistance",
+    "value": 113
+  },
+  {
+    "source": "Military",
+    "target": "Sandinista National Liberation Front",
+    "value": 50
+  },
+  {
+    "source": "Military",
+    "target": "Peoples Liberation Forces",
+    "value": 16
+  },
+  {
+    "source": "Military",
+    "target": "Guerrilla Army of the Poor",
+    "value": 34
+  },
+  {
+    "source": "Military",
+    "target": "Democratic Revolutionary Alliance",
+    "value": 112
+  },
+  {
+    "source": "Military",
+    "target": "Other group",
+    "value": 239
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Undetermined",
+    "value": 639
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Farabundo Marti National Liberation Front",
+    "value": 371
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Nicaraguan Democratic Force",
+    "value": 95
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Nicaraguan Resistance",
+    "value": 34
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Sandinista National Liberation Front",
+    "value": 28
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Peoples Liberation Forces",
+    "value": 17
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Guerrilla Army of the Poor",
+    "value": 28
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Democratic Revolutionary Alliance",
+    "value": 8
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Death Squad",
+    "value": 71
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Other group",
+    "value": 244
+  },
+  {
+    "source": "Government",
+    "target": "Undetermined",
+    "value": 678
+  },
+  {
+    "source": "Government",
+    "target": "Farabundo Marti National Liberation Front",
+    "value": 168
+  },
+  {
+    "source": "Government",
+    "target": "Nicaraguan Democratic Force",
+    "value": 65
+  },
+  {
+    "source": "Government",
+    "target": "Nicaraguan Resistance",
+    "value": 26
+  },
+  {
+    "source": "Government",
+    "target": "Sandinista National Liberation Front",
+    "value": 34
+  },
+  {
+    "source": "Government",
+    "target": "Peoples Liberation Forces",
+    "value": 55
+  },
+  {
+    "source": "Government",
+    "target": "Guerrilla Army of the Poor",
+    "value": 23
+  },
+  {
+    "source": "Government",
+    "target": "Democratic Revolutionary Alliance",
+    "value": 6
+  },
+  {
+    "source": "Government",
+    "target": "Death Squad",
+    "value": 10
+  },
+  {
+    "source": "Government",
+    "target": "Other group",
+    "value": 266
+  },
+  {
     "source": "Police",
-    "target": "START Primary Collection",
+    "target": "Undetermined",
+    "value": 286
+  },
+  {
+    "source": "Police",
+    "target": "Farabundo Marti National Liberation Front",
+    "value": 123
+  },
+  {
+    "source": "Police",
+    "target": "Nicaraguan Democratic Force",
+    "value": 4
+  },
+  {
+    "source": "Police",
+    "target": "Sandinista National Liberation Front",
+    "value": 10
+  },
+  {
+    "source": "Police",
+    "target": "Peoples Liberation Forces",
+    "value": 18
+  },
+  {
+    "source": "Police",
+    "target": "Guerrilla Army of the Poor",
+    "value": 22
+  },
+  {
+    "source": "Police",
+    "target": "Death Squad",
     "value": 2
   },
   {
     "source": "Police",
-    "target": "Other Source",
-    "value": 1
-  },
-  {
-    "source": "Police",
-    "target": "ISVG",
-    "value": 1
+    "target": "Other group",
+    "value": 119
   },
   {
     "source": "Transportation",
-    "target": "PGIS",
-    "value": 514
+    "target": "Undetermined",
+    "value": 221
   },
   {
     "source": "Transportation",
-    "target": "CETIS",
+    "target": "Farabundo Marti National Liberation Front",
+    "value": 147
+  },
+  {
+    "source": "Transportation",
+    "target": "Nicaraguan Democratic Force",
+    "value": 41
+  },
+  {
+    "source": "Transportation",
+    "target": "Nicaraguan Resistance",
+    "value": 8
+  },
+  {
+    "source": "Transportation",
+    "target": "Sandinista National Liberation Front",
+    "value": 2
+  },
+  {
+    "source": "Transportation",
+    "target": "Peoples Liberation Forces",
     "value": 4
   },
   {
     "source": "Transportation",
-    "target": "START Primary Collection",
+    "target": "Guerrilla Army of the Poor",
+    "value": 10
+  },
+  {
+    "source": "Transportation",
+    "target": "Democratic Revolutionary Alliance",
+    "value": 8
+  },
+  {
+    "source": "Transportation",
+    "target": "Death Squad",
     "value": 1
   },
   {
-    "source": "Unknown, religious & militia",
-    "target": "PGIS",
-    "value": 232
+    "source": "Transportation",
+    "target": "Other group",
+    "value": 77
   },
   {
     "source": "Unknown, religious & militia",
-    "target": "START Primary Collection",
-    "value": 4
+    "target": "Undetermined",
+    "value": 135
   },
   {
     "source": "Unknown, religious & militia",
-    "target": "Other Source",
+    "target": "Farabundo Marti National Liberation Front",
+    "value": 15
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Nicaraguan Democratic Force",
+    "value": 3
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Nicaraguan Resistance",
+    "value": 3
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Sandinista National Liberation Front",
     "value": 2
   },
   {
     "source": "Unknown, religious & militia",
-    "target": "ISVG",
+    "target": "Peoples Liberation Forces",
+    "value": 2
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Guerrilla Army of the Poor",
+    "value": 4
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Democratic Revolutionary Alliance",
     "value": 1
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Death Squad",
+    "value": 22
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Other group",
+    "value": 52
   }
 ]}
 }

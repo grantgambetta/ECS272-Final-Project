@@ -176,33 +176,63 @@
   },
   {
     "node": "30",
-    "name": "PGIS",
-    "value": 284,
-    "id": "PGIS"
+    "name": "Undetermined",
+    "value": 447,
+    "id": "Undetermined"
   },
   {
     "node": "31",
-    "name": "CETIS",
-    "value": 117,
-    "id": "CETIS"
+    "name": "South Ossetian Separatists",
+    "value": 10,
+    "id": "South-Ossetian-Separatists"
   },
   {
     "node": "32",
-    "name": "ISVG",
-    "value": 78,
-    "id": "ISVG"
+    "name": "Supporters of Ex-President Gamsakhurdial",
+    "value": 10,
+    "id": "Supporters-of-Ex-President-Gamsakhurdial"
   },
   {
     "node": "33",
-    "name": "START Primary Collection",
-    "value": 65,
-    "id": "START-Primary-Collection"
+    "name": "Azerbaijan Guerrillas",
+    "value": 7,
+    "id": "Azerbaijan-Guerrillas"
   },
   {
     "node": "34",
-    "name": "Other Source",
-    "value": 19,
-    "id": "Other-Source"
+    "name": "Gunmen",
+    "value": 6,
+    "id": "Gunmen"
+  },
+  {
+    "node": "35",
+    "name": "Abkhazian Separatists",
+    "value": 5,
+    "id": "Abkhazian-Separatists"
+  },
+  {
+    "node": "36",
+    "name": "Georgian extremists",
+    "value": 4,
+    "id": "Georgian-extremists"
+  },
+  {
+    "node": "37",
+    "name": "Jihadi-inspired extremists",
+    "value": 4,
+    "id": "Jihadi-inspired-extremists"
+  },
+  {
+    "node": "38",
+    "name": "Muslim extremists",
+    "value": 4,
+    "id": "Muslim-extremists"
+  },
+  {
+    "node": "39",
+    "name": "Other group",
+    "value": 66,
+    "id": "Other-group"
   }
 ], 
  "links":[
@@ -883,158 +913,208 @@
   },
   {
     "source": "Government",
-    "target": "PGIS",
+    "target": "Undetermined",
+    "value": 132
+  },
+  {
+    "source": "Government",
+    "target": "Supporters of Ex-President Gamsakhurdial",
+    "value": 4
+  },
+  {
+    "source": "Government",
+    "target": "Gunmen",
+    "value": 2
+  },
+  {
+    "source": "Government",
+    "target": "Georgian extremists",
+    "value": 2
+  },
+  {
+    "source": "Government",
+    "target": "Muslim extremists",
+    "value": 1
+  },
+  {
+    "source": "Government",
+    "target": "Other group",
+    "value": 18
+  },
+  {
+    "source": "Military",
+    "target": "Undetermined",
     "value": 72
   },
   {
-    "source": "Government",
-    "target": "CETIS",
-    "value": 46
-  },
-  {
-    "source": "Government",
-    "target": "ISVG",
-    "value": 9
-  },
-  {
-    "source": "Government",
-    "target": "START Primary Collection",
-    "value": 22
-  },
-  {
-    "source": "Government",
-    "target": "Other Source",
-    "value": 10
+    "source": "Military",
+    "target": "South Ossetian Separatists",
+    "value": 1
   },
   {
     "source": "Military",
-    "target": "PGIS",
-    "value": 72
-  },
-  {
-    "source": "Military",
-    "target": "CETIS",
-    "value": 11
-  },
-  {
-    "source": "Military",
-    "target": "ISVG",
+    "target": "Supporters of Ex-President Gamsakhurdial",
     "value": 3
   },
   {
     "source": "Military",
-    "target": "START Primary Collection",
+    "target": "Azerbaijan Guerrillas",
+    "value": 2
+  },
+  {
+    "source": "Military",
+    "target": "Abkhazian Separatists",
+    "value": 2
+  },
+  {
+    "source": "Military",
+    "target": "Other group",
+    "value": 10
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Undetermined",
+    "value": 70
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "South Ossetian Separatists",
     "value": 4
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "PGIS",
-    "value": 40
+    "target": "Gunmen",
+    "value": 2
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "CETIS",
-    "value": 14
+    "target": "Jihadi-inspired extremists",
+    "value": 1
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "ISVG",
-    "value": 17
+    "target": "Muslim extremists",
+    "value": 1
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "START Primary Collection",
-    "value": 11
-  },
-  {
-    "source": "Business, Utilities & Communication",
-    "target": "Other Source",
-    "value": 5
+    "target": "Other group",
+    "value": 9
   },
   {
     "source": "Private Citizens & Property",
-    "target": "PGIS",
-    "value": 32
+    "target": "Undetermined",
+    "value": 61
   },
   {
     "source": "Private Citizens & Property",
-    "target": "CETIS",
-    "value": 25
-  },
-  {
-    "source": "Private Citizens & Property",
-    "target": "ISVG",
-    "value": 11
-  },
-  {
-    "source": "Private Citizens & Property",
-    "target": "START Primary Collection",
-    "value": 11
-  },
-  {
-    "source": "Private Citizens & Property",
-    "target": "Other Source",
+    "target": "South Ossetian Separatists",
     "value": 3
   },
   {
-    "source": "Police",
-    "target": "PGIS",
-    "value": 25
+    "source": "Private Citizens & Property",
+    "target": "Azerbaijan Guerrillas",
+    "value": 4
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Gunmen",
+    "value": 1
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Abkhazian Separatists",
+    "value": 1
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Jihadi-inspired extremists",
+    "value": 1
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Muslim extremists",
+    "value": 1
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Other group",
+    "value": 10
   },
   {
     "source": "Police",
-    "target": "CETIS",
-    "value": 15
+    "target": "Undetermined",
+    "value": 60
   },
   {
     "source": "Police",
-    "target": "ISVG",
-    "value": 27
+    "target": "South Ossetian Separatists",
+    "value": 2
   },
   {
     "source": "Police",
-    "target": "START Primary Collection",
+    "target": "Gunmen",
+    "value": 1
+  },
+  {
+    "source": "Police",
+    "target": "Abkhazian Separatists",
+    "value": 1
+  },
+  {
+    "source": "Police",
+    "target": "Georgian extremists",
+    "value": 2
+  },
+  {
+    "source": "Police",
+    "target": "Muslim extremists",
+    "value": 1
+  },
+  {
+    "source": "Police",
+    "target": "Other group",
     "value": 10
   },
   {
     "source": "Transportation",
-    "target": "PGIS",
-    "value": 29
+    "target": "Undetermined",
+    "value": 32
   },
   {
     "source": "Transportation",
-    "target": "CETIS",
+    "target": "Supporters of Ex-President Gamsakhurdial",
     "value": 3
   },
   {
     "source": "Transportation",
-    "target": "ISVG",
-    "value": 8
+    "target": "Azerbaijan Guerrillas",
+    "value": 1
   },
   {
     "source": "Transportation",
-    "target": "Other Source",
+    "target": "Other group",
+    "value": 5
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Undetermined",
+    "value": 20
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Abkhazian Separatists",
     "value": 1
   },
   {
     "source": "Unknown, religious & militia",
-    "target": "PGIS",
-    "value": 14
+    "target": "Jihadi-inspired extremists",
+    "value": 2
   },
   {
     "source": "Unknown, religious & militia",
-    "target": "CETIS",
-    "value": 3
-  },
-  {
-    "source": "Unknown, religious & militia",
-    "target": "ISVG",
-    "value": 3
-  },
-  {
-    "source": "Unknown, religious & militia",
-    "target": "START Primary Collection",
-    "value": 7
+    "target": "Other group",
+    "value": 4
   }
 ]}
 }

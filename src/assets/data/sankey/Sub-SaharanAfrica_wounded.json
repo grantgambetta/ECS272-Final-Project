@@ -224,33 +224,13 @@
   },
   {
     "node": "38",
-    "name": "START Primary Collection",
-    "value": 10637,
-    "id": "START-Primary-Collection"
+    "name": "Other group",
+    "value": 3995,
+    "id": "Other-group"
   },
   {
     "node": "39",
-    "name": "PGIS",
-    "value": 3808,
-    "id": "PGIS"
-  },
-  {
-    "node": "40",
-    "name": "CETIS",
-    "value": 1196,
-    "id": "CETIS"
-  },
-  {
-    "node": "41",
-    "name": "ISVG",
-    "value": 1283,
-    "id": "ISVG"
-  },
-  {
-    "node": "42",
-    "name": "Other Source",
-    "value": 626,
-    "id": "Other-Source"
+    "value": 13555
   }
 ], 
  "links":[
@@ -1486,178 +1466,66 @@
   },
   {
     "source": "Private Citizens & Property",
-    "target": "START Primary Collection",
-    "value": 10108
+    "target": "Other group",
+    "value": 4554
   },
   {
     "source": "Private Citizens & Property",
-    "target": "PGIS",
-    "value": 4304
-  },
-  {
-    "source": "Private Citizens & Property",
-    "target": "CETIS",
-    "value": 2570
-  },
-  {
-    "source": "Private Citizens & Property",
-    "target": "ISVG",
-    "value": 1803
-  },
-  {
-    "source": "Private Citizens & Property",
-    "target": "Other Source",
-    "value": 301
+    "value": 14532
   },
   {
     "source": "Government",
-    "target": "START Primary Collection",
-    "value": 2604
+    "target": "Other group",
+    "value": 6410
   },
   {
     "source": "Government",
-    "target": "PGIS",
-    "value": 897
-  },
-  {
-    "source": "Government",
-    "target": "CETIS",
-    "value": 4342
-  },
-  {
-    "source": "Government",
-    "target": "ISVG",
-    "value": 817
-  },
-  {
-    "source": "Government",
-    "target": "Other Source",
-    "value": 1243
+    "value": 3493
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "START Primary Collection",
-    "value": 3524
+    "target": "Other group",
+    "value": 1275
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "PGIS",
-    "value": 1948
-  },
-  {
-    "source": "Business, Utilities & Communication",
-    "target": "CETIS",
-    "value": 516
-  },
-  {
-    "source": "Business, Utilities & Communication",
-    "target": "ISVG",
-    "value": 517
-  },
-  {
-    "source": "Business, Utilities & Communication",
-    "target": "Other Source",
-    "value": 233
+    "value": 5463
   },
   {
     "source": "Military",
-    "target": "START Primary Collection",
-    "value": 4982
+    "target": "Other group",
+    "value": 1956
   },
   {
     "source": "Military",
-    "target": "PGIS",
-    "value": 764
-  },
-  {
-    "source": "Military",
-    "target": "CETIS",
-    "value": 570
-  },
-  {
-    "source": "Military",
-    "target": "ISVG",
-    "value": 244
-  },
-  {
-    "source": "Military",
-    "target": "Other Source",
-    "value": 149
+    "value": 4753
   },
   {
     "source": "Transportation",
-    "target": "START Primary Collection",
-    "value": 1380
+    "target": "Other group",
+    "value": 687
   },
   {
     "source": "Transportation",
-    "target": "PGIS",
-    "value": 2086
-  },
-  {
-    "source": "Transportation",
-    "target": "CETIS",
-    "value": 473
-  },
-  {
-    "source": "Transportation",
-    "target": "ISVG",
-    "value": 183
-  },
-  {
-    "source": "Transportation",
-    "target": "Other Source",
-    "value": 17
+    "value": 3452
   },
   {
     "source": "Unknown, religious & militia",
-    "target": "START Primary Collection",
-    "value": 2526
+    "target": "Other group",
+    "value": 1473
   },
   {
     "source": "Unknown, religious & militia",
-    "target": "PGIS",
-    "value": 1050
-  },
-  {
-    "source": "Unknown, religious & militia",
-    "target": "CETIS",
-    "value": 121
-  },
-  {
-    "source": "Unknown, religious & militia",
-    "target": "ISVG",
-    "value": 242
-  },
-  {
-    "source": "Unknown, religious & militia",
-    "target": "Other Source",
-    "value": 20
+    "value": 2486
   },
   {
     "source": "Police",
-    "target": "START Primary Collection",
-    "value": 1241
+    "target": "Other group",
+    "value": 611
   },
   {
     "source": "Police",
-    "target": "PGIS",
-    "value": 561
-  },
-  {
-    "source": "Police",
-    "target": "CETIS",
-    "value": 175
-  },
-  {
-    "source": "Police",
-    "target": "ISVG",
-    "value": 116
-  },
-  {
-    "source": "Police",
-    "target": "Other Source",
-    "value": 230
+    "value": 1712
   }
 ]}
 }

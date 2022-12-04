@@ -212,33 +212,63 @@
   },
   {
     "node": "36",
-    "name": "PGIS",
-    "value": 190,
-    "id": "PGIS"
+    "name": "Undetermined",
+    "value": 178,
+    "id": "Undetermined"
   },
   {
     "node": "37",
-    "name": "START Primary Collection",
-    "value": 46,
-    "id": "START-Primary-Collection"
+    "name": "Bougainville Revolutionary Army",
+    "value": 28,
+    "id": "Bougainville-Revolutionary-Army"
   },
   {
     "node": "38",
-    "name": "CETIS",
-    "value": 25,
-    "id": "CETIS"
+    "name": "Jihadi-inspired extremists",
+    "value": 6,
+    "id": "Jihadi-inspired-extremists"
   },
   {
     "node": "39",
-    "name": "Other Source",
-    "value": 11,
-    "id": "Other-Source"
+    "name": "Black September",
+    "value": 5,
+    "id": "Black-September"
   },
   {
     "node": "40",
-    "name": "ISVG",
-    "value": 10,
-    "id": "ISVG"
+    "name": "Kanak Socialist National Liberation Front",
+    "value": 5,
+    "id": "Kanak-Socialist-National-Liberation-Front"
+  },
+  {
+    "node": "41",
+    "name": "Anti-Nuclear extremists",
+    "value": 4,
+    "id": "Anti-Nuclear-extremists"
+  },
+  {
+    "node": "42",
+    "name": "Kanak Separatists",
+    "value": 4,
+    "id": "Kanak-Separatists"
+  },
+  {
+    "node": "43",
+    "name": "September 11",
+    "value": 4,
+    "id": "September-11"
+  },
+  {
+    "node": "44",
+    "name": "Croatian Nationalists",
+    "value": 3,
+    "id": "Croatian-Nationalists"
+  },
+  {
+    "node": "45",
+    "name": "Other group",
+    "value": 45,
+    "id": "Other-group"
   }
 ], 
  "links":[
@@ -829,148 +859,183 @@
   },
   {
     "source": "Government",
-    "target": "PGIS",
-    "value": 57
+    "target": "Undetermined",
+    "value": 47
   },
   {
     "source": "Government",
-    "target": "START Primary Collection",
+    "target": "Bougainville Revolutionary Army",
+    "value": 8
+  },
+  {
+    "source": "Government",
+    "target": "Black September",
     "value": 5
   },
   {
     "source": "Government",
-    "target": "CETIS",
-    "value": 10
+    "target": "Anti-Nuclear extremists",
+    "value": 3
   },
   {
     "source": "Government",
-    "target": "Other Source",
+    "target": "Kanak Separatists",
+    "value": 1
+  },
+  {
+    "source": "Government",
+    "target": "September 11",
+    "value": 3
+  },
+  {
+    "source": "Government",
+    "target": "Croatian Nationalists",
+    "value": 1
+  },
+  {
+    "source": "Government",
+    "target": "Other group",
+    "value": 14
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Undetermined",
+    "value": 47
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Bougainville Revolutionary Army",
     "value": 6
   },
   {
-    "source": "Government",
-    "target": "ISVG",
-    "value": 4
+    "source": "Business, Utilities & Communication",
+    "target": "Jihadi-inspired extremists",
+    "value": 2
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "PGIS",
-    "value": 48
+    "target": "Kanak Separatists",
+    "value": 1
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "START Primary Collection",
+    "target": "Croatian Nationalists",
+    "value": 1
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Other group",
+    "value": 7
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Undetermined",
+    "value": 18
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Bougainville Revolutionary Army",
+    "value": 5
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Jihadi-inspired extremists",
+    "value": 1
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Kanak Socialist National Liberation Front",
+    "value": 2
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "September 11",
+    "value": 1
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Croatian Nationalists",
+    "value": 1
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Other group",
     "value": 10
   },
   {
-    "source": "Business, Utilities & Communication",
-    "target": "CETIS",
-    "value": 4
-  },
-  {
-    "source": "Business, Utilities & Communication",
-    "target": "Other Source",
-    "value": 1
-  },
-  {
-    "source": "Business, Utilities & Communication",
-    "target": "ISVG",
-    "value": 1
-  },
-  {
-    "source": "Private Citizens & Property",
-    "target": "PGIS",
-    "value": 28
-  },
-  {
-    "source": "Private Citizens & Property",
-    "target": "START Primary Collection",
-    "value": 4
-  },
-  {
-    "source": "Private Citizens & Property",
-    "target": "CETIS",
-    "value": 2
-  },
-  {
-    "source": "Private Citizens & Property",
-    "target": "Other Source",
-    "value": 2
-  },
-  {
-    "source": "Private Citizens & Property",
-    "target": "ISVG",
-    "value": 2
-  },
-  {
     "source": "Police",
-    "target": "PGIS",
+    "target": "Undetermined",
     "value": 21
   },
   {
     "source": "Police",
-    "target": "START Primary Collection",
-    "value": 6
+    "target": "Bougainville Revolutionary Army",
+    "value": 1
   },
   {
     "source": "Police",
-    "target": "CETIS",
+    "target": "Jihadi-inspired extremists",
     "value": 3
   },
   {
     "source": "Police",
-    "target": "ISVG",
+    "target": "Kanak Socialist National Liberation Front",
+    "value": 3
+  },
+  {
+    "source": "Police",
+    "target": "Kanak Separatists",
+    "value": 2
+  },
+  {
+    "source": "Police",
+    "target": "Other group",
     "value": 2
   },
   {
     "source": "Unknown, religious & militia",
-    "target": "PGIS",
-    "value": 8
+    "target": "Undetermined",
+    "value": 27
   },
   {
     "source": "Unknown, religious & militia",
-    "target": "START Primary Collection",
-    "value": 20
+    "target": "Other group",
+    "value": 5
   },
   {
-    "source": "Unknown, religious & militia",
-    "target": "CETIS",
-    "value": 3
+    "source": "Transportation",
+    "target": "Undetermined",
+    "value": 13
   },
   {
-    "source": "Unknown, religious & militia",
-    "target": "ISVG",
+    "source": "Transportation",
+    "target": "Bougainville Revolutionary Army",
     "value": 1
   },
   {
     "source": "Transportation",
-    "target": "PGIS",
-    "value": 14
-  },
-  {
-    "source": "Transportation",
-    "target": "START Primary Collection",
+    "target": "Anti-Nuclear extremists",
     "value": 1
   },
   {
     "source": "Transportation",
-    "target": "CETIS",
-    "value": 3
-  },
-  {
-    "source": "Transportation",
-    "target": "Other Source",
-    "value": 1
+    "target": "Other group",
+    "value": 4
   },
   {
     "source": "Military",
-    "target": "PGIS",
-    "value": 14
+    "target": "Undetermined",
+    "value": 5
   },
   {
     "source": "Military",
-    "target": "Other Source",
-    "value": 1
+    "target": "Bougainville Revolutionary Army",
+    "value": 7
+  },
+  {
+    "source": "Military",
+    "target": "Other group",
+    "value": 3
   }
 ]}
 }

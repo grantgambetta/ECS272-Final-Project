@@ -224,33 +224,63 @@
   },
   {
     "node": "38",
-    "name": "START Primary Collection",
-    "value": 30246,
-    "id": "START-Primary-Collection"
+    "name": "Undetermined",
+    "value": 29377,
+    "id": "Undetermined"
   },
   {
     "node": "39",
-    "name": "PGIS",
-    "value": 8731,
-    "id": "PGIS"
+    "name": "Islamic State of Iraq and the Levant",
+    "value": 5563,
+    "id": "Islamic-State-of-Iraq-and-the-Levant"
   },
   {
     "node": "40",
-    "name": "CETIS",
-    "value": 5272,
-    "id": "CETIS"
+    "name": "Kurdistan Workers Party",
+    "value": 2137,
+    "id": "Kurdistan-Workers-Party"
   },
   {
     "node": "41",
-    "name": "ISVG",
-    "value": 5037,
-    "id": "ISVG"
+    "name": "Palestinians",
+    "value": 1105,
+    "id": "Palestinians"
   },
   {
     "node": "42",
-    "name": "Other Source",
-    "value": 1188,
-    "id": "Other-Source"
+    "name": "Houthi extremists",
+    "value": 1062,
+    "id": "Houthi-extremists"
+  },
+  {
+    "node": "43",
+    "name": "Al-Qaida in the Arabian Peninsula",
+    "value": 1017,
+    "id": "Al-Qaida-in-the-Arabian-Peninsula"
+  },
+  {
+    "node": "44",
+    "name": "Al-Qaida in Iraq",
+    "value": 637,
+    "id": "Al-Qaida-in-Iraq"
+  },
+  {
+    "node": "45",
+    "name": "Sinai Province of the Islamic State",
+    "value": 445,
+    "id": "Sinai-Province-of-the-Islamic-State"
+  },
+  {
+    "node": "46",
+    "name": "Palestinian Extremists",
+    "value": 440,
+    "id": "Palestinian-Extremists"
+  },
+  {
+    "node": "47",
+    "name": "Other group",
+    "value": 8691,
+    "id": "Other-group"
   }
 ], 
  "links":[
@@ -1561,178 +1591,353 @@
   },
   {
     "source": "Private Citizens & Property",
-    "target": "START Primary Collection",
-    "value": 9369
+    "target": "Undetermined",
+    "value": 9145
   },
   {
     "source": "Private Citizens & Property",
-    "target": "PGIS",
-    "value": 1932
+    "target": "Islamic State of Iraq and the Levant",
+    "value": 2240
   },
   {
     "source": "Private Citizens & Property",
-    "target": "CETIS",
-    "value": 1804
+    "target": "Kurdistan Workers Party",
+    "value": 321
   },
   {
     "source": "Private Citizens & Property",
-    "target": "ISVG",
-    "value": 1961
+    "target": "Palestinians",
+    "value": 458
   },
   {
     "source": "Private Citizens & Property",
-    "target": "Other Source",
-    "value": 391
+    "target": "Houthi extremists",
+    "value": 427
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Al-Qaida in the Arabian Peninsula",
+    "value": 86
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Al-Qaida in Iraq",
+    "value": 235
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Sinai Province of the Islamic State",
+    "value": 62
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Palestinian Extremists",
+    "value": 133
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Other group",
+    "value": 2350
   },
   {
     "source": "Military",
-    "target": "START Primary Collection",
-    "value": 6579
+    "target": "Undetermined",
+    "value": 3770
   },
   {
     "source": "Military",
-    "target": "PGIS",
-    "value": 1529
+    "target": "Islamic State of Iraq and the Levant",
+    "value": 1444
   },
   {
     "source": "Military",
-    "target": "CETIS",
-    "value": 675
+    "target": "Kurdistan Workers Party",
+    "value": 791
   },
   {
     "source": "Military",
-    "target": "ISVG",
-    "value": 220
+    "target": "Palestinians",
+    "value": 305
   },
   {
     "source": "Military",
-    "target": "Other Source",
-    "value": 266
+    "target": "Houthi extremists",
+    "value": 264
   },
   {
-    "source": "Police",
-    "target": "START Primary Collection",
-    "value": 4196
+    "source": "Military",
+    "target": "Al-Qaida in the Arabian Peninsula",
+    "value": 464
   },
   {
-    "source": "Police",
-    "target": "PGIS",
-    "value": 1027
-  },
-  {
-    "source": "Police",
-    "target": "CETIS",
-    "value": 830
-  },
-  {
-    "source": "Police",
-    "target": "ISVG",
-    "value": 630
-  },
-  {
-    "source": "Police",
-    "target": "Other Source",
-    "value": 210
-  },
-  {
-    "source": "Business, Utilities & Communication",
-    "target": "START Primary Collection",
-    "value": 3506
-  },
-  {
-    "source": "Business, Utilities & Communication",
-    "target": "PGIS",
-    "value": 1712
-  },
-  {
-    "source": "Business, Utilities & Communication",
-    "target": "CETIS",
-    "value": 702
-  },
-  {
-    "source": "Business, Utilities & Communication",
-    "target": "ISVG",
-    "value": 651
-  },
-  {
-    "source": "Business, Utilities & Communication",
-    "target": "Other Source",
-    "value": 105
-  },
-  {
-    "source": "Unknown, religious & militia",
-    "target": "START Primary Collection",
-    "value": 4033
-  },
-  {
-    "source": "Unknown, religious & militia",
-    "target": "PGIS",
-    "value": 670
-  },
-  {
-    "source": "Unknown, religious & militia",
-    "target": "CETIS",
-    "value": 369
-  },
-  {
-    "source": "Unknown, religious & militia",
-    "target": "ISVG",
-    "value": 457
-  },
-  {
-    "source": "Unknown, religious & militia",
-    "target": "Other Source",
-    "value": 75
-  },
-  {
-    "source": "Government",
-    "target": "START Primary Collection",
-    "value": 2072
-  },
-  {
-    "source": "Government",
-    "target": "PGIS",
-    "value": 1302
-  },
-  {
-    "source": "Government",
-    "target": "CETIS",
-    "value": 676
-  },
-  {
-    "source": "Government",
-    "target": "ISVG",
-    "value": 938
-  },
-  {
-    "source": "Government",
-    "target": "Other Source",
+    "source": "Military",
+    "target": "Al-Qaida in Iraq",
     "value": 68
   },
   {
-    "source": "Transportation",
-    "target": "START Primary Collection",
-    "value": 491
+    "source": "Military",
+    "target": "Sinai Province of the Islamic State",
+    "value": 164
+  },
+  {
+    "source": "Military",
+    "target": "Palestinian Extremists",
+    "value": 183
+  },
+  {
+    "source": "Military",
+    "target": "Other group",
+    "value": 1816
+  },
+  {
+    "source": "Police",
+    "target": "Undetermined",
+    "value": 4118
+  },
+  {
+    "source": "Police",
+    "target": "Islamic State of Iraq and the Levant",
+    "value": 647
+  },
+  {
+    "source": "Police",
+    "target": "Kurdistan Workers Party",
+    "value": 409
+  },
+  {
+    "source": "Police",
+    "target": "Palestinians",
+    "value": 56
+  },
+  {
+    "source": "Police",
+    "target": "Houthi extremists",
+    "value": 36
+  },
+  {
+    "source": "Police",
+    "target": "Al-Qaida in the Arabian Peninsula",
+    "value": 121
+  },
+  {
+    "source": "Police",
+    "target": "Al-Qaida in Iraq",
+    "value": 123
+  },
+  {
+    "source": "Police",
+    "target": "Sinai Province of the Islamic State",
+    "value": 150
+  },
+  {
+    "source": "Police",
+    "target": "Palestinian Extremists",
+    "value": 72
+  },
+  {
+    "source": "Police",
+    "target": "Other group",
+    "value": 1161
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Undetermined",
+    "value": 4299
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Islamic State of Iraq and the Levant",
+    "value": 423
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Kurdistan Workers Party",
+    "value": 293
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Palestinians",
+    "value": 99
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Houthi extremists",
+    "value": 131
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Al-Qaida in the Arabian Peninsula",
+    "value": 70
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Al-Qaida in Iraq",
+    "value": 63
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Sinai Province of the Islamic State",
+    "value": 29
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Palestinian Extremists",
+    "value": 9
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Other group",
+    "value": 1260
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Undetermined",
+    "value": 3691
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Islamic State of Iraq and the Levant",
+    "value": 589
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Kurdistan Workers Party",
+    "value": 113
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Palestinians",
+    "value": 25
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Houthi extremists",
+    "value": 118
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Al-Qaida in the Arabian Peninsula",
+    "value": 104
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Al-Qaida in Iraq",
+    "value": 64
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Sinai Province of the Islamic State",
+    "value": 30
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Palestinian Extremists",
+    "value": 21
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Other group",
+    "value": 849
+  },
+  {
+    "source": "Government",
+    "target": "Undetermined",
+    "value": 3488
+  },
+  {
+    "source": "Government",
+    "target": "Islamic State of Iraq and the Levant",
+    "value": 161
+  },
+  {
+    "source": "Government",
+    "target": "Kurdistan Workers Party",
+    "value": 115
+  },
+  {
+    "source": "Government",
+    "target": "Palestinians",
+    "value": 62
+  },
+  {
+    "source": "Government",
+    "target": "Houthi extremists",
+    "value": 68
+  },
+  {
+    "source": "Government",
+    "target": "Al-Qaida in the Arabian Peninsula",
+    "value": 166
+  },
+  {
+    "source": "Government",
+    "target": "Al-Qaida in Iraq",
+    "value": 72
+  },
+  {
+    "source": "Government",
+    "target": "Sinai Province of the Islamic State",
+    "value": 8
+  },
+  {
+    "source": "Government",
+    "target": "Palestinian Extremists",
+    "value": 2
+  },
+  {
+    "source": "Government",
+    "target": "Other group",
+    "value": 914
   },
   {
     "source": "Transportation",
-    "target": "PGIS",
-    "value": 559
+    "target": "Undetermined",
+    "value": 866
   },
   {
     "source": "Transportation",
-    "target": "CETIS",
-    "value": 216
+    "target": "Islamic State of Iraq and the Levant",
+    "value": 59
   },
   {
     "source": "Transportation",
-    "target": "ISVG",
-    "value": 180
+    "target": "Kurdistan Workers Party",
+    "value": 95
   },
   {
     "source": "Transportation",
-    "target": "Other Source",
-    "value": 73
+    "target": "Palestinians",
+    "value": 100
+  },
+  {
+    "source": "Transportation",
+    "target": "Houthi extremists",
+    "value": 18
+  },
+  {
+    "source": "Transportation",
+    "target": "Al-Qaida in the Arabian Peninsula",
+    "value": 6
+  },
+  {
+    "source": "Transportation",
+    "target": "Al-Qaida in Iraq",
+    "value": 12
+  },
+  {
+    "source": "Transportation",
+    "target": "Sinai Province of the Islamic State",
+    "value": 2
+  },
+  {
+    "source": "Transportation",
+    "target": "Palestinian Extremists",
+    "value": 20
+  },
+  {
+    "source": "Transportation",
+    "target": "Other group",
+    "value": 341
   }
 ]}
 }

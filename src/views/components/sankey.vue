@@ -130,9 +130,14 @@ export default {
             break;
         }
 
-        var color_countries=["#fcb59b","#fca082","#fc8a6b","#fb7455",
-                               "#f75d43","#ef4533","#e23028","#d01f20",
-                               "#bb151a","#a40f16","#870811","#67000d"].reverse()  // scale of red
+        // var color_countries=["#fcb59b","#fca082","#fc8a6b","#fb7455",
+        //                        "#f75d43","#ef4533","#e23028","#d01f20",
+        //                        "#bb151a","#a40f16","#870811","#67000d"].reverse()  // scale of red
+
+        var color_countries=["#e6ab02","#1b9e77","#d95f02","#66a61e",
+                            "#e7298a","#666666","#a6761d","#7570b3",
+                            "#33a02c","#fdbf6f","#1f78b4","#000000"]
+
         color_countries=color_countries.slice(0,countries.length)
       
         const method=["Bombing/Explosion","Armed Assault","Assassination","Hostage Taking",
@@ -148,21 +153,22 @@ export default {
                       "Government","Transportation"]
         const color_target=["#1b9e77","#d95f02","#7570b3","#e7298a",
                             "#66a61e","#e6ab02","#a6761d"] 
-        const source=["START Primary Collection","PGIS","CETIS","ISVG","Other Source"]
-        const color_source=["#4e79a7","#f28e2c","#e15759","#76b7b2","#59a14f"]
+        // const source=["START Primary Collection","PGIS","CETIS","ISVG","Other Source"]
+        // const color_source=["#4e79a7","#f28e2c","#e15759","#76b7b2","#59a14f"]
 
-        const terroristGroup=[]
-        const color_terroristGroup=[]
+        // get last 10 nodes that correspond to the terrorist groups
+        var nodes_terrorist=data.nodes.slice(data.nodes.length-10,data.nodes.length)
+        const terroristGroup = nodes_terrorist.map(d => d.name)
+        console.log("GEDASDSAASD")
+        console.log(terroristGroup)
+        const color_terroristGroup=["#1f77b4","#ff7f0e","#2ca02c","#d62728","#9467bd",
+                                    "#8c564b","#e377c2","#7f7f7f","#bcbd22","#17becf"]
 
-        const causes = group_years.concat(countries,method,target,source)
+        const causes = group_years.concat(countries,method,target,terroristGroup)
         const color = d3.scaleOrdinal()
             .domain(causes)
             .range(color_years.concat(color_countries,color_method,
-                          color_target,color_source))   
-
-
-        console.log("DATAAA")
-        console.log(data.nodes)
+                          color_target,color_terroristGroup))   
 
         const svg = d3
         .select(id).append("svg")

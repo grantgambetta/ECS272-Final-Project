@@ -224,33 +224,63 @@
   },
   {
     "node": "38",
-    "name": "START Primary Collection",
-    "value": 2249,
-    "id": "START-Primary-Collection"
+    "name": "Undetermined",
+    "value": 3411,
+    "id": "Undetermined"
   },
   {
     "node": "39",
-    "name": "CETIS",
-    "value": 1096,
-    "id": "CETIS"
+    "name": "Donetsk Peoples Republic",
+    "value": 624,
+    "id": "Donetsk-Peoples-Republic"
   },
   {
     "node": "40",
-    "name": "PGIS",
-    "value": 885,
-    "id": "PGIS"
+    "name": "Chechen Rebels",
+    "value": 322,
+    "id": "Chechen-Rebels"
   },
   {
     "node": "41",
-    "name": "ISVG",
-    "value": 787,
-    "id": "ISVG"
+    "name": "Luhansk Peoples Republic",
+    "value": 209,
+    "id": "Luhansk-Peoples-Republic"
   },
   {
     "node": "42",
-    "name": "Other Source",
-    "value": 127,
-    "id": "Other-Source"
+    "name": "Kosovo Liberation Army",
+    "value": 58,
+    "id": "Kosovo-Liberation-Army"
+  },
+  {
+    "node": "43",
+    "name": "Albanian extremists",
+    "value": 47,
+    "id": "Albanian-extremists"
+  },
+  {
+    "node": "44",
+    "name": "Caucasus Emirate",
+    "value": 44,
+    "id": "Caucasus-Emirate"
+  },
+  {
+    "node": "45",
+    "name": "National Liberation Army",
+    "value": 35,
+    "id": "National-Liberation-Army"
+  },
+  {
+    "node": "46",
+    "name": "Muslim extremists",
+    "value": 22,
+    "id": "Muslim-extremists"
+  },
+  {
+    "node": "47",
+    "name": "Other group",
+    "value": 372,
+    "id": "Other-group"
   }
 ], 
  "links":[
@@ -1291,178 +1321,338 @@
   },
   {
     "source": "Military",
-    "target": "START Primary Collection",
-    "value": 889
+    "target": "Undetermined",
+    "value": 499
   },
   {
     "source": "Military",
-    "target": "CETIS",
-    "value": 181
+    "target": "Donetsk Peoples Republic",
+    "value": 392
   },
   {
     "source": "Military",
-    "target": "PGIS",
+    "target": "Chechen Rebels",
+    "value": 91
+  },
+  {
+    "source": "Military",
+    "target": "Luhansk Peoples Republic",
+    "value": 100
+  },
+  {
+    "source": "Military",
+    "target": "Kosovo Liberation Army",
+    "value": 3
+  },
+  {
+    "source": "Military",
+    "target": "Albanian extremists",
+    "value": 1
+  },
+  {
+    "source": "Military",
+    "target": "National Liberation Army",
+    "value": 1
+  },
+  {
+    "source": "Military",
+    "target": "Muslim extremists",
+    "value": 1
+  },
+  {
+    "source": "Military",
+    "target": "Other group",
+    "value": 48
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Undetermined",
+    "value": 562
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Donetsk Peoples Republic",
+    "value": 96
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Chechen Rebels",
+    "value": 44
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Luhansk Peoples Republic",
+    "value": 63
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Kosovo Liberation Army",
+    "value": 18
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Albanian extremists",
+    "value": 23
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Caucasus Emirate",
+    "value": 3
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "National Liberation Army",
+    "value": 4
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Muslim extremists",
+    "value": 3
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Other group",
+    "value": 64
+  },
+  {
+    "source": "Police",
+    "target": "Undetermined",
+    "value": 621
+  },
+  {
+    "source": "Police",
+    "target": "Donetsk Peoples Republic",
+    "value": 23
+  },
+  {
+    "source": "Police",
+    "target": "Chechen Rebels",
+    "value": 72
+  },
+  {
+    "source": "Police",
+    "target": "Luhansk Peoples Republic",
+    "value": 5
+  },
+  {
+    "source": "Police",
+    "target": "Kosovo Liberation Army",
+    "value": 21
+  },
+  {
+    "source": "Police",
+    "target": "Albanian extremists",
+    "value": 8
+  },
+  {
+    "source": "Police",
+    "target": "Caucasus Emirate",
+    "value": 13
+  },
+  {
+    "source": "Police",
+    "target": "National Liberation Army",
+    "value": 25
+  },
+  {
+    "source": "Police",
+    "target": "Muslim extremists",
+    "value": 7
+  },
+  {
+    "source": "Police",
+    "target": "Other group",
+    "value": 81
+  },
+  {
+    "source": "Government",
+    "target": "Undetermined",
+    "value": 617
+  },
+  {
+    "source": "Government",
+    "target": "Donetsk Peoples Republic",
+    "value": 39
+  },
+  {
+    "source": "Government",
+    "target": "Chechen Rebels",
+    "value": 58
+  },
+  {
+    "source": "Government",
+    "target": "Luhansk Peoples Republic",
+    "value": 13
+  },
+  {
+    "source": "Government",
+    "target": "Kosovo Liberation Army",
+    "value": 5
+  },
+  {
+    "source": "Government",
+    "target": "Albanian extremists",
+    "value": 4
+  },
+  {
+    "source": "Government",
+    "target": "Caucasus Emirate",
+    "value": 13
+  },
+  {
+    "source": "Government",
+    "target": "Muslim extremists",
+    "value": 2
+  },
+  {
+    "source": "Government",
+    "target": "Other group",
+    "value": 81
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Undetermined",
+    "value": 597
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Donetsk Peoples Republic",
+    "value": 49
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Chechen Rebels",
+    "value": 15
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Luhansk Peoples Republic",
+    "value": 18
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Kosovo Liberation Army",
+    "value": 8
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Albanian extremists",
+    "value": 7
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Caucasus Emirate",
+    "value": 6
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "National Liberation Army",
+    "value": 3
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Muslim extremists",
+    "value": 3
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Other group",
     "value": 53
   },
   {
-    "source": "Military",
-    "target": "ISVG",
-    "value": 7
+    "source": "Unknown, religious & militia",
+    "target": "Undetermined",
+    "value": 276
   },
   {
-    "source": "Military",
-    "target": "Other Source",
-    "value": 6
-  },
-  {
-    "source": "Private Citizens & Property",
-    "target": "START Primary Collection",
-    "value": 385
-  },
-  {
-    "source": "Private Citizens & Property",
-    "target": "CETIS",
-    "value": 182
-  },
-  {
-    "source": "Private Citizens & Property",
-    "target": "PGIS",
-    "value": 134
-  },
-  {
-    "source": "Private Citizens & Property",
-    "target": "ISVG",
-    "value": 144
-  },
-  {
-    "source": "Private Citizens & Property",
-    "target": "Other Source",
-    "value": 35
-  },
-  {
-    "source": "Police",
-    "target": "START Primary Collection",
-    "value": 265
-  },
-  {
-    "source": "Police",
-    "target": "CETIS",
-    "value": 257
-  },
-  {
-    "source": "Police",
-    "target": "PGIS",
-    "value": 114
-  },
-  {
-    "source": "Police",
-    "target": "ISVG",
-    "value": 231
-  },
-  {
-    "source": "Police",
-    "target": "Other Source",
+    "source": "Unknown, religious & militia",
+    "target": "Donetsk Peoples Republic",
     "value": 9
   },
   {
-    "source": "Government",
-    "target": "START Primary Collection",
-    "value": 191
-  },
-  {
-    "source": "Government",
-    "target": "CETIS",
-    "value": 210
-  },
-  {
-    "source": "Government",
-    "target": "PGIS",
-    "value": 225
-  },
-  {
-    "source": "Government",
-    "target": "ISVG",
-    "value": 164
-  },
-  {
-    "source": "Government",
-    "target": "Other Source",
-    "value": 42
-  },
-  {
-    "source": "Business, Utilities & Communication",
-    "target": "START Primary Collection",
-    "value": 279
-  },
-  {
-    "source": "Business, Utilities & Communication",
-    "target": "CETIS",
-    "value": 130
-  },
-  {
-    "source": "Business, Utilities & Communication",
-    "target": "PGIS",
-    "value": 202
-  },
-  {
-    "source": "Business, Utilities & Communication",
-    "target": "ISVG",
-    "value": 126
-  },
-  {
-    "source": "Business, Utilities & Communication",
-    "target": "Other Source",
-    "value": 22
+    "source": "Unknown, religious & militia",
+    "target": "Chechen Rebels",
+    "value": 17
   },
   {
     "source": "Unknown, religious & militia",
-    "target": "START Primary Collection",
-    "value": 148
+    "target": "Luhansk Peoples Republic",
+    "value": 3
   },
   {
     "source": "Unknown, religious & militia",
-    "target": "CETIS",
-    "value": 58
+    "target": "Kosovo Liberation Army",
+    "value": 2
   },
   {
     "source": "Unknown, religious & militia",
-    "target": "PGIS",
-    "value": 65
+    "target": "Albanian extremists",
+    "value": 2
   },
   {
     "source": "Unknown, religious & militia",
-    "target": "ISVG",
-    "value": 58
+    "target": "Caucasus Emirate",
+    "value": 2
   },
   {
     "source": "Unknown, religious & militia",
-    "target": "Other Source",
+    "target": "National Liberation Army",
+    "value": 1
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Muslim extremists",
     "value": 6
   },
   {
-    "source": "Transportation",
-    "target": "START Primary Collection",
-    "value": 92
+    "source": "Unknown, religious & militia",
+    "target": "Other group",
+    "value": 17
   },
   {
     "source": "Transportation",
-    "target": "CETIS",
-    "value": 78
+    "target": "Undetermined",
+    "value": 239
   },
   {
     "source": "Transportation",
-    "target": "PGIS",
-    "value": 92
+    "target": "Donetsk Peoples Republic",
+    "value": 16
   },
   {
     "source": "Transportation",
-    "target": "ISVG",
-    "value": 57
+    "target": "Chechen Rebels",
+    "value": 25
   },
   {
     "source": "Transportation",
-    "target": "Other Source",
+    "target": "Luhansk Peoples Republic",
     "value": 7
+  },
+  {
+    "source": "Transportation",
+    "target": "Kosovo Liberation Army",
+    "value": 1
+  },
+  {
+    "source": "Transportation",
+    "target": "Albanian extremists",
+    "value": 2
+  },
+  {
+    "source": "Transportation",
+    "target": "Caucasus Emirate",
+    "value": 7
+  },
+  {
+    "source": "Transportation",
+    "target": "National Liberation Army",
+    "value": 1
+  },
+  {
+    "source": "Transportation",
+    "target": "Other group",
+    "value": 28
   }
 ]}
 }

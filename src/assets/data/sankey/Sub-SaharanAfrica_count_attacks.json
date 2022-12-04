@@ -224,33 +224,63 @@
   },
   {
     "node": "38",
-    "name": "START Primary Collection",
-    "value": 10637,
-    "id": "START-Primary-Collection"
+    "name": "Undetermined",
+    "value": 6057,
+    "id": "Undetermined"
   },
   {
     "node": "39",
-    "name": "PGIS",
-    "value": 3808,
-    "id": "PGIS"
+    "name": "Al-Shabaab",
+    "value": 3288,
+    "id": "Al-Shabaab"
   },
   {
     "node": "40",
-    "name": "ISVG",
-    "value": 1283,
-    "id": "ISVG"
+    "name": "Boko Haram",
+    "value": 2418,
+    "id": "Boko-Haram"
   },
   {
     "node": "41",
-    "name": "CETIS",
-    "value": 1196,
-    "id": "CETIS"
+    "name": "African National Congress",
+    "value": 606,
+    "id": "African-National-Congress"
   },
   {
     "node": "42",
-    "name": "Other Source",
-    "value": 626,
-    "id": "Other-Source"
+    "name": "Fulani extremists",
+    "value": 511,
+    "id": "Fulani-extremists"
+  },
+  {
+    "node": "43",
+    "name": "National Union for the Total Independence of Angola",
+    "value": 432,
+    "id": "National-Union-for-the-Total-Independence-of-Angola"
+  },
+  {
+    "node": "44",
+    "name": "Lords Resistance Army",
+    "value": 322,
+    "id": "Lords-Resistance-Army"
+  },
+  {
+    "node": "45",
+    "name": "Mozambique National Resistance Movement",
+    "value": 311,
+    "id": "Mozambique-National-Resistance-Movement"
+  },
+  {
+    "node": "46",
+    "name": "Allied Democratic Forces",
+    "value": 216,
+    "id": "Allied-Democratic-Forces"
+  },
+  {
+    "node": "47",
+    "name": "Other group",
+    "value": 3389,
+    "id": "Other-group"
   }
 ], 
  "links":[
@@ -1491,178 +1521,353 @@
   },
   {
     "source": "Private Citizens & Property",
-    "target": "START Primary Collection",
-    "value": 3742
+    "target": "Undetermined",
+    "value": 1752
   },
   {
     "source": "Private Citizens & Property",
-    "target": "PGIS",
-    "value": 1078
+    "target": "Al-Shabaab",
+    "value": 613
   },
   {
     "source": "Private Citizens & Property",
-    "target": "ISVG",
-    "value": 444
+    "target": "Boko Haram",
+    "value": 1127
   },
   {
     "source": "Private Citizens & Property",
-    "target": "CETIS",
-    "value": 444
+    "target": "African National Congress",
+    "value": 35
   },
   {
     "source": "Private Citizens & Property",
-    "target": "Other Source",
-    "value": 89
+    "target": "Fulani extremists",
+    "value": 451
   },
   {
-    "source": "Military",
-    "target": "START Primary Collection",
-    "value": 2559
+    "source": "Private Citizens & Property",
+    "target": "National Union for the Total Independence of Angola",
+    "value": 142
   },
   {
-    "source": "Military",
-    "target": "PGIS",
-    "value": 204
+    "source": "Private Citizens & Property",
+    "target": "Lords Resistance Army",
+    "value": 239
   },
   {
-    "source": "Military",
-    "target": "ISVG",
-    "value": 69
+    "source": "Private Citizens & Property",
+    "target": "Mozambique National Resistance Movement",
+    "value": 111
   },
   {
-    "source": "Military",
-    "target": "CETIS",
-    "value": 133
-  },
-  {
-    "source": "Military",
-    "target": "Other Source",
-    "value": 56
-  },
-  {
-    "source": "Government",
-    "target": "START Primary Collection",
-    "value": 1440
-  },
-  {
-    "source": "Government",
-    "target": "PGIS",
-    "value": 667
-  },
-  {
-    "source": "Government",
-    "target": "ISVG",
-    "value": 313
-  },
-  {
-    "source": "Government",
-    "target": "CETIS",
-    "value": 170
-  },
-  {
-    "source": "Government",
-    "target": "Other Source",
+    "source": "Private Citizens & Property",
+    "target": "Allied Democratic Forces",
     "value": 120
   },
   {
-    "source": "Business, Utilities & Communication",
-    "target": "START Primary Collection",
-    "value": 1114
+    "source": "Private Citizens & Property",
+    "target": "Other group",
+    "value": 1207
+  },
+  {
+    "source": "Military",
+    "target": "Undetermined",
+    "value": 568
+  },
+  {
+    "source": "Military",
+    "target": "Al-Shabaab",
+    "value": 1412
+  },
+  {
+    "source": "Military",
+    "target": "Boko Haram",
+    "value": 325
+  },
+  {
+    "source": "Military",
+    "target": "African National Congress",
+    "value": 64
+  },
+  {
+    "source": "Military",
+    "target": "Fulani extremists",
+    "value": 4
+  },
+  {
+    "source": "Military",
+    "target": "National Union for the Total Independence of Angola",
+    "value": 23
+  },
+  {
+    "source": "Military",
+    "target": "Lords Resistance Army",
+    "value": 16
+  },
+  {
+    "source": "Military",
+    "target": "Mozambique National Resistance Movement",
+    "value": 35
+  },
+  {
+    "source": "Military",
+    "target": "Allied Democratic Forces",
+    "value": 49
+  },
+  {
+    "source": "Military",
+    "target": "Other group",
+    "value": 525
+  },
+  {
+    "source": "Government",
+    "target": "Undetermined",
+    "value": 1325
+  },
+  {
+    "source": "Government",
+    "target": "Al-Shabaab",
+    "value": 505
+  },
+  {
+    "source": "Government",
+    "target": "Boko Haram",
+    "value": 148
+  },
+  {
+    "source": "Government",
+    "target": "African National Congress",
+    "value": 125
+  },
+  {
+    "source": "Government",
+    "target": "Fulani extremists",
+    "value": 23
+  },
+  {
+    "source": "Government",
+    "target": "National Union for the Total Independence of Angola",
+    "value": 17
+  },
+  {
+    "source": "Government",
+    "target": "Lords Resistance Army",
+    "value": 15
+  },
+  {
+    "source": "Government",
+    "target": "Mozambique National Resistance Movement",
+    "value": 24
+  },
+  {
+    "source": "Government",
+    "target": "Allied Democratic Forces",
+    "value": 15
+  },
+  {
+    "source": "Government",
+    "target": "Other group",
+    "value": 513
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "PGIS",
-    "value": 913
+    "target": "Undetermined",
+    "value": 1072
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "ISVG",
-    "value": 226
+    "target": "Al-Shabaab",
+    "value": 299
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "CETIS",
-    "value": 242
+    "target": "Boko Haram",
+    "value": 237
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "Other Source",
-    "value": 104
+    "target": "African National Congress",
+    "value": 107
   },
   {
-    "source": "Police",
-    "target": "START Primary Collection",
-    "value": 826
+    "source": "Business, Utilities & Communication",
+    "target": "Fulani extremists",
+    "value": 7
   },
   {
-    "source": "Police",
-    "target": "PGIS",
-    "value": 302
+    "source": "Business, Utilities & Communication",
+    "target": "National Union for the Total Independence of Angola",
+    "value": 209
   },
   {
-    "source": "Police",
-    "target": "ISVG",
-    "value": 83
+    "source": "Business, Utilities & Communication",
+    "target": "Lords Resistance Army",
+    "value": 21
   },
   {
-    "source": "Police",
-    "target": "CETIS",
-    "value": 80
-  },
-  {
-    "source": "Police",
-    "target": "Other Source",
-    "value": 206
-  },
-  {
-    "source": "Unknown, religious & militia",
-    "target": "START Primary Collection",
-    "value": 745
-  },
-  {
-    "source": "Unknown, religious & militia",
-    "target": "PGIS",
-    "value": 261
-  },
-  {
-    "source": "Unknown, religious & militia",
-    "target": "ISVG",
-    "value": 89
-  },
-  {
-    "source": "Unknown, religious & militia",
-    "target": "CETIS",
-    "value": 43
-  },
-  {
-    "source": "Unknown, religious & militia",
-    "target": "Other Source",
-    "value": 12
-  },
-  {
-    "source": "Transportation",
-    "target": "START Primary Collection",
-    "value": 211
-  },
-  {
-    "source": "Transportation",
-    "target": "PGIS",
-    "value": 383
-  },
-  {
-    "source": "Transportation",
-    "target": "ISVG",
+    "source": "Business, Utilities & Communication",
+    "target": "Mozambique National Resistance Movement",
     "value": 59
   },
   {
-    "source": "Transportation",
-    "target": "CETIS",
-    "value": 84
+    "source": "Business, Utilities & Communication",
+    "target": "Allied Democratic Forces",
+    "value": 14
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Other group",
+    "value": 574
+  },
+  {
+    "source": "Police",
+    "target": "Undetermined",
+    "value": 523
+  },
+  {
+    "source": "Police",
+    "target": "Al-Shabaab",
+    "value": 253
+  },
+  {
+    "source": "Police",
+    "target": "Boko Haram",
+    "value": 248
+  },
+  {
+    "source": "Police",
+    "target": "African National Congress",
+    "value": 224
+  },
+  {
+    "source": "Police",
+    "target": "Fulani extremists",
+    "value": 12
+  },
+  {
+    "source": "Police",
+    "target": "National Union for the Total Independence of Angola",
+    "value": 10
+  },
+  {
+    "source": "Police",
+    "target": "Lords Resistance Army",
+    "value": 5
+  },
+  {
+    "source": "Police",
+    "target": "Mozambique National Resistance Movement",
+    "value": 13
+  },
+  {
+    "source": "Police",
+    "target": "Allied Democratic Forces",
+    "value": 10
+  },
+  {
+    "source": "Police",
+    "target": "Other group",
+    "value": 199
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Undetermined",
+    "value": 463
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Al-Shabaab",
+    "value": 136
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Boko Haram",
+    "value": 287
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "African National Congress",
+    "value": 16
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Fulani extremists",
+    "value": 13
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "National Union for the Total Independence of Angola",
+    "value": 4
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Lords Resistance Army",
+    "value": 13
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Mozambique National Resistance Movement",
+    "value": 15
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Allied Democratic Forces",
+    "value": 7
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Other group",
+    "value": 196
   },
   {
     "source": "Transportation",
-    "target": "Other Source",
-    "value": 39
+    "target": "Undetermined",
+    "value": 354
+  },
+  {
+    "source": "Transportation",
+    "target": "Al-Shabaab",
+    "value": 70
+  },
+  {
+    "source": "Transportation",
+    "target": "Boko Haram",
+    "value": 46
+  },
+  {
+    "source": "Transportation",
+    "target": "African National Congress",
+    "value": 35
+  },
+  {
+    "source": "Transportation",
+    "target": "Fulani extremists",
+    "value": 1
+  },
+  {
+    "source": "Transportation",
+    "target": "National Union for the Total Independence of Angola",
+    "value": 27
+  },
+  {
+    "source": "Transportation",
+    "target": "Lords Resistance Army",
+    "value": 13
+  },
+  {
+    "source": "Transportation",
+    "target": "Mozambique National Resistance Movement",
+    "value": 54
+  },
+  {
+    "source": "Transportation",
+    "target": "Allied Democratic Forces",
+    "value": 1
+  },
+  {
+    "source": "Transportation",
+    "target": "Other group",
+    "value": 175
   }
 ]}
 }

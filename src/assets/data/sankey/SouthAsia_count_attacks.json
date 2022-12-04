@@ -206,33 +206,63 @@
   },
   {
     "node": "35",
-    "name": "START Primary Collection",
-    "value": 25476,
-    "id": "START-Primary-Collection"
+    "name": "Undetermined",
+    "value": 21913,
+    "id": "Undetermined"
   },
   {
     "node": "36",
-    "name": "PGIS",
-    "value": 7351,
-    "id": "PGIS"
+    "name": "Taliban",
+    "value": 7515,
+    "id": "Taliban"
   },
   {
     "node": "37",
-    "name": "ISVG",
-    "value": 7086,
-    "id": "ISVG"
+    "name": "Communist Party of India - Maoist",
+    "value": 1878,
+    "id": "Communist-Party-of-India---Maoist"
   },
   {
     "node": "38",
-    "name": "CETIS",
-    "value": 4251,
-    "id": "CETIS"
+    "name": "Maoists",
+    "value": 1625,
+    "id": "Maoists"
   },
   {
     "node": "39",
-    "name": "Other Source",
-    "value": 810,
-    "id": "Other-Source"
+    "name": "Liberation Tigers of Tamil Eelam",
+    "value": 1604,
+    "id": "Liberation-Tigers-of-Tamil-Eelam"
+  },
+  {
+    "node": "40",
+    "name": "Tehrik-i-Taliban Pakistan",
+    "value": 1350,
+    "id": "Tehrik-i-Taliban-Pakistan"
+  },
+  {
+    "node": "41",
+    "name": "Sikh Extremists",
+    "value": 712,
+    "id": "Sikh-Extremists"
+  },
+  {
+    "node": "42",
+    "name": "Peoples Liberation Front",
+    "value": 433,
+    "id": "Peoples-Liberation-Front"
+  },
+  {
+    "node": "43",
+    "name": "United Liberation Front of Assam",
+    "value": 357,
+    "id": "United-Liberation-Front-of-Assam"
+  },
+  {
+    "node": "44",
+    "name": "Other group",
+    "value": 7587,
+    "id": "Other-group"
   }
 ], 
  "links":[
@@ -1108,178 +1138,353 @@
   },
   {
     "source": "Private Citizens & Property",
-    "target": "START Primary Collection",
-    "value": 5166
+    "target": "Undetermined",
+    "value": 5266
   },
   {
     "source": "Private Citizens & Property",
-    "target": "PGIS",
-    "value": 2033
+    "target": "Taliban",
+    "value": 1428
   },
   {
     "source": "Private Citizens & Property",
-    "target": "ISVG",
-    "value": 2175
+    "target": "Communist Party of India - Maoist",
+    "value": 538
   },
   {
     "source": "Private Citizens & Property",
-    "target": "CETIS",
-    "value": 959
+    "target": "Maoists",
+    "value": 347
   },
   {
     "source": "Private Citizens & Property",
-    "target": "Other Source",
-    "value": 271
+    "target": "Liberation Tigers of Tamil Eelam",
+    "value": 325
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Tehrik-i-Taliban Pakistan",
+    "value": 309
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Sikh Extremists",
+    "value": 221
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Peoples Liberation Front",
+    "value": 48
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "United Liberation Front of Assam",
+    "value": 110
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Other group",
+    "value": 2012
   },
   {
     "source": "Police",
-    "target": "START Primary Collection",
-    "value": 5714
+    "target": "Undetermined",
+    "value": 3195
   },
   {
     "source": "Police",
-    "target": "PGIS",
-    "value": 1174
+    "target": "Taliban",
+    "value": 2541
   },
   {
     "source": "Police",
-    "target": "ISVG",
-    "value": 677
+    "target": "Communist Party of India - Maoist",
+    "value": 378
   },
   {
     "source": "Police",
-    "target": "CETIS",
-    "value": 821
+    "target": "Maoists",
+    "value": 427
   },
   {
     "source": "Police",
-    "target": "Other Source",
-    "value": 85
+    "target": "Liberation Tigers of Tamil Eelam",
+    "value": 248
+  },
+  {
+    "source": "Police",
+    "target": "Tehrik-i-Taliban Pakistan",
+    "value": 223
+  },
+  {
+    "source": "Police",
+    "target": "Sikh Extremists",
+    "value": 163
+  },
+  {
+    "source": "Police",
+    "target": "Peoples Liberation Front",
+    "value": 88
+  },
+  {
+    "source": "Police",
+    "target": "United Liberation Front of Assam",
+    "value": 55
+  },
+  {
+    "source": "Police",
+    "target": "Other group",
+    "value": 1153
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "START Primary Collection",
-    "value": 3451
+    "target": "Undetermined",
+    "value": 3747
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "PGIS",
-    "value": 820
+    "target": "Taliban",
+    "value": 542
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "ISVG",
-    "value": 1757
+    "target": "Communist Party of India - Maoist",
+    "value": 365
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "CETIS",
-    "value": 621
+    "target": "Maoists",
+    "value": 262
   },
   {
     "source": "Business, Utilities & Communication",
-    "target": "Other Source",
-    "value": 91
+    "target": "Liberation Tigers of Tamil Eelam",
+    "value": 106
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Tehrik-i-Taliban Pakistan",
+    "value": 261
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Sikh Extremists",
+    "value": 110
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Peoples Liberation Front",
+    "value": 62
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "United Liberation Front of Assam",
+    "value": 95
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Other group",
+    "value": 1190
   },
   {
     "source": "Government",
-    "target": "START Primary Collection",
-    "value": 2638
+    "target": "Undetermined",
+    "value": 2834
   },
   {
     "source": "Government",
-    "target": "PGIS",
-    "value": 959
+    "target": "Taliban",
+    "value": 985
   },
   {
     "source": "Government",
-    "target": "ISVG",
-    "value": 1337
+    "target": "Communist Party of India - Maoist",
+    "value": 301
   },
   {
     "source": "Government",
-    "target": "CETIS",
-    "value": 683
+    "target": "Maoists",
+    "value": 218
   },
   {
     "source": "Government",
-    "target": "Other Source",
-    "value": 148
+    "target": "Liberation Tigers of Tamil Eelam",
+    "value": 134
+  },
+  {
+    "source": "Government",
+    "target": "Tehrik-i-Taliban Pakistan",
+    "value": 113
+  },
+  {
+    "source": "Government",
+    "target": "Sikh Extremists",
+    "value": 75
+  },
+  {
+    "source": "Government",
+    "target": "Peoples Liberation Front",
+    "value": 102
+  },
+  {
+    "source": "Government",
+    "target": "United Liberation Front of Assam",
+    "value": 23
+  },
+  {
+    "source": "Government",
+    "target": "Other group",
+    "value": 980
   },
   {
     "source": "Military",
-    "target": "START Primary Collection",
-    "value": 4068
+    "target": "Undetermined",
+    "value": 2271
   },
   {
     "source": "Military",
-    "target": "PGIS",
-    "value": 765
+    "target": "Taliban",
+    "value": 1467
   },
   {
     "source": "Military",
-    "target": "ISVG",
-    "value": 122
+    "target": "Communist Party of India - Maoist",
+    "value": 32
   },
   {
     "source": "Military",
-    "target": "CETIS",
-    "value": 637
+    "target": "Maoists",
+    "value": 131
   },
   {
     "source": "Military",
-    "target": "Other Source",
-    "value": 104
+    "target": "Liberation Tigers of Tamil Eelam",
+    "value": 548
+  },
+  {
+    "source": "Military",
+    "target": "Tehrik-i-Taliban Pakistan",
+    "value": 280
+  },
+  {
+    "source": "Military",
+    "target": "Sikh Extremists",
+    "value": 17
+  },
+  {
+    "source": "Military",
+    "target": "Peoples Liberation Front",
+    "value": 46
+  },
+  {
+    "source": "Military",
+    "target": "United Liberation Front of Assam",
+    "value": 15
+  },
+  {
+    "source": "Military",
+    "target": "Other group",
+    "value": 889
   },
   {
     "source": "Unknown, religious & militia",
-    "target": "START Primary Collection",
-    "value": 3684
+    "target": "Undetermined",
+    "value": 3506
   },
   {
     "source": "Unknown, religious & militia",
-    "target": "PGIS",
-    "value": 822
+    "target": "Taliban",
+    "value": 421
   },
   {
     "source": "Unknown, religious & militia",
-    "target": "ISVG",
-    "value": 530
+    "target": "Communist Party of India - Maoist",
+    "value": 111
   },
   {
     "source": "Unknown, religious & militia",
-    "target": "CETIS",
-    "value": 258
+    "target": "Maoists",
+    "value": 157
   },
   {
     "source": "Unknown, religious & militia",
-    "target": "Other Source",
-    "value": 69
+    "target": "Liberation Tigers of Tamil Eelam",
+    "value": 99
   },
   {
-    "source": "Transportation",
-    "target": "START Primary Collection",
-    "value": 755
+    "source": "Unknown, religious & militia",
+    "target": "Tehrik-i-Taliban Pakistan",
+    "value": 146
   },
   {
-    "source": "Transportation",
-    "target": "PGIS",
-    "value": 778
+    "source": "Unknown, religious & militia",
+    "target": "Sikh Extremists",
+    "value": 59
   },
   {
-    "source": "Transportation",
-    "target": "ISVG",
-    "value": 488
-  },
-  {
-    "source": "Transportation",
-    "target": "CETIS",
-    "value": 272
-  },
-  {
-    "source": "Transportation",
-    "target": "Other Source",
+    "source": "Unknown, religious & militia",
+    "target": "Peoples Liberation Front",
     "value": 42
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "United Liberation Front of Assam",
+    "value": 36
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Other group",
+    "value": 786
+  },
+  {
+    "source": "Transportation",
+    "target": "Undetermined",
+    "value": 1094
+  },
+  {
+    "source": "Transportation",
+    "target": "Taliban",
+    "value": 131
+  },
+  {
+    "source": "Transportation",
+    "target": "Communist Party of India - Maoist",
+    "value": 153
+  },
+  {
+    "source": "Transportation",
+    "target": "Maoists",
+    "value": 83
+  },
+  {
+    "source": "Transportation",
+    "target": "Liberation Tigers of Tamil Eelam",
+    "value": 144
+  },
+  {
+    "source": "Transportation",
+    "target": "Tehrik-i-Taliban Pakistan",
+    "value": 18
+  },
+  {
+    "source": "Transportation",
+    "target": "Sikh Extremists",
+    "value": 67
+  },
+  {
+    "source": "Transportation",
+    "target": "Peoples Liberation Front",
+    "value": 45
+  },
+  {
+    "source": "Transportation",
+    "target": "United Liberation Front of Assam",
+    "value": 23
+  },
+  {
+    "source": "Transportation",
+    "target": "Other group",
+    "value": 577
   }
 ]}
 }
