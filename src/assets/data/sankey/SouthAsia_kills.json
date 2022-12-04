@@ -3,216 +3,266 @@
   {
     "node": "1",
     "name": "1970-1974",
-    "value": 5,
+    "value": 4,
     "id": "1970-1974"
   },
   {
     "node": "2",
     "name": "1975-1979",
-    "value": 46,
+    "value": 104,
     "id": "1975-1979"
   },
   {
     "node": "3",
     "name": "1980-1984",
-    "value": 362,
+    "value": 919,
     "id": "1980-1984"
   },
   {
     "node": "4",
     "name": "1985-1989",
-    "value": 2509,
+    "value": 8915,
     "id": "1985-1989"
   },
   {
     "node": "5",
     "name": "1990-1994",
-    "value": 2199,
+    "value": 8625,
     "id": "1990-1994"
   },
   {
     "node": "6",
     "name": "1995-1999",
-    "value": 2641,
+    "value": 8030,
     "id": "1995-1999"
   },
   {
     "node": "7",
     "name": "2000-2004",
-    "value": 1798,
+    "value": 6451,
     "id": "2000-2004"
   },
   {
     "node": "8",
     "name": "2005-2009",
-    "value": 6228,
+    "value": 15070,
     "id": "2005-2009"
   },
   {
     "node": "9",
     "name": "2010-2014",
-    "value": 17532,
+    "value": 29434,
     "id": "2010-2014"
   },
   {
     "node": "10",
     "name": "2015-2017",
-    "value": 11654,
+    "value": 23767,
     "id": "2015-2017"
   },
   {
     "node": "11",
     "name": "Afghanistan",
-    "value": 12731,
+    "value": 39384,
     "id": "Afghanistan"
   },
   {
     "node": "12",
     "name": "Pakistan",
-    "value": 14368,
+    "value": 23822,
     "id": "Pakistan"
   },
   {
     "node": "13",
     "name": "India",
-    "value": 11960,
+    "value": 19341,
     "id": "India"
   },
   {
     "node": "14",
     "name": "Sri Lanka",
-    "value": 3022,
+    "value": 15530,
     "id": "Sri-Lanka"
   },
   {
     "node": "15",
     "name": "Nepal",
-    "value": 1215,
+    "value": 1969,
     "id": "Nepal"
   },
   {
     "node": "16",
     "name": "Bangladesh",
-    "value": 1648,
+    "value": 1244,
     "id": "Bangladesh"
   },
   {
     "node": "17",
     "name": "Maldives",
-    "value": 22,
+    "value": 20,
     "id": "Maldives"
   },
   {
     "node": "18",
     "name": "Bhutan",
-    "value": 6,
+    "value": 9,
     "id": "Bhutan"
   },
   {
     "node": "19",
     "name": "Mauritius",
-    "value": 2,
+    "value": 0,
     "id": "Mauritius"
   },
   {
     "node": "20",
     "name": "Bombing/Explosion",
-    "value": 21246,
+    "value": 41490,
     "id": "Bombing-Explosion"
   },
   {
     "node": "21",
     "name": "Armed Assault",
-    "value": 11404,
+    "value": 39132,
     "id": "Armed-Assault"
   },
   {
     "node": "22",
     "name": "Unknown",
-    "value": 2021,
+    "value": 8211,
     "id": "Unknown"
   },
   {
     "node": "23",
     "name": "Assassination",
-    "value": 4301,
+    "value": 6701,
     "id": "Assassination"
   },
   {
     "node": "24",
     "name": "Hostage Taking",
-    "value": 3397,
+    "value": 5002,
     "id": "Hostage-Taking"
   },
   {
     "node": "25",
     "name": "Facility/Infrastructure Attack",
-    "value": 2189,
+    "value": 562,
     "id": "Facility-Infrastructure-Attack"
   },
   {
     "node": "26",
     "name": "Hijacking",
-    "value": 93,
+    "value": 142,
     "id": "Hijacking"
   },
   {
     "node": "27",
     "name": "Unarmed Assault",
-    "value": 323,
+    "value": 79,
     "id": "Unarmed-Assault"
   },
   {
     "node": "28",
     "name": "Private Citizens & Property",
-    "value": 10604,
+    "value": 27311,
     "id": "Private-Citizens---Property"
   },
   {
     "node": "29",
     "name": "Police",
-    "value": 8471,
+    "value": 22674,
     "id": "Police"
   },
   {
     "node": "30",
     "name": "Military",
-    "value": 5696,
+    "value": 21163,
     "id": "Military"
   },
   {
     "node": "31",
     "name": "Government",
-    "value": 5765,
+    "value": 9520,
     "id": "Government"
   },
   {
     "node": "32",
     "name": "Unknown, religious & militia",
-    "value": 5363,
+    "value": 9101,
     "id": "Unknown--religious---militia"
   },
   {
     "node": "33",
     "name": "Transportation",
-    "value": 2335,
+    "value": 5844,
     "id": "Transportation"
   },
   {
     "node": "34",
     "name": "Business, Utilities & Communication",
-    "value": 6740,
+    "value": 5706,
     "id": "Business--Utilities---Communication"
   },
   {
     "node": "35",
-    "name": "Other group",
-    "value": 7944,
-    "id": "Other-group"
+    "name": "Taliban",
+    "value": 29548,
+    "id": "Taliban"
   },
   {
     "node": "36",
-    "value": 37030
+    "name": "Undetermined",
+    "value": 26202,
+    "id": "Undetermined"
+  },
+  {
+    "node": "37",
+    "name": "Liberation Tigers of Tamil Eelam",
+    "value": 10989,
+    "id": "Liberation-Tigers-of-Tamil-Eelam"
+  },
+  {
+    "node": "38",
+    "name": "Tehrik-i-Taliban Pakistan",
+    "value": 6042,
+    "id": "Tehrik-i-Taliban-Pakistan"
+  },
+  {
+    "node": "39",
+    "name": "Sikh Extremists",
+    "value": 2480,
+    "id": "Sikh-Extremists"
+  },
+  {
+    "node": "40",
+    "name": "Communist Party of India - Maoist",
+    "value": 2344,
+    "id": "Communist-Party-of-India---Maoist"
+  },
+  {
+    "node": "41",
+    "name": "Khorasan Chapter of the Islamic State",
+    "value": 2057,
+    "id": "Khorasan-Chapter-of-the-Islamic-State"
+  },
+  {
+    "node": "42",
+    "name": "Maoists",
+    "value": 1569,
+    "id": "Maoists"
+  },
+  {
+    "node": "43",
+    "name": "Tamils",
+    "value": 1483,
+    "id": "Tamils"
+  },
+  {
+    "node": "44",
+    "name": "Other group",
+    "value": 18605,
+    "id": "Other-group"
   }
 ], 
  "links":[
@@ -1088,66 +1138,353 @@
   },
   {
     "source": "Private Citizens & Property",
-    "target": "Other group",
-    "value": 6956
+    "target": "Taliban",
+    "value": 5618
   },
   {
     "source": "Private Citizens & Property",
-    "value": 20355
+    "target": "Undetermined",
+    "value": 8324
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Liberation Tigers of Tamil Eelam",
+    "value": 2639
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Tehrik-i-Taliban Pakistan",
+    "value": 1547
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Sikh Extremists",
+    "value": 1013
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Communist Party of India - Maoist",
+    "value": 654
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Khorasan Chapter of the Islamic State",
+    "value": 500
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Maoists",
+    "value": 319
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Tamils",
+    "value": 339
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Other group",
+    "value": 6358
+  },
+  {
+    "source": "Police",
+    "target": "Taliban",
+    "value": 11197
+  },
+  {
+    "source": "Police",
+    "target": "Undetermined",
+    "value": 4160
+  },
+  {
+    "source": "Police",
+    "target": "Liberation Tigers of Tamil Eelam",
+    "value": 1076
+  },
+  {
+    "source": "Police",
+    "target": "Tehrik-i-Taliban Pakistan",
+    "value": 865
+  },
+  {
+    "source": "Police",
+    "target": "Sikh Extremists",
+    "value": 418
+  },
+  {
+    "source": "Police",
+    "target": "Communist Party of India - Maoist",
+    "value": 959
+  },
+  {
+    "source": "Police",
+    "target": "Khorasan Chapter of the Islamic State",
+    "value": 275
+  },
+  {
+    "source": "Police",
+    "target": "Maoists",
+    "value": 508
+  },
+  {
+    "source": "Police",
+    "target": "Tamils",
+    "value": 330
   },
   {
     "source": "Police",
     "target": "Other group",
-    "value": 3296
+    "value": 2886
   },
   {
-    "source": "Police",
-    "value": 19378
+    "source": "Military",
+    "target": "Taliban",
+    "value": 7306
+  },
+  {
+    "source": "Military",
+    "target": "Undetermined",
+    "value": 3772
+  },
+  {
+    "source": "Military",
+    "target": "Liberation Tigers of Tamil Eelam",
+    "value": 4494
+  },
+  {
+    "source": "Military",
+    "target": "Tehrik-i-Taliban Pakistan",
+    "value": 1514
+  },
+  {
+    "source": "Military",
+    "target": "Sikh Extremists",
+    "value": 46
+  },
+  {
+    "source": "Military",
+    "target": "Communist Party of India - Maoist",
+    "value": 111
+  },
+  {
+    "source": "Military",
+    "target": "Khorasan Chapter of the Islamic State",
+    "value": 428
+  },
+  {
+    "source": "Military",
+    "target": "Maoists",
+    "value": 286
+  },
+  {
+    "source": "Military",
+    "target": "Tamils",
+    "value": 454
   },
   {
     "source": "Military",
     "target": "Other group",
-    "value": 3493
+    "value": 2752
   },
   {
-    "source": "Military",
-    "value": 17670
+    "source": "Government",
+    "target": "Taliban",
+    "value": 2965
+  },
+  {
+    "source": "Government",
+    "target": "Undetermined",
+    "value": 2536
+  },
+  {
+    "source": "Government",
+    "target": "Liberation Tigers of Tamil Eelam",
+    "value": 522
+  },
+  {
+    "source": "Government",
+    "target": "Tehrik-i-Taliban Pakistan",
+    "value": 607
+  },
+  {
+    "source": "Government",
+    "target": "Sikh Extremists",
+    "value": 139
+  },
+  {
+    "source": "Government",
+    "target": "Communist Party of India - Maoist",
+    "value": 240
+  },
+  {
+    "source": "Government",
+    "target": "Khorasan Chapter of the Islamic State",
+    "value": 229
+  },
+  {
+    "source": "Government",
+    "target": "Maoists",
+    "value": 274
+  },
+  {
+    "source": "Government",
+    "target": "Tamils",
+    "value": 42
   },
   {
     "source": "Government",
     "target": "Other group",
-    "value": 2101
+    "value": 1966
   },
   {
-    "source": "Government",
-    "value": 7419
+    "source": "Unknown, religious & militia",
+    "target": "Taliban",
+    "value": 1140
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Undetermined",
+    "value": 3452
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Liberation Tigers of Tamil Eelam",
+    "value": 683
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Tehrik-i-Taliban Pakistan",
+    "value": 962
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Sikh Extremists",
+    "value": 170
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Communist Party of India - Maoist",
+    "value": 132
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Khorasan Chapter of the Islamic State",
+    "value": 550
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Maoists",
+    "value": 35
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Tamils",
+    "value": 13
   },
   {
     "source": "Unknown, religious & militia",
     "target": "Other group",
-    "value": 2461
+    "value": 1964
   },
   {
-    "source": "Unknown, religious & militia",
-    "value": 6640
+    "source": "Transportation",
+    "target": "Taliban",
+    "value": 429
+  },
+  {
+    "source": "Transportation",
+    "target": "Undetermined",
+    "value": 1747
+  },
+  {
+    "source": "Transportation",
+    "target": "Liberation Tigers of Tamil Eelam",
+    "value": 1173
+  },
+  {
+    "source": "Transportation",
+    "target": "Tehrik-i-Taliban Pakistan",
+    "value": 90
+  },
+  {
+    "source": "Transportation",
+    "target": "Sikh Extremists",
+    "value": 425
+  },
+  {
+    "source": "Transportation",
+    "target": "Communist Party of India - Maoist",
+    "value": 160
+  },
+  {
+    "source": "Transportation",
+    "target": "Khorasan Chapter of the Islamic State",
+    "value": 1
+  },
+  {
+    "source": "Transportation",
+    "target": "Maoists",
+    "value": 107
+  },
+  {
+    "source": "Transportation",
+    "target": "Tamils",
+    "value": 245
   },
   {
     "source": "Transportation",
     "target": "Other group",
-    "value": 1697
+    "value": 1467
   },
   {
-    "source": "Transportation",
-    "value": 4147
+    "source": "Business, Utilities & Communication",
+    "target": "Taliban",
+    "value": 893
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Undetermined",
+    "value": 2211
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Liberation Tigers of Tamil Eelam",
+    "value": 402
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Tehrik-i-Taliban Pakistan",
+    "value": 457
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Sikh Extremists",
+    "value": 269
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Communist Party of India - Maoist",
+    "value": 88
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Khorasan Chapter of the Islamic State",
+    "value": 74
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Maoists",
+    "value": 40
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Tamils",
+    "value": 60
   },
   {
     "source": "Business, Utilities & Communication",
     "target": "Other group",
-    "value": 1282
-  },
-  {
-    "source": "Business, Utilities & Communication",
-    "value": 4424
+    "value": 1212
   }
 ]}
 }

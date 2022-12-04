@@ -3,234 +3,284 @@
   {
     "node": "1",
     "name": "1970-1974",
-    "value": 1158,
+    "value": 1299,
     "id": "1970-1974"
   },
   {
     "node": "2",
     "name": "1975-1979",
-    "value": 3536,
+    "value": 1349,
     "id": "1975-1979"
   },
   {
     "node": "3",
     "name": "1980-1984",
-    "value": 2497,
+    "value": 1083,
     "id": "1980-1984"
   },
   {
     "node": "4",
     "name": "1985-1989",
-    "value": 2270,
+    "value": 1176,
     "id": "1985-1989"
   },
   {
     "node": "5",
     "name": "1990-1994",
-    "value": 2439,
+    "value": 574,
     "id": "1990-1994"
   },
   {
     "node": "6",
     "name": "1995-1999",
-    "value": 1539,
+    "value": 217,
     "id": "1995-1999"
   },
   {
     "node": "7",
     "name": "2000-2004",
-    "value": 787,
+    "value": 292,
     "id": "2000-2004"
   },
   {
     "node": "8",
     "name": "2005-2009",
-    "value": 619,
+    "value": 101,
     "id": "2005-2009"
   },
   {
     "node": "9",
     "name": "2010-2014",
-    "value": 897,
+    "value": 111,
     "id": "2010-2014"
   },
   {
     "node": "10",
     "name": "2015-2017",
-    "value": 897,
+    "value": 492,
     "id": "2015-2017"
   },
   {
     "node": "11",
     "name": "United Kingdom",
-    "value": 5235,
+    "value": 3410,
     "id": "United-Kingdom"
   },
   {
     "node": "12",
     "name": "Spain",
-    "value": 3249,
+    "value": 1288,
     "id": "Spain"
   },
   {
     "node": "13",
     "name": "France",
-    "value": 2693,
+    "value": 534,
     "id": "France"
   },
   {
     "node": "14",
     "name": "Italy",
-    "value": 1565,
+    "value": 420,
     "id": "Italy"
   },
   {
     "node": "15",
     "name": "Greece",
-    "value": 1275,
+    "value": 325,
     "id": "Greece"
   },
   {
     "node": "16",
     "name": "Ireland",
-    "value": 307,
+    "value": 117,
     "id": "Ireland"
   },
   {
     "node": "17",
     "name": "West Germany (FRG)",
-    "value": 541,
+    "value": 97,
     "id": "West-Germany-(FRG)"
   },
   {
     "node": "18",
     "name": "Germany",
-    "value": 735,
+    "value": 84,
     "id": "Germany"
   },
   {
     "node": "19",
     "name": "Belgium",
-    "value": 154,
+    "value": 79,
     "id": "Belgium"
   },
   {
     "node": "20",
     "name": "Norway",
-    "value": 19,
+    "value": 79,
     "id": "Norway"
   },
   {
     "node": "21",
     "name": "Switzerland",
-    "value": 111,
+    "value": 74,
     "id": "Switzerland"
   },
   {
     "node": "22",
     "name": "Other",
-    "value": 755,
+    "value": 187,
     "id": "Other"
   },
   {
     "node": "23",
     "name": "Assassination",
-    "value": 2938,
+    "value": 2673,
     "id": "Assassination"
   },
   {
     "node": "24",
     "name": "Bombing/Explosion",
-    "value": 8508,
+    "value": 2525,
     "id": "Bombing-Explosion"
   },
   {
     "node": "25",
     "name": "Armed Assault",
-    "value": 1724,
+    "value": 975,
     "id": "Armed-Assault"
   },
   {
     "node": "26",
     "name": "Hostage Taking",
-    "value": 358,
+    "value": 247,
     "id": "Hostage-Taking"
   },
   {
     "node": "27",
     "name": "Hijacking",
-    "value": 67,
+    "value": 133,
     "id": "Hijacking"
   },
   {
     "node": "28",
     "name": "Facility/Infrastructure Attack",
-    "value": 2631,
+    "value": 58,
     "id": "Facility-Infrastructure-Attack"
   },
   {
     "node": "29",
     "name": "Unarmed Assault",
-    "value": 148,
+    "value": 53,
     "id": "Unarmed-Assault"
   },
   {
     "node": "30",
     "name": "Unknown",
-    "value": 265,
+    "value": 30,
     "id": "Unknown"
   },
   {
     "node": "31",
     "name": "Private Citizens & Property",
-    "value": 3461,
+    "value": 1662,
     "id": "Private-Citizens---Property"
   },
   {
     "node": "32",
     "name": "Transportation",
-    "value": 803,
+    "value": 1155,
     "id": "Transportation"
   },
   {
     "node": "33",
     "name": "Police",
-    "value": 2139,
+    "value": 1055,
     "id": "Police"
   },
   {
     "node": "34",
     "name": "Business, Utilities & Communication",
-    "value": 5000,
+    "value": 996,
     "id": "Business--Utilities---Communication"
   },
   {
     "node": "35",
     "name": "Military",
-    "value": 1383,
+    "value": 970,
     "id": "Military"
   },
   {
     "node": "36",
     "name": "Government",
-    "value": 2832,
+    "value": 450,
     "id": "Government"
   },
   {
     "node": "37",
     "name": "Unknown, religious & militia",
-    "value": 1021,
+    "value": 406,
     "id": "Unknown--religious---militia"
   },
   {
     "node": "38",
-    "name": "Other group",
-    "value": 5602,
-    "id": "Other-group"
+    "name": "Irish Republican Army",
+    "value": 1804,
+    "id": "Irish-Republican-Army"
   },
   {
     "node": "39",
-    "value": 11037
+    "name": "Basque Fatherland and Freedom",
+    "value": 819,
+    "id": "Basque-Fatherland-and-Freedom"
+  },
+  {
+    "node": "40",
+    "name": "Undetermined",
+    "value": 775,
+    "id": "Undetermined"
+  },
+  {
+    "node": "41",
+    "name": "Ulster Volunteer Force",
+    "value": 367,
+    "id": "Ulster-Volunteer-Force"
+  },
+  {
+    "node": "42",
+    "name": "Protestant extremists",
+    "value": 343,
+    "id": "Protestant-extremists"
+  },
+  {
+    "node": "43",
+    "name": "Al-Qaida",
+    "value": 247,
+    "id": "Al-Qaida"
+  },
+  {
+    "node": "44",
+    "name": "Ulster Freedom Fighters",
+    "value": 201,
+    "id": "Ulster-Freedom-Fighters"
+  },
+  {
+    "node": "45",
+    "name": "Islamic State of Iraq and the Levant",
+    "value": 199,
+    "id": "Islamic-State-of-Iraq-and-the-Levant"
+  },
+  {
+    "node": "46",
+    "name": "Jihadi-inspired extremists",
+    "value": 150,
+    "id": "Jihadi-inspired-extremists"
+  },
+  {
+    "node": "47",
+    "name": "Other group",
+    "value": 1789,
+    "id": "Other-group"
   }
 ], 
  "links":[
@@ -1526,66 +1576,303 @@
   },
   {
     "source": "Private Citizens & Property",
-    "target": "Other group",
-    "value": 546
+    "target": "Irish Republican Army",
+    "value": 322
   },
   {
     "source": "Private Citizens & Property",
-    "value": 1116
+    "target": "Basque Fatherland and Freedom",
+    "value": 62
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Undetermined",
+    "value": 93
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Ulster Volunteer Force",
+    "value": 229
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Protestant extremists",
+    "value": 265
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Ulster Freedom Fighters",
+    "value": 132
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Islamic State of Iraq and the Levant",
+    "value": 4
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Jihadi-inspired extremists",
+    "value": 124
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Other group",
+    "value": 431
+  },
+  {
+    "source": "Transportation",
+    "target": "Irish Republican Army",
+    "value": 8
+  },
+  {
+    "source": "Transportation",
+    "target": "Basque Fatherland and Freedom",
+    "value": 14
+  },
+  {
+    "source": "Transportation",
+    "target": "Undetermined",
+    "value": 376
+  },
+  {
+    "source": "Transportation",
+    "target": "Ulster Volunteer Force",
+    "value": 0
+  },
+  {
+    "source": "Transportation",
+    "target": "Al-Qaida",
+    "value": 247
+  },
+  {
+    "source": "Transportation",
+    "target": "Ulster Freedom Fighters",
+    "value": 2
+  },
+  {
+    "source": "Transportation",
+    "target": "Islamic State of Iraq and the Levant",
+    "value": 35
+  },
+  {
+    "source": "Transportation",
+    "target": "Jihadi-inspired extremists",
+    "value": 1
   },
   {
     "source": "Transportation",
     "target": "Other group",
-    "value": 755
+    "value": 472
   },
   {
-    "source": "Transportation",
+    "source": "Police",
+    "target": "Irish Republican Army",
+    "value": 396
+  },
+  {
+    "source": "Police",
+    "target": "Basque Fatherland and Freedom",
     "value": 400
   },
   {
     "source": "Police",
-    "target": "Other group",
-    "value": 164
+    "target": "Undetermined",
+    "value": 54
   },
   {
     "source": "Police",
-    "value": 891
+    "target": "Ulster Volunteer Force",
+    "value": 2
+  },
+  {
+    "source": "Police",
+    "target": "Protestant extremists",
+    "value": 1
+  },
+  {
+    "source": "Police",
+    "target": "Ulster Freedom Fighters",
+    "value": 4
+  },
+  {
+    "source": "Police",
+    "target": "Islamic State of Iraq and the Levant",
+    "value": 0
+  },
+  {
+    "source": "Police",
+    "target": "Jihadi-inspired extremists",
+    "value": 11
+  },
+  {
+    "source": "Police",
+    "target": "Other group",
+    "value": 187
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Irish Republican Army",
+    "value": 161
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Basque Fatherland and Freedom",
+    "value": 157
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Undetermined",
+    "value": 88
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Ulster Volunteer Force",
+    "value": 79
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Protestant extremists",
+    "value": 43
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Ulster Freedom Fighters",
+    "value": 21
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Islamic State of Iraq and the Levant",
+    "value": 160
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Jihadi-inspired extremists",
+    "value": 7
   },
   {
     "source": "Business, Utilities & Communication",
     "target": "Other group",
-    "value": 430
+    "value": 280
   },
   {
-    "source": "Business, Utilities & Communication",
-    "value": 566
+    "source": "Military",
+    "target": "Irish Republican Army",
+    "value": 745
+  },
+  {
+    "source": "Military",
+    "target": "Basque Fatherland and Freedom",
+    "value": 111
+  },
+  {
+    "source": "Military",
+    "target": "Undetermined",
+    "value": 13
+  },
+  {
+    "source": "Military",
+    "target": "Ulster Volunteer Force",
+    "value": 5
+  },
+  {
+    "source": "Military",
+    "target": "Protestant extremists",
+    "value": 2
+  },
+  {
+    "source": "Military",
+    "target": "Ulster Freedom Fighters",
+    "value": 2
+  },
+  {
+    "source": "Military",
+    "target": "Jihadi-inspired extremists",
+    "value": 2
   },
   {
     "source": "Military",
     "target": "Other group",
-    "value": 91
+    "value": 90
   },
   {
-    "source": "Military",
-    "value": 879
+    "source": "Government",
+    "target": "Irish Republican Army",
+    "value": 57
+  },
+  {
+    "source": "Government",
+    "target": "Basque Fatherland and Freedom",
+    "value": 61
+  },
+  {
+    "source": "Government",
+    "target": "Undetermined",
+    "value": 94
+  },
+  {
+    "source": "Government",
+    "target": "Ulster Volunteer Force",
+    "value": 8
+  },
+  {
+    "source": "Government",
+    "target": "Protestant extremists",
+    "value": 10
+  },
+  {
+    "source": "Government",
+    "target": "Ulster Freedom Fighters",
+    "value": 8
+  },
+  {
+    "source": "Government",
+    "target": "Jihadi-inspired extremists",
+    "value": 0
   },
   {
     "source": "Government",
     "target": "Other group",
-    "value": 183
+    "value": 212
   },
   {
-    "source": "Government",
-    "value": 267
+    "source": "Unknown, religious & militia",
+    "target": "Irish Republican Army",
+    "value": 115
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Basque Fatherland and Freedom",
+    "value": 14
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Undetermined",
+    "value": 57
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Ulster Volunteer Force",
+    "value": 44
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Protestant extremists",
+    "value": 22
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Ulster Freedom Fighters",
+    "value": 32
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Jihadi-inspired extremists",
+    "value": 5
   },
   {
     "source": "Unknown, religious & militia",
     "target": "Other group",
-    "value": 105
-  },
-  {
-    "source": "Unknown, religious & militia",
-    "value": 301
+    "value": 117
   }
 ]}
 }

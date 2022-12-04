@@ -24,12 +24,19 @@ df %>% group_by(region_txt) %>%
 # table(df$city) %>% sort()
 table(df$attacktype1_txt) %>% sort(decreasing = T)
 table(df$targtype1_txt) %>% sort(decreasing = T)
-table(df$gname) %>% sort(decreasing = T) # almost all are unknow
+table(df$gname) %>% sort(decreasing = T) %>% head(10) # almost all are unknow
+df %>% group_by(region_txt) %>% 
+  summarise(count=n_distinct(gname))
+
+
 table(df$dbsource) %>% sort(decreasing = T)
 # METRICS
 sum(df$nkill,na.rm=T) # The number of total confirmed fatalities for the incident
 sum(df$nwound,na.rm=T) # WOUNDED
 nrow(df) # total attacks
+
+
+
 
 # Data mutate ----
 
@@ -86,6 +93,14 @@ df <- df %>% mutate(dbsource_sankey=case_when(
   T ~ "Other Source"
 ))
 table(df$dbsource_sankey) %>% sort(decreasing = T)
+
+# terrorist group
+df <- df %>% mutate(gname_sankey=case_when(
+  gname %>% str_detect("Unknown") ~ "Undetermined",
+  T ~ gname) %>% str_remove_all("'") %>% 
+    str_remove_all(r"{\s*\([^\)]+\)}")) # remove content inside ()
+table(df$gname_sankey) %>% sort(decreasing = T) %>% head(20)
+
 
 # Summary statistics ss ------
 
@@ -271,18 +286,19 @@ regions <- c("world",regions)
 metrics <- c("count_attacks","kills","wounded")
 
 for (r in regions){
-  
-  if (r!="world"){
-    df <- df_all %>% filter(region_txt==r)
-  } else{
-    df <- df_all %>% mutate(country_txt=region_txt)
-  }
-  
-  
-  df %>% group_by(country_txt) %>% tally(sort=T) %>% 
-    head(11) %>%  pull(country_txt) %>% print()
-  
+  cat("Region: ",r,"\n")
   for (m in metrics){
+    cat("Metric: ",m,"\n")
+    
+    if (r!="world"){
+      df <- df_all %>% filter(region_txt==r)
+    } else{
+      df <- df_all %>% mutate(country_txt=region_txt)
+    }
+    
+    
+    # df %>% group_by(country_txt) %>% tally(sort=T) %>% 
+    #   head(11) %>%  pull(country_txt) %>% print()
   
     if (r!="world"){
       order_country <- df %>% group_by(country_txt) %>% 
@@ -306,7 +322,7 @@ for (r in regions){
                               if_else(country_txt %in% order_country,
                                       country_txt,"Other"))
     }
-    
+   
     # print(order_country)
     
     order_type <- df %>% group_by(type_sankey) %>% 
@@ -325,12 +341,26 @@ for (r in regions){
       mutate(value=!!sym(m)) %>% arrange(desc(value)) %>%  
       pull(target_sankey)
     
-    order_source <- df %>% group_by(dbsource_sankey) %>% 
+    order_group <- df %>% group_by(gname_sankey) %>% 
       summarise(count_attacks=n(),
                 kills=sum(nkill,na.rm=T),
                 wounded=sum(nwound,na.rm=T)) %>% 
       mutate(value=!!sym(m)) %>% arrange(desc(value)) %>% 
-      pull(dbsource_sankey)
+      head(9) %>% pull(gname_sankey)
+    
+    df <- df %>% mutate(
+      gname_sankey=as.character(gname_sankey),
+      gname_sankey=if_else(gname_sankey %in% order_group,
+                           gname_sankey,"Other group"))
+    order_group <- c(order_group,"Other group")
+    
+    
+    # order_source <- df %>% group_by(dbsource_sankey) %>% 
+    #   summarise(count_attacks=n(),
+    #             kills=sum(nkill,na.rm=T),
+    #             wounded=sum(nwound,na.rm=T)) %>% 
+    #   mutate(value=!!sym(m)) %>% arrange(desc(value)) %>% 
+    #   pull(dbsource_sankey)
     
     df <- df %>% 
       mutate(
@@ -339,7 +369,8 @@ for (r in regions){
         type_sankey=factor(type_sankey,levels=order_type),
         year_group=factor(year_group,levels=order_year),
         target_sankey=factor(target_sankey,levels = order_target),
-        dbsource_sankey=factor(dbsource_sankey,levels = order_source))
+        gname_sankey=factor(gname_sankey,levels=order_group))
+        # dbsource_sankey=factor(dbsource_sankey,levels = order_source))
     
     # from year to country
     data <- df %>% 
@@ -378,59 +409,83 @@ for (r in regions){
       rename(source=type_sankey,target=target_sankey) %>% 
       mutate(source=as.character(source),target=as.character(target))
     
-    # from target to dbsource
+    # from target to gname (terrorist group)
     data4 <- df %>% 
-      group_by(target_sankey,dbsource_sankey) %>% 
+      group_by(target_sankey,gname_sankey) %>% 
       summarise(count_attacks=n(),
                 kills=sum(nkill,na.rm=T),
                 wounded=sum(nwound,na.rm=T)) %>% 
       mutate(value=!!sym(m)) %>% 
       select(-count_attacks,-kills,-wounded) %>% 
-      arrange(target_sankey,dbsource_sankey) %>%  ungroup() %>% 
-      rename(source=target_sankey,target=dbsource_sankey) %>% 
+      arrange(target_sankey,gname_sankey) %>%  ungroup() %>% 
+      rename(source=target_sankey,target=gname_sankey) %>% 
       mutate(source=as.character(source),target=as.character(target))
     
     
     ## Nodes - SIMPLY THE CATEGORIES and the TOTAL VALUES FOR THE HEIGHT
     nodes_type <- df %>% 
       group_by(type_sankey) %>% 
-      summarise(value=n()) %>% 
+      summarise(count_attacks=n(),
+                kills=sum(nkill,na.rm=T),
+                wounded=sum(nwound,na.rm=T)) %>% 
+      mutate(value=!!sym(m)) %>% 
+      select(-count_attacks,-kills,-wounded) %>% 
       arrange(type_sankey) %>% 
       ungroup() %>% 
       rename(name=type_sankey) %>% mutate(name=as.character(name))
-    # nodes_region <- df %>% 
-    #   group_by(region) %>% 
-    #   summarise(value=n()) %>% 
-    #   arrange(region) %>% 
-    #   ungroup() %>% 
-    #   rename(name=region) %>% mutate(name=as.character(name))
     nodes_year <- df %>% 
       group_by(year_group) %>% 
-      summarise(value=n()) %>% 
+      summarise(count_attacks=n(),
+                kills=sum(nkill,na.rm=T),
+                wounded=sum(nwound,na.rm=T)) %>% 
+      mutate(value=!!sym(m)) %>% 
+      select(-count_attacks,-kills,-wounded) %>%
       arrange(year_group) %>%  ungroup() %>% 
       rename(name=year_group) %>% mutate(name=as.character(name))
     nodes_country<- df %>% 
       group_by(country_sankey) %>% 
-      summarise(value=n()) %>% 
+      summarise(count_attacks=n(),
+                kills=sum(nkill,na.rm=T),
+                wounded=sum(nwound,na.rm=T)) %>% 
+      mutate(value=!!sym(m)) %>% 
+      select(-count_attacks,-kills,-wounded) %>% 
       arrange(country_sankey) %>% 
       ungroup() %>% 
       rename(name=country_sankey) %>% mutate(name=as.character(name))
     nodes_target <- df %>% 
       group_by(target_sankey) %>% 
-      summarise(value=n()) %>% 
+      summarise(count_attacks=n(),
+                kills=sum(nkill,na.rm=T),
+                wounded=sum(nwound,na.rm=T)) %>% 
+      mutate(value=!!sym(m)) %>% 
+      select(-count_attacks,-kills,-wounded) %>% 
       arrange(target_sankey) %>% 
       ungroup() %>% 
       rename(name=target_sankey) %>% mutate(name=as.character(name))
-    nodes_source <- df %>% 
-      group_by(dbsource_sankey) %>% 
-      summarise(value=n()) %>% 
-      arrange(dbsource_sankey) %>% 
+    nodes_group <- df %>% 
+      group_by(gname_sankey) %>% 
+      summarise(count_attacks=n(),
+                kills=sum(nkill,na.rm=T),
+                wounded=sum(nwound,na.rm=T)) %>% 
+      mutate(value=!!sym(m)) %>% 
+      select(-count_attacks,-kills,-wounded) %>% 
+      arrange(gname_sankey) %>% 
       ungroup() %>% 
-      rename(name=dbsource_sankey) %>% mutate(name=as.character(name))
+      rename(name=gname_sankey) %>% mutate(name=as.character(name))
+    # nodes_source <- df %>% 
+    #   group_by(dbsource_sankey) %>% 
+    # summarise(count_attacks=n(),
+    #           kills=sum(nkill,na.rm=T),
+    #           wounded=sum(nwound,na.rm=T)) %>% 
+    #   mutate(value=!!sym(m)) %>% 
+    #   select(-count_attacks,-kills,-wounded) %>%
+    #   arrange(dbsource_sankey) %>% 
+    #   ungroup() %>% 
+    #   rename(name=dbsource_sankey) %>% mutate(name=as.character(name))
     
     
     nodes <- rbind(nodes_year,nodes_country,nodes_type,
-                   nodes_target,nodes_source) %>% 
+                   nodes_target,nodes_group) %>% 
       rownames_to_column() %>% rename(node=rowname) %>% 
       mutate(id=str_replace_all(name," |/","-") %>% str_replace_all("&","-") %>% 
                str_replace_all(",","-"))

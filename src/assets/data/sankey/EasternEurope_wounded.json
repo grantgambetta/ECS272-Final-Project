@@ -3,234 +3,284 @@
   {
     "node": "1",
     "name": "1970-1974",
-    "value": 21,
+    "value": 7,
     "id": "1970-1974"
   },
   {
     "node": "2",
     "name": "1975-1979",
-    "value": 5,
+    "value": 13,
     "id": "1975-1979"
   },
   {
     "node": "3",
     "name": "1980-1984",
-    "value": 14,
+    "value": 13,
     "id": "1980-1984"
   },
   {
     "node": "4",
     "name": "1985-1989",
-    "value": 29,
+    "value": 62,
     "id": "1985-1989"
   },
   {
     "node": "5",
     "name": "1990-1994",
-    "value": 328,
+    "value": 414,
     "id": "1990-1994"
   },
   {
     "node": "6",
     "name": "1995-1999",
-    "value": 734,
+    "value": 1714,
     "id": "1995-1999"
   },
   {
     "node": "7",
     "name": "2000-2004",
-    "value": 744,
+    "value": 3730,
     "id": "2000-2004"
   },
   {
     "node": "8",
     "name": "2005-2009",
-    "value": 582,
+    "value": 1178,
     "id": "2005-2009"
   },
   {
     "node": "9",
     "name": "2010-2014",
-    "value": 1759,
+    "value": 3191,
     "id": "2010-2014"
   },
   {
     "node": "10",
     "name": "2015-2017",
-    "value": 928,
+    "value": 1723,
     "id": "2015-2017"
   },
   {
     "node": "11",
     "name": "Russia",
-    "value": 2194,
+    "value": 7441,
     "id": "Russia"
   },
   {
     "node": "12",
     "name": "Ukraine",
-    "value": 1709,
+    "value": 2841,
     "id": "Ukraine"
   },
   {
     "node": "13",
     "name": "Kosovo",
-    "value": 196,
+    "value": 365,
     "id": "Kosovo"
   },
   {
     "node": "14",
     "name": "Yugoslavia",
-    "value": 203,
+    "value": 281,
     "id": "Yugoslavia"
   },
   {
     "node": "15",
     "name": "Belarus",
-    "value": 13,
+    "value": 212,
     "id": "Belarus"
   },
   {
     "node": "16",
     "name": "Bosnia-Herzegovina",
-    "value": 159,
+    "value": 150,
     "id": "Bosnia-Herzegovina"
   },
   {
     "node": "17",
     "name": "Soviet Union",
-    "value": 78,
+    "value": 150,
     "id": "Soviet-Union"
   },
   {
     "node": "18",
     "name": "Albania",
-    "value": 80,
+    "value": 126,
     "id": "Albania"
   },
   {
     "node": "19",
     "name": "Moldova",
-    "value": 21,
+    "value": 88,
     "id": "Moldova"
   },
   {
     "node": "20",
     "name": "Croatia",
-    "value": 57,
+    "value": 73,
     "id": "Croatia"
   },
   {
     "node": "21",
     "name": "Macedonia",
-    "value": 118,
+    "value": 60,
     "id": "Macedonia"
   },
   {
     "node": "22",
     "name": "Other",
-    "value": 316,
+    "value": 258,
     "id": "Other"
   },
   {
     "node": "23",
     "name": "Bombing/Explosion",
-    "value": 2766,
+    "value": 8262,
     "id": "Bombing-Explosion"
   },
   {
     "node": "24",
     "name": "Armed Assault",
-    "value": 1274,
+    "value": 1852,
     "id": "Armed-Assault"
   },
   {
     "node": "25",
     "name": "Hostage Taking",
-    "value": 241,
+    "value": 1166,
     "id": "Hostage-Taking"
   },
   {
     "node": "26",
     "name": "Assassination",
-    "value": 400,
+    "value": 401,
     "id": "Assassination"
   },
   {
     "node": "27",
     "name": "Unknown",
-    "value": 115,
+    "value": 188,
     "id": "Unknown"
   },
   {
     "node": "28",
     "name": "Unarmed Assault",
-    "value": 62,
+    "value": 88,
     "id": "Unarmed-Assault"
   },
   {
     "node": "29",
     "name": "Facility/Infrastructure Attack",
-    "value": 260,
+    "value": 63,
     "id": "Facility-Infrastructure-Attack"
   },
   {
     "node": "30",
     "name": "Hijacking",
-    "value": 26,
+    "value": 25,
     "id": "Hijacking"
   },
   {
     "node": "31",
     "name": "Military",
-    "value": 1136,
+    "value": 2850,
     "id": "Military"
   },
   {
     "node": "32",
     "name": "Private Citizens & Property",
-    "value": 880,
+    "value": 2620,
     "id": "Private-Citizens---Property"
   },
   {
     "node": "33",
     "name": "Transportation",
-    "value": 326,
+    "value": 1941,
     "id": "Transportation"
   },
   {
     "node": "34",
     "name": "Police",
-    "value": 876,
+    "value": 1621,
     "id": "Police"
   },
   {
     "node": "35",
     "name": "Business, Utilities & Communication",
-    "value": 759,
+    "value": 1555,
     "id": "Business--Utilities---Communication"
   },
   {
     "node": "36",
     "name": "Government",
-    "value": 832,
+    "value": 1260,
     "id": "Government"
   },
   {
     "node": "37",
     "name": "Unknown, religious & militia",
-    "value": 335,
+    "value": 198,
     "id": "Unknown--religious---militia"
   },
   {
     "node": "38",
-    "name": "Other group",
-    "value": 407,
-    "id": "Other-group"
+    "name": "Undetermined",
+    "value": 4341,
+    "id": "Undetermined"
   },
   {
     "node": "39",
-    "value": 4737
+    "name": "Chechen Rebels",
+    "value": 2772,
+    "id": "Chechen-Rebels"
+  },
+  {
+    "node": "40",
+    "name": "Donetsk Peoples Republic",
+    "value": 1515,
+    "id": "Donetsk-Peoples-Republic"
+  },
+  {
+    "node": "41",
+    "name": "Riyadus-Salikhin Reconnaissance and Sabotage Battalion of Chechen Martyrs",
+    "value": 1052,
+    "id": "Riyadus-Salikhin-Reconnaissance-and-Sabotage-Battalion-of-Chechen-Martyrs"
+  },
+  {
+    "node": "42",
+    "name": "Caucasus Emirate",
+    "value": 676,
+    "id": "Caucasus-Emirate"
+  },
+  {
+    "node": "43",
+    "name": "Luhansk Peoples Republic",
+    "value": 399,
+    "id": "Luhansk-Peoples-Republic"
+  },
+  {
+    "node": "44",
+    "name": "Armed Forces of the Chechen Republic of Ichkeria",
+    "value": 153,
+    "id": "Armed-Forces-of-the-Chechen-Republic-of-Ichkeria"
+  },
+  {
+    "node": "45",
+    "name": "Ukrainian nationalists",
+    "value": 140,
+    "id": "Ukrainian-nationalists"
+  },
+  {
+    "node": "46",
+    "name": "Albanian extremists",
+    "value": 111,
+    "id": "Albanian-extremists"
+  },
+  {
+    "node": "47",
+    "name": "Other group",
+    "value": 886,
+    "id": "Other-group"
   }
 ], 
  "links":[
@@ -1231,66 +1281,308 @@
   },
   {
     "source": "Military",
-    "target": "Other group",
-    "value": 234
+    "target": "Undetermined",
+    "value": 620
   },
   {
     "source": "Military",
-    "value": 2616
+    "target": "Chechen Rebels",
+    "value": 630
+  },
+  {
+    "source": "Military",
+    "target": "Donetsk Peoples Republic",
+    "value": 1082
+  },
+  {
+    "source": "Military",
+    "target": "Luhansk Peoples Republic",
+    "value": 280
+  },
+  {
+    "source": "Military",
+    "target": "Armed Forces of the Chechen Republic of Ichkeria",
+    "value": 2
+  },
+  {
+    "source": "Military",
+    "target": "Ukrainian nationalists",
+    "value": 140
+  },
+  {
+    "source": "Military",
+    "target": "Albanian extremists",
+    "value": 0
+  },
+  {
+    "source": "Military",
+    "target": "Other group",
+    "value": 96
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Undetermined",
+    "value": 998
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Chechen Rebels",
+    "value": 775
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Donetsk Peoples Republic",
+    "value": 274
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Riyadus-Salikhin Reconnaissance and Sabotage Battalion of Chechen Martyrs",
+    "value": 173
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Caucasus Emirate",
+    "value": 10
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Luhansk Peoples Republic",
+    "value": 62
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Albanian extremists",
+    "value": 93
   },
   {
     "source": "Private Citizens & Property",
     "target": "Other group",
-    "value": 327
+    "value": 235
   },
   {
-    "source": "Private Citizens & Property",
-    "value": 2293
+    "source": "Transportation",
+    "target": "Undetermined",
+    "value": 707
+  },
+  {
+    "source": "Transportation",
+    "target": "Chechen Rebels",
+    "value": 504
+  },
+  {
+    "source": "Transportation",
+    "target": "Donetsk Peoples Republic",
+    "value": 38
+  },
+  {
+    "source": "Transportation",
+    "target": "Riyadus-Salikhin Reconnaissance and Sabotage Battalion of Chechen Martyrs",
+    "value": 60
+  },
+  {
+    "source": "Transportation",
+    "target": "Caucasus Emirate",
+    "value": 426
+  },
+  {
+    "source": "Transportation",
+    "target": "Luhansk Peoples Republic",
+    "value": 8
+  },
+  {
+    "source": "Transportation",
+    "target": "Albanian extremists",
+    "value": 0
   },
   {
     "source": "Transportation",
     "target": "Other group",
-    "value": 253
+    "value": 198
   },
   {
-    "source": "Transportation",
-    "value": 1688
+    "source": "Police",
+    "target": "Undetermined",
+    "value": 907
+  },
+  {
+    "source": "Police",
+    "target": "Chechen Rebels",
+    "value": 211
+  },
+  {
+    "source": "Police",
+    "target": "Donetsk Peoples Republic",
+    "value": 56
+  },
+  {
+    "source": "Police",
+    "target": "Riyadus-Salikhin Reconnaissance and Sabotage Battalion of Chechen Martyrs",
+    "value": 26
+  },
+  {
+    "source": "Police",
+    "target": "Caucasus Emirate",
+    "value": 137
+  },
+  {
+    "source": "Police",
+    "target": "Luhansk Peoples Republic",
+    "value": 6
+  },
+  {
+    "source": "Police",
+    "target": "Armed Forces of the Chechen Republic of Ichkeria",
+    "value": 96
+  },
+  {
+    "source": "Police",
+    "target": "Albanian extremists",
+    "value": 2
   },
   {
     "source": "Police",
     "target": "Other group",
-    "value": 268
+    "value": 180
   },
   {
-    "source": "Police",
-    "value": 1353
+    "source": "Business, Utilities & Communication",
+    "target": "Undetermined",
+    "value": 576
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Chechen Rebels",
+    "value": 26
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Donetsk Peoples Republic",
+    "value": 39
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Riyadus-Salikhin Reconnaissance and Sabotage Battalion of Chechen Martyrs",
+    "value": 727
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Caucasus Emirate",
+    "value": 47
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Luhansk Peoples Republic",
+    "value": 23
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Armed Forces of the Chechen Republic of Ichkeria",
+    "value": 36
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Ukrainian nationalists",
+    "value": 0
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Albanian extremists",
+    "value": 15
   },
   {
     "source": "Business, Utilities & Communication",
     "target": "Other group",
-    "value": 800
+    "value": 66
   },
   {
-    "source": "Business, Utilities & Communication",
-    "value": 755
+    "source": "Government",
+    "target": "Undetermined",
+    "value": 429
+  },
+  {
+    "source": "Government",
+    "target": "Chechen Rebels",
+    "value": 588
+  },
+  {
+    "source": "Government",
+    "target": "Donetsk Peoples Republic",
+    "value": 10
+  },
+  {
+    "source": "Government",
+    "target": "Riyadus-Salikhin Reconnaissance and Sabotage Battalion of Chechen Martyrs",
+    "value": 66
+  },
+  {
+    "source": "Government",
+    "target": "Caucasus Emirate",
+    "value": 55
+  },
+  {
+    "source": "Government",
+    "target": "Luhansk Peoples Republic",
+    "value": 19
+  },
+  {
+    "source": "Government",
+    "target": "Armed Forces of the Chechen Republic of Ichkeria",
+    "value": 19
+  },
+  {
+    "source": "Government",
+    "target": "Ukrainian nationalists",
+    "value": 0
+  },
+  {
+    "source": "Government",
+    "target": "Albanian extremists",
+    "value": 1
   },
   {
     "source": "Government",
     "target": "Other group",
-    "value": 156
+    "value": 73
   },
   {
-    "source": "Government",
-    "value": 1104
+    "source": "Unknown, religious & militia",
+    "target": "Undetermined",
+    "value": 104
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Chechen Rebels",
+    "value": 38
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Donetsk Peoples Republic",
+    "value": 16
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Caucasus Emirate",
+    "value": 1
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Luhansk Peoples Republic",
+    "value": 1
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Ukrainian nationalists",
+    "value": 0
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Albanian extremists",
+    "value": 0
   },
   {
     "source": "Unknown, religious & militia",
     "target": "Other group",
-    "value": 32
-  },
-  {
-    "source": "Unknown, religious & militia",
-    "value": 166
+    "value": 38
   }
 ]}
 }

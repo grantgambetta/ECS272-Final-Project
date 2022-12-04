@@ -3,234 +3,284 @@
   {
     "node": "1",
     "name": "1970-1974",
-    "value": 32,
+    "value": 3,
     "id": "1970-1974"
   },
   {
     "node": "2",
     "name": "1975-1979",
-    "value": 886,
+    "value": 856,
     "id": "1975-1979"
   },
   {
     "node": "3",
     "name": "1980-1984",
-    "value": 4753,
+    "value": 20191,
     "id": "1980-1984"
   },
   {
     "node": "4",
     "name": "1985-1989",
-    "value": 2737,
+    "value": 5894,
     "id": "1985-1989"
   },
   {
     "node": "5",
     "name": "1990-1994",
-    "value": 1437,
+    "value": 1416,
     "id": "1990-1994"
   },
   {
     "node": "6",
     "name": "1995-1999",
-    "value": 410,
+    "value": 248,
     "id": "1995-1999"
   },
   {
     "node": "7",
     "name": "2000-2004",
-    "value": 38,
+    "value": 56,
     "id": "2000-2004"
   },
   {
     "node": "8",
     "name": "2005-2009",
-    "value": 21,
+    "value": 13,
     "id": "2005-2009"
   },
   {
     "node": "9",
     "name": "2010-2014",
-    "value": 22,
+    "value": 18,
     "id": "2010-2014"
   },
   {
     "node": "10",
     "name": "2015-2017",
-    "value": 8,
+    "value": 13,
     "id": "2015-2017"
   },
   {
     "node": "11",
     "name": "El Salvador",
-    "value": 5320,
+    "value": 12053,
     "id": "El-Salvador"
   },
   {
     "node": "12",
     "name": "Nicaragua",
-    "value": 1970,
+    "value": 10598,
     "id": "Nicaragua"
   },
   {
     "node": "13",
     "name": "Guatemala",
-    "value": 2050,
+    "value": 5167,
     "id": "Guatemala"
   },
   {
     "node": "14",
     "name": "Haiti",
-    "value": 213,
+    "value": 336,
     "id": "Haiti"
   },
   {
     "node": "15",
     "name": "Honduras",
-    "value": 323,
+    "value": 307,
     "id": "Honduras"
   },
   {
     "node": "16",
     "name": "Barbados",
-    "value": 3,
+    "value": 76,
     "id": "Barbados"
   },
   {
     "node": "17",
     "name": "Jamaica",
-    "value": 36,
+    "value": 42,
     "id": "Jamaica"
   },
   {
     "node": "18",
     "name": "Panama",
-    "value": 127,
+    "value": 38,
     "id": "Panama"
   },
   {
     "node": "19",
     "name": "Dominican Republic",
-    "value": 90,
+    "value": 34,
     "id": "Dominican-Republic"
   },
   {
     "node": "20",
     "name": "Costa Rica",
-    "value": 67,
+    "value": 17,
     "id": "Costa-Rica"
   },
   {
     "node": "21",
     "name": "Grenada",
-    "value": 5,
+    "value": 9,
     "id": "Grenada"
   },
   {
     "node": "22",
     "name": "Other",
-    "value": 140,
+    "value": 31,
     "id": "Other"
   },
   {
     "node": "23",
     "name": "Armed Assault",
-    "value": 4361,
+    "value": 23233,
     "id": "Armed-Assault"
   },
   {
     "node": "24",
     "name": "Bombing/Explosion",
-    "value": 3239,
+    "value": 2611,
     "id": "Bombing-Explosion"
   },
   {
     "node": "25",
     "name": "Assassination",
-    "value": 1254,
+    "value": 1699,
     "id": "Assassination"
   },
   {
     "node": "26",
     "name": "Unknown",
-    "value": 354,
+    "value": 695,
     "id": "Unknown"
   },
   {
     "node": "27",
     "name": "Hostage Taking",
-    "value": 688,
+    "value": 325,
     "id": "Hostage-Taking"
   },
   {
     "node": "28",
     "name": "Facility/Infrastructure Attack",
-    "value": 403,
+    "value": 118,
     "id": "Facility-Infrastructure-Attack"
   },
   {
     "node": "29",
     "name": "Unarmed Assault",
-    "value": 19,
+    "value": 23,
     "id": "Unarmed-Assault"
   },
   {
     "node": "30",
     "name": "Hijacking",
-    "value": 26,
+    "value": 4,
     "id": "Hijacking"
   },
   {
     "node": "31",
     "name": "Military",
-    "value": 3065,
+    "value": 19110,
     "id": "Military"
   },
   {
     "node": "32",
     "name": "Private Citizens & Property",
-    "value": 1535,
+    "value": 4613,
     "id": "Private-Citizens---Property"
   },
   {
     "node": "33",
     "name": "Business, Utilities & Communication",
-    "value": 3071,
+    "value": 1623,
     "id": "Business--Utilities---Communication"
   },
   {
     "node": "34",
     "name": "Police",
-    "value": 584,
+    "value": 1087,
     "id": "Police"
   },
   {
     "node": "35",
     "name": "Government",
-    "value": 1331,
+    "value": 1023,
     "id": "Government"
   },
   {
     "node": "36",
     "name": "Transportation",
-    "value": 519,
+    "value": 665,
     "id": "Transportation"
   },
   {
     "node": "37",
     "name": "Unknown, religious & militia",
-    "value": 239,
+    "value": 587,
     "id": "Unknown--religious---militia"
   },
   {
     "node": "38",
-    "name": "Other group",
-    "value": 1546,
-    "id": "Other-group"
+    "name": "Farabundo Marti National Liberation Front",
+    "value": 8065,
+    "id": "Farabundo-Marti-National-Liberation-Front"
   },
   {
     "node": "39",
-    "value": 8798
+    "name": "Undetermined",
+    "value": 7697,
+    "id": "Undetermined"
+  },
+  {
+    "node": "40",
+    "name": "Nicaraguan Democratic Force",
+    "value": 6662,
+    "id": "Nicaraguan-Democratic-Force"
+  },
+  {
+    "node": "41",
+    "name": "Democratic Revolutionary Alliance",
+    "value": 1803,
+    "id": "Democratic-Revolutionary-Alliance"
+  },
+  {
+    "node": "42",
+    "name": "Nicaraguan Resistance",
+    "value": 588,
+    "id": "Nicaraguan-Resistance"
+  },
+  {
+    "node": "43",
+    "name": "Guerrilla Army of the Poor",
+    "value": 572,
+    "id": "Guerrilla-Army-of-the-Poor"
+  },
+  {
+    "node": "44",
+    "name": "Contras",
+    "value": 427,
+    "id": "Contras"
+  },
+  {
+    "node": "45",
+    "name": "Death Squad",
+    "value": 359,
+    "id": "Death-Squad"
+  },
+  {
+    "node": "46",
+    "name": "Revolutionary Organization of People in Arms",
+    "value": 287,
+    "id": "Revolutionary-Organization-of-People-in-Arms"
+  },
+  {
+    "node": "47",
+    "name": "Other group",
+    "value": 2248,
+    "id": "Other-group"
   }
 ], 
  "links":[
@@ -1301,66 +1351,333 @@
   },
   {
     "source": "Military",
-    "target": "Other group",
-    "value": 1295
+    "target": "Farabundo Marti National Liberation Front",
+    "value": 5752
   },
   {
     "source": "Military",
-    "value": 17815
+    "target": "Undetermined",
+    "value": 4123
+  },
+  {
+    "source": "Military",
+    "target": "Nicaraguan Democratic Force",
+    "value": 5316
+  },
+  {
+    "source": "Military",
+    "target": "Democratic Revolutionary Alliance",
+    "value": 1750
+  },
+  {
+    "source": "Military",
+    "target": "Nicaraguan Resistance",
+    "value": 374
+  },
+  {
+    "source": "Military",
+    "target": "Guerrilla Army of the Poor",
+    "value": 375
+  },
+  {
+    "source": "Military",
+    "target": "Contras",
+    "value": 351
+  },
+  {
+    "source": "Military",
+    "target": "Revolutionary Organization of People in Arms",
+    "value": 189
+  },
+  {
+    "source": "Military",
+    "target": "Other group",
+    "value": 880
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Farabundo Marti National Liberation Front",
+    "value": 1159
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Undetermined",
+    "value": 1734
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Nicaraguan Democratic Force",
+    "value": 881
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Democratic Revolutionary Alliance",
+    "value": 30
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Nicaraguan Resistance",
+    "value": 80
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Guerrilla Army of the Poor",
+    "value": 103
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Contras",
+    "value": 27
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Death Squad",
+    "value": 210
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Revolutionary Organization of People in Arms",
+    "value": 35
   },
   {
     "source": "Private Citizens & Property",
     "target": "Other group",
-    "value": 368
+    "value": 354
   },
   {
-    "source": "Private Citizens & Property",
-    "value": 4245
+    "source": "Business, Utilities & Communication",
+    "target": "Farabundo Marti National Liberation Front",
+    "value": 404
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Undetermined",
+    "value": 548
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Nicaraguan Democratic Force",
+    "value": 311
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Democratic Revolutionary Alliance",
+    "value": 8
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Nicaraguan Resistance",
+    "value": 51
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Guerrilla Army of the Poor",
+    "value": 5
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Contras",
+    "value": 5
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Death Squad",
+    "value": 29
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Revolutionary Organization of People in Arms",
+    "value": 8
   },
   {
     "source": "Business, Utilities & Communication",
     "target": "Other group",
-    "value": 218
+    "value": 254
   },
   {
-    "source": "Business, Utilities & Communication",
-    "value": 1405
+    "source": "Police",
+    "target": "Farabundo Marti National Liberation Front",
+    "value": 336
+  },
+  {
+    "source": "Police",
+    "target": "Undetermined",
+    "value": 470
+  },
+  {
+    "source": "Police",
+    "target": "Nicaraguan Democratic Force",
+    "value": 0
+  },
+  {
+    "source": "Police",
+    "target": "Guerrilla Army of the Poor",
+    "value": 47
+  },
+  {
+    "source": "Police",
+    "target": "Contras",
+    "value": 43
+  },
+  {
+    "source": "Police",
+    "target": "Death Squad",
+    "value": 3
+  },
+  {
+    "source": "Police",
+    "target": "Revolutionary Organization of People in Arms",
+    "value": 34
   },
   {
     "source": "Police",
     "target": "Other group",
-    "value": 225
+    "value": 154
   },
   {
-    "source": "Police",
-    "value": 862
+    "source": "Government",
+    "target": "Farabundo Marti National Liberation Front",
+    "value": 78
+  },
+  {
+    "source": "Government",
+    "target": "Undetermined",
+    "value": 367
+  },
+  {
+    "source": "Government",
+    "target": "Nicaraguan Democratic Force",
+    "value": 112
+  },
+  {
+    "source": "Government",
+    "target": "Democratic Revolutionary Alliance",
+    "value": 9
+  },
+  {
+    "source": "Government",
+    "target": "Nicaraguan Resistance",
+    "value": 73
+  },
+  {
+    "source": "Government",
+    "target": "Guerrilla Army of the Poor",
+    "value": 15
+  },
+  {
+    "source": "Government",
+    "target": "Contras",
+    "value": 1
+  },
+  {
+    "source": "Government",
+    "target": "Death Squad",
+    "value": 11
+  },
+  {
+    "source": "Government",
+    "target": "Revolutionary Organization of People in Arms",
+    "value": 1
   },
   {
     "source": "Government",
     "target": "Other group",
-    "value": 346
+    "value": 356
   },
   {
-    "source": "Government",
-    "value": 677
+    "source": "Transportation",
+    "target": "Farabundo Marti National Liberation Front",
+    "value": 301
+  },
+  {
+    "source": "Transportation",
+    "target": "Undetermined",
+    "value": 157
+  },
+  {
+    "source": "Transportation",
+    "target": "Nicaraguan Democratic Force",
+    "value": 28
+  },
+  {
+    "source": "Transportation",
+    "target": "Democratic Revolutionary Alliance",
+    "value": 6
+  },
+  {
+    "source": "Transportation",
+    "target": "Nicaraguan Resistance",
+    "value": 8
+  },
+  {
+    "source": "Transportation",
+    "target": "Guerrilla Army of the Poor",
+    "value": 3
+  },
+  {
+    "source": "Transportation",
+    "target": "Contras",
+    "value": 0
+  },
+  {
+    "source": "Transportation",
+    "target": "Death Squad",
+    "value": 1
+  },
+  {
+    "source": "Transportation",
+    "target": "Revolutionary Organization of People in Arms",
+    "value": 2
   },
   {
     "source": "Transportation",
     "target": "Other group",
-    "value": 161
+    "value": 159
   },
   {
-    "source": "Transportation",
-    "value": 504
+    "source": "Unknown, religious & militia",
+    "target": "Farabundo Marti National Liberation Front",
+    "value": 35
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Undetermined",
+    "value": 298
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Nicaraguan Democratic Force",
+    "value": 14
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Democratic Revolutionary Alliance",
+    "value": 0
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Nicaraguan Resistance",
+    "value": 2
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Guerrilla Army of the Poor",
+    "value": 24
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Death Squad",
+    "value": 105
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Revolutionary Organization of People in Arms",
+    "value": 18
   },
   {
     "source": "Unknown, religious & militia",
     "target": "Other group",
-    "value": 108
-  },
-  {
-    "source": "Unknown, religious & militia",
-    "value": 479
+    "value": 91
   }
 ]}
 }

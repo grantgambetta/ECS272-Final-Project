@@ -3,234 +3,284 @@
   {
     "node": "1",
     "name": "1970-1974",
-    "value": 286,
+    "value": 53,
     "id": "1970-1974"
   },
   {
     "node": "2",
     "name": "1975-1979",
-    "value": 723,
+    "value": 292,
     "id": "1975-1979"
   },
   {
     "node": "3",
     "name": "1980-1984",
-    "value": 3783,
+    "value": 1752,
     "id": "1980-1984"
   },
   {
     "node": "4",
     "name": "1985-1989",
-    "value": 5915,
+    "value": 3569,
     "id": "1985-1989"
   },
   {
     "node": "5",
     "name": "1990-1994",
-    "value": 3975,
+    "value": 3957,
     "id": "1990-1994"
   },
   {
     "node": "6",
     "name": "1995-1999",
-    "value": 1788,
+    "value": 2251,
     "id": "1995-1999"
   },
   {
     "node": "7",
     "name": "2000-2004",
-    "value": 700,
+    "value": 2120,
     "id": "2000-2004"
   },
   {
     "node": "8",
     "name": "2005-2009",
-    "value": 449,
+    "value": 874,
     "id": "2005-2009"
   },
   {
     "node": "9",
     "name": "2010-2014",
-    "value": 852,
+    "value": 1356,
     "id": "2010-2014"
   },
   {
     "node": "10",
     "name": "2015-2017",
-    "value": 507,
+    "value": 480,
     "id": "2015-2017"
   },
   {
     "node": "11",
     "name": "Colombia",
-    "value": 8306,
+    "value": 10328,
     "id": "Colombia"
   },
   {
     "node": "12",
     "name": "Peru",
-    "value": 6096,
+    "value": 4078,
     "id": "Peru"
   },
   {
     "node": "13",
     "name": "Argentina",
-    "value": 815,
+    "value": 755,
     "id": "Argentina"
   },
   {
     "node": "14",
     "name": "Chile",
-    "value": 2365,
+    "value": 755,
     "id": "Chile"
   },
   {
     "node": "15",
     "name": "Venezuela",
-    "value": 293,
+    "value": 247,
     "id": "Venezuela"
   },
   {
     "node": "16",
     "name": "Bolivia",
-    "value": 314,
+    "value": 166,
     "id": "Bolivia"
   },
   {
     "node": "17",
     "name": "Brazil",
-    "value": 273,
+    "value": 160,
     "id": "Brazil"
   },
   {
     "node": "18",
     "name": "Ecuador",
-    "value": 220,
+    "value": 79,
     "id": "Ecuador"
   },
   {
     "node": "19",
     "name": "Paraguay",
-    "value": 114,
+    "value": 69,
     "id": "Paraguay"
   },
   {
     "node": "20",
     "name": "Guyana",
-    "value": 26,
+    "value": 24,
     "id": "Guyana"
   },
   {
     "node": "21",
     "name": "Suriname",
-    "value": 66,
+    "value": 24,
     "id": "Suriname"
   },
   {
     "node": "22",
     "name": "Other",
-    "value": 90,
+    "value": 19,
     "id": "Other"
   },
   {
     "node": "23",
     "name": "Bombing/Explosion",
-    "value": 9039,
+    "value": 10933,
     "id": "Bombing-Explosion"
   },
   {
     "node": "24",
     "name": "Armed Assault",
-    "value": 3875,
+    "value": 3887,
     "id": "Armed-Assault"
   },
   {
     "node": "25",
     "name": "Unknown",
-    "value": 754,
+    "value": 745,
     "id": "Unknown"
   },
   {
     "node": "26",
     "name": "Assassination",
-    "value": 2745,
+    "value": 655,
     "id": "Assassination"
   },
   {
     "node": "27",
     "name": "Hostage Taking",
-    "value": 1648,
+    "value": 224,
     "id": "Hostage-Taking"
   },
   {
     "node": "28",
     "name": "Facility/Infrastructure Attack",
-    "value": 803,
+    "value": 143,
     "id": "Facility-Infrastructure-Attack"
   },
   {
     "node": "29",
     "name": "Unarmed Assault",
-    "value": 47,
+    "value": 108,
     "id": "Unarmed-Assault"
   },
   {
     "node": "30",
     "name": "Hijacking",
-    "value": 67,
+    "value": 9,
     "id": "Hijacking"
   },
   {
     "node": "31",
     "name": "Police",
-    "value": 2256,
+    "value": 4279,
     "id": "Police"
   },
   {
     "node": "32",
     "name": "Private Citizens & Property",
-    "value": 3272,
+    "value": 3343,
     "id": "Private-Citizens---Property"
   },
   {
     "node": "33",
     "name": "Business, Utilities & Communication",
-    "value": 6564,
+    "value": 3200,
     "id": "Business--Utilities---Communication"
   },
   {
     "node": "34",
     "name": "Government",
-    "value": 3239,
+    "value": 2375,
     "id": "Government"
   },
   {
     "node": "35",
     "name": "Military",
-    "value": 1770,
+    "value": 2265,
     "id": "Military"
   },
   {
     "node": "36",
     "name": "Transportation",
-    "value": 1256,
+    "value": 661,
     "id": "Transportation"
   },
   {
     "node": "37",
     "name": "Unknown, religious & militia",
-    "value": 621,
+    "value": 581,
     "id": "Unknown--religious---militia"
   },
   {
     "node": "38",
-    "name": "Other group",
-    "value": 2830,
-    "id": "Other-group"
+    "name": "Revolutionary Armed Forces of Colombia",
+    "value": 4351,
+    "id": "Revolutionary-Armed-Forces-of-Colombia"
   },
   {
     "node": "39",
-    "value": 16148
+    "name": "Undetermined",
+    "value": 3506,
+    "id": "Undetermined"
+  },
+  {
+    "node": "40",
+    "name": "Shining Path",
+    "value": 3031,
+    "id": "Shining-Path"
+  },
+  {
+    "node": "41",
+    "name": "National Liberation Army of Colombia",
+    "value": 1331,
+    "id": "National-Liberation-Army-of-Colombia"
+  },
+  {
+    "node": "42",
+    "name": "Narco-Terrorists",
+    "value": 811,
+    "id": "Narco-Terrorists"
+  },
+  {
+    "node": "43",
+    "name": "Tupac Amaru Revolutionary Movement",
+    "value": 551,
+    "id": "Tupac-Amaru-Revolutionary-Movement"
+  },
+  {
+    "node": "44",
+    "name": "M-19",
+    "value": 501,
+    "id": "M-19"
+  },
+  {
+    "node": "45",
+    "name": "Hezbollah",
+    "value": 456,
+    "id": "Hezbollah"
+  },
+  {
+    "node": "46",
+    "name": "The Extraditables",
+    "value": 411,
+    "id": "The-Extraditables"
+  },
+  {
+    "node": "47",
+    "name": "Other group",
+    "value": 1755,
+    "id": "Other-group"
   }
 ], 
  "links":[
@@ -1476,66 +1526,328 @@
   },
   {
     "source": "Police",
-    "target": "Other group",
-    "value": 747
+    "target": "Revolutionary Armed Forces of Colombia",
+    "value": 1189
   },
   {
     "source": "Police",
-    "value": 3532
+    "target": "Undetermined",
+    "value": 535
+  },
+  {
+    "source": "Police",
+    "target": "Shining Path",
+    "value": 822
+  },
+  {
+    "source": "Police",
+    "target": "National Liberation Army of Colombia",
+    "value": 411
+  },
+  {
+    "source": "Police",
+    "target": "Narco-Terrorists",
+    "value": 410
+  },
+  {
+    "source": "Police",
+    "target": "Tupac Amaru Revolutionary Movement",
+    "value": 59
+  },
+  {
+    "source": "Police",
+    "target": "M-19",
+    "value": 51
+  },
+  {
+    "source": "Police",
+    "target": "The Extraditables",
+    "value": 359
+  },
+  {
+    "source": "Police",
+    "target": "Other group",
+    "value": 443
   },
   {
     "source": "Private Citizens & Property",
-    "target": "Other group",
-    "value": 299
+    "target": "Revolutionary Armed Forces of Colombia",
+    "value": 1014
   },
   {
     "source": "Private Citizens & Property",
-    "value": 3044
+    "target": "Undetermined",
+    "value": 749
   },
   {
-    "source": "Business, Utilities & Communication",
-    "target": "Other group",
-    "value": 231
+    "source": "Private Citizens & Property",
+    "target": "Shining Path",
+    "value": 696
   },
   {
-    "source": "Business, Utilities & Communication",
-    "value": 2969
+    "source": "Private Citizens & Property",
+    "target": "National Liberation Army of Colombia",
+    "value": 168
   },
   {
-    "source": "Government",
-    "target": "Other group",
-    "value": 435
+    "source": "Private Citizens & Property",
+    "target": "Narco-Terrorists",
+    "value": 202
   },
   {
-    "source": "Government",
-    "value": 1940
-  },
-  {
-    "source": "Military",
-    "target": "Other group",
-    "value": 264
-  },
-  {
-    "source": "Military",
-    "value": 2001
-  },
-  {
-    "source": "Transportation",
-    "target": "Other group",
+    "source": "Private Citizens & Property",
+    "target": "Tupac Amaru Revolutionary Movement",
     "value": 55
   },
   {
-    "source": "Transportation",
-    "value": 606
+    "source": "Private Citizens & Property",
+    "target": "M-19",
+    "value": 150
   },
   {
-    "source": "Unknown, religious & militia",
+    "source": "Private Citizens & Property",
+    "target": "The Extraditables",
+    "value": 0
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Other group",
+    "value": 309
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Revolutionary Armed Forces of Colombia",
+    "value": 722
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Undetermined",
+    "value": 1211
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Shining Path",
+    "value": 352
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "National Liberation Army of Colombia",
+    "value": 291
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Narco-Terrorists",
+    "value": 131
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Tupac Amaru Revolutionary Movement",
+    "value": 166
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "M-19",
+    "value": 13
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "The Extraditables",
+    "value": 27
+  },
+  {
+    "source": "Business, Utilities & Communication",
     "target": "Other group",
     "value": 287
   },
   {
+    "source": "Government",
+    "target": "Revolutionary Armed Forces of Colombia",
+    "value": 494
+  },
+  {
+    "source": "Government",
+    "target": "Undetermined",
+    "value": 519
+  },
+  {
+    "source": "Government",
+    "target": "Shining Path",
+    "value": 517
+  },
+  {
+    "source": "Government",
+    "target": "National Liberation Army of Colombia",
+    "value": 41
+  },
+  {
+    "source": "Government",
+    "target": "Narco-Terrorists",
+    "value": 46
+  },
+  {
+    "source": "Government",
+    "target": "Tupac Amaru Revolutionary Movement",
+    "value": 123
+  },
+  {
+    "source": "Government",
+    "target": "M-19",
+    "value": 113
+  },
+  {
+    "source": "Government",
+    "target": "Hezbollah",
+    "value": 220
+  },
+  {
+    "source": "Government",
+    "target": "The Extraditables",
+    "value": 11
+  },
+  {
+    "source": "Government",
+    "target": "Other group",
+    "value": 291
+  },
+  {
+    "source": "Military",
+    "target": "Revolutionary Armed Forces of Colombia",
+    "value": 700
+  },
+  {
+    "source": "Military",
+    "target": "Undetermined",
+    "value": 218
+  },
+  {
+    "source": "Military",
+    "target": "Shining Path",
+    "value": 444
+  },
+  {
+    "source": "Military",
+    "target": "National Liberation Army of Colombia",
+    "value": 333
+  },
+  {
+    "source": "Military",
+    "target": "Narco-Terrorists",
+    "value": 12
+  },
+  {
+    "source": "Military",
+    "target": "Tupac Amaru Revolutionary Movement",
+    "value": 143
+  },
+  {
+    "source": "Military",
+    "target": "M-19",
+    "value": 120
+  },
+  {
+    "source": "Military",
+    "target": "The Extraditables",
+    "value": 0
+  },
+  {
+    "source": "Military",
+    "target": "Other group",
+    "value": 295
+  },
+  {
+    "source": "Transportation",
+    "target": "Revolutionary Armed Forces of Colombia",
+    "value": 111
+  },
+  {
+    "source": "Transportation",
+    "target": "Undetermined",
+    "value": 221
+  },
+  {
+    "source": "Transportation",
+    "target": "Shining Path",
+    "value": 99
+  },
+  {
+    "source": "Transportation",
+    "target": "National Liberation Army of Colombia",
+    "value": 72
+  },
+  {
+    "source": "Transportation",
+    "target": "Narco-Terrorists",
+    "value": 10
+  },
+  {
+    "source": "Transportation",
+    "target": "Tupac Amaru Revolutionary Movement",
+    "value": 5
+  },
+  {
+    "source": "Transportation",
+    "target": "M-19",
+    "value": 53
+  },
+  {
+    "source": "Transportation",
+    "target": "The Extraditables",
+    "value": 14
+  },
+  {
+    "source": "Transportation",
+    "target": "Other group",
+    "value": 76
+  },
+  {
     "source": "Unknown, religious & militia",
-    "value": 294
+    "target": "Revolutionary Armed Forces of Colombia",
+    "value": 121
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Undetermined",
+    "value": 53
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Shining Path",
+    "value": 101
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "National Liberation Army of Colombia",
+    "value": 15
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Narco-Terrorists",
+    "value": 0
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Tupac Amaru Revolutionary Movement",
+    "value": 0
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "M-19",
+    "value": 1
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Hezbollah",
+    "value": 236
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "The Extraditables",
+    "value": 0
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Other group",
+    "value": 54
   }
 ]}
 }

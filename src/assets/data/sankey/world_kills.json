@@ -3,234 +3,284 @@
   {
     "node": "1",
     "name": "1970-1974",
-    "value": 2744,
+    "value": 1822,
     "id": "1970-1974"
   },
   {
     "node": "2",
     "name": "1975-1979",
-    "value": 7170,
+    "value": 5306,
     "id": "1975-1979"
   },
   {
     "node": "3",
     "name": "1980-1984",
-    "value": 14157,
+    "value": 34281,
     "id": "1980-1984"
   },
   {
     "node": "4",
     "name": "1985-1989",
-    "value": 17003,
+    "value": 33912,
     "id": "1985-1989"
   },
   {
     "node": "5",
     "name": "1990-1994",
-    "value": 17097,
+    "value": 33009,
     "id": "1990-1994"
   },
   {
     "node": "6",
     "name": "1995-1999",
-    "value": 11665,
+    "value": 32074,
     "id": "1995-1999"
   },
   {
     "node": "7",
     "name": "2000-2004",
-    "value": 7497,
+    "value": 25997,
     "id": "2000-2004"
   },
   {
     "node": "8",
     "name": "2005-2009",
-    "value": 17543,
+    "value": 46965,
     "id": "2005-2009"
   },
   {
     "node": "9",
     "name": "2010-2014",
-    "value": 47363,
+    "value": 98333,
     "id": "2010-2014"
   },
   {
     "node": "10",
     "name": "2015-2017",
-    "value": 39452,
+    "value": 100169,
     "id": "2015-2017"
   },
   {
     "node": "11",
     "name": "Middle East & North Africa",
-    "value": 50474,
+    "value": 137642,
     "id": "Middle-East---North-Africa"
   },
   {
     "node": "12",
     "name": "South Asia",
-    "value": 44974,
+    "value": 101319,
     "id": "South-Asia"
   },
   {
     "node": "13",
     "name": "Sub-Saharan Africa",
-    "value": 17550,
+    "value": 78386,
     "id": "Sub-Saharan-Africa"
   },
   {
     "node": "14",
     "name": "South America",
-    "value": 18978,
+    "value": 28849,
     "id": "South-America"
   },
   {
     "node": "15",
     "name": "Central America & Caribbean",
-    "value": 10344,
+    "value": 28708,
     "id": "Central-America---Caribbean"
   },
   {
     "node": "16",
     "name": "Southeast Asia",
-    "value": 12485,
+    "value": 15637,
     "id": "Southeast-Asia"
   },
   {
     "node": "17",
     "name": "Eastern Europe",
-    "value": 5144,
+    "value": 7415,
     "id": "Eastern-Europe"
   },
   {
     "node": "18",
     "name": "Western Europe",
-    "value": 16639,
+    "value": 6694,
     "id": "Western-Europe"
   },
   {
     "node": "19",
     "name": "North America",
-    "value": 3456,
+    "value": 4916,
     "id": "North-America"
   },
   {
     "node": "20",
     "name": "East Asia",
-    "value": 802,
+    "value": 1152,
     "id": "East-Asia"
   },
   {
     "node": "21",
     "name": "Central Asia",
-    "value": 563,
+    "value": 1000,
     "id": "Central-Asia"
   },
   {
     "node": "22",
     "name": "Australasia & Oceania",
-    "value": 282,
+    "value": 150,
     "id": "Australasia---Oceania"
   },
   {
     "node": "23",
     "name": "Armed Assault",
-    "value": 42669,
+    "value": 160297,
     "id": "Armed-Assault"
   },
   {
     "node": "24",
     "name": "Bombing/Explosion",
-    "value": 88255,
+    "value": 157321,
     "id": "Bombing-Explosion"
   },
   {
     "node": "25",
     "name": "Unknown",
-    "value": 7276,
+    "value": 32381,
     "id": "Unknown"
   },
   {
     "node": "26",
     "name": "Hostage Taking",
-    "value": 12149,
+    "value": 28709,
     "id": "Hostage-Taking"
   },
   {
     "node": "27",
     "name": "Assassination",
-    "value": 19312,
+    "value": 24920,
     "id": "Assassination"
   },
   {
     "node": "28",
     "name": "Hijacking",
-    "value": 659,
+    "value": 3718,
     "id": "Hijacking"
   },
   {
     "node": "29",
     "name": "Facility/Infrastructure Attack",
-    "value": 10356,
+    "value": 3642,
     "id": "Facility-Infrastructure-Attack"
   },
   {
     "node": "30",
     "name": "Unarmed Assault",
-    "value": 1015,
+    "value": 880,
     "id": "Unarmed-Assault"
   },
   {
     "node": "31",
     "name": "Private Citizens & Property",
-    "value": 44531,
+    "value": 141585,
     "id": "Private-Citizens---Property"
   },
   {
     "node": "32",
     "name": "Military",
-    "value": 27984,
+    "value": 106047,
     "id": "Military"
   },
   {
     "node": "33",
     "name": "Police",
-    "value": 24506,
+    "value": 53704,
     "id": "Police"
   },
   {
     "node": "34",
     "name": "Business, Utilities & Communication",
-    "value": 35941,
+    "value": 31846,
     "id": "Business--Utilities---Communication"
   },
   {
     "node": "35",
     "name": "Unknown, religious & militia",
-    "value": 15380,
+    "value": 30702,
     "id": "Unknown--religious---militia"
   },
   {
     "node": "36",
     "name": "Government",
-    "value": 24856,
+    "value": 29110,
     "id": "Government"
   },
   {
     "node": "37",
     "name": "Transportation",
-    "value": 8493,
+    "value": 18874,
     "id": "Transportation"
   },
   {
     "node": "38",
-    "name": "Other group",
-    "value": 69327,
-    "id": "Other-group"
+    "name": "Undetermined",
+    "value": 112367,
+    "id": "Undetermined"
   },
   {
     "node": "39",
-    "value": 112364
+    "name": "Islamic State of Iraq and the Levant",
+    "value": 38923,
+    "id": "Islamic-State-of-Iraq-and-the-Levant"
+  },
+  {
+    "node": "40",
+    "name": "Taliban",
+    "value": 29551,
+    "id": "Taliban"
+  },
+  {
+    "node": "41",
+    "name": "Boko Haram",
+    "value": 20328,
+    "id": "Boko-Haram"
+  },
+  {
+    "node": "42",
+    "name": "Shining Path",
+    "value": 11601,
+    "id": "Shining-Path"
+  },
+  {
+    "node": "43",
+    "name": "Liberation Tigers of Tamil Eelam",
+    "value": 10989,
+    "id": "Liberation-Tigers-of-Tamil-Eelam"
+  },
+  {
+    "node": "44",
+    "name": "Al-Shabaab",
+    "value": 9330,
+    "id": "Al-Shabaab"
+  },
+  {
+    "node": "45",
+    "name": "Farabundo Marti National Liberation Front",
+    "value": 8065,
+    "id": "Farabundo-Marti-National-Liberation-Front"
+  },
+  {
+    "node": "46",
+    "name": "Nicaraguan Democratic Force",
+    "value": 6662,
+    "id": "Nicaraguan-Democratic-Force"
+  },
+  {
+    "node": "47",
+    "name": "Other group",
+    "value": 164052,
+    "id": "Other-group"
   }
 ], 
  "links":[
@@ -1576,66 +1626,353 @@
   },
   {
     "source": "Private Citizens & Property",
-    "target": "Other group",
-    "value": 69415
+    "target": "Undetermined",
+    "value": 42665
   },
   {
     "source": "Private Citizens & Property",
-    "value": 72170
+    "target": "Islamic State of Iraq and the Levant",
+    "value": 14819
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Taliban",
+    "value": 5618
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Boko Haram",
+    "value": 11804
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Shining Path",
+    "value": 4716
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Liberation Tigers of Tamil Eelam",
+    "value": 2639
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Al-Shabaab",
+    "value": 1150
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Farabundo Marti National Liberation Front",
+    "value": 1159
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Nicaraguan Democratic Force",
+    "value": 881
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Other group",
+    "value": 56134
+  },
+  {
+    "source": "Military",
+    "target": "Undetermined",
+    "value": 17251
+  },
+  {
+    "source": "Military",
+    "target": "Islamic State of Iraq and the Levant",
+    "value": 12787
+  },
+  {
+    "source": "Military",
+    "target": "Taliban",
+    "value": 7309
+  },
+  {
+    "source": "Military",
+    "target": "Boko Haram",
+    "value": 3781
+  },
+  {
+    "source": "Military",
+    "target": "Shining Path",
+    "value": 3550
+  },
+  {
+    "source": "Military",
+    "target": "Liberation Tigers of Tamil Eelam",
+    "value": 4494
+  },
+  {
+    "source": "Military",
+    "target": "Al-Shabaab",
+    "value": 4348
+  },
+  {
+    "source": "Military",
+    "target": "Farabundo Marti National Liberation Front",
+    "value": 5752
+  },
+  {
+    "source": "Military",
+    "target": "Nicaraguan Democratic Force",
+    "value": 5316
   },
   {
     "source": "Military",
     "target": "Other group",
-    "value": 50826
+    "value": 41459
   },
   {
-    "source": "Military",
-    "value": 55221
+    "source": "Police",
+    "target": "Undetermined",
+    "value": 14225
+  },
+  {
+    "source": "Police",
+    "target": "Islamic State of Iraq and the Levant",
+    "value": 4587
+  },
+  {
+    "source": "Police",
+    "target": "Taliban",
+    "value": 11197
+  },
+  {
+    "source": "Police",
+    "target": "Boko Haram",
+    "value": 1103
+  },
+  {
+    "source": "Police",
+    "target": "Shining Path",
+    "value": 1765
+  },
+  {
+    "source": "Police",
+    "target": "Liberation Tigers of Tamil Eelam",
+    "value": 1076
+  },
+  {
+    "source": "Police",
+    "target": "Al-Shabaab",
+    "value": 463
+  },
+  {
+    "source": "Police",
+    "target": "Farabundo Marti National Liberation Front",
+    "value": 336
+  },
+  {
+    "source": "Police",
+    "target": "Nicaraguan Democratic Force",
+    "value": 0
   },
   {
     "source": "Police",
     "target": "Other group",
-    "value": 19445
+    "value": 18952
   },
   {
-    "source": "Police",
-    "value": 34259
+    "source": "Business, Utilities & Communication",
+    "target": "Undetermined",
+    "value": 11927
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Islamic State of Iraq and the Levant",
+    "value": 3064
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Taliban",
+    "value": 893
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Boko Haram",
+    "value": 1028
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Shining Path",
+    "value": 391
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Liberation Tigers of Tamil Eelam",
+    "value": 402
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Al-Shabaab",
+    "value": 1574
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Farabundo Marti National Liberation Front",
+    "value": 404
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Nicaraguan Democratic Force",
+    "value": 311
   },
   {
     "source": "Business, Utilities & Communication",
     "target": "Other group",
-    "value": 12996
+    "value": 11852
   },
   {
-    "source": "Business, Utilities & Communication",
-    "value": 18850
+    "source": "Unknown, religious & militia",
+    "target": "Undetermined",
+    "value": 10689
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Islamic State of Iraq and the Levant",
+    "value": 2400
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Taliban",
+    "value": 1140
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Boko Haram",
+    "value": 1577
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Shining Path",
+    "value": 318
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Liberation Tigers of Tamil Eelam",
+    "value": 683
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Al-Shabaab",
+    "value": 314
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Farabundo Marti National Liberation Front",
+    "value": 35
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Nicaraguan Democratic Force",
+    "value": 14
   },
   {
     "source": "Unknown, religious & militia",
     "target": "Other group",
-    "value": 15473
+    "value": 13532
   },
   {
-    "source": "Unknown, religious & militia",
-    "value": 15229
+    "source": "Government",
+    "target": "Undetermined",
+    "value": 9751
+  },
+  {
+    "source": "Government",
+    "target": "Islamic State of Iraq and the Levant",
+    "value": 934
+  },
+  {
+    "source": "Government",
+    "target": "Taliban",
+    "value": 2965
+  },
+  {
+    "source": "Government",
+    "target": "Boko Haram",
+    "value": 633
+  },
+  {
+    "source": "Government",
+    "target": "Shining Path",
+    "value": 709
+  },
+  {
+    "source": "Government",
+    "target": "Liberation Tigers of Tamil Eelam",
+    "value": 522
+  },
+  {
+    "source": "Government",
+    "target": "Al-Shabaab",
+    "value": 1289
+  },
+  {
+    "source": "Government",
+    "target": "Farabundo Marti National Liberation Front",
+    "value": 78
+  },
+  {
+    "source": "Government",
+    "target": "Nicaraguan Democratic Force",
+    "value": 112
   },
   {
     "source": "Government",
     "target": "Other group",
-    "value": 12376
+    "value": 12117
   },
   {
-    "source": "Government",
-    "value": 16734
+    "source": "Transportation",
+    "target": "Undetermined",
+    "value": 5859
+  },
+  {
+    "source": "Transportation",
+    "target": "Islamic State of Iraq and the Levant",
+    "value": 332
+  },
+  {
+    "source": "Transportation",
+    "target": "Taliban",
+    "value": 429
+  },
+  {
+    "source": "Transportation",
+    "target": "Boko Haram",
+    "value": 402
+  },
+  {
+    "source": "Transportation",
+    "target": "Shining Path",
+    "value": 152
+  },
+  {
+    "source": "Transportation",
+    "target": "Liberation Tigers of Tamil Eelam",
+    "value": 1173
+  },
+  {
+    "source": "Transportation",
+    "target": "Al-Shabaab",
+    "value": 192
+  },
+  {
+    "source": "Transportation",
+    "target": "Farabundo Marti National Liberation Front",
+    "value": 301
+  },
+  {
+    "source": "Transportation",
+    "target": "Nicaraguan Democratic Force",
+    "value": 28
   },
   {
     "source": "Transportation",
     "target": "Other group",
-    "value": 11453
-  },
-  {
-    "source": "Transportation",
-    "value": 7421
+    "value": 10006
   }
 ]}
 }

@@ -3,234 +3,284 @@
   {
     "node": "1",
     "name": "1970-1974",
-    "value": 1158,
+    "value": 1306,
     "id": "1970-1974"
   },
   {
     "node": "2",
     "name": "1975-1979",
-    "value": 3536,
+    "value": 1539,
     "id": "1975-1979"
   },
   {
     "node": "3",
     "name": "1980-1984",
-    "value": 2497,
+    "value": 3031,
     "id": "1980-1984"
   },
   {
     "node": "4",
     "name": "1985-1989",
-    "value": 2270,
+    "value": 3086,
     "id": "1985-1989"
   },
   {
     "node": "5",
     "name": "1990-1994",
-    "value": 2439,
+    "value": 1968,
     "id": "1990-1994"
   },
   {
     "node": "6",
     "name": "1995-1999",
-    "value": 1539,
+    "value": 1510,
     "id": "1995-1999"
   },
   {
     "node": "7",
     "name": "2000-2004",
-    "value": 787,
+    "value": 2491,
     "id": "2000-2004"
   },
   {
     "node": "8",
     "name": "2005-2009",
-    "value": 619,
+    "value": 1197,
     "id": "2005-2009"
   },
   {
     "node": "9",
     "name": "2010-2014",
-    "value": 897,
+    "value": 269,
     "id": "2010-2014"
   },
   {
     "node": "10",
     "name": "2015-2017",
-    "value": 897,
+    "value": 1935,
     "id": "2015-2017"
   },
   {
     "node": "11",
     "name": "United Kingdom",
-    "value": 5235,
+    "value": 6106,
     "id": "United-Kingdom"
   },
   {
     "node": "12",
     "name": "Spain",
-    "value": 3249,
+    "value": 4935,
     "id": "Spain"
   },
   {
     "node": "13",
     "name": "France",
-    "value": 2693,
+    "value": 2516,
     "id": "France"
   },
   {
     "node": "14",
     "name": "Italy",
-    "value": 1565,
+    "value": 1291,
     "id": "Italy"
   },
   {
     "node": "15",
     "name": "West Germany (FRG)",
-    "value": 541,
+    "value": 862,
     "id": "West-Germany-(FRG)"
   },
   {
     "node": "16",
     "name": "Greece",
-    "value": 1275,
+    "value": 733,
     "id": "Greece"
   },
   {
     "node": "17",
     "name": "Germany",
-    "value": 735,
+    "value": 683,
     "id": "Germany"
   },
   {
     "node": "18",
     "name": "Belgium",
-    "value": 154,
+    "value": 516,
     "id": "Belgium"
   },
   {
     "node": "19",
     "name": "Austria",
-    "value": 115,
+    "value": 126,
     "id": "Austria"
   },
   {
     "node": "20",
     "name": "Portugal",
-    "value": 140,
+    "value": 95,
     "id": "Portugal"
   },
   {
     "node": "21",
     "name": "Switzerland",
-    "value": 111,
+    "value": 94,
     "id": "Switzerland"
   },
   {
     "node": "22",
     "name": "Other",
-    "value": 826,
+    "value": 375,
     "id": "Other"
   },
   {
     "node": "23",
     "name": "Bombing/Explosion",
-    "value": 8508,
+    "value": 14046,
     "id": "Bombing-Explosion"
   },
   {
     "node": "24",
     "name": "Armed Assault",
-    "value": 1724,
+    "value": 2062,
     "id": "Armed-Assault"
   },
   {
     "node": "25",
     "name": "Assassination",
-    "value": 2938,
+    "value": 801,
     "id": "Assassination"
   },
   {
     "node": "26",
     "name": "Unarmed Assault",
-    "value": 148,
+    "value": 435,
     "id": "Unarmed-Assault"
   },
   {
     "node": "27",
     "name": "Hostage Taking",
-    "value": 358,
+    "value": 422,
     "id": "Hostage-Taking"
   },
   {
     "node": "28",
     "name": "Facility/Infrastructure Attack",
-    "value": 2631,
+    "value": 374,
     "id": "Facility-Infrastructure-Attack"
   },
   {
     "node": "29",
     "name": "Unknown",
-    "value": 265,
+    "value": 126,
     "id": "Unknown"
   },
   {
     "node": "30",
     "name": "Hijacking",
-    "value": 67,
+    "value": 66,
     "id": "Hijacking"
   },
   {
     "node": "31",
     "name": "Transportation",
-    "value": 803,
+    "value": 4686,
     "id": "Transportation"
   },
   {
     "node": "32",
     "name": "Business, Utilities & Communication",
-    "value": 5000,
+    "value": 4216,
     "id": "Business--Utilities---Communication"
   },
   {
     "node": "33",
     "name": "Private Citizens & Property",
-    "value": 3461,
+    "value": 3235,
     "id": "Private-Citizens---Property"
   },
   {
     "node": "34",
     "name": "Police",
-    "value": 2139,
+    "value": 2607,
     "id": "Police"
   },
   {
     "node": "35",
     "name": "Government",
-    "value": 2832,
+    "value": 1792,
     "id": "Government"
   },
   {
     "node": "36",
     "name": "Military",
-    "value": 1383,
+    "value": 1255,
     "id": "Military"
   },
   {
     "node": "37",
     "name": "Unknown, religious & militia",
-    "value": 1021,
+    "value": 541,
     "id": "Unknown--religious---militia"
   },
   {
     "node": "38",
-    "name": "Other group",
-    "value": 5602,
-    "id": "Other-group"
+    "name": "Irish Republican Army",
+    "value": 3654,
+    "id": "Irish-Republican-Army"
   },
   {
     "node": "39",
-    "value": 11037
+    "name": "Al-Qaida",
+    "value": 2585,
+    "id": "Al-Qaida"
+  },
+  {
+    "node": "40",
+    "name": "Basque Fatherland and Freedom",
+    "value": 2344,
+    "id": "Basque-Fatherland-and-Freedom"
+  },
+  {
+    "node": "41",
+    "name": "Undetermined",
+    "value": 2163,
+    "id": "Undetermined"
+  },
+  {
+    "node": "42",
+    "name": "Islamic State of Iraq and the Levant",
+    "value": 835,
+    "id": "Islamic-State-of-Iraq-and-the-Levant"
+  },
+  {
+    "node": "43",
+    "name": "Jihadi-inspired extremists",
+    "value": 625,
+    "id": "Jihadi-inspired-extremists"
+  },
+  {
+    "node": "44",
+    "name": "Neo-Nazi extremists",
+    "value": 524,
+    "id": "Neo-Nazi-extremists"
+  },
+  {
+    "node": "45",
+    "name": "Abu Nidal Organization",
+    "value": 253,
+    "id": "Abu-Nidal-Organization"
+  },
+  {
+    "node": "46",
+    "name": "Armed Islamic Group",
+    "value": 253,
+    "id": "Armed-Islamic-Group"
+  },
+  {
+    "node": "47",
+    "name": "Other group",
+    "value": 5096,
+    "id": "Other-group"
   }
 ], 
  "links":[
@@ -1511,66 +1561,288 @@
   },
   {
     "source": "Transportation",
-    "target": "Other group",
-    "value": 4225
+    "target": "Irish Republican Army",
+    "value": 150
   },
   {
     "source": "Transportation",
-    "value": 461
+    "target": "Al-Qaida",
+    "value": 2585
+  },
+  {
+    "source": "Transportation",
+    "target": "Basque Fatherland and Freedom",
+    "value": 155
+  },
+  {
+    "source": "Transportation",
+    "target": "Undetermined",
+    "value": 136
+  },
+  {
+    "source": "Transportation",
+    "target": "Islamic State of Iraq and the Levant",
+    "value": 302
+  },
+  {
+    "source": "Transportation",
+    "target": "Jihadi-inspired extremists",
+    "value": 3
+  },
+  {
+    "source": "Transportation",
+    "target": "Neo-Nazi extremists",
+    "value": 15
+  },
+  {
+    "source": "Transportation",
+    "target": "Abu Nidal Organization",
+    "value": 146
+  },
+  {
+    "source": "Transportation",
+    "target": "Armed Islamic Group",
+    "value": 206
+  },
+  {
+    "source": "Transportation",
+    "target": "Other group",
+    "value": 988
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Irish Republican Army",
+    "value": 868
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Basque Fatherland and Freedom",
+    "value": 556
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Undetermined",
+    "value": 453
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Islamic State of Iraq and the Levant",
+    "value": 532
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Jihadi-inspired extremists",
+    "value": 22
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Neo-Nazi extremists",
+    "value": 20
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Abu Nidal Organization",
+    "value": 102
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Armed Islamic Group",
+    "value": 14
   },
   {
     "source": "Business, Utilities & Communication",
     "target": "Other group",
-    "value": 2223
+    "value": 1649
   },
   {
-    "source": "Business, Utilities & Communication",
-    "value": 1993
+    "source": "Private Citizens & Property",
+    "target": "Irish Republican Army",
+    "value": 846
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Basque Fatherland and Freedom",
+    "value": 140
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Undetermined",
+    "value": 583
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Islamic State of Iraq and the Levant",
+    "value": 0
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Jihadi-inspired extremists",
+    "value": 569
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Neo-Nazi extremists",
+    "value": 92
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Abu Nidal Organization",
+    "value": 0
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Armed Islamic Group",
+    "value": 3
   },
   {
     "source": "Private Citizens & Property",
     "target": "Other group",
-    "value": 1455
+    "value": 1002
   },
   {
-    "source": "Private Citizens & Property",
-    "value": 1780
+    "source": "Police",
+    "target": "Irish Republican Army",
+    "value": 603
+  },
+  {
+    "source": "Police",
+    "target": "Basque Fatherland and Freedom",
+    "value": 1018
+  },
+  {
+    "source": "Police",
+    "target": "Undetermined",
+    "value": 320
+  },
+  {
+    "source": "Police",
+    "target": "Islamic State of Iraq and the Levant",
+    "value": 1
+  },
+  {
+    "source": "Police",
+    "target": "Jihadi-inspired extremists",
+    "value": 16
+  },
+  {
+    "source": "Police",
+    "target": "Neo-Nazi extremists",
+    "value": 163
   },
   {
     "source": "Police",
     "target": "Other group",
-    "value": 411
+    "value": 486
   },
   {
-    "source": "Police",
-    "value": 2196
+    "source": "Government",
+    "target": "Irish Republican Army",
+    "value": 489
+  },
+  {
+    "source": "Government",
+    "target": "Basque Fatherland and Freedom",
+    "value": 250
+  },
+  {
+    "source": "Government",
+    "target": "Undetermined",
+    "value": 378
+  },
+  {
+    "source": "Government",
+    "target": "Jihadi-inspired extremists",
+    "value": 1
+  },
+  {
+    "source": "Government",
+    "target": "Neo-Nazi extremists",
+    "value": 6
+  },
+  {
+    "source": "Government",
+    "target": "Abu Nidal Organization",
+    "value": 3
+  },
+  {
+    "source": "Government",
+    "target": "Armed Islamic Group",
+    "value": 13
   },
   {
     "source": "Government",
     "target": "Other group",
-    "value": 620
+    "value": 652
   },
   {
-    "source": "Government",
-    "value": 1172
+    "source": "Military",
+    "target": "Irish Republican Army",
+    "value": 674
+  },
+  {
+    "source": "Military",
+    "target": "Basque Fatherland and Freedom",
+    "value": 218
+  },
+  {
+    "source": "Military",
+    "target": "Undetermined",
+    "value": 131
+  },
+  {
+    "source": "Military",
+    "target": "Jihadi-inspired extremists",
+    "value": 8
+  },
+  {
+    "source": "Military",
+    "target": "Neo-Nazi extremists",
+    "value": 0
   },
   {
     "source": "Military",
     "target": "Other group",
-    "value": 223
+    "value": 224
   },
   {
-    "source": "Military",
-    "value": 1032
+    "source": "Unknown, religious & militia",
+    "target": "Irish Republican Army",
+    "value": 24
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Basque Fatherland and Freedom",
+    "value": 7
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Undetermined",
+    "value": 162
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Jihadi-inspired extremists",
+    "value": 6
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Neo-Nazi extremists",
+    "value": 228
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Abu Nidal Organization",
+    "value": 2
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Armed Islamic Group",
+    "value": 17
   },
   {
     "source": "Unknown, religious & militia",
     "target": "Other group",
-    "value": 112
-  },
-  {
-    "source": "Unknown, religious & militia",
-    "value": 429
+    "value": 95
   }
 ]}
 }

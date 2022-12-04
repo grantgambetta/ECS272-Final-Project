@@ -3,222 +3,272 @@
   {
     "node": "1",
     "name": "1970-1974",
-    "value": 12,
+    "value": 0,
     "id": "1970-1974"
   },
   {
     "node": "2",
     "name": "1975-1979",
-    "value": 4,
+    "value": 18,
     "id": "1975-1979"
   },
   {
     "node": "3",
     "name": "1980-1984",
-    "value": 23,
+    "value": 7,
     "id": "1980-1984"
   },
   {
     "node": "4",
     "name": "1985-1989",
-    "value": 55,
+    "value": 70,
     "id": "1985-1989"
   },
   {
     "node": "5",
     "name": "1990-1994",
-    "value": 59,
+    "value": 60,
     "id": "1990-1994"
   },
   {
     "node": "6",
     "name": "1995-1999",
-    "value": 54,
+    "value": 56,
     "id": "1995-1999"
   },
   {
     "node": "7",
     "name": "2000-2004",
-    "value": 16,
+    "value": 17,
     "id": "2000-2004"
   },
   {
     "node": "8",
     "name": "2005-2009",
-    "value": 12,
+    "value": 0,
     "id": "2005-2009"
   },
   {
     "node": "9",
     "name": "2010-2014",
-    "value": 11,
+    "value": 7,
     "id": "2010-2014"
   },
   {
     "node": "10",
     "name": "2015-2017",
-    "value": 36,
+    "value": 25,
     "id": "2015-2017"
   },
   {
     "node": "11",
     "name": "Australia",
-    "value": 114,
+    "value": 113,
     "id": "Australia"
   },
   {
     "node": "12",
     "name": "Papua New Guinea",
-    "value": 89,
+    "value": 91,
     "id": "Papua-New-Guinea"
   },
   {
     "node": "13",
     "name": "New Caledonia",
-    "value": 31,
+    "value": 23,
     "id": "New-Caledonia"
   },
   {
     "node": "14",
     "name": "Fiji",
-    "value": 17,
+    "value": 18,
     "id": "Fiji"
   },
   {
     "node": "15",
     "name": "French Polynesia",
-    "value": 3,
+    "value": 13,
     "id": "French-Polynesia"
   },
   {
     "node": "16",
     "name": "New Zealand",
-    "value": 20,
+    "value": 2,
     "id": "New-Zealand"
   },
   {
     "node": "17",
     "name": "New Hebrides",
-    "value": 1,
+    "value": 0,
     "id": "New-Hebrides"
   },
   {
     "node": "18",
     "name": "Solomon Islands",
-    "value": 4,
+    "value": 0,
     "id": "Solomon-Islands"
   },
   {
     "node": "19",
     "name": "Vanuatu",
-    "value": 2,
+    "value": 0,
     "id": "Vanuatu"
   },
   {
     "node": "20",
     "name": "Wallis and Futuna",
-    "value": 1,
+    "value": 0,
     "id": "Wallis-and-Futuna"
   },
   {
     "node": "21",
     "name": "Armed Assault",
-    "value": 51,
+    "value": 87,
     "id": "Armed-Assault"
   },
   {
     "node": "22",
     "name": "Bombing/Explosion",
-    "value": 75,
+    "value": 77,
     "id": "Bombing-Explosion"
   },
   {
     "node": "23",
     "name": "Unarmed Assault",
-    "value": 11,
+    "value": 41,
     "id": "Unarmed-Assault"
   },
   {
     "node": "24",
     "name": "Hostage Taking",
-    "value": 19,
+    "value": 27,
     "id": "Hostage-Taking"
   },
   {
     "node": "25",
     "name": "Facility/Infrastructure Attack",
-    "value": 71,
+    "value": 13,
     "id": "Facility-Infrastructure-Attack"
   },
   {
     "node": "26",
     "name": "Assassination",
-    "value": 36,
+    "value": 9,
     "id": "Assassination"
   },
   {
     "node": "27",
     "name": "Unknown",
-    "value": 16,
+    "value": 6,
     "id": "Unknown"
   },
   {
     "node": "28",
     "name": "Hijacking",
-    "value": 3,
+    "value": 0,
     "id": "Hijacking"
   },
   {
     "node": "29",
     "name": "Business, Utilities & Communication",
-    "value": 64,
+    "value": 66,
     "id": "Business--Utilities---Communication"
   },
   {
     "node": "30",
     "name": "Government",
-    "value": 82,
+    "value": 50,
     "id": "Government"
   },
   {
     "node": "31",
     "name": "Police",
-    "value": 32,
+    "value": 49,
     "id": "Police"
   },
   {
     "node": "32",
     "name": "Private Citizens & Property",
-    "value": 38,
+    "value": 40,
     "id": "Private-Citizens---Property"
   },
   {
     "node": "33",
     "name": "Military",
-    "value": 15,
+    "value": 31,
     "id": "Military"
   },
   {
     "node": "34",
     "name": "Transportation",
-    "value": 19,
+    "value": 23,
     "id": "Transportation"
   },
   {
     "node": "35",
     "name": "Unknown, religious & militia",
-    "value": 32,
+    "value": 1,
     "id": "Unknown--religious---militia"
   },
   {
     "node": "36",
-    "name": "Other group",
-    "value": 48,
-    "id": "Other-group"
+    "name": "Undetermined",
+    "value": 132,
+    "id": "Undetermined"
   },
   {
     "node": "37",
-    "value": 234
+    "name": "Bougainville Revolutionary Army",
+    "value": 40,
+    "id": "Bougainville-Revolutionary-Army"
+  },
+  {
+    "node": "38",
+    "name": "Muslim extremists",
+    "value": 18,
+    "id": "Muslim-extremists"
+  },
+  {
+    "node": "39",
+    "name": "Rebel Military Unit",
+    "value": 17,
+    "id": "Rebel-Military-Unit"
+  },
+  {
+    "node": "40",
+    "name": "Anti-Nuclear extremists",
+    "value": 13,
+    "id": "Anti-Nuclear-extremists"
+  },
+  {
+    "node": "41",
+    "name": "Jihadi-inspired extremists",
+    "value": 10,
+    "id": "Jihadi-inspired-extremists"
+  },
+  {
+    "node": "42",
+    "name": "Kanak Socialist National Liberation Front",
+    "value": 6,
+    "id": "Kanak-Socialist-National-Liberation-Front"
+  },
+  {
+    "node": "43",
+    "name": "Lufa Tribesmen",
+    "value": 6,
+    "id": "Lufa-Tribesmen"
+  },
+  {
+    "node": "44",
+    "name": "Kanak Separatists",
+    "value": 4,
+    "id": "Kanak-Separatists"
+  },
+  {
+    "node": "45",
+    "name": "Other group",
+    "value": 14,
+    "id": "Other-group"
   }
 ], 
  "links":[
@@ -809,12 +859,48 @@
   },
   {
     "source": "Business, Utilities & Communication",
+    "target": "Undetermined",
+    "value": 59
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Bougainville Revolutionary Army",
+    "value": 1
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Jihadi-inspired extremists",
+    "value": 4
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Kanak Separatists",
+    "value": 0
+  },
+  {
+    "source": "Business, Utilities & Communication",
     "target": "Other group",
     "value": 2
   },
   {
-    "source": "Business, Utilities & Communication",
-    "value": 64
+    "source": "Government",
+    "target": "Undetermined",
+    "value": 16
+  },
+  {
+    "source": "Government",
+    "target": "Bougainville Revolutionary Army",
+    "value": 26
+  },
+  {
+    "source": "Government",
+    "target": "Anti-Nuclear extremists",
+    "value": 0
+  },
+  {
+    "source": "Government",
+    "target": "Kanak Separatists",
+    "value": 1
   },
   {
     "source": "Government",
@@ -822,8 +908,29 @@
     "value": 7
   },
   {
-    "source": "Government",
-    "value": 43
+    "source": "Police",
+    "target": "Undetermined",
+    "value": 32
+  },
+  {
+    "source": "Police",
+    "target": "Bougainville Revolutionary Army",
+    "value": 0
+  },
+  {
+    "source": "Police",
+    "target": "Jihadi-inspired extremists",
+    "value": 5
+  },
+  {
+    "source": "Police",
+    "target": "Kanak Socialist National Liberation Front",
+    "value": 6
+  },
+  {
+    "source": "Police",
+    "target": "Kanak Separatists",
+    "value": 3
   },
   {
     "source": "Police",
@@ -831,26 +938,74 @@
     "value": 3
   },
   {
-    "source": "Police",
-    "value": 46
+    "source": "Private Citizens & Property",
+    "target": "Undetermined",
+    "value": 10
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Bougainville Revolutionary Army",
+    "value": 3
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Muslim extremists",
+    "value": 18
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Jihadi-inspired extremists",
+    "value": 1
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Kanak Socialist National Liberation Front",
+    "value": 0
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Lufa Tribesmen",
+    "value": 6
   },
   {
     "source": "Private Citizens & Property",
     "target": "Other group",
-    "value": 26
-  },
-  {
-    "source": "Private Citizens & Property",
-    "value": 14
+    "value": 2
   },
   {
     "source": "Military",
-    "target": "Other group",
+    "target": "Undetermined",
+    "value": 4
+  },
+  {
+    "source": "Military",
+    "target": "Bougainville Revolutionary Army",
+    "value": 10
+  },
+  {
+    "source": "Military",
+    "target": "Rebel Military Unit",
     "value": 17
   },
   {
     "source": "Military",
-    "value": 14
+    "target": "Other group",
+    "value": 0
+  },
+  {
+    "source": "Transportation",
+    "target": "Undetermined",
+    "value": 10
+  },
+  {
+    "source": "Transportation",
+    "target": "Bougainville Revolutionary Army",
+    "value": 0
+  },
+  {
+    "source": "Transportation",
+    "target": "Anti-Nuclear extremists",
+    "value": 13
   },
   {
     "source": "Transportation",
@@ -858,17 +1013,14 @@
     "value": 0
   },
   {
-    "source": "Transportation",
-    "value": 23
-  },
-  {
     "source": "Unknown, religious & militia",
-    "target": "Other group",
-    "value": 0
-  },
-  {
-    "source": "Unknown, religious & militia",
+    "target": "Undetermined",
     "value": 1
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Other group",
+    "value": 0
   }
 ]}
 }

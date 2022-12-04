@@ -3,186 +3,236 @@
   {
     "node": "1",
     "name": "1990-1994",
-    "value": 149,
+    "value": 470,
     "id": "1990-1994"
   },
   {
     "node": "2",
     "name": "1995-1999",
-    "value": 186,
+    "value": 327,
     "id": "1995-1999"
   },
   {
     "node": "3",
     "name": "2000-2004",
-    "value": 60,
+    "value": 74,
     "id": "2000-2004"
   },
   {
     "node": "4",
     "name": "2005-2009",
-    "value": 88,
+    "value": 55,
     "id": "2005-2009"
   },
   {
     "node": "5",
     "name": "2010-2014",
-    "value": 46,
+    "value": 34,
     "id": "2010-2014"
   },
   {
     "node": "6",
     "name": "2015-2017",
-    "value": 34,
+    "value": 40,
     "id": "2015-2017"
   },
   {
     "node": "7",
     "name": "Tajikistan",
-    "value": 188,
+    "value": 307,
     "id": "Tajikistan"
   },
   {
     "node": "8",
     "name": "Georgia",
-    "value": 217,
+    "value": 278,
     "id": "Georgia"
   },
   {
     "node": "9",
     "name": "Azerbaijan",
-    "value": 49,
+    "value": 258,
     "id": "Azerbaijan"
   },
   {
     "node": "10",
     "name": "Uzbekistan",
-    "value": 21,
+    "value": 68,
     "id": "Uzbekistan"
   },
   {
     "node": "11",
     "name": "Kazakhstan",
-    "value": 27,
+    "value": 39,
     "id": "Kazakhstan"
   },
   {
     "node": "12",
     "name": "Armenia",
-    "value": 24,
+    "value": 37,
     "id": "Armenia"
   },
   {
     "node": "13",
     "name": "Kyrgyzstan",
-    "value": 35,
+    "value": 10,
     "id": "Kyrgyzstan"
   },
   {
     "node": "14",
     "name": "Turkmenistan",
-    "value": 2,
+    "value": 3,
     "id": "Turkmenistan"
   },
   {
     "node": "15",
     "name": "Armed Assault",
-    "value": 116,
+    "value": 400,
     "id": "Armed-Assault"
   },
   {
     "node": "16",
     "name": "Bombing/Explosion",
-    "value": 235,
+    "value": 349,
     "id": "Bombing-Explosion"
   },
   {
     "node": "17",
     "name": "Assassination",
-    "value": 115,
+    "value": 138,
     "id": "Assassination"
   },
   {
     "node": "18",
     "name": "Unknown",
-    "value": 17,
+    "value": 66,
     "id": "Unknown"
   },
   {
     "node": "19",
     "name": "Hostage Taking",
-    "value": 47,
+    "value": 16,
     "id": "Hostage-Taking"
   },
   {
     "node": "20",
     "name": "Unarmed Assault",
-    "value": 5,
+    "value": 16,
     "id": "Unarmed-Assault"
   },
   {
     "node": "21",
     "name": "Hijacking",
-    "value": 8,
+    "value": 14,
     "id": "Hijacking"
   },
   {
     "node": "22",
     "name": "Facility/Infrastructure Attack",
-    "value": 20,
+    "value": 1,
     "id": "Facility-Infrastructure-Attack"
   },
   {
     "node": "23",
     "name": "Private Citizens & Property",
-    "value": 82,
+    "value": 293,
     "id": "Private-Citizens---Property"
   },
   {
     "node": "24",
     "name": "Military",
-    "value": 90,
+    "value": 205,
     "id": "Military"
   },
   {
     "node": "25",
     "name": "Police",
-    "value": 77,
+    "value": 173,
     "id": "Police"
   },
   {
     "node": "26",
     "name": "Government",
-    "value": 159,
+    "value": 125,
     "id": "Government"
   },
   {
     "node": "27",
     "name": "Transportation",
-    "value": 41,
+    "value": 101,
     "id": "Transportation"
   },
   {
     "node": "28",
     "name": "Business, Utilities & Communication",
-    "value": 87,
+    "value": 58,
     "id": "Business--Utilities---Communication"
   },
   {
     "node": "29",
     "name": "Unknown, religious & militia",
-    "value": 27,
+    "value": 45,
     "id": "Unknown--religious---militia"
   },
   {
     "node": "30",
-    "name": "Other group",
-    "value": 70,
-    "id": "Other-group"
+    "name": "Undetermined",
+    "value": 609,
+    "id": "Undetermined"
   },
   {
     "node": "31",
-    "value": 493
+    "name": "Armenian Guerrillas",
+    "value": 97,
+    "id": "Armenian-Guerrillas"
+  },
+  {
+    "node": "32",
+    "name": "Azerbaijan Guerrillas",
+    "value": 65,
+    "id": "Azerbaijan-Guerrillas"
+  },
+  {
+    "node": "33",
+    "name": "Abkhazian Separatists",
+    "value": 58,
+    "id": "Abkhazian-Separatists"
+  },
+  {
+    "node": "34",
+    "name": "Georgian Militants",
+    "value": 36,
+    "id": "Georgian-Militants"
+  },
+  {
+    "node": "35",
+    "name": "White Legion",
+    "value": 18,
+    "id": "White-Legion"
+  },
+  {
+    "node": "36",
+    "name": "Abkhazian guerrillas",
+    "value": 15,
+    "id": "Abkhazian-guerrillas"
+  },
+  {
+    "node": "37",
+    "name": "Kazakhstan Liberation Army",
+    "value": 10,
+    "id": "Kazakhstan-Liberation-Army"
+  },
+  {
+    "node": "38",
+    "name": "Muslim extremists",
+    "value": 9,
+    "id": "Muslim-extremists"
+  },
+  {
+    "node": "39",
+    "name": "Other group",
+    "value": 83,
+    "id": "Other-group"
   }
 ], 
  "links":[
@@ -863,66 +913,188 @@
   },
   {
     "source": "Private Citizens & Property",
-    "target": "Other group",
-    "value": 113
+    "target": "Undetermined",
+    "value": 109
   },
   {
     "source": "Private Citizens & Property",
-    "value": 180
+    "target": "Armenian Guerrillas",
+    "value": 97
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Azerbaijan Guerrillas",
+    "value": 62
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Abkhazian Separatists",
+    "value": 8
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Georgian Militants",
+    "value": 4
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "White Legion",
+    "value": 8
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Muslim extremists",
+    "value": 0
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Other group",
+    "value": 5
+  },
+  {
+    "source": "Military",
+    "target": "Undetermined",
+    "value": 132
+  },
+  {
+    "source": "Military",
+    "target": "Azerbaijan Guerrillas",
+    "value": 3
+  },
+  {
+    "source": "Military",
+    "target": "Abkhazian Separatists",
+    "value": 30
+  },
+  {
+    "source": "Military",
+    "target": "Abkhazian guerrillas",
+    "value": 15
+  },
+  {
+    "source": "Military",
+    "target": "Kazakhstan Liberation Army",
+    "value": 4
   },
   {
     "source": "Military",
     "target": "Other group",
-    "value": 35
+    "value": 21
   },
   {
-    "source": "Military",
-    "value": 170
+    "source": "Police",
+    "target": "Undetermined",
+    "value": 136
+  },
+  {
+    "source": "Police",
+    "target": "Abkhazian Separatists",
+    "value": 0
+  },
+  {
+    "source": "Police",
+    "target": "White Legion",
+    "value": 10
+  },
+  {
+    "source": "Police",
+    "target": "Muslim extremists",
+    "value": 1
   },
   {
     "source": "Police",
     "target": "Other group",
-    "value": 34
+    "value": 26
   },
   {
-    "source": "Police",
-    "value": 139
+    "source": "Government",
+    "target": "Undetermined",
+    "value": 96
+  },
+  {
+    "source": "Government",
+    "target": "White Legion",
+    "value": 0
+  },
+  {
+    "source": "Government",
+    "target": "Muslim extremists",
+    "value": 8
   },
   {
     "source": "Government",
     "target": "Other group",
-    "value": 19
-  },
-  {
-    "source": "Government",
-    "value": 106
+    "value": 21
   },
   {
     "source": "Transportation",
-    "target": "Other group",
+    "target": "Undetermined",
+    "value": 71
+  },
+  {
+    "source": "Transportation",
+    "target": "Armenian Guerrillas",
+    "value": 0
+  },
+  {
+    "source": "Transportation",
+    "target": "Azerbaijan Guerrillas",
+    "value": 0
+  },
+  {
+    "source": "Transportation",
+    "target": "Georgian Militants",
     "value": 30
   },
   {
     "source": "Transportation",
-    "value": 71
+    "target": "Abkhazian guerrillas",
+    "value": 0
+  },
+  {
+    "source": "Transportation",
+    "target": "Other group",
+    "value": 0
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Undetermined",
+    "value": 44
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Kazakhstan Liberation Army",
+    "value": 6
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Muslim extremists",
+    "value": 0
   },
   {
     "source": "Business, Utilities & Communication",
     "target": "Other group",
-    "value": 13
+    "value": 8
   },
   {
-    "source": "Business, Utilities & Communication",
-    "value": 45
+    "source": "Unknown, religious & militia",
+    "target": "Undetermined",
+    "value": 21
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Abkhazian Separatists",
+    "value": 20
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Georgian Militants",
+    "value": 2
   },
   {
     "source": "Unknown, religious & militia",
     "target": "Other group",
-    "value": 3
-  },
-  {
-    "source": "Unknown, religious & militia",
-    "value": 42
+    "value": 2
   }
 ]}
 }

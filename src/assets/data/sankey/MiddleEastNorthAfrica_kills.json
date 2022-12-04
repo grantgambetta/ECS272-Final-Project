@@ -3,234 +3,284 @@
   {
     "node": "1",
     "name": "1970-1974",
-    "value": 197,
+    "value": 129,
     "id": "1970-1974"
   },
   {
     "node": "2",
     "name": "1975-1979",
-    "value": 893,
+    "value": 1185,
     "id": "1975-1979"
   },
   {
     "node": "3",
     "name": "1980-1984",
-    "value": 1641,
+    "value": 2706,
     "id": "1980-1984"
   },
   {
     "node": "4",
     "name": "1985-1989",
-    "value": 1242,
+    "value": 2558,
     "id": "1985-1989"
   },
   {
     "node": "5",
     "name": "1990-1994",
-    "value": 3349,
+    "value": 5266,
     "id": "1990-1994"
   },
   {
     "node": "6",
     "name": "1995-1999",
-    "value": 2074,
+    "value": 8423,
     "id": "1995-1999"
   },
   {
     "node": "7",
     "name": "2000-2004",
-    "value": 1762,
+    "value": 6327,
     "id": "2000-2004"
   },
   {
     "node": "8",
     "name": "2005-2009",
-    "value": 6351,
+    "value": 22579,
     "id": "2005-2009"
   },
   {
     "node": "9",
     "name": "2010-2014",
-    "value": 17034,
+    "value": 40591,
     "id": "2010-2014"
   },
   {
     "node": "10",
     "name": "2015-2017",
-    "value": 15931,
+    "value": 47878,
     "id": "2015-2017"
   },
   {
     "node": "11",
     "name": "Iraq",
-    "value": 24636,
+    "value": 78589,
     "id": "Iraq"
   },
   {
     "node": "12",
     "name": "Syria",
-    "value": 2201,
+    "value": 15229,
     "id": "Syria"
   },
   {
     "node": "13",
     "name": "Algeria",
-    "value": 2743,
+    "value": 11066,
     "id": "Algeria"
   },
   {
     "node": "14",
     "name": "Yemen",
-    "value": 3347,
+    "value": 8776,
     "id": "Yemen"
   },
   {
     "node": "15",
     "name": "Turkey",
-    "value": 4292,
+    "value": 6888,
     "id": "Turkey"
   },
   {
     "node": "16",
     "name": "Lebanon",
-    "value": 2478,
+    "value": 4061,
     "id": "Lebanon"
   },
   {
     "node": "17",
     "name": "Egypt",
-    "value": 2479,
+    "value": 3869,
     "id": "Egypt"
   },
   {
     "node": "18",
     "name": "Libya",
-    "value": 2249,
+    "value": 2598,
     "id": "Libya"
   },
   {
     "node": "19",
     "name": "Israel",
-    "value": 2183,
+    "value": 1703,
     "id": "Israel"
   },
   {
     "node": "20",
     "name": "Iran",
-    "value": 684,
+    "value": 1673,
     "id": "Iran"
   },
   {
     "node": "21",
     "name": "West Bank and Gaza Strip",
-    "value": 2227,
+    "value": 1500,
     "id": "West-Bank-and-Gaza-Strip"
   },
   {
     "node": "22",
     "name": "Other",
-    "value": 955,
+    "value": 1690,
     "id": "Other"
   },
   {
     "node": "23",
     "name": "Bombing/Explosion",
-    "value": 30908,
+    "value": 81183,
     "id": "Bombing-Explosion"
   },
   {
     "node": "24",
     "name": "Armed Assault",
-    "value": 9273,
+    "value": 26201,
     "id": "Armed-Assault"
   },
   {
     "node": "25",
     "name": "Hostage Taking",
-    "value": 2766,
+    "value": 13837,
     "id": "Hostage-Taking"
   },
   {
     "node": "26",
     "name": "Unknown",
-    "value": 1891,
+    "value": 10576,
     "id": "Unknown"
   },
   {
     "node": "27",
     "name": "Assassination",
-    "value": 4206,
+    "value": 4774,
     "id": "Assassination"
   },
   {
     "node": "28",
     "name": "Facility/Infrastructure Attack",
-    "value": 1115,
+    "value": 802,
     "id": "Facility-Infrastructure-Attack"
   },
   {
     "node": "29",
     "name": "Unarmed Assault",
-    "value": 177,
+    "value": 145,
     "id": "Unarmed-Assault"
   },
   {
     "node": "30",
     "name": "Hijacking",
-    "value": 138,
+    "value": 124,
     "id": "Hijacking"
   },
   {
     "node": "31",
     "name": "Private Citizens & Property",
-    "value": 15457,
+    "value": 50197,
     "id": "Private-Citizens---Property"
   },
   {
     "node": "32",
     "name": "Military",
-    "value": 9269,
+    "value": 34261,
     "id": "Military"
   },
   {
     "node": "33",
     "name": "Police",
-    "value": 6893,
+    "value": 17020,
     "id": "Police"
   },
   {
     "node": "34",
     "name": "Unknown, religious & militia",
-    "value": 5604,
+    "value": 12870,
     "id": "Unknown--religious---militia"
   },
   {
     "node": "35",
     "name": "Business, Utilities & Communication",
-    "value": 6676,
+    "value": 12193,
     "id": "Business--Utilities---Communication"
   },
   {
     "node": "36",
     "name": "Government",
-    "value": 5056,
+    "value": 7322,
     "id": "Government"
   },
   {
     "node": "37",
     "name": "Transportation",
-    "value": 1519,
+    "value": 3779,
     "id": "Transportation"
   },
   {
     "node": "38",
-    "name": "Other group",
-    "value": 9131,
-    "id": "Other-group"
+    "name": "Undetermined",
+    "value": 53691,
+    "id": "Undetermined"
   },
   {
     "node": "39",
-    "value": 41343
+    "name": "Islamic State of Iraq and the Levant",
+    "value": 38654,
+    "id": "Islamic-State-of-Iraq-and-the-Levant"
+  },
+  {
+    "node": "40",
+    "name": "Kurdistan Workers Party",
+    "value": 4951,
+    "id": "Kurdistan-Workers-Party"
+  },
+  {
+    "node": "41",
+    "name": "Al-Qaida in Iraq",
+    "value": 4380,
+    "id": "Al-Qaida-in-Iraq"
+  },
+  {
+    "node": "42",
+    "name": "Al-Qaida in the Arabian Peninsula",
+    "value": 3553,
+    "id": "Al-Qaida-in-the-Arabian-Peninsula"
+  },
+  {
+    "node": "43",
+    "name": "Houthi extremists",
+    "value": 3050,
+    "id": "Houthi-extremists"
+  },
+  {
+    "node": "44",
+    "name": "Al-Nusrah Front",
+    "value": 2978,
+    "id": "Al-Nusrah-Front"
+  },
+  {
+    "node": "45",
+    "name": "Islamic State of Iraq",
+    "value": 1726,
+    "id": "Islamic-State-of-Iraq"
+  },
+  {
+    "node": "46",
+    "name": "Sinai Province of the Islamic State",
+    "value": 1621,
+    "id": "Sinai-Province-of-the-Islamic-State"
+  },
+  {
+    "node": "47",
+    "name": "Other group",
+    "value": 23038,
+    "id": "Other-group"
   }
 ], 
  "links":[
@@ -1541,66 +1591,353 @@
   },
   {
     "source": "Private Citizens & Property",
-    "target": "Other group",
-    "value": 7485
+    "target": "Undetermined",
+    "value": 23442
   },
   {
     "source": "Private Citizens & Property",
-    "value": 42712
+    "target": "Islamic State of Iraq and the Levant",
+    "value": 14800
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Kurdistan Workers Party",
+    "value": 780
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Al-Qaida in Iraq",
+    "value": 2004
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Al-Qaida in the Arabian Peninsula",
+    "value": 349
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Houthi extremists",
+    "value": 968
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Al-Nusrah Front",
+    "value": 541
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Islamic State of Iraq",
+    "value": 630
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Sinai Province of the Islamic State",
+    "value": 86
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Other group",
+    "value": 6597
+  },
+  {
+    "source": "Military",
+    "target": "Undetermined",
+    "value": 6707
+  },
+  {
+    "source": "Military",
+    "target": "Islamic State of Iraq and the Levant",
+    "value": 12763
+  },
+  {
+    "source": "Military",
+    "target": "Kurdistan Workers Party",
+    "value": 2585
+  },
+  {
+    "source": "Military",
+    "target": "Al-Qaida in Iraq",
+    "value": 409
+  },
+  {
+    "source": "Military",
+    "target": "Al-Qaida in the Arabian Peninsula",
+    "value": 1948
+  },
+  {
+    "source": "Military",
+    "target": "Houthi extremists",
+    "value": 1210
+  },
+  {
+    "source": "Military",
+    "target": "Al-Nusrah Front",
+    "value": 1761
+  },
+  {
+    "source": "Military",
+    "target": "Islamic State of Iraq",
+    "value": 120
+  },
+  {
+    "source": "Military",
+    "target": "Sinai Province of the Islamic State",
+    "value": 654
   },
   {
     "source": "Military",
     "target": "Other group",
-    "value": 7871
+    "value": 6104
   },
   {
-    "source": "Military",
-    "value": 26390
+    "source": "Police",
+    "target": "Undetermined",
+    "value": 6889
+  },
+  {
+    "source": "Police",
+    "target": "Islamic State of Iraq and the Levant",
+    "value": 4581
+  },
+  {
+    "source": "Police",
+    "target": "Kurdistan Workers Party",
+    "value": 881
+  },
+  {
+    "source": "Police",
+    "target": "Al-Qaida in Iraq",
+    "value": 725
+  },
+  {
+    "source": "Police",
+    "target": "Al-Qaida in the Arabian Peninsula",
+    "value": 318
+  },
+  {
+    "source": "Police",
+    "target": "Houthi extremists",
+    "value": 208
+  },
+  {
+    "source": "Police",
+    "target": "Al-Nusrah Front",
+    "value": 108
+  },
+  {
+    "source": "Police",
+    "target": "Islamic State of Iraq",
+    "value": 181
+  },
+  {
+    "source": "Police",
+    "target": "Sinai Province of the Islamic State",
+    "value": 278
   },
   {
     "source": "Police",
     "target": "Other group",
-    "value": 3125
+    "value": 2851
   },
   {
-    "source": "Police",
-    "value": 13895
+    "source": "Unknown, religious & militia",
+    "target": "Undetermined",
+    "value": 5496
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Islamic State of Iraq and the Levant",
+    "value": 2395
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Kurdistan Workers Party",
+    "value": 164
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Al-Qaida in Iraq",
+    "value": 324
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Al-Qaida in the Arabian Peninsula",
+    "value": 389
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Houthi extremists",
+    "value": 426
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Al-Nusrah Front",
+    "value": 230
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Islamic State of Iraq",
+    "value": 271
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Sinai Province of the Islamic State",
+    "value": 347
   },
   {
     "source": "Unknown, religious & militia",
     "target": "Other group",
-    "value": 3299
+    "value": 2828
   },
   {
-    "source": "Unknown, religious & militia",
-    "value": 9571
+    "source": "Business, Utilities & Communication",
+    "target": "Undetermined",
+    "value": 6051
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Islamic State of Iraq and the Levant",
+    "value": 2887
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Kurdistan Workers Party",
+    "value": 190
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Al-Qaida in Iraq",
+    "value": 383
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Al-Qaida in the Arabian Peninsula",
+    "value": 198
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Houthi extremists",
+    "value": 73
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Al-Nusrah Front",
+    "value": 119
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Islamic State of Iraq",
+    "value": 112
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Sinai Province of the Islamic State",
+    "value": 26
   },
   {
     "source": "Business, Utilities & Communication",
     "target": "Other group",
-    "value": 2366
+    "value": 2154
   },
   {
-    "source": "Business, Utilities & Communication",
-    "value": 9827
+    "source": "Government",
+    "target": "Undetermined",
+    "value": 3416
+  },
+  {
+    "source": "Government",
+    "target": "Islamic State of Iraq and the Levant",
+    "value": 931
+  },
+  {
+    "source": "Government",
+    "target": "Kurdistan Workers Party",
+    "value": 147
+  },
+  {
+    "source": "Government",
+    "target": "Al-Qaida in Iraq",
+    "value": 456
+  },
+  {
+    "source": "Government",
+    "target": "Al-Qaida in the Arabian Peninsula",
+    "value": 336
+  },
+  {
+    "source": "Government",
+    "target": "Houthi extremists",
+    "value": 45
+  },
+  {
+    "source": "Government",
+    "target": "Al-Nusrah Front",
+    "value": 203
+  },
+  {
+    "source": "Government",
+    "target": "Islamic State of Iraq",
+    "value": 401
+  },
+  {
+    "source": "Government",
+    "target": "Sinai Province of the Islamic State",
+    "value": 5
   },
   {
     "source": "Government",
     "target": "Other group",
-    "value": 1959
+    "value": 1382
   },
   {
-    "source": "Government",
-    "value": 5363
+    "source": "Transportation",
+    "target": "Undetermined",
+    "value": 1690
+  },
+  {
+    "source": "Transportation",
+    "target": "Islamic State of Iraq and the Levant",
+    "value": 297
+  },
+  {
+    "source": "Transportation",
+    "target": "Kurdistan Workers Party",
+    "value": 204
+  },
+  {
+    "source": "Transportation",
+    "target": "Al-Qaida in Iraq",
+    "value": 79
+  },
+  {
+    "source": "Transportation",
+    "target": "Al-Qaida in the Arabian Peninsula",
+    "value": 15
+  },
+  {
+    "source": "Transportation",
+    "target": "Houthi extremists",
+    "value": 120
+  },
+  {
+    "source": "Transportation",
+    "target": "Al-Nusrah Front",
+    "value": 16
+  },
+  {
+    "source": "Transportation",
+    "target": "Islamic State of Iraq",
+    "value": 11
+  },
+  {
+    "source": "Transportation",
+    "target": "Sinai Province of the Islamic State",
+    "value": 225
   },
   {
     "source": "Transportation",
     "target": "Other group",
-    "value": 1108
-  },
-  {
-    "source": "Transportation",
-    "value": 2671
+    "value": 1122
   }
 ]}
 }

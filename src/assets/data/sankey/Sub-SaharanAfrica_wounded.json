@@ -3,234 +3,284 @@
   {
     "node": "1",
     "name": "1970-1974",
-    "value": 20,
+    "value": 3,
     "id": "1970-1974"
   },
   {
     "node": "2",
     "name": "1975-1979",
-    "value": 222,
+    "value": 419,
     "id": "1975-1979"
   },
   {
     "node": "3",
     "name": "1980-1984",
-    "value": 448,
+    "value": 1677,
     "id": "1980-1984"
   },
   {
     "node": "4",
     "name": "1985-1989",
-    "value": 1128,
+    "value": 3144,
     "id": "1985-1989"
   },
   {
     "node": "5",
     "name": "1990-1994",
-    "value": 1723,
+    "value": 4298,
     "id": "1990-1994"
   },
   {
     "node": "6",
     "name": "1995-1999",
-    "value": 965,
+    "value": 8129,
     "id": "1995-1999"
   },
   {
     "node": "7",
     "name": "2000-2004",
-    "value": 581,
+    "value": 1927,
     "id": "2000-2004"
   },
   {
     "node": "8",
     "name": "2005-2009",
-    "value": 1139,
+    "value": 4590,
     "id": "2005-2009"
   },
   {
     "node": "9",
     "name": "2010-2014",
-    "value": 5313,
+    "value": 13014,
     "id": "2010-2014"
   },
   {
     "node": "10",
     "name": "2015-2017",
-    "value": 6011,
+    "value": 15656,
     "id": "2015-2017"
   },
   {
     "node": "11",
     "name": "Nigeria",
-    "value": 3907,
+    "value": 10239,
     "id": "Nigeria"
   },
   {
     "node": "12",
     "name": "Somalia",
-    "value": 4142,
+    "value": 8875,
     "id": "Somalia"
   },
   {
     "node": "13",
     "name": "Kenya",
-    "value": 683,
+    "value": 6263,
     "id": "Kenya"
   },
   {
     "node": "14",
     "name": "South Africa",
-    "value": 2016,
+    "value": 4545,
     "id": "South-Africa"
   },
   {
     "node": "15",
     "name": "Angola",
-    "value": 499,
+    "value": 2455,
     "id": "Angola"
   },
   {
     "node": "16",
     "name": "Burundi",
-    "value": 613,
+    "value": 2454,
     "id": "Burundi"
   },
   {
     "node": "17",
     "name": "Sudan",
-    "value": 967,
+    "value": 2169,
     "id": "Sudan"
   },
   {
     "node": "18",
     "name": "Chad",
-    "value": 91,
+    "value": 1681,
     "id": "Chad"
   },
   {
     "node": "19",
     "name": "Mozambique",
-    "value": 363,
+    "value": 1518,
     "id": "Mozambique"
   },
   {
     "node": "20",
     "name": "Democratic Republic of the Congo",
-    "value": 775,
+    "value": 1369,
     "id": "Democratic-Republic-of-the-Congo"
   },
   {
     "node": "21",
     "name": "Mali",
-    "value": 566,
+    "value": 1356,
     "id": "Mali"
   },
   {
     "node": "22",
     "name": "Other",
-    "value": 2928,
+    "value": 9933,
     "id": "Other"
   },
   {
     "node": "23",
     "name": "Bombing/Explosion",
-    "value": 5557,
+    "value": 28448,
     "id": "Bombing-Explosion"
   },
   {
     "node": "24",
     "name": "Armed Assault",
-    "value": 6004,
+    "value": 15716,
     "id": "Armed-Assault"
   },
   {
     "node": "25",
     "name": "Hostage Taking",
-    "value": 1967,
+    "value": 3694,
     "id": "Hostage-Taking"
   },
   {
     "node": "26",
     "name": "Unknown",
-    "value": 1355,
+    "value": 2624,
     "id": "Unknown"
   },
   {
     "node": "27",
     "name": "Assassination",
-    "value": 1638,
+    "value": 1082,
     "id": "Assassination"
   },
   {
     "node": "28",
     "name": "Unarmed Assault",
-    "value": 83,
+    "value": 753,
     "id": "Unarmed-Assault"
   },
   {
     "node": "29",
     "name": "Facility/Infrastructure Attack",
-    "value": 810,
+    "value": 502,
     "id": "Facility-Infrastructure-Attack"
   },
   {
     "node": "30",
     "name": "Hijacking",
-    "value": 136,
+    "value": 38,
     "id": "Hijacking"
   },
   {
     "node": "31",
     "name": "Private Citizens & Property",
-    "value": 5797,
+    "value": 19086,
     "id": "Private-Citizens---Property"
   },
   {
     "node": "32",
     "name": "Government",
-    "value": 2710,
+    "value": 9903,
     "id": "Government"
   },
   {
     "node": "33",
     "name": "Business, Utilities & Communication",
-    "value": 2599,
+    "value": 6738,
     "id": "Business--Utilities---Communication"
   },
   {
     "node": "34",
     "name": "Military",
-    "value": 3021,
+    "value": 6709,
     "id": "Military"
   },
   {
     "node": "35",
     "name": "Transportation",
-    "value": 776,
+    "value": 4139,
     "id": "Transportation"
   },
   {
     "node": "36",
     "name": "Unknown, religious & militia",
-    "value": 1150,
+    "value": 3959,
     "id": "Unknown--religious---militia"
   },
   {
     "node": "37",
     "name": "Police",
-    "value": 1497,
+    "value": 2323,
     "id": "Police"
   },
   {
     "node": "38",
-    "name": "Other group",
-    "value": 3995,
-    "id": "Other-group"
+    "name": "Undetermined",
+    "value": 13490,
+    "id": "Undetermined"
   },
   {
     "node": "39",
-    "value": 13555
+    "name": "Boko Haram",
+    "value": 9473,
+    "id": "Boko-Haram"
+  },
+  {
+    "node": "40",
+    "name": "Al-Shabaab",
+    "value": 7624,
+    "id": "Al-Shabaab"
+  },
+  {
+    "node": "41",
+    "name": "Al-Qaida",
+    "value": 4103,
+    "id": "Al-Qaida"
+  },
+  {
+    "node": "42",
+    "name": "National Union for the Total Independence of Angola",
+    "value": 2297,
+    "id": "National-Union-for-the-Total-Independence-of-Angola"
+  },
+  {
+    "node": "43",
+    "name": "African National Congress",
+    "value": 1696,
+    "id": "African-National-Congress"
+  },
+  {
+    "node": "44",
+    "name": "Mozambique National Resistance Movement",
+    "value": 1235,
+    "id": "Mozambique-National-Resistance-Movement"
+  },
+  {
+    "node": "45",
+    "name": "Rebels",
+    "value": 1040,
+    "id": "Rebels"
+  },
+  {
+    "node": "46",
+    "name": "Hutu extremists",
+    "value": 872,
+    "id": "Hutu-extremists"
+  },
+  {
+    "node": "47",
+    "name": "Other group",
+    "value": 11027,
+    "id": "Other-group"
   }
 ], 
  "links":[
@@ -1466,66 +1516,318 @@
   },
   {
     "source": "Private Citizens & Property",
-    "target": "Other group",
-    "value": 4554
+    "target": "Undetermined",
+    "value": 5131
   },
   {
     "source": "Private Citizens & Property",
-    "value": 14532
+    "target": "Boko Haram",
+    "value": 5024
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Al-Shabaab",
+    "value": 1153
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "National Union for the Total Independence of Angola",
+    "value": 1407
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "African National Congress",
+    "value": 207
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Mozambique National Resistance Movement",
+    "value": 510
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Rebels",
+    "value": 28
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Hutu extremists",
+    "value": 769
+  },
+  {
+    "source": "Private Citizens & Property",
+    "target": "Other group",
+    "value": 4857
+  },
+  {
+    "source": "Government",
+    "target": "Undetermined",
+    "value": 1676
+  },
+  {
+    "source": "Government",
+    "target": "Boko Haram",
+    "value": 195
+  },
+  {
+    "source": "Government",
+    "target": "Al-Shabaab",
+    "value": 1268
+  },
+  {
+    "source": "Government",
+    "target": "Al-Qaida",
+    "value": 4103
+  },
+  {
+    "source": "Government",
+    "target": "National Union for the Total Independence of Angola",
+    "value": 115
+  },
+  {
+    "source": "Government",
+    "target": "African National Congress",
+    "value": 219
+  },
+  {
+    "source": "Government",
+    "target": "Mozambique National Resistance Movement",
+    "value": 124
+  },
+  {
+    "source": "Government",
+    "target": "Rebels",
+    "value": 1001
+  },
+  {
+    "source": "Government",
+    "target": "Hutu extremists",
+    "value": 11
   },
   {
     "source": "Government",
     "target": "Other group",
-    "value": 6410
+    "value": 1191
   },
   {
-    "source": "Government",
-    "value": 3493
+    "source": "Business, Utilities & Communication",
+    "target": "Undetermined",
+    "value": 2679
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Boko Haram",
+    "value": 794
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Al-Shabaab",
+    "value": 1719
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Al-Qaida",
+    "value": 0
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "National Union for the Total Independence of Angola",
+    "value": 98
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "African National Congress",
+    "value": 257
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Mozambique National Resistance Movement",
+    "value": 37
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Rebels",
+    "value": 11
+  },
+  {
+    "source": "Business, Utilities & Communication",
+    "target": "Hutu extremists",
+    "value": 31
   },
   {
     "source": "Business, Utilities & Communication",
     "target": "Other group",
-    "value": 1275
+    "value": 1112
   },
   {
-    "source": "Business, Utilities & Communication",
-    "value": 5463
+    "source": "Military",
+    "target": "Undetermined",
+    "value": 1314
+  },
+  {
+    "source": "Military",
+    "target": "Boko Haram",
+    "value": 972
+  },
+  {
+    "source": "Military",
+    "target": "Al-Shabaab",
+    "value": 2262
+  },
+  {
+    "source": "Military",
+    "target": "National Union for the Total Independence of Angola",
+    "value": 69
+  },
+  {
+    "source": "Military",
+    "target": "African National Congress",
+    "value": 454
+  },
+  {
+    "source": "Military",
+    "target": "Mozambique National Resistance Movement",
+    "value": 62
+  },
+  {
+    "source": "Military",
+    "target": "Rebels",
+    "value": 0
+  },
+  {
+    "source": "Military",
+    "target": "Hutu extremists",
+    "value": 34
   },
   {
     "source": "Military",
     "target": "Other group",
-    "value": 1956
+    "value": 1542
   },
   {
-    "source": "Military",
-    "value": 4753
+    "source": "Transportation",
+    "target": "Undetermined",
+    "value": 1321
+  },
+  {
+    "source": "Transportation",
+    "target": "Boko Haram",
+    "value": 581
+  },
+  {
+    "source": "Transportation",
+    "target": "Al-Shabaab",
+    "value": 474
+  },
+  {
+    "source": "Transportation",
+    "target": "Al-Qaida",
+    "value": 0
+  },
+  {
+    "source": "Transportation",
+    "target": "National Union for the Total Independence of Angola",
+    "value": 525
+  },
+  {
+    "source": "Transportation",
+    "target": "African National Congress",
+    "value": 12
+  },
+  {
+    "source": "Transportation",
+    "target": "Mozambique National Resistance Movement",
+    "value": 466
+  },
+  {
+    "source": "Transportation",
+    "target": "Hutu extremists",
+    "value": 25
   },
   {
     "source": "Transportation",
     "target": "Other group",
-    "value": 687
+    "value": 735
   },
   {
-    "source": "Transportation",
-    "value": 3452
+    "source": "Unknown, religious & militia",
+    "target": "Undetermined",
+    "value": 677
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Boko Haram",
+    "value": 1463
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Al-Shabaab",
+    "value": 308
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "National Union for the Total Independence of Angola",
+    "value": 0
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "African National Congress",
+    "value": 261
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Mozambique National Resistance Movement",
+    "value": 9
+  },
+  {
+    "source": "Unknown, religious & militia",
+    "target": "Hutu extremists",
+    "value": 2
   },
   {
     "source": "Unknown, religious & militia",
     "target": "Other group",
-    "value": 1473
+    "value": 1239
   },
   {
-    "source": "Unknown, religious & militia",
-    "value": 2486
+    "source": "Police",
+    "target": "Undetermined",
+    "value": 692
+  },
+  {
+    "source": "Police",
+    "target": "Boko Haram",
+    "value": 444
+  },
+  {
+    "source": "Police",
+    "target": "Al-Shabaab",
+    "value": 440
+  },
+  {
+    "source": "Police",
+    "target": "National Union for the Total Independence of Angola",
+    "value": 83
+  },
+  {
+    "source": "Police",
+    "target": "African National Congress",
+    "value": 286
+  },
+  {
+    "source": "Police",
+    "target": "Mozambique National Resistance Movement",
+    "value": 27
+  },
+  {
+    "source": "Police",
+    "target": "Hutu extremists",
+    "value": 0
   },
   {
     "source": "Police",
     "target": "Other group",
-    "value": 611
-  },
-  {
-    "source": "Police",
-    "value": 1712
+    "value": 351
   }
 ]}
 }
