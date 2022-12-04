@@ -40,17 +40,17 @@ export default {
         .attr("class", "tooltip")
         .style("opacity", 0);
 
-      // Map and projection
+      // define map and projection
       const path = d3.geoPath();
       const projection = d3.geoMercator()
         .scale(120)
         .center([0, 20])
         .translate([width / 2, height / 2]);
       
-      // Data and color scale
+      // create a new map
       const data = new Map();
 
-      // attacks
+      // default the map to show attacks
       var domain_values = [10, 100, 1000, 5000, 10000, 15000, 30000] 
       const legend_values = ['10', '100', '1000', '5000', '10K', '15K', '30K']
       var color_scheme = d3.schemeReds[domain_values.length]
@@ -65,7 +65,7 @@ export default {
 
       var csv_file = "https://raw.githubusercontent.com/grantgambetta/ECS272-Final-Project/main/src/assets/data/map/choropleth_attacks.csv"
 
-      var selectedReg="world"
+      var selectedReg = "world"
 
     // define color scale with domain values and color scheme for selected metric
       const colorScale = d3.scaleThreshold()
@@ -75,7 +75,7 @@ export default {
       
       // pass in selected dataset in d3.csv
       
-      const drawMap=function(path_map){
+      const drawMap = function(path_map){
 
         
       Promise.all([
@@ -85,7 +85,7 @@ export default {
         })]).then(function(loadData) {
           let topo = loadData[0]
         
-        var freeze=false // if click event, then we freeze the current highlight
+        var freeze = false // if click event, then we freeze the current highlight
         
         let mouseOver = function(d) {
           if (!freeze){
@@ -132,7 +132,7 @@ export default {
             selectedReg = d3.select(this).attr('region')
             console.log(selectedReg)
             
-            // change storke for all selected region
+            // change stroke for the selected region
             d3.selectAll(".Country")
             .filter(function() {
               return d3.select(this).attr("region") == selectedReg; // filter by single attribute
@@ -145,8 +145,6 @@ export default {
 
         }
         
-
-        // Draw the map
         svg.append("g")
           .selectAll("path")
           .data(topo.features)
@@ -165,14 +163,14 @@ export default {
             .attr("class", function(d){ return "Country" } )
             .attr("id", d => d.id)
             .style("opacity", .8)
-            .on("mouseover", mouseOver )
-            .on("mouseleave", mouseLeave )
-            .on("click",mouseClick)
+            .on("mouseover", mouseOver)
+            .on("mouseleave", mouseLeave)
+            .on("click", mouseClick)
 
              // add key from country to region
              const csv_keyCountryRegion_path ="https://raw.githubusercontent.com/grantgambetta/ECS272-Final-Project/main/src/assets/data/country_region.csv"
               d3.csv(csv_keyCountryRegion_path).then((keyRegion) => {
-                let dictionary = Object.assign({}, ...keyRegion.map((x) => ({[x.iso3]: x.region_txt.replaceAll(" ","").replaceAll("/","").replaceAll("&","").replaceAll(",","")})));
+                let dictionary = Object.assign({}, ...keyRegion.map((x) => ({[x.iso3]: x.region_txt.replaceAll(" ","").replaceAll("/", "").replaceAll("&", "").replaceAll(",", "")})));
                 // console.log(dictionary)
                 svg
                   .selectAll("path")
@@ -200,10 +198,7 @@ export default {
         }
 
         drawMap(csv_file);
-        
-      
-        
-        d3.select("#metric").on("change",function(d){
+        d3.select("#metric").on("change", function(d) {
           
           d3.select("#choropleth").selectAll('path').remove(); // remove previous block
           d3.select('#legend').selectAll('g').remove();
@@ -214,7 +209,7 @@ export default {
       */
 
      // attacks
-          if (selectedOption=="count_attacks"){
+          if (selectedOption == "count_attacks"){
             domain_values = [10, 100, 1000, 5000, 10000, 15000, 30000] 
             const legend_values = ['10', '100', '1000', '5000', '10K', '15K', '30K']
             color_scheme = d3.schemeReds[domain_values.length]
@@ -229,7 +224,7 @@ export default {
             csv_file = "https://raw.githubusercontent.com/grantgambetta/ECS272-Final-Project/main/src/assets/data/map/choropleth_attacks.csv"
           }
           // deaths
-          else if (selectedOption=="kills"){
+          else if (selectedOption == "kills"){
             domain_values = [20, 100, 1000, 5000, 15000, 30000, 45000]
             const legend_values = ['20', '100', '1000', '5000', '15K', '30K', '45K']
             color_scheme = d3.schemeReds[domain_values.length]
@@ -265,39 +260,6 @@ export default {
           
           // select the svg area
           var svg2 = d3.select("#legend")
-
-          
-      // Usually you have a color scale in your chart already
-      // var color = d3.scaleThreshold()
-      // .domain(keys)
-      // .range(d3.schemeSet2);
-
-      // const legend_color = d3.scaleThreshold()
-      //   .domain(domain_values)
-      //   .range(colorScheme);
-
-      // Add one dot in the legend for each name.
-    //   svg2.selectAll("mydots")
-    //   .data(domain_values)
-    //   .enter()
-    //   .append("circle")
-    //       .attr("cx", 100)
-    //       .attr("cy", function(d,i){ return 100 + i*25}) // 100 is where the first dot appears. 25 is the distance between dots
-    //       .attr("r", 7)
-    //       .style("fill", function(d){ return colorScale(d)})
-
-    //   // Add one dot in the legend for each name.
-    //   svg2.selectAll("mylabels")
-    //   .data(legend_keys)
-    //   .enter()
-    //   .append("text")
-    //       .attr("x", 120)
-    //       .attr("y", function(d,i){ return 100 + i*25}) // 100 is where the first dot appears. 25 is the distance between dots
-    //       .style("fill", function(d){ return colorScale(d)})
-    //       .text(function(d){ return d})
-    //       .attr("text-anchor", "left")
-    //       .style("alignment-baseline", "middle")
-    // you can store the return of the funcion
 
     // used the following legend code: https://observablehq.com/@d3/color-legend
     function legend({
@@ -446,51 +408,6 @@ export default {
                 }
                 return canvas;
             }
-
-        // // dummy rectangles to select regions
-        // const svg3 = d3.select(id)
-        //   .append("svg")
-        //   .attr("width", 1000)
-        //   .attr("height", 100);
-
-        // const rect = svg3
-        //   .append("rect")
-        //   .attr("id","SouthAmerica")
-        //   .attr("x", 0)
-        //   .attr("y", 0)
-        //   .attr("width", 400)
-        //   .attr("height", 70)
-        //   .text("South America")
-        //   .attr("opacity",0.5)
-        //   .attr("fill", "red")
-        //   .on("click",(e,d,i) => {
-        //     this.$emit("clicked",{'data':"SouthAmerica"})
-        //   });
-
-        // rect
-        //   .append("text")
-        //   .attr("x", 0)
-        //   .attr("y", 0)
-        //   .attr("dy", ".35em")
-        //   .attr("fill","black")
-        //   .text("South America");
-
-
-        //   const rect2 = svg3
-        //   .append("rect")
-        //   .attr("id","MiddleEastNorthAfrica")
-        //   .attr("x", 500)
-        //   .attr("y", 0)
-        //   .attr("width", 400)
-        //   .attr("height", 70)
-        //   .text("Middle east")
-        //   .attr("opacity",0.5)
-        //   .attr("fill", "blue")
-        //   .on("click",(e,d,i) => {
-        //     this.$emit("clicked",{'data':"MiddleEastNorthAfrica"})
-        //   });
-
-
 
     }
   },
