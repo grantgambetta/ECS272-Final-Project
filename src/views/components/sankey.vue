@@ -161,6 +161,9 @@ export default {
                           color_target,color_source))   
 
 
+        console.log("DATAAA")
+        console.log(data.nodes)
+
         const svg = d3
         .select(id).append("svg")
         // .select(this.$refs.svg)
@@ -363,15 +366,32 @@ export default {
         .on("mouseleave", noHighlight);
 
 
-             // scaling factor for sankey to look good
-        // Sum all over the links of bombing explosion
+        // scaling factor for sankey to look good
+        // use max node to scale
+        var maxNodeHeight=0
+        var nodeBiggest=""
+        var count=0
+        d3.selectAll('.myNode').each(function( index ) {
+            count+=1
+            if (count<25){
+              let partialMax=Number(d3.select(this).attr('height'))
+              if (partialMax>maxNodeHeight){
+                maxNodeHeight=partialMax
+                nodeBiggest=String(d3.select(this).attr('id'))
+              }
+            }
+          });
+        // console.log("maxNodeHeight"+maxNodeHeight)
+        console.log(nodeBiggest)
+        
+        // Sum all over the links of the biggest node to scale
         var sum = 0;
-        d3.selectAll('#linkBombing-Explosion').each(function( index ) {
+        d3.selectAll('#'+nodeBiggest.replaceAll('node','link')).each(function( index ) {
             sum += Number(d3.select(this).attr('stroke-width'))
         });
         console.log("Scaling factor")
         // get height for the node of bombing explosion
-        var nodeSum=d3.select('#nodeBombing-Explosion').attr('height')
+        var nodeSum=d3.select('#'+nodeBiggest).attr('height')
         // factor to scale
         var scalingHeight_factor=sum/nodeSum
         console.log("Scaling factor "+scalingHeight_factor)
@@ -381,168 +401,6 @@ export default {
           .attr('height', (d) => h(d.value)*scalingHeight_factor)
 
 
-        // function drawDetail(){
-        //   console.log("DRAWING")
-          
-        //   const sankeyDetail=sankey()
-        //       .nodeId((d) => d.name)
-        //       .nodeWidth(nodeWidth)
-        //       .nodePadding(nodePadding)
-        //       .nodeSort((d) => d.node)
-        //       .linkSort((d) => d.index)
-        //       .extent([
-        //           [1, 1],
-        //           [width, height - nodeHeight],
-        //       ])(dataDetail);
-
-        //     const linksDetail=sankeyDetail.links
-
-        //     const linkDetail = svg
-        //       .append('g')
-        //       .attr('id','highlighted')
-        //       .attr('fill', 'none')
-        //       .attr('stroke-opacity', 0.5)
-        //       .selectAll('g')
-        //       .data(linksDetail)
-        //       .join('g');
-
-
-        //     linkDetail
-        //     .append('path')
-        //     .attr('d', sankeyLinkHorizontal())
-        //     .attr("class", function(d) { return "myDetailLink sankeyLinkDetail-" + d.source.name.replaceAll(" ","-").replaceAll("/","-")})
-        //     // .attr("class", function(d) { return "myLink sankeyLinkTarget-" + d.target.name })
-        //     .attr('stroke', (d) =>
-        //         // !ENABLE_LINKS_GRADIENTS ? color(d.source.name) : `url(#${d.uid})`
-        //         'black'
-        //     )
-        //     // .attr('stroke',(d) => color(d.source.name))
-        //     .attr('stroke-width', (d) => Math.max(1, d.width))
-        //     .style("opacity", 0);
-
-        //     linkDetail
-        //     .append('title')
-        //     .text((d) => `Chile:\n${d.source.name} → ${d.target.name}\n${d.value} number of attacks`);
-
-        // }
-
-        // ADD INVISIBLE LINKS TO SHOW DETAIL FOR CAUSES HISTORY - BASED ON DATA LOCAL DETAIL
-        // const sankeyDetail=sankey()
-        //   .nodeId((d) => d.name)
-        //   .nodeWidth(nodeWidth)
-        //   .nodePadding(nodePadding)
-        //   .nodeSort((d) => d.node)
-        //   .linkSort((d) => d.index)
-        //   .extent([
-        //       [1, 1],
-        //       [width, height - nodeHeight],
-        //   ])(data_detail);
-
-        // const linksDetail=sankeyDetail.links
-        
-        // const linkDetail = svg
-        //   .append('g')
-        //   .attr('fill', 'none')
-        //   .attr('stroke-opacity', 0.5)
-        //   .selectAll('g')
-        //   .data(linksDetail)
-        //   .join('g');
-
-        // if (ENABLE_LINKS_GRADIENTS) {
-        //   const gradientDetail = linkDetail
-        //     .append('linearGradient')
-        //     .attr('id', (d) => (d.uid = `${d.source.id}-to-${d.target.id}`))
-        //     .attr('gradientUnits', 'userSpaceOnUse')
-        //     .attr('x1', (d) => d.source.x1)
-        //     .attr('x2', (d) => d.target.x0);
-
-        //   gradientDetail
-        //     .append('stop')
-        //     .attr('offset', '0%')
-        //     .attr('stop-color', (d) => color(d.source.name));
-
-        //     gradientDetail
-        //       .append('stop')
-        //       .attr('offset', '100%')
-        //       .attr('stop-color', (d) => color(d.target.name));
-        // }
-
-        // linkDetail
-        // .append('path')
-        // .attr('d', sankeyLinkHorizontal())
-        // .attr("class", function(d) { return "myDetailLink sankeyLinkDetail-" + d.cause.replaceAll(" ","-").replaceAll("/","-")})
-        // // .attr("class", function(d) { return "myLink sankeyLinkTarget-" + d.target.name })
-        // .attr('stroke', (d) =>
-        //     !ENABLE_LINKS_GRADIENTS ? color(d.cause) : `url(#${d.uid})`
-        // )
-        // // .attr('stroke',(d) => color(d.source.name))
-        // .attr('stroke-width', (d) => Math.max(1, d.width))
-        // .style("opacity", 0);
-
-        // linkDetail
-        // .append('title')
-        // .text((d) => `${d.cause}\n${d.source.name} → ${d.target.name}\n${d.value} thousands acres burned`);
-
-        // // ADD INVISIBLE LINKS FOR CAUSE-SEASON
-        // // ADD INVISIBLE LINKS TO SHOW DETAIL FOR CAUSES HISTORY - BASED ON DATA LOCAL DETAIL
-        // const sankeyDetailYear=sankey()
-        //   .nodeId((d) => d.name)
-        //   .nodeWidth(nodeWidth)
-        //   .nodePadding(nodePadding)
-        //   .nodeSort((d) => d.node)
-        //   .linkSort((d) => d.index)
-        //   .extent([
-        //       [1, 1],
-        //       [width, height - nodeHeight],
-        //   ])(data_detail_year);
-
-        // const linksDetailYear=sankeyDetailYear.links
-        
-        // const linkDetailYear = svg
-        //   .append('g')
-        //   .attr('fill', 'none')
-        //   .attr('stroke-opacity', 0.5)
-        //   .selectAll('g')
-        //   .data(linksDetailYear)
-        //   .join('g');
-
-        // if (ENABLE_LINKS_GRADIENTS) {
-        //   const gradientDetail = linkDetailYear
-        //     .append('linearGradient')
-        //     .attr('id', (d) => (d.uid = `${d.source.id}-to-${d.target.id}`))
-        //     .attr('gradientUnits', 'userSpaceOnUse')
-        //     .attr('x1', (d) => d.source.x1)
-        //     .attr('x2', (d) => d.target.x0);
-
-        //   gradientDetail
-        //     .append('stop')
-        //     .attr('offset', '0%')
-        //     .attr('stop-color', (d) => color(d.source.name));
-
-        //     gradientDetail
-        //       .append('stop')
-        //       .attr('offset', '100%')
-        //       .attr('stop-color', (d) => color(d.target.name));
-        // }
-
-        // linkDetailYear
-        // .append('path')
-        // .attr('d', sankeyLinkHorizontal())
-        // .attr("class", function(d) { return "myDetailLink sankeyLinkDetail-" + d.year.replaceAll(" ","-").replaceAll("/","-")})
-        // // .attr("class", function(d) { return "myLink sankeyLinkTarget-" + d.target.name })
-        // .attr('stroke', (d) =>
-        //     !ENABLE_LINKS_GRADIENTS ? color(d.source.name) : `url(#${d.uid})`
-        // )
-        // // .attr('stroke',(d) => color(d.source.name))
-        // .attr('stroke-width', (d) => Math.max(1, d.width))
-        // .style("opacity", 0);
-
-        // linkDetail
-        // .append('title')
-        // .text((d) => `${d.cause}\n${d.source.name} → ${d.target.name}\n${d.value} thousands acres burned`);
-
-
-        //
 
     }
   },
