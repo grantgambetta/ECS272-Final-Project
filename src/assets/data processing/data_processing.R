@@ -87,6 +87,106 @@ df <- df %>% mutate(dbsource_sankey=case_when(
 ))
 table(df$dbsource_sankey) %>% sort(decreasing = T)
 
+# Summary statistics ss ------
+
+# by region
+df_ss <- df %>% 
+  group_by(region_txt) %>% 
+  summarise(ss_attacks=n(),
+            ss_killed=sum(nkill,na.rm=T),
+            ss_injured=sum(nwound,na.rm=T)) %>% 
+  ungroup() %>% 
+  mutate(ss_killed_attack=(ss_killed/ss_attacks) %>% round(2),
+         ss_injured_attack=(ss_injured/ss_attacks) %>% round(2))
+
+# world
+df_ss_world <- df %>% 
+  mutate(region_txt="world") %>% 
+  summarise(ss_attacks=n(),
+            ss_killed=sum(nkill,na.rm=T),
+            ss_injured=sum(nwound,na.rm=T)) %>% 
+  ungroup() %>% 
+  mutate(ss_killed_attack=(ss_killed/ss_attacks) %>% round(2),
+         ss_injured_attack=(ss_injured/ss_attacks) %>% round(2)) %>% 
+  mutate(region_txt="world") 
+  
+df_ss <- rbind(df_ss_world,df_ss)
+
+df_ss <- df_ss %>% 
+  mutate(
+    ss_attacks=formatC(ss_attacks,big.mark = ",",format='d'),
+    ss_killed=formatC(ss_killed,big.mark = ",",format='d'),
+    ss_injured=formatC(ss_injured,big.mark = ",",format='d'),
+    ss_killed_attack=as.character(ss_killed_attack),
+    ss_injured_attack=as.character(ss_injured_attack))
+  
+
+
+# change over time
+df_change <- df %>% 
+  filter(year>1997) %>% 
+  mutate(period_trend=case_when(
+    year<2008 ~ "1998-2007",
+    year < 2013 ~ "2008-2012",
+    T ~ "2013-2017"
+  ))
+# df_change %>% group_by(period_trend,year) %>% tally() %>% view()
+# play with long-short format
+
+df_change_world<- df_change %>% 
+  group_by(period_trend) %>% 
+  summarise(ss_attacks=n(),
+            ss_kills=sum(nkill,na.rm=T),
+            ss_injured=sum(nwound,na.rm=T)) %>% 
+  ungroup() %>% 
+  pivot_longer(c(-period_trend,), names_to = "key", values_to = "value") %>% 
+  pivot_wider(names_from = period_trend, values_from = "value") %>% 
+  mutate(region_txt="world")
+
+df_change_reg <- df_change %>% 
+  group_by(period_trend,region_txt) %>% 
+  summarise(ss_attacks=n(),
+            ss_kills=sum(nkill,na.rm=T),
+            ss_injured=sum(nwound,na.rm=T)) %>% 
+  ungroup() %>% 
+  pivot_longer(c(-period_trend,-region_txt), names_to = "key", values_to = "value") %>% 
+  pivot_wider(names_from = period_trend, values_from = "value")
+
+df_change <- rbind(df_change_world,df_change_reg)
+
+# calcualte diff in %
+df_trend <- df_change %>% 
+  mutate(
+    change_10=((`2008-2012`+`2013-2017`-`1998-2007`)/`1998-2007`)*100,
+    change_10=paste0(if_else(change_10>0,"+",""),round(change_10,1),"%"),
+    change_5=((`2013-2017`-`2008-2012`)/`2008-2012`)*100,
+    change_5=paste0(if_else(change_5>0,"+",""),round(change_5,1),"%"),
+  ) %>% 
+  mutate(change_5=if_else(change_5=="+Inf%","Reference period is 0",change_5)) %>% 
+  select(c(key,region_txt,change_10,change_5)) %>% 
+  pivot_longer(c(-key,-region_txt), names_to = "key2", values_to = "value") %>% 
+  mutate(key3=paste0(key,"_",key2) %>% str_remove_all("ss_|change_")) %>% 
+  select(-key,-key2) %>% 
+  pivot_wider(names_from = key3, values_from = value)
+  
+# add to ss
+df_ss <- df_ss %>% left_join(df_trend)
+
+df_ss <- df_ss %>% 
+  mutate(region_name=if_else(region_txt=="world","World",region_txt),
+         region_txt=region_txt %>% str_remove_all(" |&"))
+
+# export to csv
+file_name <- sprintf(file_path,"summary_statistics.csv")
+write.csv(df_ss,file_name)
+
+export_ss <- toJSON(df_ss, pretty = T)
+#json
+file_name <- sprintf(file_path,"summary_statistics.json")
+write(paste0('{\n"data":',export_ss,"\n}"), file_name)
+
+
+rm(df_ss,df_ss_world,df_change,df_change_reg,df_change_world,df_trend)
 
 ## Stacked Area ----
 

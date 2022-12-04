@@ -151,6 +151,9 @@ export default {
         const source=["START Primary Collection","PGIS","CETIS","ISVG","Other Source"]
         const color_source=["#4e79a7","#f28e2c","#e15759","#76b7b2","#59a14f"]
 
+        const terroristGroup=[]
+        const color_terroristGroup=[]
+
         const causes = group_years.concat(countries,method,target,source)
         const color = d3.scaleOrdinal()
             .domain(causes)

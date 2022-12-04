@@ -28,8 +28,27 @@
         <br>
         <Sankey v-if="dataExists" :mySankeyData="mySankeyData" :regionString="regionString" />
     </div>
-    <h1 style = "position: absolute; left: 40px; top: 580px;">Summary Statistics</h1>
-    <div id="summary_stats" style = "position: absolute; top: 600px; left: 40px; height: 400; width: 400;"></div>
+    <h1 style = "position: absolute; left: 40px; top: 580px;font-size: 1.2em;">Summary Statistics</h1>
+    <div id="summary_stats" style = "position: absolute; top: 600px; left: 40px; height: 400; width: 400;">
+        <br>
+        <div id="ss_region" style="font-size: 1.1em;"> Selected Region: World</div>
+        <div style="font-weight: bold;"> Totals</div>
+        <div id="ss_attacks">- Number of Attacks: 181,691</div>
+        <div id="ss_killed">- Number of People Killed: 411,868</div>
+        <div id="ss_injured">- Number of People Injured: 523,869</div>
+        <div style="font-weight: bold;">Metrics</div>
+        <div id="ss_killed_attack">- Average People Killed per Attack: 2.27</div>
+        <div id="ss_injured_attack">- Average People Injured per Attack: 2.88</div>
+        <div style="font-weight: bold;">Trends</div>
+        <div>- 2008-2017 vs 1998-2007:</div>
+        <div id="attacks_10" style="padding-left:2em;">+439.9% in attacks</div>
+        <div id="kills_10" style="padding-left:2em;">+246.5% in people killed</div>
+        <div id="injured_10" style="padding-left:2em;">+135.8% in people injured</div>
+        <div>- 2013-2017 vs 2008-2012:</div>
+        <div id="attacks_5" style="padding-left:2em;">+144.7% in attacks</div>
+        <div id="kills_5" style="padding-left:2em;">+233.9% in people killed</div>
+        <div id="injured_5" style="padding-left:2em;">+99.4% in people injured</div>
+    </div>
 </template>
 
 <script>
@@ -45,7 +64,7 @@ import csvPath from '../../assets/data/stackedArea.csv';
 
 import dataStackedArea from "../../assets/data/timeSeries/world_count_attacks.json"
 import dataSankey from "../../assets/data/sankey/world_count_attacks.json"
-
+import summary_statistics from "../../assets/data/summary_statistics.json"
 
 export default {
     data(){
@@ -94,6 +113,10 @@ export default {
             this.mySankeyData=require("../../assets/data/sankey/"+this.regionString+"_"+this.metricString+".json")['items'];
             // update time series
             this.myStackedAreaData=require("../../assets/data/timeSeries/"+this.regionString+"_"+this.metricString+".json")['data'];
+            
+            // update summary statistics region
+            this.update_ss(this.regionString)
+
         },
         handleMetricChange(data){
             console.log("Update metric: ",d3.select('#metric').property("value"));
@@ -106,6 +129,25 @@ export default {
             
             // update time series
             this.myStackedAreaData=require("../../assets/data/timeSeries/"+this.regionString+"_"+this.metricString+".json")['data'];
+            
+            // update summary statistics region
+            this.update_ss(this.regionString)
+        },
+        update_ss(reg_string){
+            let ss=summary_statistics['data'].filter(d => d.region_txt===reg_string)[0] // filter by select region
+            // console.log(ss)
+            d3.select('#ss_region').text("Selected Region: "+ss.region_name)
+            d3.select("#ss_attacks").text("- Number of Attacks: "+ss.ss_attacks)
+            d3.select("#ss_killed").text("- Number of People Killed: "+ss.ss_killed)
+            d3.select("#ss_injured").text("- Number of People Injured: "+ss.ss_injured)
+            d3.select("#ss_killed_attack").text("- Average People Killed per Attack: "+ss.ss_killed_attack)
+            d3.select("#ss_injured_attack").text("- Average People Injured per Attack: "+ss.ss_injured_attack)
+            d3.select("#attacks_10").text(ss.attacks_10+" in attacks")
+            d3.select("#kills_10").text(ss.kills_10+" in people killed")
+            d3.select("#injured_10").text(ss.injured_10+" in people injured")
+            d3.select("#attacks_5").text(ss.attacks_5+" in attacks")
+            d3.select("#kills_5").text(ss.kills_5+" in people killed")
+            d3.select("#injured_5").text(ss.injured_5+" in people injured")
         }
     }
 }
