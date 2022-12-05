@@ -14,5 +14,5 @@ After setting the required inputs datasets in `/scr/assets/data', the required s
 
 # Expected View of the Dashboard
 
-POST PICTURE LATER
+![](./Capture.PNG)
 
