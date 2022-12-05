@@ -1,4 +1,4 @@
-# ECS272-Final-Project
+# ECS272 Final Project - Global Evolution of Terrorism
 By Pablo Busch and Grant Gambetta. Fall 2022
 
 ## Instructions
