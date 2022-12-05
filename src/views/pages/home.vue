@@ -10,7 +10,7 @@
         </div>     
         <div class="column">
             <div class="row">
-                <h1 class="VisTitle" style = "position: absolute; left: 1350px; top: 110px;">Evolution over time</h1>
+                <h1 class="VisTitle" style = "position: absolute; left: 1400px; top: 110px;">Evolution Overtime</h1>
                 <StackedArea v-if="dataExists" :myStackedAreaData="myStackedAreaData" :regionString="regionString"/>
             </div>
         </div>
@@ -49,6 +49,11 @@
         <div id="kills_5" style="padding-left:2em;">+233.9% in people killed</div>
         <div id="injured_5" style="padding-left:2em;">+99.4% in people injured</div>
     </div>
+    <b style = "position: absolute; left: 355px; top: 545px;font-size: 1em;">Timeframe</b>
+    <b style = "position: absolute; left: 715px; top: 545px;font-size: 1em;">Region</b>
+    <b style = "position: absolute; left: 1075px; top: 545px;font-size: 1em;">Method of Attack</b>
+    <b style = "position: absolute; left: 1430px; top: 545px;font-size: 1em;">Target</b>
+    <b style = "position: absolute; left: 1790px; top: 545px;font-size: 1em;">Perpetrator</b>
 </template>
 
 <script>

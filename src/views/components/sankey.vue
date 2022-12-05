@@ -54,7 +54,7 @@ export default {
         // console.log("Width is "+Element.clientWidth())
 
         var margin = {top: 10, right: 10, bottom: 10, left: 10},
-        width = 1520 - margin.left - margin.right,
+        width = 1540 - margin.left - margin.right,
         height = 470 - margin.top - margin.bottom;
         
         const nodeWidth = 80;
@@ -142,12 +142,10 @@ export default {
       
         const method=["Bombing/Explosion","Armed Assault","Assassination","Hostage Taking",
                         "Facility/Infrastructure Attack","Unknown","Unarmed Assault","Hijacking"]
-        const color_method=[ "#1f77b4","#ff7f0e","#2ca02c","#d62728",
-                             "#9467bd","#8c564b","#e377c2","#7f7f7f"]
+        const color_method=["#1f77b4","#ff7f0e","#2ca02c","#d62728","#9467bd","#8c564b","#e377c2","#7f7f7f","#bcbd22","#17becf"]
         const group_years=["1970-1974","1975-1979","1980-1984","1985-1989","1990-1994",
                       "1995-1999","2000-2004","2005-2009","2010-2014","2015-2017"]
-        const color_years=[ "#076d2e","#076d2e","#076d2e","#076d2e","#076d2e",
-                            "#076d2e","#076d2e","#076d2e","#076d2e","#076d2e"] // same color so it does not convey more information
+        const color_years=["#99d594", "#99d594", "#99d594", "#99d594", "#99d594", "#99d594", "#99d594", "#99d594", "#99d594", "#99d594"] // same color so it does not convey more information
         const target=["Private Citizens & Property","Military","Police",
                       "Business, Utilities & Communication","Unknown, religious & militia",
                       "Government","Transportation"]
