@@ -1,7 +1,7 @@
 # ECS272-Final-Project
 By Pablo Busch and Grant Gambetta. Fall 2022
 
-# Instructions
+## Instructions
 
 The dashboard was created with an optimal resolution of 1920px x 950px. 
 
@@ -13,7 +13,7 @@ To open the visualization system, follow the steps below
 2. Run `npm i` (only the first time to install all required libraries)
 3. Run `npm start`
 
-# Expected View of the Dashboard
+## Expected View of the Dashboard
 
 ![](./Capture.PNG)
 
