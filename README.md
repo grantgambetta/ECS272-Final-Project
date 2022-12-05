@@ -7,14 +7,11 @@ The dashboard was created with an optimal resolution of 1920px x 950px.
 
 The aim of this project is to explore and understand the global evolution of terrorism in the last five decades (1970 to 2017). For this purpose we will use the public Global Terrorism Database (available at [Kaggle](https://www.kaggle.com/datasets/START-UMD/gtd)).
 
-First, clone this repo using the following command:
+To open the visualization system, follow the steps below
 
-`git clone https://github.com/grantgambetta/ECS272-Final-Project`
-
-After setting the required inputs datasets in `/scr/assets/data', the required steps are needed to display the Dashboard. From the command prompt run the following commands:
-
-1. `npm i` (only first time, to install all required libraries)
-3. `npm start`
+1. Run `git clone https://github.com/grantgambetta/ECS272-Final-Project`
+2. Run `npm i` (only the first time to install all required libraries)
+3. Run `npm start`
 
 # Expected View of the Dashboard
 
