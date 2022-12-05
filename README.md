@@ -5,7 +5,7 @@ By Pablo Busch and Grant Gambetta. Fall 2022
 
 The dashboard was created with an optimal resolution of 1920px x 950px. 
 
-The aim of this project is to explore and understand the global evolution of terrorism in the last five decades (1970 to 2017). For this purpose we will use the public Global Terrorism Database (available at [Kaggle](https://www.kaggle.com/datasets/START-UMD/gtd)).
+The aim of this project is to explore and understand the global evolution of terrorism in the last five decades (1970 to 2017). For this purpose, we will use the public Global Terrorism Database (available at [Kaggle](https://www.kaggle.com/datasets/START-UMD/gtd)).
 
 To open the visualization system, follow the steps below
 
