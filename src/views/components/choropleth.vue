@@ -101,8 +101,12 @@ export default {
 
         var freeze = false // if click event, then we freeze the current highlight
         
-        let mouseOver = function(d) {
-          d3.select('#tooltip').style("opacity", 1)
+        let mouseOver = function(event,d) {
+          d3.select('#tooltip')
+            .style("opacity", 1)
+            .html(``+d3.select(this).attr('name')+': '+d3.select(this).attr('total')+' '+metricText)
+            .style("left", (event.x) + "px")
+            .style("top", (event.y) + "px")
           if (!freeze){
             d3.selectAll(".Country")
             .transition()
@@ -203,7 +207,7 @@ export default {
             .style("opacity", .8)
             .on("mouseover", mouseOver)
             .on("mouseleave", mouseLeave)
-            .on("mousemove", mousemove)
+            // .on("mousemove", mousemove)
             .on("click", mouseClick)
 
              // add key from country to region
