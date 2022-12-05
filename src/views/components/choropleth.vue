@@ -1,6 +1,7 @@
 <template>
     <svg id="choropleth" width="800" height="400" style = "position: absolute; top: 150px;"></svg>
     <svg id="legend" width="300" height="400" style = "position: absolute; left: 570px; top: 95px;"></svg>
+    <div id="tooltip" opacity="0" style="position: absolute;" ></div>
 </template>
 
 <script>
@@ -35,10 +36,22 @@ export default {
         width = +svg.attr("width"),
         height = +svg.attr("height");
 
-        // add tooltip
-    const tooltip = d3.select("body").append("div")
-        .attr("class", "tooltip")
-        .style("opacity", 0);
+    //     // add tooltip
+    // const tooltip = d3.select("body").append("div")
+    //     .attr("class", "tooltip")
+    //     .style("opacity", 0);
+
+                  // Add a tooltip div. Here I define the general feature of the tooltip: stuff that do not depend on the data point.
+            // It s opacity is set to 0: we don't see it by default.
+            // https://d3-graph-gallery.com/graph/scatter_tooltip.html
+
+            d3.select('#tooltip')
+              .style("background-color", "white")
+              .style("border", "solid")
+              .style("border-width", "1px")
+              .style("border-radius", "5px")
+              .style("padding", "10px")
+              .style("opacity",0)
 
       // define map and projection
       const path = d3.geoPath();
@@ -85,9 +98,11 @@ export default {
         })]).then(function(loadData) {
           let topo = loadData[0]
         
+
         var freeze = false // if click event, then we freeze the current highlight
         
         let mouseOver = function(d) {
+          d3.select('#tooltip').style("opacity", 1)
           if (!freeze){
             d3.selectAll(".Country")
             .transition()
@@ -98,7 +113,6 @@ export default {
             .duration(0)
             .style("opacity", 1)
             .style("stroke", "black")
-        //  tooltip.style("left", (d3_selection.event.pageX + 15) + "px")
 		// 	.style("top", (d3_selection.event.pageY - 28) + "px")
 		// 	.transition().duration(400)
 		// 	.style("opacity", 1)
@@ -107,6 +121,7 @@ export default {
         }
       
         let mouseLeave = function(d) {
+          d3.select('#tooltip').style("opacity", 0)
           if (!freeze){
             d3.selectAll(".Country")
               .transition()
@@ -145,6 +160,27 @@ export default {
 
         }
         
+        const mousemove = function(event, d) {
+        d3.select('#tooltip')
+          .html(``+d3.select(this).attr('name')+': '+d3.select(this).attr('total')+' '+metricText)
+          .style("left", (event.x) + "px")
+          .style("top", (event.y) + "px")
+        }
+
+
+        var metricText=d3.select('#metric').property('value')
+        switch (metricText){
+          case "count_attacks":
+            metricText="number of attacks"
+            break;
+          case "kills":
+            metricText="people killed"
+            break;
+          case "wounded":
+            metricText="people injured"
+            break;
+        }
+
         svg.append("g")
           .selectAll("path")
           .data(topo.features)
@@ -162,9 +198,12 @@ export default {
             .style("stroke", "transparent")
             .attr("class", function(d){ return "Country" } )
             .attr("id", d => d.id)
+            .attr("name",d => d.properties.name)
+            .attr("total",d => d.total)
             .style("opacity", .8)
             .on("mouseover", mouseOver)
             .on("mouseleave", mouseLeave)
+            .on("mousemove", mousemove)
             .on("click", mouseClick)
 
              // add key from country to region
@@ -193,7 +232,7 @@ export default {
             //     .style("stroke", "black")
             //     freeze=true;
             //   }
-
+          
           })
         }
 
